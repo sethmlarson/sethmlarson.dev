@@ -164,7 +164,7 @@
 
 <script type="application/javascript">
     function renderGitHubRepo(id, slug, role = "Contributor") {
-        var t = _.template("<div class='row'><div class='col-xs-8'><b><a href='<%= html_url %>'><%= name %></a></b> — <%= role %></div><div class='col-xs-4' style='text-align: right'><%= stargazers_count %> <i class=\"far fa-star\"></i></div></div><br><div class='experience-about'><%= description %></div>");
+        var t = _.template("<div class='row'><div class='col-xs-8'><b><a href='<%= html_url %>'><%= name %></a></b> — <%= role %></div><div class='col-xs-4' style='text-align: right'><%= stargazers_count %> <i class=\"far fa-star\"></i></div></div><div class='experience-about'><%= description %></div><br>");
         var response = null;
         var hasLocalStorage = (typeof Storage !== undefined);
 
