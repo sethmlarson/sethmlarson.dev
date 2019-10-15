@@ -6,10 +6,20 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [
+"rewrites": [
+        {
+        "source": "/",
+        "run": {
+          "serviceId": "website",
+          "region": "us-central1"
+        }
+      },
       {
         "source": "**",
-        "destination": "/index.html"
+        "run": {
+          "serviceId": "website",
+          "region": "us-central1"
+        }
       }
     ]
   }
