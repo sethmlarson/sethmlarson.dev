@@ -3,7 +3,6 @@ import pathlib
 import markdown2
 from flask import Flask, render_template, request
 import user_agents
-import subprocess
 import attr
 import typing
 
@@ -29,6 +28,8 @@ common_headers = {
     "vary",
     "via",
     "x-xss-protection",
+    "forwarded",
+    "content-length",
 }
 
 
@@ -56,7 +57,7 @@ def load_blog_posts() -> typing.Dict[str, typing.List[BlogPost]]:
             title=title,
             date=date.name,
             month=date.name.rsplit("-", 1)[0],
-            markdown_path=markdown_path
+            markdown_path=markdown_path,
         )
         posts.setdefault(bp.month, []).append(bp)
     return posts
@@ -86,23 +87,8 @@ def get_blog_post(date: str, blog_post: str):
         title = title.lstrip("# ")
         html = md.convert(rest)
 
-    try:
-        commit_sha = (
-            subprocess.check_output(
-                f"git log -n 1 --pretty=format:%H -- {markdown_file}", shell=True
-            )
-            .strip()
-            .decode("ascii")
-        )
-    except subprocess.CalledProcessError:
-        commit_sha = ""
-
     return render_template(
-        "blog.html",
-        blog_title=title,
-        blog_published_date=date,
-        blog_commit_sha=commit_sha,
-        blog_content=html,
+        "blog.html", blog_title=title, blog_published_date=date, blog_content=html
     )
 
 

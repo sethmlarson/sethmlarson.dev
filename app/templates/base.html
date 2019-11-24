@@ -156,6 +156,7 @@
 }
 
 
+
     </style>
 </head>
 <body>
@@ -168,9 +169,10 @@
             <a href="/"><h1 style="color: #FFFFFF; font-size: 54px;">Python <i style="color: #FF8A80; font-size: 0.9em;"
                                                                                class="fas fa-heart"></i> HTTP</h1></a>
             <p style="font-size: 36px;">
+                <a href="{{ url_for('list_blog_posts') }}" aria-label="Visit Seth's Blog"><i
+                        class="hover-icon fas fa-blog"></i></a> —
                 <a href="mailto:sethmichaellarson@gmail.com" aria-label="Send an email to Seth"><i
                         class="hover-icon fas fa-envelope"></i></a> —
-                <a href="{{ url_for('list_blog_posts') }}" aria-label="Visit Seth's Blog"><i class="hover-icon fas fa-blog"></i></a> —
                 <a href="https://github.com/sethmlarson" aria-label="Visit Seth's GitHub"><i
                         class="hover-icon fab fa-github"></i></a> —
                 <a href="https://twitter.com/sethmlarson" aria-label="Visit Seth's Twitter"><i
