@@ -154,9 +154,6 @@
   position: static;
   margin: auto;
 }
-
-
-
     </style>
 </head>
 <body>
@@ -166,8 +163,7 @@
 <div class="banner">
     <div class="jumbotron jumbotron-fluid">
         <div class="container-fluid">
-            <a href="/"><h1 style="color: #FFFFFF; font-size: 54px;">Python <i style="color: #FF8A80; font-size: 0.9em;"
-                                                                               class="fas fa-heart"></i> HTTP</h1></a>
+            <a href="{{ url_for('index') }}"><h1 style="color: #FFFFFF; font-size: 54px;">Python <i style="color: #FF8A80; font-size: 0.9em;" class="fas fa-heart"></i> HTTP</h1></a>
             <p style="font-size: 36px;">
                 <a href="{{ url_for('list_blog_posts') }}" aria-label="Visit Seth's Blog"><i
                         class="hover-icon fas fa-blog"></i></a> —

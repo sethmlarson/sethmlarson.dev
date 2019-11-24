@@ -30,6 +30,8 @@ common_headers = {
     "x-xss-protection",
     "forwarded",
     "content-length",
+    "x-forwarded-for",
+    "x-forwarded-proto",
 }
 
 
@@ -92,9 +94,8 @@ def get_blog_post(date: str, blog_post: str):
     )
 
 
-@app.route("/", defaults={"path": ""})
-@app.route("/<path:path>")
-def index(path: str):
+@app.route("/")
+def index():
     return render_template("index.html", http_request=get_http_request())
 
 
@@ -105,13 +106,10 @@ def get_http_request() -> str:
     if "User-Agent" in headers:
         headers["User-Agent"] = str(ua)
     conn = h11.Connection(h11.CLIENT)
-    target = request.full_path.encode("utf-8")
-    if target.endswith(b"?"):
-        target = target[:-1]
     data_to_send = conn.send(
         h11.Request(
             method=request.method.encode("utf-8"),
-            target=target,
+            target=b"/",
             headers=[
                 (k.encode("utf-8"), v.encode("utf-8"))
                 for k, v in headers.items()

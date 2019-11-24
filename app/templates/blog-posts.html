@@ -3,7 +3,7 @@
 <div class="row">
     <div class="col-10 offset-1">
         {% for month in blog_posts %}
-        <h2>Posts for {{ month }}</h2>
+        <h2>Posts from {{ month }}</h2>
         {% for bp in blog_posts[month] %}
         <h3> — <a href="{{ url_for('get_blog_post', date=bp.date, blog_post=bp.markdown_path.name[:-3]) }}">{{ bp.title }}</a></h3>
         {% endfor %}
