@@ -1,3 +1,8 @@
 gunicorn
-h11
 flask
+markdown2
+pygments
+user-agents
+h11
+gevent
+attrs

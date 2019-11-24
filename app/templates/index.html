@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+    <div class="col-8 offset-2">
+        <center><p>Hello, I'm Seth Michael Larson</p></center>
+        <p>I'm a software engineer in the medical device industry and maintainer of many Open Source projects in the
+            Python ecosystem.
+            If you'd like to contact me you can use <a href="">email</a>, <a href="">Twitter</a>, or <a
+                    href="">Keybase</a>.</p>
+
+        <p>I was born in Minneapolis, Minnesota and graduated from the University of Minnesota TC with a BS in Computer
+            Science. Besides programming I enjoy living lake life, exploring new places, following Minnesota sports,
+            and playing games of all kinds.</p>
+
+        <p>I write a blog called "<a href="{{ url_for('list_blog_posts') }}">Python ♥ HTTP</a>" which contains my thoughts and findings
+            related to Python, Open Source, HTTP, TLS, URLs, and more.</p>
+
+        <p>
+            I maintain many Open Source projects, most notably I'm the lead maintainer for <a
+                href="https://github.com/urllib3/urllib3/">urllib3</a>
+            which receives the <a href="https://pypistats.org/top">most downloads per day</a> of any package on PyPI.
+            Almost all the projects
+            I contribute to are related to HTTP or URLs. Here's a list of projects I maintain:
+
+        <div class="row">
+            <div class="col-6">
+                <ul>
+                    <li><a href="https://github.com/urllib3/urllib3/">urllib3</a></li>
+                    <li><a href="https://github.com/python-hyper/rfc3986/">rfc3986</a></li>
+                    <li><a href="https://github.com/sethmlarson/virtualbox-python/">virtualbox</a></li>
+                    <li><a href="https://github.com/python-http/hstspreload">hstspreload</a></li>
+                    <li><a href="https://github.com/sethmlarson/whatwg-url">whatwg-url</a></li>
+                    <li><a href="https://github.com/python-hyper/hyper-h2/">h2, hpack, hyperframe</a></li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <ul>
+                    <li><a href="https://github.com/hickeroar/win_inet_pton">win-inet-pton</a></li>
+                    <li><a href="https://github.com/sethmlarson/irl">irl</a></li>
+                    <li><a href="https://github.com/python-hyper/brotlipy">brotlipy</a></li>
+                    <li><a href="https://github.com/sethmlarson/psl">psl</a></li>
+                    <li><a href="https://github.com/sethmlarson/selectors2">selectors2</a></li>
+                </ul>
+            </div>
+        </div>
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+                <center><p>Here's what your HTTP request looks like:</p></center>
+        <pre><code>{{ http_request | safe }}</code></pre>
+    </div>
+</div>
+{% endblock %}

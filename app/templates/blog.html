@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}{{ blog_title }} - Python ♥ HTTP{% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col-10 offset-1">
+        <center><h1 style="margin-bottom: -0.2em;">{{ blog_title }}</h1></center>
+        <center><small>Published {{ blog_published_date }} in commit <code><a href="https://github.com/sethmlarson/sethmlarson.dev/commit/{{ blog_commit_sha }}">{{ blog_commit_sha[:10] }}</a></code></small></center>
+        <br>
+    </div>
+</div>
+<div class="row">
+    <div class="col-10 offset-1">
+        {{ blog_content | safe }}
+    </div>
+</div>
+{% endblock %}
