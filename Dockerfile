@@ -1,6 +1,5 @@
 FROM python:3.7-slim
 
-WORKDIR /
 ENV PORT 8080
 
 RUN apt-get update && apt-get install --yes --no-install-recommends git

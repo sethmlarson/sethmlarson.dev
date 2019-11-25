@@ -4,26 +4,23 @@
 <div class="row">
     <div class="col-10 offset-1">
         <center><h1 style="margin-bottom: -0.2em;">{{ blog_title }}</h1></center>
-        <center><small>Published {{ blog_published_date }} — <a href="{{ url_for('rss_blog_posts') }}"><i class="fas fa-rss"></i> RSS</a></small></center>
+        <center><small>Published {{ blog_published_date }} — <a href="{{ url_for('rss_blog_posts') }}"><i
+                class="fas fa-rss"></i> RSS</a></small></center>
         <br>
     </div>
 </div>
 <div class="row">
     <div class="col-10 offset-1">
         {{ blog_content | safe }}
-    <div class="subscribe-box row">
-        <div class="col-5" style="text-align: center; margin-top: 0.6em;">
-            Enjoy this post and want more?
-        </div>
-        <div class="col-2">
-            <i style="color: #FF8A80; font-size: 2em; margin-top: 0.25em" class="fas fa-heart"></i>
-        </div>
-        <div class="col-5" style="text-align: center;">
-            <a style="color: #FFFFFF;" href="{{ url_for('rss_blog_posts') }}"><i class="fas fa-rss"></i> Subscribe via RSS</a><br>
-            <a style="color: #FFFFFF;" href="https://twitter.com/sethmlarson"><i class="fab fa-twitter"></i> Subscribe via Twitter</a>
-        </div>
-    </div>
-        <br>
     </div>
 </div>
+<div class="row">
+    <div class="col-6" style="text-align: center;">
+        <a href="{{ url_for('rss_blog_posts') }}"><i class="fas fa-rss"></i> Subscribe via RSS</a>
+    </div>
+    <div class="col-6" style="text-align: center;">
+        <a href="https://twitter.com/sethmlarson"><i class="fab fa-twitter"></i> Subscribe via Twitter</a>
+    </div>
+</div>
+<br>
 {% endblock %}
