@@ -1,3 +1,6 @@
+# Drafts should not be published
+app/markdown/draft
+
 # Logs
 logs
 *.log

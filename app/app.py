@@ -2,7 +2,7 @@ import h11
 import datetime
 import pathlib
 import markdown2
-from flask import Flask, render_template, request, url_for
+from flask import Flask, render_template, request, url_for, make_response
 import user_agents
 import attr
 import typing
@@ -71,7 +71,7 @@ def load_blog_posts() -> typing.Dict[str, typing.List[BlogPost]]:
     """Loads all blog post metadata from the filesystem"""
     posts = {}
     dates = sorted(
-        [x for x in markdown_dir.iterdir()],
+        [x for x in markdown_dir.iterdir() if x.name != "drafts"],
         key=lambda x: [int(y.lstrip("0")) for y in x.name.split("-")],
         reverse=True,
     )
@@ -90,6 +90,13 @@ def load_blog_posts() -> typing.Dict[str, typing.List[BlogPost]]:
 
 
 BLOG_POSTS = load_blog_posts()
+
+
+@app.route("/robots.txt", methods=["GET"])
+def robots_txt():
+    resp = make_response("User-agent: *\nDisallow:")
+    resp.headers["Content-Type"] = "text/plain"
+    return resp
 
 
 @app.route("/pgp", methods=["GET"])
@@ -112,7 +119,7 @@ def rss_blog_posts():
     total = 0
     for month, blog_posts in BLOG_POSTS.items():
         for blog_post in blog_posts:
-            if total == 10:
+            if total == 5:
                 break
             total += 1
             blog_utc = blog_post.utc()
