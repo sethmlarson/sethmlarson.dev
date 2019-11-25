@@ -6,3 +6,4 @@ user-agents
 h11
 gevent
 attrs
+werkzeug<1

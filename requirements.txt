@@ -112,8 +112,7 @@ user-agents==2.0 \
     --hash=sha256:7af7419d61ce8f72ad487cc77ea3b4d1dcaa4cbb7b6df533a7c7aa3ccc44e5b3
 werkzeug==0.16.0 \
     --hash=sha256:7280924747b5733b246fe23972186c6b348f9ae29724135a6dfc1e53cea433e7 \
-    --hash=sha256:e5f4a1f98b52b18a93da705a7458e55afb26f32bff83ff5d19189f92462d65c4 \
-    # via flask
+    --hash=sha256:e5f4a1f98b52b18a93da705a7458e55afb26f32bff83ff5d19189f92462d65c4
 
 # WARNING: The following packages were not pinned, but pip requires them to be
 # pinned when the requirements file includes hashes. Consider using the --allow-unsafe flag.

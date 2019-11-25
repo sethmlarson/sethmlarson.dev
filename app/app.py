@@ -1,10 +1,12 @@
 import h11
+import datetime
 import pathlib
 import markdown2
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, url_for
 import user_agents
 import attr
 import typing
+from werkzeug.contrib.atom import AtomFeed
 
 
 base_dir = pathlib.Path(__file__).absolute().parent
@@ -42,6 +44,28 @@ class BlogPost:
     month: str = attr.ib()
     markdown_path: pathlib.Path = attr.ib()
 
+    def render_html(self) -> str:
+        with self.markdown_path.open(mode="r") as f:
+            text = f.read()
+            _, text = text.split("\n", 1)
+        return render_template(
+            "blog.html",
+            blog_title=self.title,
+            blog_published_date=self.date,
+            blog_content=md.convert(text),
+        )
+
+    def url(self) -> str:
+        return url_for(
+            "get_blog_post",
+            date=self.date,
+            blog_post=self.markdown_path.name[:-3],
+            _external=True,
+        )
+
+    def utc(self) -> datetime.datetime:
+        return datetime.datetime.fromisoformat(f"{self.date}T00:00:00")
+
 
 def load_blog_posts() -> typing.Dict[str, typing.List[BlogPost]]:
     """Loads all blog post metadata from the filesystem"""
@@ -76,6 +100,37 @@ def get_pgp():
 @app.route("/blog", methods=["GET"])
 def list_blog_posts():
     return render_template("blog-posts.html", blog_posts=BLOG_POSTS)
+
+
+@app.route("/blog/rss", methods=["GET"])
+def rss_blog_posts():
+    feed = AtomFeed(
+        title="Python ♥ HTTP - Last 5 Blog Posts",
+        feed_url=url_for("rss_blog_posts", _external=True),
+        url=request.url_root,
+    )
+    total = 0
+    for month, blog_posts in BLOG_POSTS.items():
+        for blog_post in blog_posts:
+            if total == 10:
+                break
+            total += 1
+            blog_utc = blog_post.utc()
+
+            feed.add(
+                blog_post.title,
+                blog_post.render_html(),
+                content_type="html",
+                author="Seth Michael Larson",
+                url=blog_post.url(),
+                published=blog_utc,
+                updated=blog_utc,
+            )
+
+        if total == 5:
+            break
+
+    return feed.get_response()
 
 
 @app.route("/blog/<string:date>/<string:blog_post>", methods=["GET"])

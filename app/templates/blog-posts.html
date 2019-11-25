@@ -1,7 +1,16 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="row">
-    <div class="col-10 offset-1">
+    <div class="col-8 offset-2">
+        <div class="row">
+            <div class="col-6" style="text-align: center;">
+                <a href="{{ url_for('rss_blog_posts') }}"><i class="fas fa-rss"></i> Subscribe via RSS</a>
+            </div>
+            <div class="col-6" style="text-align: center;">
+                <a href="https://twitter.com/sethmlarson"><i class="fab fa-twitter"></i> Subscribe via Twitter</a>
+            </div>
+        </div>
+        <br>
         {% for month in blog_posts %}
         <h2>Posts from {{ month }}</h2>
         {% for bp in blog_posts[month] %}
