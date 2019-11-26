@@ -3,6 +3,7 @@ import datetime
 import pathlib
 import markdown2
 from flask import Flask, render_template, request, url_for, make_response, abort
+import functools
 import user_agents
 import attr
 import typing
@@ -13,6 +14,9 @@ base_dir = pathlib.Path(__file__).absolute().parent
 markdown_dir = base_dir / "markdown"
 app = Flask(__name__, template_folder=str(base_dir / "templates"))
 md = markdown2.Markdown(extras={"fenced-code-blocks": None})
+max_cache_time = 31536000
+long_cache_time = 14400
+small_cache_time = 1800
 
 common_headers = {
     "host",
@@ -35,6 +39,20 @@ common_headers = {
     "x-forwarded-for",
     "x-forwarded-proto",
 }
+
+
+def cache_for(seconds: int):
+    def decorator(f):
+        @functools.wraps(f)
+        def decorated(*args, **kwargs):
+            resp = make_response(f(*args, **kwargs))
+            if resp.status_code == 200:
+                resp.headers["Cache-Control"] = f"max-age={seconds}, public, immutable"
+            return resp
+
+        return decorated
+
+    return decorator
 
 
 @attr.s
@@ -93,6 +111,7 @@ BLOG_POSTS = load_blog_posts()
 
 
 @app.route("/robots.txt", methods=["GET"])
+@cache_for(max_cache_time)
 def robots_txt():
     resp = make_response("User-agent: *\nDisallow:")
     resp.headers["Content-Type"] = "text/plain"
@@ -100,16 +119,19 @@ def robots_txt():
 
 
 @app.route("/pgp", methods=["GET"])
+@cache_for(long_cache_time)
 def get_pgp():
     return render_template("pgp.html")
 
 
 @app.route("/blog", methods=["GET"])
+@cache_for(small_cache_time)
 def list_blog_posts():
     return render_template("blog-posts.html", blog_posts=BLOG_POSTS)
 
 
 @app.route("/blog/rss", methods=["GET"])
+@cache_for(small_cache_time)
 def rss_blog_posts():
     feed = AtomFeed(
         title="Python ♥ HTTP - Last 5 Blog Posts",
@@ -141,6 +163,7 @@ def rss_blog_posts():
 
 
 @app.route("/blog/<string:date>/<string:blog_post>", methods=["GET"])
+@cache_for(small_cache_time)
 def get_blog_post(date: str, blog_post: str):
     markdown_file = (markdown_dir / date / (blog_post + ".md")).absolute()
     if date == ".." or blog_post == ".." or not markdown_file.is_file():
@@ -157,6 +180,7 @@ def get_blog_post(date: str, blog_post: str):
 
 
 @app.route("/")
+@cache_for(long_cache_time)
 def index():
     return render_template("index.html", http_request=get_http_request())
 

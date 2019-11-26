@@ -164,11 +164,6 @@ except for the very first TLS handshake where you make the first "trust" decisio
 (**NOTE:** Certificate Signatures / Fingerprints are different from Certificate Thumbprints.
 The former is used for cryptographic reasons, the second is for referencing only.)
 
-Certificate pinning also works fairly well when the certificate
-can't be verified locally, like when making a request to the Internet
-because certificates that have short life-spans like LetsEncrypt are likely
-to verify properly so unlikely to need certificate pinning.
-
 The tough part about this feature is that error messages and documentation
 don't usually recommend using the feature as an alternative to
 disabling certificate verification. It's also non-trivial to calculate
@@ -201,7 +196,7 @@ encoded in the certificate with IDNA 2003 because it contained an emoji
 (which is invalid in IDNA 2008), but urllib3 no longer supported IDNA 2003
 due to security issues with URL parsing.
 
-WHATWG-URL recommends falling back on IDNA 2003, but requires a lot of care
+WHATWG-URL recommends falling back on IDNA 2003, but this requires a lot of care
 to mitigate all security issues related to using the encoding within URLs.
 
 ## Recommendations for HTTP Client Libraries
