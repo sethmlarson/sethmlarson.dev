@@ -2,7 +2,7 @@ import h11
 import datetime
 import pathlib
 import markdown2
-from flask import Flask, render_template, request, url_for, make_response
+from flask import Flask, render_template, request, url_for, make_response, abort
 import user_agents
 import attr
 import typing
@@ -144,7 +144,7 @@ def rss_blog_posts():
 def get_blog_post(date: str, blog_post: str):
     markdown_file = (markdown_dir / date / (blog_post + ".md")).absolute()
     if date == ".." or blog_post == ".." or not markdown_file.is_file():
-        return 404
+        return abort(404)
     with markdown_file.open(mode="r") as f:
         text = f.read()
         title, rest = text.split("\n", 1)
