@@ -17,6 +17,7 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css"
           integrity="sha256-dARYuC3pd0wa/7R4Hkt/sR2zfLHCgbnVAQ2sPwhNe0A=" crossorigin="anonymous"/>
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{ url_for('rss_blog_posts') }}"/>
+    <link rel="icon" href="/favicon.ico">
     <style>
       html, body {
         font-family: 'Roboto', sans-serif;
@@ -143,6 +144,13 @@
 .vi { color: #f8f8f2 } /* Name.Variable.Instance */
 .vm { color: #f8f8f2 } /* Name.Variable.Magic */
 .il { color: #ae81ff } /* Literal.Number.Integer.Long */
+
+blockquote {
+  padding: 0.5em;
+  padding-left: 1em;
+  color: #616161;
+  background-color: #E0E0E0;
+}
 
 .screenreader-text {
   position: absolute;

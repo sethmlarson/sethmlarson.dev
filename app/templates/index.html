@@ -2,15 +2,17 @@
 {% block content %}
 <div class="row">
     <div class="col-8 offset-2">
-        <center><p>Hello, I'm Seth Michael Larson</p></center>
+        <div class="row">
+            <div class="col-8">
+                <p>Hello, I'm Seth Michael Larson.</p>
+            </div>
+            <div class="col-4" style="text-align: right;">
+                <a href="{{ url_for('list_blog_posts') }}">Looking for my blog?</a>
+            </div>
+        </div>
+
         <p>I'm a software engineer in the medical device industry and maintainer of many Open Source projects in the
             Python ecosystem.
-            If you'd like to contact me you can use <a href="">email</a>, <a href="">Twitter</a>, or <a
-                    href="">Keybase</a>.</p>
-
-        <p>I was born in Minneapolis, Minnesota and graduated from the University of Minnesota TC with a BS in Computer
-            Science. Besides programming I enjoy living lake life, exploring new places, following Minnesota sports,
-            and playing games of all kinds.</p>
 
         <p>I write a blog called "<a href="{{ url_for('list_blog_posts') }}">Python ♥ HTTP</a>" which contains my thoughts and findings
             related to Python, Open Source, HTTP, TLS, URLs, and more.</p>
@@ -22,7 +24,7 @@
             Almost all the projects
             I contribute to are related to HTTP or URLs. Here's a list of projects I maintain:
 
-        <div class="row">
+        <div class="row" style="margin-left: 2em;">
             <div class="col-6">
                 <ul>
                     <li><a href="https://github.com/urllib3/urllib3/">urllib3</a></li>
@@ -35,6 +37,7 @@
             </div>
             <div class="col-6">
                 <ul>
+                    <li><a href="https://github.com/python-trio/hip">hip</a></li>
                     <li><a href="https://github.com/hickeroar/win_inet_pton">win-inet-pton</a></li>
                     <li><a href="https://github.com/sethmlarson/irl">irl</a></li>
                     <li><a href="https://github.com/python-hyper/brotlipy">brotlipy</a></li>
@@ -44,6 +47,9 @@
             </div>
         </div>
         </p>
+                <p>I was born in Minneapolis, Minnesota and graduated from the University of Minnesota TC with a BS in Computer
+            Science. Besides programming I enjoy living lake life, exploring new places, following Minnesota sports,
+            and playing games of all kinds.</p>
     </div>
 </div>
 <div class="row">

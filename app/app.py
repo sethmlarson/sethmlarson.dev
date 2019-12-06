@@ -2,7 +2,7 @@ import h11
 import datetime
 import pathlib
 import markdown2
-from flask import Flask, render_template, request, url_for, make_response, abort
+from flask import Flask, render_template, request, url_for, make_response, abort, send_file
 import functools
 import user_agents
 import attr
@@ -12,11 +12,12 @@ from werkzeug.contrib.atom import AtomFeed
 
 base_dir = pathlib.Path(__file__).absolute().parent
 markdown_dir = base_dir / "markdown"
+static_dir = base_dir / "static"
 app = Flask(__name__, template_folder=str(base_dir / "templates"))
 md = markdown2.Markdown(extras={"fenced-code-blocks": None})
 max_cache_time = 31536000
-long_cache_time = 14400
-small_cache_time = 1800
+long_cache_time = 1800
+small_cache_time = 300
 
 common_headers = {
     "host",
@@ -180,9 +181,14 @@ def get_blog_post(date: str, blog_post: str):
 
 
 @app.route("/")
-@cache_for(long_cache_time)
 def index():
     return render_template("index.html", http_request=get_http_request())
+
+
+@app.route("/favicon.ico", methods=["GET"])
+@cache_for(long_cache_time)
+def favicon():
+    return send_file(str(static_dir / "favicon.ico"), mimetype="image/x-icon")
 
 
 def get_http_request() -> str:
