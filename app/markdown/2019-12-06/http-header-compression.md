@@ -97,6 +97,8 @@ table that **doesn't** have a space after the `;` delimiter.
 Just wanted to note that the [original name for QPACK was QCRAM](https://tools.ietf.org/html/draft-krasic-quic-qcram-00).
 The urgency associated with the word "cram" makes me smile whenever I think about it.
 
+The name was changed within [this pull request](https://github.com/quicwg/base-drafts/pull/1164).
+
 ## Header Compression Theory-crafting
 
 Time to delve into the land of "what-if", and no better time than when HTTP/3 is being finalized. ;)

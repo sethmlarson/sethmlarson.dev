@@ -132,6 +132,9 @@ def list_blog_posts():
 
 
 @app.route("/blog/rss", methods=["GET"])
+@app.route("/rss", methods=["GET"])
+@app.route("/atom", methods=["GET"])
+@app.route("/feed", methods=["GET"])
 @cache_for(small_cache_time)
 def rss_blog_posts():
     feed = AtomFeed(
