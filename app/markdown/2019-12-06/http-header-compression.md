@@ -45,8 +45,8 @@ which inspired this blog post:
 >
 > Be responsible, lowercase your headers. 🌈
 
-Header names are case-insensitive so lower-casing header names
-is basically free bandwidth for no change in meaning.
+Header names already must be all lowercase for HTTP/2, but header values commonly have case-insensitive
+components. (Check the RFC for that header type if you're unsure!)
 
 ### Fold Duplicate Headers Before Sending
 
@@ -129,7 +129,8 @@ tchar          = "!" / "#" / "$" / "%"
 
 (Basically means one or more alpha-numerics with all the symbols listed above)
 
-Header names are also case-insensitive as we touched on earlier.
+Header names also must be lowercase per the HTTP/2 RFC.
+
 Given these two data-points you can boil down the total possible
 number of bytes in a valid HTTP header name to be:
 
