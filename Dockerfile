@@ -7,4 +7,4 @@ RUN python -m pip install --disable-pip-version-check --no-cache-dir -r /tmp/req
 
 COPY . /app
 WORKDIR /app
-ENTRYPOINT gunicorn -b :$PORT app.app:app -w 1 -k gevent
+ENTRYPOINT gunicorn -b :$PORT app.app:app -w 2 -k gevent
