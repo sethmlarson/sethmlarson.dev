@@ -1,4 +1,3 @@
-- 2019 in Review for urllib3
 - urllib3 in 2020
 - Why URLs are Hard
   - Percent Encoding
