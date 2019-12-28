@@ -52,7 +52,7 @@ The highlights of those releases include:
 - Added support for Python 3.8. Python 3.9 alphas have just started coming out and there are
   already issues on the horizon.
 
-## Other Achievements
+## Achievements
 
 These achievements aren't related to library features but are still super-fun to celebrate!
 
@@ -65,3 +65,9 @@ These achievements aren't related to library features but are still super-fun to
   over time.
 
 - [We have a logo now](https://github.com/urllib3/urllib3) thanks to Ryan Feeley and Jess Shapiro! ♥
+
+## Thank You
+
+Thanks to everyone who contributed to urllib3, your contributions are making a huge difference.
+If you'd like to join our little team and start contributing
+[we have a guide on how to get started](https://urllib3.readthedocs.io/en/latest/contributing.html).
