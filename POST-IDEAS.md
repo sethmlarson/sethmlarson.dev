@@ -15,3 +15,4 @@
 - How Many HTTP Methods can you name?
 - Content-Type Oddities
 - Why Redirects Change Request Methods
+- Compression Dictionaries and HTTP
