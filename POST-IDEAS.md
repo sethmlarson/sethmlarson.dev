@@ -1,4 +1,3 @@
-- urllib3 in 2020
 - Why URLs are Hard
   - Percent Encoding
   - International Domains (IDNs)
@@ -8,7 +7,6 @@
 - The Four Forms of Request Target (Origin, Absolute, Authority, and Asterisk)
 - Python urlparse Path Parameters
 - The New Encoding on the Block: Zstandard
-- How to Hold the Internet Back: Yahoo and HTTP/2
 - Content Framing (Content-Length, Transfer-Encoding: chunked)
 - HTTP Client on a Business Card
 - Cache-Control in Detail
