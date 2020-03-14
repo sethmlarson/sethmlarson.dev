@@ -116,10 +116,12 @@ performance benefits.
 
 The number of Python versions and configurations that urllib3 supports is
 quite large, testing against Linux, macOS, and Windows to ensure we're
-compatible with all major OS flavors. With Travis [dropping the default
-concurrency level to 3 for OSS projects](https://twitter.com/hugovk/status/1233787684587556864)
-and AppVeyor continuing to support only 1 concurrent job we're feeling
+compatible with all major OS flavors. With Travis supporting 5 and
+AppVeyor continuing to support only 1 concurrent job we're feeling
 cornered into long CI durations.
+
+We're also wondering how the [faster Python release cadence](https://www.python.org/dev/peps/pep-0602/)
+will impact our CI matrix of versions we test against and support.
 
 Fortunately we've been experiencing success with GitHub Actions as a CI
 platform in other projects with the 20 concurrent jobs as well as
