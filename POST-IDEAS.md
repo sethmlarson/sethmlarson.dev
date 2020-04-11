@@ -5,7 +5,6 @@
   - Zone IDs
   - RFC 3986 vs WHATWG-URL
 - The Four Forms of Request Target (Origin, Absolute, Authority, and Asterisk)
-- Python urlparse Path Parameters
 - The New Encoding on the Block: Zstandard
 - Content Framing (Content-Length, Transfer-Encoding: chunked)
 - HTTP Client on a Business Card
