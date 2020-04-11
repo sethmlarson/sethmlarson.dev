@@ -106,7 +106,7 @@ So `;` and `=` have special meaning within the `path`,
 let's throw those into `urlparse` and see what happens:
 
 ```python
->>> urlparse("http://example.com/a;z/b;c;d=e")
+>>> urlparse("http://example.com/a;z=y;x/b;c;d=e")
 ParseResult(
     scheme='http',
     netloc='example.com',
