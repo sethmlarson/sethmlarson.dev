@@ -97,13 +97,6 @@ synchronous code into a corresponding file.
 
 See the code examples on the right for some of the tokens that unasync transforms:
 
-After adding support for both sync and async the next step is supporting
-multiple async libraries. The libraries commonly used in the Python community
-are asyncio, Trio, Twisted, and Curio.
-
-Supporting all of these is a challenge but can be made easier with
-the following two libraries:
-
 ```python
 # Classed prefixed with 'AsyncX...' are helpfully
 # renamed to 'SyncX...' for simpler imports.
@@ -139,6 +132,13 @@ typing.AsyncIterable            # -> typing.Iterable
 # can't do anything with them.
 async def __await__(): ...      # -> ???
 ```
+
+After adding support for both sync and async the next step is supporting
+multiple async libraries. The libraries commonly used in the Python community
+are asyncio, Trio, Twisted, and Curio.
+
+Supporting all of these is a challenge but can be made easier with
+the following two libraries:
 
 ### Sniffio
 
