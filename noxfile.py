@@ -19,7 +19,8 @@ def deps(session):
 
 @nox.session(reuse_venv=True)
 def run(session):
-    session.run("docker", "build", "--tag=sethmlarson-dev", ".", external=True)
+    session.run(
+        "docker", "build", "--tag=sethmlarson-dev", ".", external=True)
     session.run(
         "docker",
         "run",
