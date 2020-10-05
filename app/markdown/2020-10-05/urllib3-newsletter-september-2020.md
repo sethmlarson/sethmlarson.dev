@@ -46,8 +46,11 @@ connect to your proxy and then create an HTTPS tunnel to the origin
 through your proxy. This means that the connection between you and
 your proxy wasn't secure and only the connection to the origin was secure.
 
-*Obviously not ideal!* Combine this with HTTPS proxies being more
-common and there's an obvious demand for this functionality.
+*Obviously not ideal!*
+
+HTTPS proxies are becoming much more common and some proxies, such as ones
+within a corporation, would be better implemented by authenticating via
+a client certificate rather than a username and password.
 
 Well thanks to the hard work of [Jorge](https://github.com/jalopezsilva),
 who was recently made a collaborator on the urllib3 team, this is now possible!
