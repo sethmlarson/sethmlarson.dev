@@ -31,7 +31,7 @@
         font-weight: 300;
         font-size: 24px;
         color: #ffffff;
-        background-color: #1f1f27;
+        background-color: #222226;
       }
       b {
         font-weight: 700;
@@ -39,10 +39,11 @@
       a {
         text-decoration: none;
         transition: 0.3s;
-        color: #5e81ac;
+        color: #2f7cda;
+        font-weight: 700;
       }
       a:hover {
-        color: #2f7cda;
+        color: #166dd9;
       }
 
       ul {
@@ -61,16 +62,6 @@ li:before {
   padding-right: 5px;
 }
 
-span {
-  border-right: .05em solid;
-  animation: caret 1s steps(1) infinite;
-}
-
-@keyframes caret {
-  50% {
-    border-color: transparent;
-  }
-}
 .hll { background-color: #214283 }
 .c { color: #808072 } /* Comment */
 .err { color: #960050 } /* Error */
@@ -149,7 +140,7 @@ span {
     <div class="row">
         <div class="col-12">
             <center>
-                <h1>sethmlarson.dev</h1>
+                <h1>{% block header %}sethmlarson.dev{% endblock %}</h1>
                 <a href="/">About</a> –
                 <a href="{{ url_for('list_blog_posts') }}">Blog</a> –
                 <a href="{{ url_for('rss_blog_posts') }}">RSS</a> -

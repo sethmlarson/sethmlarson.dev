@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 {% block title %}{{ blog_title }} — sethmlarson.dev{% endblock %}
+{% block header %}{{ blog_title }}{% endblock %}
 {% block content %}
 <div class="row">
     <div class="col-1"></div>
     <div class="col-10">
-        <center><h1>{{ blog_title }}</h1></center>
-        <center>Published {{ blog_published_date }} — <a href="{{ url_for('rss_blog_posts') }}">RSS</a></center>
+        <center>Published {{ blog_published_date }}</center>
         <br>
     </div>
     <div class="col-1"></div>

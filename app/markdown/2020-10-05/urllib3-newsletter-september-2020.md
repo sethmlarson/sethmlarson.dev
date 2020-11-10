@@ -1,4 +1,4 @@
-# urllib3 Newsletter - September 2020
+# urllib3 Newsletter #1
 
 Welcome to the first urllib3 newsletter! I wanted to put together
 this newsletter to broadcast all the work that the urllib3
