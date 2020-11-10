@@ -1,1 +1,0 @@
-> This is a [cross-post](https://sethmlarson.dev/blog/2019-11-26/designing-for-real-world-https) from my blog [`Python ♥ HTTP`](https://sethmlarson.dev/blog). If you enjoy my content and want it sooner you can [follow me via RSS](https://sethmlarson.dev/blog/rss).

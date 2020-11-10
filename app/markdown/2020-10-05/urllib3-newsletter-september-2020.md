@@ -26,12 +26,12 @@ and the [v2.0 Milestone on GitHub](https://github.com/urllib3/urllib3/milestone/
 You can read a whole lot more about what will be in the `v2.0.0` release
 there. Here are some of the highlights:
 
-– Drop support for Python 2.7 and 3.5
-– 99% Functional API Compatibility with urllib3 `v1.x`
-– Fully Type-Hinted APIs
-– Use TLS 1.2+ by default with HTTPS
-– Stop verifying deprecated `commonName` fields in Certificates
-– Tracing information on the `HTTPResponse` object
+- Drop support for Python 2.7 and 3.5
+- 99% Functional API Compatibility with urllib3 `v1.x`
+- Fully Type-Hinted APIs
+- Use TLS 1.2+ by default with HTTPS
+- Stop verifying deprecated `commonName` fields in Certificates
+- Tracing information on the `HTTPResponse` object
 
 There will be more updated on `v2.0.0` development after we ship the
 release of urllib3 `v1.26.0`.

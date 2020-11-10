@@ -1,71 +1,56 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="row">
-    <div class="col-8 offset-2">
+    <div class="row">
+        </div>
         <div class="row">
-            <div class="col-6">
-                <p>I'm Seth Michael Larson</p>
-            </div>
-            <div class="col-6" style="text-align: center;">
-                <a href="{{ url_for('list_blog_posts') }}"><i class="fas fa-chevron-circle-right"></i> Looking for my
-                    blog?</a>
-            </div>
+            <div class="col-1"></div>
+        <div class="col-10">
+            <h2>Who am I?</h2>
+            <p>
+                My pronouns are he/him. I was born and raised in Minneapolis, Minnesota.
+                Graduated from the University of Minnesota with a B.S. in Computer Science.
+                I love playing games of all kinds, watching Minnesota sports, gardening, and being outdoors.
+            </p>
+            <h2>Open Source Maintainer</h2>
+            <p>
+                I maintain and contribute to
+                <a href="https://github.com/sethmlarson?tab=repositories" target="_blank" rel="noopener noreferrer">many open source projects</a>,
+                especially in the HTTP and networking space for Python.
+                Most notably I'm the lead maintainer of <a href="https://github.com/urllib3/urllib3" target="_blank" rel="noopener noreferrer">urllib3</a>, an HTTP
+                client library that is the <a href="https://pepy.tech/project/urllib3" target="_blank" rel="noopener noreferrer">
+                most downloaded package</a> on the Python Package Index with
+                over 2 billion downloads. In 2019 I was awarded the
+                <a href="https://www.linkedin.com/posts/sethmichaellarson_ive-been-awarded-the-google-open-source-activity-6613836181647958017-IRbo/" target="_blank" rel="noopener noreferrer">
+                Google Open Source Peer Bonus</a> for my contributions to urllib3.
+            </p>
+            <p>
+                Other projects I contribute to include
+                <a href="https://github.com/psf/requests" target="_blank" rel="noopener noreferrer">requests</a>,
+                <a href="https://utf8.xyz" target="_blank" rel="noopener noreferrer">utf8.xyz</a>,
+                <a href="https://github.com/python-hyper/rfc3986" target="_blank" rel="noopener noreferrer">rfc3986</a>,
+                <a href="https://github.com/python-hyper/brotlipy" target="_blank" rel="noopener noreferrer">brotlipy</a>,
+                <a href="https://github.com/sethmlarson/hstspreload" target="_blank" rel="noopener noreferrer">hstspreload</a>,
+                <a href="https://github.com/python-trio/sniffio" target="_blank" rel="noopener noreferrer">sniffio</a>, and
+                <a href="https://github.com/python-trio/unasync" target="_blank" rel="noopener noreferrer">unasync</a>.
+                If you benefit from any of these projects you can
+                <a href="https://github.com/sponsors/sethmlarson" target="_blank" rel="noopener noreferrer">
+                sponsor me on GitHub Sponsors</a> to show your support.
+            </p>
+            <p>
+                I <a href="/blog">blog</a> and
+                <a href="https://twitter.com/sethmlarson" target="_blank" rel="noopener noreferrer">tweet</a>
+                frequently about open source, Python, web, security, and other technologies.
+            </p>
+            <h2>Engineer at Elastic</h2>
+            <p>
+                I'm a Senior Software Engineer at <a href="https://elastic.co" target="_blank" rel="noopener noreferrer">Elastic</a>
+                working as maintainer of the
+                <a href="https://github.com/elastic/elasticsearch-py" target="_blank" rel="noopener noreferrer">
+                Python API clients</a> for services like Elasticsearch, Enterprise Search, and more. I'm also
+                an advocate for Python and Elastic through engaging with the community, attending
+                conferences, recording live webinars, and writing blog posts.
+            </p>
+            <div class="col-1"></div>
         </div>
-
-        <p>I work as a software engineer at <a href="https://www.elastic.co">Elastic</a>
-            maintaining the Open Source <a href="https://github.com/elastic/elasticsearch-py">Python client libraries</a>
-            among other Python-flavored things.</p>
-
-        <p>I write a blog called "<a href="{{ url_for('list_blog_posts') }}">Python ♥ HTTP</a>" which contains my
-            thoughts and findings related to Python, Open Source, HTTP, TLS, URLs, and more.</p>
-
-        <p>
-            I maintain many Open Source projects, most notably I'm the lead maintainer for <a
-                href="https://github.com/urllib3/urllib3">urllib3</a>
-            which receives the <a href="https://pypistats.org/top">most downloads per day</a> of any package on PyPI.
-            Almost all the projects I contribute to are related to HTTP or URLs.
-            Here's a list of projects I maintain:
-
-        <div class="row" style="margin-left: 2em;">
-            <div class="col-6">
-                <ul>
-                    <li><a href="https://github.com/urllib3/urllib3/">urllib3</a></li>
-                    <li><a href="https://github.com/python-hyper/rfc3986/">rfc3986</a></li>
-                    <li><a href="https://github.com/sethmlarson/virtualbox-python/">virtualbox</a></li>
-                    <li><a href="https://github.com/sethmlarson/hstspreload">hstspreload</a></li>
-                    <li><a href="https://github.com/sethmlarson/whatwg-url">whatwg-url</a></li>
-                    <li><a href="https://github.com/python-hyper/hyper-h2/">h2, hpack, hyperframe</a></li>
-                </ul>
-            </div>
-            <div class="col-6">
-                <ul>
-                    <li><a href="https://github.com/python-trio/hip">hip</a></li>
-                    <li><a href="https://github.com/hickeroar/win_inet_pton">win-inet-pton</a></li>
-                    <li><a href="https://github.com/sethmlarson/irl">irl</a></li>
-                    <li><a href="https://github.com/python-hyper/brotlipy">brotlipy</a></li>
-                    <li><a href="https://github.com/sethmlarson/psl">psl</a></li>
-                    <li><a href="https://github.com/sethmlarson/selectors2">selectors2</a></li>
-                </ul>
-            </div>
-        </div>
-        </p>
-
-        <p>
-            I've been awarded the
-            <a href="https://www.linkedin.com/posts/sethmichaellarson_ive-been-awarded-the-google-open-source-activity-6613836181647958017-IRbo">Google Open Source Peer Bonus</a>
-            for Q3 2019 for my work on urllib3 and worked on multiple development grants from <a href="https://gitcoin.co/grants">GitCoin Grants</a>
-            and <a href="https://govcert.lu">​CERT Gouvernemental Luxembourg</a>.
-        </p>
-
-        <p>I was born in Minneapolis, Minnesota and graduated from the University of Minnesota TC with a BS in Computer
-            Science. Besides programming I enjoy living lake life, gardening, following Minnesota sports,
-            and playing games of all kinds.</p>
     </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <center><p>Here's what your HTTP request looks like:</p></center>
-        <pre><code>{{ http_request | safe }}</code></pre>
-    </div>
-</div>
 {% endblock %}

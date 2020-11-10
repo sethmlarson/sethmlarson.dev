@@ -1,26 +1,20 @@
 {% extends "base.html" %}
-{% block title %}{{ blog_title }} — Python ♥ HTTP{% endblock %}
+{% block title %}{{ blog_title }} — sethmlarson.dev{% endblock %}
 {% block content %}
 <div class="row">
-    <div class="col-10 offset-1">
-        <center><h1 style="margin-bottom: -0.2em;">{{ blog_title }}</h1></center>
-        <center><small>Published {{ blog_published_date }} — <a href="{{ url_for('rss_blog_posts') }}"><i
-                class="fas fa-rss"></i> RSS</a></small></center>
+    <div class="col-1"></div>
+    <div class="col-10">
+        <center><h1>{{ blog_title }}</h1></center>
+        <center>Published {{ blog_published_date }} — <a href="{{ url_for('rss_blog_posts') }}">RSS</a></center>
         <br>
     </div>
+    <div class="col-1"></div>
 </div>
 <div class="row">
-    <div class="col-10 offset-1">
+    <div class="col-1"></div>
+    <div class="col-10">
         {{ blog_content | safe }}
     </div>
+    <div class="col-1"></div>
 </div>
-<div class="row">
-    <div class="col-6" style="text-align: center;">
-        <a href="{{ url_for('list_blog_posts') }}"><i class="fas fa-chevron-circle-right"></i> More Blog Posts</a>
-    </div>
-    <div class="col-6" style="text-align: center;">
-        <a href="{{ url_for('rss_blog_posts') }}"><i class="fas fa-rss"></i> Subscribe via RSS</a>
-    </div>
-</div>
-<br>
 {% endblock %}

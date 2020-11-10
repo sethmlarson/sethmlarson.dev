@@ -2,8 +2,8 @@ gunicorn
 flask
 markdown2
 pygments
-user-agents
 h11
 gevent
 attrs
 werkzeug<1
+whitenoise

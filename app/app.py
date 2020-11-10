@@ -1,45 +1,23 @@
-import h11
 import datetime
 import pathlib
 import markdown2
-from flask import Flask, render_template, request, url_for, make_response, abort, send_file
 import functools
-import user_agents
+from flask import Flask, render_template, request, url_for, make_response, abort
 import attr
 import typing
 from werkzeug.contrib.atom import AtomFeed
+from whitenoise import WhiteNoise
 
 
 base_dir = pathlib.Path(__file__).absolute().parent
 markdown_dir = base_dir / "markdown"
 static_dir = base_dir / "static"
 app = Flask(__name__, template_folder=str(base_dir / "templates"))
+app.wsgi_app = WhiteNoise(app.wsgi_app, root=str(static_dir), prefix="/static")
 md = markdown2.Markdown(extras={"fenced-code-blocks": None})
 max_cache_time = 31536000
 long_cache_time = 1800
 small_cache_time = 300
-
-common_headers = {
-    "host",
-    "upgrade-insecure-requests",
-    "referer",
-    "accept",
-    "accept-language",
-    "accept-encoding",
-    "connection",
-    "user-agent",
-    "dnt",
-    "age",
-    "allow",
-    "cache-control",
-    "vary",
-    "via",
-    "x-xss-protection",
-    "forwarded",
-    "content-length",
-    "x-forwarded-for",
-    "x-forwarded-proto",
-}
 
 
 def cache_for(seconds: int):
@@ -90,7 +68,7 @@ def load_blog_posts() -> typing.Dict[str, typing.List[BlogPost]]:
     """Loads all blog post metadata from the filesystem"""
     posts = {}
     dates = sorted(
-        [x for x in markdown_dir.iterdir() if x.name != "drafts"],
+        [x for x in markdown_dir.iterdir() if x.name != "draft"],
         key=lambda x: [int(y.lstrip("0")) for y in x.name.split("-")],
         reverse=True,
     )
@@ -119,12 +97,6 @@ def robots_txt():
     return resp
 
 
-@app.route("/pgp", methods=["GET"])
-@cache_for(long_cache_time)
-def get_pgp():
-    return render_template("pgp.html")
-
-
 @app.route("/blog", methods=["GET"])
 @cache_for(small_cache_time)
 def list_blog_posts():
@@ -135,10 +107,10 @@ def list_blog_posts():
 @app.route("/rss", methods=["GET"])
 @app.route("/atom", methods=["GET"])
 @app.route("/feed", methods=["GET"])
-@cache_for(small_cache_time)
+@cache_for(long_cache_time)
 def rss_blog_posts():
     feed = AtomFeed(
-        title="Python ♥ HTTP - Last 5 Blog Posts",
+        title="sethmlarson.dev - Last 5 Blog Posts",
         feed_url=url_for("rss_blog_posts", _external=True),
         url=request.url_root,
     )
@@ -167,7 +139,7 @@ def rss_blog_posts():
 
 
 @app.route("/blog/<string:date>/<string:blog_post>", methods=["GET"])
-@cache_for(small_cache_time)
+@cache_for(long_cache_time)
 def get_blog_post(date: str, blog_post: str):
     markdown_file = (markdown_dir / date / (blog_post + ".md")).absolute()
     if date == ".." or blog_post == ".." or not markdown_file.is_file():
@@ -184,50 +156,6 @@ def get_blog_post(date: str, blog_post: str):
 
 
 @app.route("/")
+@cache_for(small_cache_time)
 def index():
-    return render_template("index.html", http_request=get_http_request())
-
-
-@app.route("/favicon.ico", methods=["GET"])
-@cache_for(long_cache_time)
-def favicon():
-    return send_file(str(static_dir / "favicon.ico"), mimetype="image/x-icon")
-
-
-def get_http_request() -> str:
-    """Generate the decorative HTTP request"""
-    ua = user_agents.parse(request.headers.get("User-Agent", ""))
-    headers = dict(request.headers)
-    if "User-Agent" in headers:
-        headers["User-Agent"] = str(ua)
-    conn = h11.Connection(h11.CLIENT)
-    data_to_send = conn.send(
-        h11.Request(
-            method=request.method.encode("utf-8"),
-            target=b"/",
-            headers=[
-                (k.encode("utf-8"), v.encode("utf-8"))
-                for k, v in headers.items()
-                if k.lower() not in ("authorization", "cookie")
-            ],
-        )
-    ) + conn.send(h11.EndOfMessage())
-    lines = []
-    for i, binary_line in enumerate(data_to_send.split(b"\r\n")):
-        if binary_line:
-            line = binary_line.decode("utf-8")
-            if len(line) >= 50:
-                line = line[:50] + "..."
-
-            if i == 0:
-                method, rest = line.split(" ", 1)
-                line = f'<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/{method}">{method}</a> {rest}'
-            else:
-                header, rest = line.split(": ", 1)
-                if header.lower() in common_headers:
-                    line = f'<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/{header.title()}">{header.title()}</a>: {rest}'
-                else:
-                    line = f"{header.title()}: {rest}"
-
-            lines.append(line)
-    return "\n".join(lines)
+    return render_template("index.html")
