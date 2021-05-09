@@ -140,17 +140,26 @@ li:before {
     <div class="row">
         <div class="col-12">
             <center>
-                <h1>{% block header %}sethmlarson<span class="rgb">.</span>dev{% endblock %}</h1>
+                <h1>{% block header %}sethmlarson.dev{% endblock %}</h1>
                 <a href="/">About</a> –
                 <a href="{{ url_for('list_blog_posts') }}">Blog</a> –
                 <a href="{{ url_for('rss_blog_posts') }}">RSS</a> -
-                <a href="https://twitter.com/sethmlarson" target="_blank" rel="noopener noreferrer">Twitter</a> –
-                <a href="https://github.com/sethmlarson" target="_blank" rel="noopener noreferrer">GitHub</a> –
-                <a href="https://www.linkedin.com/in/sethmichaellarson" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://twitter.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">Twitter</a> –
+                <a href="https://github.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">GitHub</a> –
+                <a href="https://www.linkedin.com/in/sethmichaellarson" target="_blank" rel="nofollow noopener noreferrer">LinkedIn</a>
             </center>
         </div>
     </div>
 {% block content %}{% endblock %}
 </div>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C3VD7T243W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-C3VD7T243W');
+</script>
 </body>
 </html>
