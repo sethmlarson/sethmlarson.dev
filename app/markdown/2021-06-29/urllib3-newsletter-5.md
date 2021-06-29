@@ -9,9 +9,10 @@ The urllib3 team is very grateful for all of our sponsors and supporters.
 If you'd like to support our team we have a [GitHub Sponsors](https://github.com/sponsors/urllib3), [GitCoin Grants](https://gitcoin.co/grants/65/urllib3), and [Open Collective](https://opencollective.com/urllib3).
 
 Notable updates to our sponsors include:
-- [GitCoin Grant Round 10](https://gitcoin.co/grants/65/urllib3) included urllib3
-  which has raised >$2000 so far! 🎉
-- [NewRelic](https://github.com/newrelic) started sponsoring our team on GitHub Sponsors 👏
+
+– [GitCoin Grant Round 10](https://gitcoin.co/grants/65/urllib3) included urllib3 which has raised >$2000 so far! 🎉
+
+– [NewRelic](https://github.com/newrelic) started sponsoring our team on GitHub Sponsors 👏
 
 ## We paid someone to work on Open Source
 
