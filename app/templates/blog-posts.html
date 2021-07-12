@@ -2,6 +2,15 @@
 {% block content %}
 <div class="row">
     <div class="col-1"></div>
+    <div class="col-10" style="background-color: #263C59; border-radius: 1em; padding: 1em; text-align: center;">
+        Like my content and want to get notified when there's something new?
+        <br>
+        You can subscribe via <a href="https://tinyletter.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">Email</a> and <a href="{{ url_for('rss_blog_posts') }}">RSS</a>
+    </div>
+    <div class="col-1"></div>
+</div>
+<div class="row">
+    <div class="col-1"></div>
     <div class="col-10">
         {% for month in blog_posts %}
         <h2>Posts from {{ month }}</h2>
