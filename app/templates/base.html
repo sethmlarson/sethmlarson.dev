@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>{% block title %}sethmlarson.dev{% endblock %}</title>
-    <meta name="description" content="A blog about Python, HTTP, Networking, and Security">
-    <meta name="keywords" content="Python, HTTP, Networking, Security">
+    <meta name="description" content="A blog about Python, open source, HTTP, networking, and security">
+    <meta name="keywords" content="blog python open source http networking security">
     <meta name="author" content="Seth Michael Larson">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{ url_for('rss_blog_posts') }}"/>
     <link rel="icon" href="/favicon.ico">
@@ -134,6 +134,11 @@ li:before {
 .vi { color: #A9B7C6 } /* Name.Variable.Instance */
 .il { color: #6897BB } /* Literal.Number.Integer.Long */
     </style>
+{% block opengraph %}
+    <meta property="og:title" content="sethmlarson.dev"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:description" content="A blog about Python, open source, HTTP, networking, and security"/>
+{% endblock %}
 </head>
 <body>
 <div class="container">
@@ -141,15 +146,16 @@ li:before {
         <div class="col-12">
             <center>
                 <h1>{% block header %}sethmlarson.dev{% endblock %}</h1>
-                <a href="/">About</a> –
-                <a href="{{ url_for('list_blog_posts') }}">Blog</a> –
-                <a href="{{ url_for('rss_blog_posts') }}">RSS</a> -
-                <a href="https://twitter.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">Twitter</a> –
-                <a href="https://github.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">GitHub</a> –
-                <a href="https://www.linkedin.com/in/sethmichaellarson" target="_blank" rel="nofollow noopener noreferrer">LinkedIn</a>
+                <span style="font-size: 1.2em;">
+                    <a href="/">About</a> –
+                    <a href="{{ url_for('list_blog_posts') }}">Blog</a> –
+                    <a href="https://twitter.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">Twitter</a> –
+                    <a href="https://github.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">GitHub</a> –
+                    <a href="https://www.linkedin.com/in/sethmichaellarson" target="_blank" rel="nofollow noopener noreferrer">LinkedIn</a>
+                </span>
             </center>
         </div>
-    </div>
+    </div>   
 {% block content %}{% endblock %}
 </div>
 

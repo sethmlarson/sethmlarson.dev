@@ -1,6 +1,11 @@
 {% extends "base.html" %}
 {% block title %}{{ blog_title }} — sethmlarson.dev{% endblock %}
 {% block header %}{{ blog_title }}{% endblock %}
+{% block opengraph %}
+    <meta property="og:title" content="{{ blog_title }} — sethmlarson.dev"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:description" content="{{ blog_content | safe | truncate(120, true, '...')}}"/>
+{% endblock %}
 {% block content %}
 <div class="row">
     <div class="col-1"></div>
