@@ -4,7 +4,8 @@
 {% block opengraph %}
     <meta property="og:title" content="{{ blog_title }} — sethmlarson.dev"/>
     <meta property="og:type" content="article"/>
-    <meta property="og:description" content="{{ blog_content | safe | truncate(120, true, '...')}}"/>
+    <meta property="og:description" content="{{ blog_content_text | truncate(200, true, '...')}}"/>
+    <meta property="og:image" content="/static/avatar.jpeg"/>
 {% endblock %}
 {% block content %}
 <div class="row">

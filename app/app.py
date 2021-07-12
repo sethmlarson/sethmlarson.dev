@@ -1,3 +1,4 @@
+import re
 import datetime
 import pathlib
 import markdown2
@@ -45,11 +46,14 @@ class BlogPost:
         with self.markdown_path.open(mode="r") as f:
             text = f.read()
             _, text = text.split("\n", 1)
+        html = md.convert(text)
+        blog_content_text = re.sub(r"<[^>]+>", "", html)
         return render_template(
             "blog.html",
             blog_title=self.title,
             blog_published_date=self.date,
-            blog_content=md.convert(text),
+            blog_content=html,
+            blog_content_text=blog_content_text,
         )
 
     def url(self) -> str:
@@ -150,8 +154,14 @@ def get_blog_post(date: str, blog_post: str):
         title = title.lstrip("# ")
         html = md.convert(rest)
 
+    blog_content_text = re.sub(r"<[^>]+>", "", html)
+
     return render_template(
-        "blog.html", blog_title=title, blog_published_date=date, blog_content=html
+        "blog.html",
+        blog_title=title,
+        blog_published_date=date,
+        blog_content=html,
+        blog_content_text=blog_content_text,
     )
 
 
