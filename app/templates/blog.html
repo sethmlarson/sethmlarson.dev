@@ -33,4 +33,16 @@
     </div>
     <div class="col-1"></div>
 </div>
+<div class="row">
+    <div class="col-1"></div>
+    <div class="col-10" >
+        <div style="background-color: #263C59; border-radius: 1em; padding: 1em; text-align: center;">
+            If you enjoyed this post <a href="{{ url_for('list_blog_posts') }}">you'll probably like these too</a>.
+            <br>
+            You can subscribe via <a href="https://tinyletter.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">Email</a> and <a href="{{ url_for('rss_blog_posts') }}">RSS</a>
+        </div>
+        <br>
+    </div>
+    <div class="col-1"></div>
+</div>
 {% endblock %}
