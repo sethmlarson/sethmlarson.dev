@@ -62,13 +62,13 @@ Traceback (most recent call last):
   ...
   File "/app/app.py", line 13, in async_route
     return jsonify(**(await es.info()))
-  File "/app/venv/lib/.../elasticsearch/_async/client/__init__.py", line 288, in info
+  File "/app/venv/lib/...", line 288, in info
     return await self.transport.perform_request(
-  File "/app/venv/lib/.../elasticsearch/_async/transport.py", line 327, in perform_request
+  File "/app/venv/lib/...", line 327, in perform_request
     raise e
-  File "/app/venv/lib/.../elasticsearch/_async/transport.py", line 296, in perform_request
+  File "/app/venv/lib/...", line 296, in perform_request
     status, headers, data = await connection.perform_request(
-  File "/app/venv/lib/.../elasticsearch/_async/http_aiohttp.py", line 312, in perform_request
+  File "/app/venv/lib/...", line 312, in perform_request
     raise ConnectionError("N/A", str(e), e)
 
 ConnectionError(Event loop is closed) caused by:
