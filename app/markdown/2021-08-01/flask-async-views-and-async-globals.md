@@ -172,7 +172,7 @@ Another option is to use the [Gunicorn](http://gunicorn.org) with [Uvicorn worke
 
 All the options mentioned above function pretty similarly so pick whichever one you like.
 My personal choice has historically been Gunicorn with Uvicorn workers because of how widely used and
-mature Gunicorn relative to how new the other libraries are.
+mature Gunicorn is relative to how new the other libraries are.
 
 You can do so like this:
 
