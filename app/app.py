@@ -165,7 +165,49 @@ def get_blog_post(date: str, blog_post: str):
     )
 
 
-@app.route("/")
+@app.route("/about")
+@cache_for(small_cache_time)
+def about():
+    return render_template("about.html")
+
+
+@attr.s
+class Blog:
+    title: str = attr.ib()
+    published_date: str = attr.ib()
+    content: str = attr.ib()
+
+
+def downgrade_header_tags(content: str) -> str:
+    for x in range(5, 0, -1):
+        content = re.sub(r"<(/?h)%d>" % x, r"<\g<1>%d>" % (x + 1), content)
+    return content
+
+
+@app.route("/", methods=["GET"])
 @cache_for(small_cache_time)
 def index():
-    return render_template("index.html")
+    blogs = []
+    for published_date, blogs_per_day in sorted(BLOG_POSTS.items(), reverse=True):
+        for blog in blogs_per_day:
+            markdown_file = (blog.markdown_path).absolute()
+            with markdown_file.open(mode="r") as f:
+                text = f.read()
+                title, rest = text.split("\n", 1)
+                title = title.lstrip("# ")
+                html = downgrade_header_tags(md.convert(rest))
+                blogs.append(Blog(
+                    title=title,
+                    published_date=published_date,
+                    content=html
+                ))
+                if len(blogs) == 5:
+                    break
+
+        if len(blogs) == 5:
+            break
+
+    return render_template(
+        "index.html",
+        blogs=blogs
+    )

@@ -15,13 +15,7 @@
 <div class="row">
     <div class="col-1"></div>
     <div class="col-10" >
-        <div style="background-color: #263C59; border-radius: 0.7em; padding: 0.7em; text-align: center;">
-            Like my content and want to get notified when there's something new?
-            <br>
-            You can subscribe via <a href="https://tinyletter.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">Email</a> and <a href="{{ url_for('rss_blog_posts') }}">RSS</a>
-        </div>
-        <br>
-        <h2 style="text-align: center;">{{ blog_title }}</center></h2>
+        <h2 style="text-align: center; margin-bottom: 0.3em">{{ blog_title }}</h2>
         <center>Published {{ blog_published_date }}</center>
     </div>
     <div class="col-1"></div>
@@ -37,7 +31,7 @@
     <div class="col-1"></div>
     <div class="col-10" >
         <div style="background-color: #263C59; border-radius: 0.7em; padding: 0.7em; text-align: center;">
-            If you enjoyed this post <a href="{{ url_for('list_blog_posts') }}">you'll probably like these too</a>.
+            If you enjoyed this post <a href="{{ url_for('list_blog_posts') }}">there's more where that came from</a>!
             <br>
             You can subscribe via <a href="https://tinyletter.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">Email</a> and <a href="{{ url_for('rss_blog_posts') }}">RSS</a>
         </div>
