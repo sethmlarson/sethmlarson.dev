@@ -188,7 +188,7 @@ def downgrade_header_tags(content: str) -> str:
 @cache_for(small_cache_time)
 def index():
     blogs = []
-    for published_date, blogs_per_day in sorted(BLOG_POSTS.items(), reverse=True):
+    for _, blogs_per_day in sorted(BLOG_POSTS.items(), reverse=True):
         for blog in blogs_per_day:
             markdown_file = (blog.markdown_path).absolute()
             with markdown_file.open(mode="r") as f:
@@ -198,7 +198,7 @@ def index():
                 html = downgrade_header_tags(md.convert(rest))
                 blogs.append(Blog(
                     title=title,
-                    published_date=published_date,
+                    published_date=blog.date,
                     content=html
                 ))
                 if len(blogs) == 5:
