@@ -156,13 +156,13 @@ li:before {
     <meta property="og:author" content="Seth Michael Larson"/>
     <meta property="og:type" content="article"/>
     <meta property="og:description" content="A blog about Python and the Internet"/>
-    <meta property="og:image" content="/static/avatar.jpeg"/>
+    <meta property="og:image" content="https://sethmlarson.dev{{ url_for('static', filename='avatar.jpeg', _external=True) }}"/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@sethmlarson"/>
     <meta name="twitter:creator" content="@sethmlarson"/>
     <meta name="twitter:title" content="Seth Michael Larson"/>
     <meta name="twitter:description" content="A blog about Python and the Internet"/>
-    <meta name="twitter:image" content="/static/avatar.jpeg"/>
+    <meta name="twitter:image" content="https://sethmlarson.dev{{ url_for('static', filename='avatar.jpeg', _external=True) }}"/>
 {% endblock %}
 </head>
 <body>
