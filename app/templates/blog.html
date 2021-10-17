@@ -6,13 +6,13 @@
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="{{ blog_title }}"/>
     <meta property="og:description" content="{{ blog_content_text | truncate(200, true, '...')}}"/>
-    <meta property="og:image" content="https://sethmlarson.dev{{ url_for('static', filename='avatar.jpeg', _external=True) }}"/>
+    <meta property="og:image" content="{{ url_for('static', filename='avatar.jpeg', _external=True) }}"/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@sethmlarson"/>
     <meta name="twitter:creator" content="@sethmlarson"/>
     <meta name="twitter:title" content="{{ blog_title }}"/>
     <meta name="twitter:description" content="{{ blog_content_text | truncate(200, true, '...')}}"/>
-    <meta property="og:image" content="https://sethmlarson.dev{{ url_for('static', filename='avatar.jpeg', _external=True) }}"/>
+    <meta property="og:image" content="{{ url_for('static', filename='avatar.jpeg', _external=True) }}"/>
 {% endblock %}
 {% block content %}
 <div class="row">
