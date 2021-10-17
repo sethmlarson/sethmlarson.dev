@@ -1,15 +1,18 @@
 {% extends "base.html" %}
 {% block title %}{{ blog_title }} — sethmlarson.dev{% endblock %}
 {% block opengraph %}
-    <meta property="og:title" content="{{ blog_title }} — sethmlarson.dev"/>
+    <meta property="og:site_name" content="Seth Michael Larson"/>
+    <meta property="og:author" content="Seth Michael Larson"/>
     <meta property="og:type" content="article"/>
+    <meta property="og:title" content="{{ blog_title }}"/>
     <meta property="og:description" content="{{ blog_content_text | truncate(200, true, '...')}}"/>
     <meta property="og:image" content="/static/avatar.jpeg"/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@sethmlarson"/>
     <meta name="twitter:creator" content="@sethmlarson"/>
-    <meta name="twitter:title" content="{{ blog_title }} — sethmlarson.dev"/>
+    <meta name="twitter:title" content="{{ blog_title }}"/>
     <meta name="twitter:description" content="{{ blog_content_text | truncate(200, true, '...')}}"/>
+    <meta name="twitter:image" content="/static/avatar.jpeg"/>
 {% endblock %}
 {% block content %}
 <div class="row">
