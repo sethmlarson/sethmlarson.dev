@@ -4,7 +4,7 @@ Since Python 3.5 was released in 2015 including [PEP 484](https://www.python.org
 
 We wanted to share the journey, what we learned, and problems we encountered along the way as well as celebrate this enormous milestone for the urllib3 project.
 
-[Hasan Ramenzani](https://github.com/hramezani) has taken on the mantle of being the primary contributor to urllib3’s type hints along with help from other team members and community contributors [Ran Benita](https://github.com/bluetech), [Ezzeri Esa](https://github.com/savarin), and [Quentin Pradet](https://github.com/pquentin). Thanks to them for all their work!
+[Hasan Ramenzani](https://github.com/hramezani) has taken on the mantle of being the primary contributor to urllib3’s type hints along with help from other team members and community contributors [Ran Benita](https://github.com/bluetech), [Ezzeri Esa](https://github.com/savarin), [Franek Magiera](https://github.com/franekmagiera), and [Quentin Pradet](https://github.com/pquentin). Thanks to them for all their work!
 
 
 ### Why type hints?
