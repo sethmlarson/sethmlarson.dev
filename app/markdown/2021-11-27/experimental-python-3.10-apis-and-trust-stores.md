@@ -80,10 +80,10 @@ b'0\x82\x06\xd50\x82 ... \x05\x0f\xe3E#\xc0d_'
 >>> verified_chain[0].get_info()
 {
   "OCSP": ["http://ocsp.digicert.com"],
-  "caIssuers": ["http://cacerts.digicert.com/DigiCertTLSRSASHA2562020CA1.crt"],
+  "caIssuers": ["http://cacerts.digicert.com/..."],
   "crlDistributionPoints": [
-    "http://crl3.digicert.com/DigiCertTLSRSASHA2562020CA1.crl",
-    "http://crl4.digicert.com/DigiCertTLSRSASHA2562020CA1.crl"
+    "http://crl3.digicert.com/...crl",
+    "http://crl4.digicert.com/...crl"
   ],
   "issuer": [
     [["countryName", "US"]],
@@ -97,7 +97,7 @@ b'0\x82\x06\xd50\x82 ... \x05\x0f\xe3E#\xc0d_'
     [["countryName", "US"]],
     [["stateOrProvinceName", "California"]],
     [["localityName", "Los Angeles"]],
-    [["organizationName", "Internet Corporation for Assigned Names and Numbers"]],
+    [["organizationName", "..."]],
     [["commonName", "www.example.org"]]
   ],
   "subjectAltName": [
@@ -147,21 +147,21 @@ The difference between a verified and unverified chain is whether the chain is t
 For example if the server provides 4 certificates during the TLS handshake (named L, A, B, and C) where C is in the trust store as a trust anchor and A and B are both intermediate certificates signed by C. The L certificate is the leaf certificate being used by the server and is signed by A. Here’s an ASCII-art diagram for the above situation:
 
 ```
-                            ┌───────┐   ┌───────┐
-                            │       │   │       │
-                            │       │   │       │
-                            │   A   ├───►   L+  │
-                ┌───────┐   │       │   │       │
-                │       ├───►       │   │       │
-                │       │   └───────┘   └───────┘
-                │   C*  │
-                │       │   ┌───────┐
-                │       ├───►       │     Legend
-                └───────┘   │       │   ──────────
-                            │   B   │   ─► Signs
-                            │       │   +  Entity/leaf
-                            │       │   *  Trusted
-                            └───────┘
+                ┌───────┐   ┌───────┐
+                │       │   │       │
+                │       │   │       │
+                │   A   ├───►   L+  │
+    ┌───────┐   │       │   │       │
+    │       ├───►       │   │       │
+    │       │   └───────┘   └───────┘
+    │   C*  │
+    │       │   ┌───────┐
+    │       ├───►       │     Legend
+    └───────┘   │       │   ──────────
+                │   B   │   ─► Signs
+                │       │   +  Entity/leaf
+                │       │   *  Trusted
+                └───────┘
 ```
 
 This means that B is not necessary to create a chain of trust for the handshake. In this case `verified_chain()` method would include L, A, and C and the `unverified_chain()` method would return L, A, B, and C.
