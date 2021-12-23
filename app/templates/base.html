@@ -2,187 +2,75 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>{% block title %}sethmlarson.dev{% endblock %}</title>
-    <meta name="description" content="A blog about Python, open source, HTTP, networking, and security">
+    <title>{% block title %}Seth Michael Larson{% endblock %}</title>
+    <meta name="description" content="Blogging about Python and the Internet">
     <meta name="keywords" content="blog python open source http networking security">
     <meta name="author" content="Seth Michael Larson">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{ url_for('rss_blog_posts') }}"/>
     <link rel="icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/static/simplegrid.min.css">
-    <style>
-      @font-face {
-        font-family: "JetBrains Mono";
-        font-style: normal;
-        font-weight: 300;
-        src: url(/static/JetBrainsMono-Light.woff) format("woff"),
-        url(/static/JetBrainsMono-Light.woff2) format("woff2");
-        font-display: swap;
-      }
-      @font-face {
-        font-family: "JetBrains Mono";
-        font-style: normal;
-        font-weight: 700;
-        src: url(/static/JetBrainsMono-Bold.woff) format("woff"),
-        url(/static/JetBrainsMono-Bold.woff2) format("woff2");
-        font-display: swap;
-      }
-      html, body, code {
-        font-family: 'JetBrains Mono', monospace;
-        font-weight: 300;
-        font-size: 24px;
-        color: #eeeeee;
-        background-color: #111111;
-      }
-      :not(pre) > code {
-        background-color: #263C59;
-        border-radius: 0.25em;
-        padding-left: 0.3em;
-        padding-right: 0.3em;
-      }
-      li {
-        margin-bottom: 0.7em;
-      }
-      b {
-        font-weight: 700;
-      }
-      a {
-        text-decoration: none;
-        transition: 0.3s;
-        color: #2f7cda;
-        font-weight: 700;
-      }
-      a:hover {
-        color: #166dd9;
-        text-decoration: underline;
-      }
-
-      ul {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-div {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased !important;
-  -moz-font-smoothing: antialiased !important;
-  text-rendering: optimizelegibility !important;
-}
-
-li {
-  padding-left: 1em;
-  text-indent: -1em;
-}
-
-li:before {
-  content: "—";
-  padding-right: 5px;
-}
-
-.hll { background-color: #214283 }
-.c { color: #808072 } /* Comment */
-.err { color: #960050 } /* Error */
-.g { color: #808072 } /* Generic */
-.k { color: #CB772F } /* Keyword */
-.l { color: #6897BB } /* Literal */
-.n { color: #A9B7C6 } /* Name */
-.o { color: #A9B7C6 } /* Operator */
-.p { color: #A9B7C6 } /* Punctuation */
-.ch { color: #808072 } /* Comment.Hashbang */
-.cm { color: #53833D } /* Comment.Multiline */
-.cp { color: #808072 } /* Comment.Preproc */
-.cpf { color: #808072 } /* Comment.PreprocFile */
-.c1 { color: #808072 } /* Comment.Single */
-.cs { color: #808072 } /* Comment.Special */
-.gd { color: #A9B7C6 } /* Generic.Deleted */
-.ge { color: #808072; font-style: italic } /* Generic.Emph */
-.gr { color: #808072 } /* Generic.Error */
-.gh { color: #88BE05; font-weight: bold } /* Generic.Heading */
-.gi { color: #88BE05 } /* Generic.Inserted */
-.go { color: #808072 } /* Generic.Output */
-.gp { color: #808072; font-weight: bold } /* Generic.Prompt */
-.gs { color: #808072; font-weight: bold } /* Generic.Strong */
-.gu { color: #A9B7C6 } /* Generic.Subheading */
-.gt { color: #808072 } /* Generic.Traceback */
-.kc { color: #CB772F } /* Keyword.Constant */
-.kd { color: #CB772F } /* Keyword.Declaration */
-.kn { color: #CB772F } /* Keyword.Namespace */
-.kp { color: #CB772F } /* Keyword.Pseudo */
-.kr { color: #CB772F } /* Keyword.Reserved */
-.kt { color: #CB772F } /* Keyword.Type */
-.ld { color: #6A8759 } /* Literal.Date */
-.m { color: #6897BB } /* Literal.Number */
-.s { color: #6A8759 } /* Literal.String */
-.na { color: #A9B7C6 } /* Name.Attribute */
-.nb { color: #A9B7C6 } /* Name.Builtin */
-.nc { color: #A9B7C6 } /* Name.Class */
-.no { color: #CB772F } /* Name.Constant */
-.nd { color: #F1C829 } /* Name.Decorator */
-.ni { color: #A9B7C6 } /* Name.Entity */
-.ne { color: #88BE05 } /* Name.Exception */
-.nf { color: #FFC66D } /* Name.Function */
-.nl { color: #A9B7C6 } /* Name.Label */
-.nn { color: #A9B7C6 } /* Name.Namespace */
-.nx { color: #88BE05 } /* Name.Other */
-.py { color: #A9B7C6 } /* Name.Property */
-.nt { color: #F1C829 } /* Name.Tag */
-.nv { color: #A9B7C6 } /* Name.Variable */
-.ow { color: #A9B7C6 } /* Operator.Word */
-.w { color: #A9B7C6 } /* Text.Whitespace */
-.mb { color: #6897BB } /* Literal.Number.Bin */
-.mf { color: #6897BB } /* Literal.Number.Float */
-.mh { color: #6897BB } /* Literal.Number.Hex */
-.mi { color: #6897BB } /* Literal.Number.Integer */
-.mo { color: #6897BB } /* Literal.Number.Oct */
-.sb { color: #6A8759 } /* Literal.String.Backtick */
-.sc { color: #6A8759 } /* Literal.String.Char */
-.sd { color: #6A8759 } /* Literal.String.Doc */
-.s2 { color: #6A8759 } /* Literal.String.Double */
-.se { color: #6897BB } /* Literal.String.Escape */
-.sh { color: #6A8759 } /* Literal.String.Heredoc */
-.si { color: #6A8759 } /* Literal.String.Interpol */
-.sx { color: #6A8759 } /* Literal.String.Other */
-.sr { color: #6A8759 } /* Literal.String.Regex */
-.s1 { color: #6A8759 } /* Literal.String.Single */
-.ss { color: #6A8759 } /* Literal.String.Symbol */
-.bp { color: #A9B7C6 } /* Name.Builtin.Pseudo */
-.vc { color: #A9B7C6 } /* Name.Variable.Class */
-.vg { color: #A9B7C6 } /* Name.Variable.Global */
-.vi { color: #A9B7C6 } /* Name.Variable.Instance */
-.il { color: #6897BB } /* Literal.Number.Integer.Long */
-    </style>
+    <link rel="stylesheet" href="/static/style.css">
 {% block opengraph %}
     <meta property="og:site_name" content="Seth Michael Larson"/>
     <meta property="og:author" content="Seth Michael Larson"/>
     <meta property="og:type" content="article"/>
-    <meta property="og:description" content="A blog about Python and the Internet"/>
+    <meta property="og:description" content="Blogging about Python and the Internet"/>
     <meta property="og:image" content="{{ url_for('static', filename='avatar.jpeg', _external=True) }}"/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@sethmlarson"/>
     <meta name="twitter:creator" content="@sethmlarson"/>
     <meta name="twitter:title" content="Seth Michael Larson"/>
-    <meta name="twitter:description" content="A blog about Python and the Internet"/>
+    <meta name="twitter:description" content="Blogging about Python and the Internet"/>
     <meta name="twitter:image" content="{{ url_for('static', filename='avatar.jpeg', _external=True) }}"/>
 {% endblock %}
 </head>
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-12">
+        <div class="col-6">
             <center>
-                <h1 style="margin-bottom: 0;">sethmlarson.dev</h1>
-                <center><span style="font-size: 0.8em; font-style: italic;">A blog about Python and the Internet</span></center><br>
-                <span style="font-size: 1.2em;">
-                    <a href="{{ url_for('about') }}">About</a> –
-                    <a href="{{ url_for('list_blog_posts') }}">Blog</a> –
-                    <a href="https://twitter.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">Twitter</a> –
-                    <a href="https://github.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">GitHub</a> –
-                    <a href="https://linkedin.com/in/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">LinkedIn</a>
-                </span>
+                <h1 style="margin-bottom: 0.1em; font-size: 1.8em;">Seth Michael Larson</h1>
+                <span style="font-style: italic;">Blogging about Python and the Internet</span>
             </center>
+        </div>
+        <div class="col-6">
+            <div class="navbar-outer">
+                <div class="navbar-inner">
+                    <a href="{{ url_for('about') }}">
+                        <svg width="2em" height="2em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <title>About</title><path d="M528 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-352 96c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64zm112 236.8c0 10.6-10 19.2-22.4 19.2H86.4C74 384 64 375.4 64 364.8v-19.2c0-31.8 30.1-57.6 67.2-57.6h5c12.3 5.1 25.7 8 39.8 8s27.6-2.9 39.8-8h5c37.1 0 67.2 25.8 67.2 57.6v19.2zM512 312c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16zm0-64c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16zm0-64c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16z"/>
+                        </svg>
+                    </a>
+                    <a href="{{ url_for('list_blog_posts') }}">
+                        <svg width="2em" height="2em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <title>Blog</title><path d="M172.2 226.8c-14.6-2.9-28.2 8.9-28.2 23.8V301c0 10.2 7.1 18.4 16.7 22 18.2 6.8 31.3 24.4 31.3 45 0 26.5-21.5 48-48 48s-48-21.5-48-48V120c0-13.3-10.7-24-24-24H24c-13.3 0-24 10.7-24 24v248c0 89.5 82.1 160.2 175 140.7 54.4-11.4 98.3-55.4 109.7-109.7 17.4-82.9-37-157.2-112.5-172.2zM209 0c-9.2-.5-17 6.8-17 16v31.6c0 8.5 6.6 15.5 15 15.9 129.4 7 233.4 112 240.9 241.5.5 8.4 7.5 15 15.9 15h32.1c9.2 0 16.5-7.8 16-17C503.4 139.8 372.2 8.6 209 0zm.3 96c-9.3-.7-17.3 6.7-17.3 16.1v32.1c0 8.4 6.5 15.3 14.8 15.9 76.8 6.3 138 68.2 144.9 145.2.8 8.3 7.6 14.7 15.9 14.7h32.2c9.3 0 16.8-8 16.1-17.3-8.4-110.1-96.5-198.2-206.6-206.7z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">
+                        <svg width="2em" height="2em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <title>Twitter</title><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">
+                        <svg width="2em" height="2em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                            <title>GitHub</title><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">
+                        <svg width="2em" height="2em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <title>LinkedIn</title><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>   
 {% block content %}{% endblock %}
+        <div class="row">
+        <div class="col-2"></div>
+            <div class="col-8"><center><small>Built with <a href="https://simplegrid.io" target="_blank" rel="nofollow noopener noreferrer">SimpleGrid</a>, <a href="https://simplegrid.io/" target="_blank" rel="nofollow noopener noreferrer">FontAwesome</a>, <a href="https://flask.palletsprojects.com" target="_blank" rel="nofollow noopener noreferrer">Flask</a>, and <a href="https://github.com/sethmlarson/sethmlarson.dev" target="_blank" rel="nofollow noopener noreferrer">more</a>.</small></center></div>
+            <div class="col-2"></div>
+            </div>
 </div>
 
 <!-- Google Analytics -->

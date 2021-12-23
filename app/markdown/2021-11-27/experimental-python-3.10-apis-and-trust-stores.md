@@ -22,7 +22,7 @@ To see these APIs in action let's create a typical TLS connection to `example.co
 <ssl.SSLSocket fd=3, family=AddressFamily.AF_INET6, ...>
 ```
 
-Nothing out of the ordinary here yet. Now having looked at the PR that added these APIs, they're not yet available on an `SSLSocket` object directly. Instead they're exposed in [ssl.SSLObject](https://docs.python.org/3/library/ssl.html#ssl.SSLObject) which is a reduced-scope variant of `SSLSocket` meant to be used as an interface for TLS with memory buffers.
+Nothing out of the ordinary here yet. Now having looked at the PR that added these APIs, they're not yet available on an `SSLSocket` object directly. Instead they're exposed in [`ssl.SSLObject`](https://docs.python.org/3/library/ssl.html#ssl.SSLObject) which is a reduced-scope variant of `SSLSocket` meant to be used as an interface for TLS with memory buffers.
 
 But we can access the internal `SSLObject` instance on an `SSLSocket` via the `_sslobj` property:
 
@@ -147,21 +147,21 @@ The difference between a verified and unverified chain is whether the chain is t
 For example if the server provides 4 certificates during the TLS handshake (named L, A, B, and C) where C is in the trust store as a trust anchor and A and B are both intermediate certificates signed by C. The L certificate is the leaf certificate being used by the server and is signed by A. Here’s an ASCII-art diagram for the above situation:
 
 ```
-                ┌───────┐   ┌───────┐
-                │       │   │       │
-                │       │   │       │
-                │   A   ├───►   L+  │
-    ┌───────┐   │       │   │       │
-    │       ├───►       │   │       │
-    │       │   └───────┘   └───────┘
-    │   C*  │
-    │       │   ┌───────┐
-    │       ├───►       │     Legend
-    └───────┘   │       │   ──────────
-                │   B   │   ─► Signs
-                │       │   +  Entity/leaf
-                │       │   *  Trusted
-                └───────┘
+            ┌───────┐   ┌───────┐
+            │       │   │       │
+            │       │   │       │
+            │   A   ├───►   L+  │
+┌───────┐   │       │   │       │
+│       ├───►       │   │       │
+│       │   └───────┘   └───────┘
+│   C*  │
+│       │   ┌───────┐
+│       ├───►       │     Legend
+└───────┘   │       │   ──────────
+            │   B   │   ─► Signs
+            │       │   +  Entity/leaf
+            │       │   *  Trusted
+            └───────┘
 ```
 
 This means that B is not necessary to create a chain of trust for the handshake. In this case `verified_chain()` method would include L, A, and C and the `unverified_chain()` method would return L, A, B, and C.

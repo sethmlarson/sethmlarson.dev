@@ -176,7 +176,7 @@ mature Gunicorn is relative to how new the other libraries are.
 
 You can do so like this:
 
-```
+```bash
 $ gunicorn app:app -k uvicorn.workers.UvicornWorker
 ```
 

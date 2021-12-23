@@ -196,18 +196,11 @@ def index():
                 title, rest = text.split("\n", 1)
                 title = title.lstrip("# ")
                 html = downgrade_header_tags(md.convert(rest))
-                blogs.append(Blog(
-                    title=title,
-                    published_date=blog.date,
-                    content=html
-                ))
+                blogs.append(Blog(title=title, published_date=blog.date, content=html))
                 if len(blogs) == 5:
                     break
 
         if len(blogs) == 5:
             break
 
-    return render_template(
-        "index.html",
-        blogs=blogs
-    )
+    return render_template("index.html", blogs=blogs)
