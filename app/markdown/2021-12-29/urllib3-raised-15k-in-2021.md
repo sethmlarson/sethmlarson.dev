@@ -28,7 +28,7 @@ Funds were paid out to the following individuals:
 * $140 paid to [David Lord](https://github.com/davidism)
 * **$9,440** paid in total
 
-¹ Amount from GitCoin is only DAI and USDC that were sold for USD. Other currencies that were donated have not been converted to USD yet to avoid paying fees on small amounts.
+¹ Amount from GitCoin is only ETH, DAI, and USDC that were sold for USD. Other currencies that were donated have not been converted to USD yet to avoid paying fees on small amounts.
 
 ² Tidelift is paid directly to Seth Larson and Quentin Pradet and isn't subject to OpenCollective fees.
 
