@@ -1,4 +1,4 @@
-# Problem between testing Python pre-releases and pip cache
+# Problems with testing Python pre-releases and pip cache
 
 Some time ago the urllib3 team noticed that our Python 3.11 test suite started failing with a strange error. On GitHub Actions all we could see was:
 
