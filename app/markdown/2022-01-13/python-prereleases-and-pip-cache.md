@@ -66,7 +66,7 @@ If you maintain a Python library you should try at least to manually run your te
 
 The urllib3 team tries to start testing against in-development Python versions as soon as they're available given our unique position near the top of most dependency chains.
 
-### When should I be weary ABI changes?
+### When should you be weary ABI changes?
 
 Unless you're testing alpha and beta releases you likely won't have to think about the Python ABI changing. Technically it's acceptable for the Python core devs to change the ABI between **release candidates**, but this is much less likely than in between alphas and betas.
 
