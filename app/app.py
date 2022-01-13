@@ -3,7 +3,7 @@ import datetime
 import pathlib
 import markdown2
 import functools
-from flask import Flask, render_template, request, url_for, make_response, abort
+from flask import Flask, render_template, request, url_for, make_response, abort, redirect
 import attr
 import typing
 from werkzeug.contrib.atom import AtomFeed
@@ -151,7 +151,7 @@ def rss_blog_posts():
 @app.route("/blog/<string:date>/<string:blog_post>", methods=["GET"])
 @cache_for(long_cache_time)
 def redirect_to_new_blog_post_url(date: str, blog_post: str):
-    return url_for("get_blog_post", blog_post=blog_post)
+    return redirect(url_for("get_blog_post", blog_post=blog_post))
 
 
 @app.route("/blog/<string:blog_post>", methods=["GET"])
