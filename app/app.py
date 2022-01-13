@@ -178,10 +178,11 @@ def get_blog_post(blog_post: str):
     )
 
 
-@app.route("/about")
+@app.route("/about", methods=["GET"])
 @cache_for(small_cache_time)
 def about():
-    return render_template("index.html")
+    latest_blog = BLOG_POSTS_BY_DATE[sorted(BLOG_POSTS_BY_DATE, reverse=True)[0]][-1]
+    return render_template("index.html", latest_blog=latest_blog)
 
 
 @app.route("/", methods=["GET"])
