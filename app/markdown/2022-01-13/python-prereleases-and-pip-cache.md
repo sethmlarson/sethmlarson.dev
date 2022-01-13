@@ -1,4 +1,4 @@
-# Python pre-releases and pip cache
+# Problem between testing Python pre-releases and pip cache
 
 Some time ago the urllib3 team noticed that our Python 3.11 test suite started failing with a strange error. On GitHub Actions all we could see was:
 
@@ -68,7 +68,7 @@ The urllib3 team tries to start testing against in-development Python versions a
 
 ### When should I be weary ABI changes?
 
-Unless you're testing alpha and beta releases you likely won't have to think about the Python ABI changing. Technically it's acceptable for the Python core devs to change the ABI between **two release candidates** but this is much less likely than in between alphas and betas.
+Unless you're testing alpha and beta releases you likely won't have to think about the Python ABI changing. Technically it's acceptable for the Python core devs to change the ABI between **release candidates**, but this is much less likely than in between alphas and betas.
 
 ## What are we doing to make this better?
 
