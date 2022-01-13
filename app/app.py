@@ -37,6 +37,7 @@ def cache_for(seconds: int):
 
 @attr.s
 class BlogPost:
+    slug: str = attr.ib()
     title: str = attr.ib()
     date: str = attr.ib()
     month: str = attr.ib()
@@ -68,9 +69,13 @@ class BlogPost:
         return datetime.datetime.fromisoformat(f"{self.date}T00:00:00")
 
 
+BLOG_POSTS_BY_SLUG: typing.Dict[str, BlogPost] = {}
+BLOG_POSTS_BY_DATE: typing.Dict[str, BlogPost] = {}
+
+
 def load_blog_posts() -> typing.Dict[str, typing.List[BlogPost]]:
     """Loads all blog post metadata from the filesystem"""
-    posts = {}
+    global BLOG_POSTS_BY_SLUG, BLOG_POSTS_BY_DATE
     dates = sorted(
         [x for x in markdown_dir.iterdir() if x.name != "draft"],
         key=lambda x: [int(y.lstrip("0")) for y in x.name.split("-")],
@@ -81,16 +86,17 @@ def load_blog_posts() -> typing.Dict[str, typing.List[BlogPost]]:
         with markdown_path.open(mode="r") as f:
             title = f.readline().strip("\n# ")
         bp = BlogPost(
+            slug=markdown_path.name.replace(".md", ""),
             title=title,
             date=date.name,
             month=date.name.rsplit("-", 1)[0],
             markdown_path=markdown_path,
         )
-        posts.setdefault(bp.month, []).append(bp)
-    return posts
+        BLOG_POSTS_BY_DATE.setdefault(bp.date, []).append(bp)
+        BLOG_POSTS_BY_SLUG.setdefault(bp.slug, bp)
 
 
-BLOG_POSTS = load_blog_posts()
+load_blog_posts()
 
 
 @app.route("/robots.txt", methods=["GET"])
@@ -104,7 +110,7 @@ def robots_txt():
 @app.route("/blog", methods=["GET"])
 @cache_for(small_cache_time)
 def list_blog_posts():
-    return render_template("blog-posts.html", blog_posts=BLOG_POSTS)
+    return render_template("blog-posts.html", blog_posts=BLOG_POSTS_BY_DATE)
 
 
 @app.route("/blog/rss", methods=["GET"])
@@ -119,7 +125,7 @@ def rss_blog_posts():
         url=request.url_root,
     )
     total = 0
-    for month, blog_posts in BLOG_POSTS.items():
+    for _, blog_posts in BLOG_POSTS_BY_DATE.items():
         for blog_post in blog_posts:
             if total == 5:
                 break
@@ -144,11 +150,18 @@ def rss_blog_posts():
 
 @app.route("/blog/<string:date>/<string:blog_post>", methods=["GET"])
 @cache_for(long_cache_time)
-def get_blog_post(date: str, blog_post: str):
-    markdown_file = (markdown_dir / date / (blog_post + ".md")).absolute()
-    if date == ".." or blog_post == ".." or not markdown_file.is_file():
+def redirect_to_new_blog_post_url(date: str, blog_post: str):
+    return url_for("get_blog_post", blog_post=blog_post)
+
+
+@app.route("/blog/<string:blog_post>", methods=["GET"])
+@cache_for(long_cache_time)
+def get_blog_post(blog_post: str):
+    try:
+        blog = BLOG_POSTS_BY_SLUG[blog_post]
+    except KeyError:
         return abort(404)
-    with markdown_file.open(mode="r") as f:
+    with blog.markdown_path.open(mode="r") as f:
         text = f.read()
         title, rest = text.split("\n", 1)
         title = title.lstrip("# ")
@@ -159,7 +172,7 @@ def get_blog_post(date: str, blog_post: str):
     return render_template(
         "blog.html",
         blog_title=title,
-        blog_published_date=date,
+        blog_published_date=blog.date,
         blog_content=html,
         blog_content_text=blog_content_text,
     )
@@ -168,39 +181,11 @@ def get_blog_post(date: str, blog_post: str):
 @app.route("/about")
 @cache_for(small_cache_time)
 def about():
-    return render_template("about.html")
-
-
-@attr.s
-class Blog:
-    title: str = attr.ib()
-    published_date: str = attr.ib()
-    content: str = attr.ib()
-
-
-def downgrade_header_tags(content: str) -> str:
-    for x in range(5, 0, -1):
-        content = re.sub(r"<(/?h)%d>" % x, r"<\g<1>%d>" % (x + 1), content)
-    return content
+    return render_template("index.html")
 
 
 @app.route("/", methods=["GET"])
 @cache_for(small_cache_time)
 def index():
-    blogs = []
-    for _, blogs_per_day in sorted(BLOG_POSTS.items(), reverse=True):
-        for blog in blogs_per_day:
-            markdown_file = (blog.markdown_path).absolute()
-            with markdown_file.open(mode="r") as f:
-                text = f.read()
-                title, rest = text.split("\n", 1)
-                title = title.lstrip("# ")
-                html = downgrade_header_tags(md.convert(rest))
-                blogs.append(Blog(title=title, published_date=blog.date, content=html))
-                if len(blogs) == 5:
-                    break
-
-        if len(blogs) == 5:
-            break
-
-    return render_template("index.html", blogs=blogs)
+    latest_blog = BLOG_POSTS_BY_DATE[sorted(BLOG_POSTS_BY_DATE, reverse=True)[0]][-1]
+    return render_template("index.html", latest_blog=latest_blog)

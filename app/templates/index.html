@@ -1,32 +1,74 @@
 {% extends "base.html" %}
 {% block content %}
-{% for blog in blogs %}
-<div class="row">
-    <div class="col-1"></div>
-    <div class="col-10" >
-        <h2 style="text-align: center; margin-bottom: 0.3em">{{ blog.title }}</h2>
-        <center>Published {{ blog.published_date }}</center>
-    </div>
-    <div class="col-1"></div>
-</div>
-<div class="row">
-    <div class="col-1"></div>
-    <div class="col-10">
-        {{ blog.content | safe }}
-    </div>
-    <div class="col-1"></div>
-</div>
-{% endfor %}
-<div class="row">
-    <div class="col-1"></div>
-    <div class="col-10" >
-        <div style="background-color: #263C59; border-radius: 0.7em; padding: 0.7em; text-align: center;">
-            If you enjoyed these posts <a href="{{ url_for('list_blog_posts') }}">there's more where that came from</a>!
-            <br>
-            You can subscribe via <a href="https://tinyletter.com/sethmlarson" target="_blank" rel="nofollow noopener noreferrer">Email</a> and <a href="{{ url_for('rss_blog_posts') }}">RSS</a>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <center>
+                <div class="how-to-subscribe">
+                    Read my latest blog post: <a href="{{ url_for('get_blog_post', blog_post=latest_blog.slug) }}">{{ latest_blog.title }}</a>
+                </div>
+            </center>
         </div>
-        <br>
+        <div class="col-1"></div>
     </div>
-    <div class="col-1"></div>
-</div>
+    <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+        <div class="col-10">
+            <h2>Who am I?</h2>
+            <p>
+                My pronouns are he/him. I was born and currently reside in Minneapolis, Minnesota.<br>
+                You can contact me via email: <a href="mailto:sethmichaellarson@gmail.com">sethmichaellarson@gmail.com</a>
+            </p>
+            <h2>Writing about tech</h2>
+            <p>
+            I write about intermediate and advanced Python, API design, and Internet technologies. If you're interested
+            in any of these topics you can <a href="{{ url_for('list_blog_posts') }}">read articles on my blog</a> or <a href="https://twitter.com/sethmlarson">follow me on Twitter</a>.
+            </p>
+
+            <h2>Open Source Maintainer</h2>
+            </p>
+            <p>
+                I maintain and contribute to
+                <a href="https://github.com/sethmlarson?tab=repositories" target="_blank" rel="noopener noreferrer">many open source projects</a>,
+                especially in the HTTP and networking space for Python.
+                Most notably I'm the lead maintainer of <a href="https://github.com/urllib3/urllib3" target="_blank" rel="noopener noreferrer">urllib3</a>, an HTTP
+                client library that is the <a href="https://pepy.tech/project/urllib3" target="_blank" rel="noopener noreferrer">
+                most downloaded package</a> on the Python Package Index with
+                over 4 billion downloads. In 2019 I was awarded the
+                <a href="https://www.linkedin.com/posts/sethmichaellarson_ive-been-awarded-the-google-open-source-activity-6613836181647958017-IRbo/" target="_blank" rel="noopener noreferrer">
+                Google Open Source Peer Bonus</a> for my contributions to urllib3.
+            </p>
+            <p>
+                Other projects I contribute to include
+                <a href="https://github.com/psf/requests" target="_blank" rel="noopener noreferrer">requests</a>,
+                <a href="https://github.com/python-distro/distro" target="_blank" rel="noopener noreferrer">distro</a>,
+                <a href="https://github.com/python-hyper/rfc3986" target="_blank" rel="noopener noreferrer">rfc3986</a>,
+                <a href="https://github.com/python-hyper/brotlicffi" target="_blank" rel="noopener noreferrer">brotlicffi</a>,
+                <a href="https://github.com/sethmlarson/hstspreload" target="_blank" rel="noopener noreferrer">hstspreload</a>,
+                <a href="https://utf8.xyz" target="_blank" rel="noopener noreferrer">utf8.xyz</a>,
+                <a href="https://github.com/python-trio/sniffio" target="_blank" rel="noopener noreferrer">sniffio</a>, and
+                <a href="https://github.com/python-trio/unasync" target="_blank" rel="noopener noreferrer">unasync</a>.
+                If you benefit from any of these projects you can
+                <a href="https://github.com/sponsors/sethmlarson" target="_blank" rel="noopener noreferrer">
+                sponsor me on GitHub Sponsors</a> to support my cravings for foods like tacos and hotpot.
+            </p>
+            <p>
+                I <a href="/blog">blog</a> and
+                <a href="https://twitter.com/sethmlarson" target="_blank" rel="noopener noreferrer">tweet</a>
+                frequently about open source, Python, web, security, and other technologies.
+            </p>
+            <h2>Engineer at Elastic</h2>
+            <p>
+                I'm a Senior Software Engineer at <a href="https://elastic.co" target="_blank" rel="noopener noreferrer">Elastic</a>
+                working as maintainer of the
+                <a href="https://github.com/elastic/elasticsearch-py" target="_blank" rel="noopener noreferrer">
+                Python API clients</a> for services like Elasticsearch, Enterprise Search, and more. I'm also
+                an advocate for Python and Elastic through engaging with the community, attending
+                conferences, recording live webinars, and writing blog posts.
+            </p>
+            <div class="col-1"></div>
+        </div>
+    </div>
 {% endblock %}
