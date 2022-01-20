@@ -166,6 +166,10 @@ p {
   }
 }
 
+pre {
+  padding: 0;
+  margin: 0;
+}
 :not(pre) > code {
   background-color: #2e3440;
   color: #f9fafb;
@@ -176,7 +180,7 @@ p {
   font-family: monospace;
   color: #f9fafb;
   background-color: #2e3440;
-  padding: 0.5em;
+  padding: 1em;
   overflow-x: scroll;
 }
 pre > code {
