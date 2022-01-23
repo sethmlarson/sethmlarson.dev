@@ -140,7 +140,7 @@ def get(index, id, doc_type=None, params=None, ...): ...
 def get(index, id, params=None, ...): ...
 ```
 
-If the `doc_type` parameter were removed without mitigation code using `get()` would change between v7.16 and v8.0.0:
+If the `doc_type` parameter were removed without mitigation, code using `get()` would change between v7.16 and v8.0.0:
 
 ```python
 client.get("1", "2", "3")
@@ -171,7 +171,7 @@ If you now wanted the `data` parameter to accept either a single `bytes` instanc
 ```python
 # You can rename 'data' -> 'data_or_list'
 # without breaking anyone's code.
-def process_data(data_or_list, *, /, encoding="utf-8"): ...
+def process_data(data_or_list, /, *, encoding="utf-8"): ...
 ```
 
 For more information there's an ["Empowering Library Authors" section in PEP 570](https://www.python.org/dev/peps/pep-0570/#id27) that details other cases.
