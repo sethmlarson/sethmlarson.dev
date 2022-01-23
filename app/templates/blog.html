@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}{{ blog_title }} — sethmlarson.dev{% endblock %}
+{% block title %}{{ blog_title }}{% endblock %}
 {% block opengraph %}
     <meta property="og:site_name" content="Seth Michael Larson"/>
     <meta property="og:author" content="Seth Michael Larson"/>
@@ -16,29 +16,23 @@
 {% endblock %}
 {% block content %}
 <div class="row">
-    <div class="col-1"></div>
-    <div class="col-10" >
-        <h2 style="text-align: center; margin-bottom: 0.3em">{{ blog_title }}</h2>
-        <center>Published {{ blog_published_date }} — <span class="heart">❤&#xFE0E</span> Subscribe for more via <a href="https://tinyletter.com/sethmlarson">the newsletter</a> or <a href="{{ url_for('rss_blog_posts') }}">RSS</a></center>
+    <div class="col-12">
+        <h2 class="blog-title" style="text-align: center">{{ blog_title }}</h2>
+        <p><center>Published {{ blog_published_date }} — <span class="heart">❤&#xFE0E</span> Subscribe for more via <a href="https://tinyletter.com/sethmlarson">the newsletter</a> or <a href="{{ url_for('rss_blog_posts') }}">RSS</a></center></p>
     </div>
-    <div class="col-1"></div>
 </div>
 <div class="row">
-    <div class="col-1"></div>
-    <div class="col-10">
+    <div class="col-12">
         {{ blog_content | safe }}
     </div>
-    <div class="col-1"></div>
 </div>
 <div class="row">
-    <div class="col-1"></div>
-    <div class="col-10">
+    <div class="col-12">
         <center>
         <div class="how-to-subscribe">
             Enjoy this post? <span class="heart">❤&#xFE0E</span> Subscribe for more via <a href="https://tinyletter.com/sethmlarson">the newsletter</a> or <a href="{{ url_for('rss_blog_posts') }}">RSS</a>
         </div>
         </center>
     </div>
-    <div class="col-1"></div>
 </div>
 {% endblock %}

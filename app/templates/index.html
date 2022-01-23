@@ -1,21 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
     <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10">
+        <div class="col-12">
             <center>
                 <div class="how-to-subscribe">
                     Read my latest blog post: <a href="{{ url_for('get_blog_post', blog_post=latest_blog.slug) }}">{{ latest_blog.title }}</a>
                 </div>
             </center>
         </div>
-        <div class="col-1"></div>
     </div>
     <div class="row">
         </div>
         <div class="row">
-            <div class="col-1"></div>
-        <div class="col-10">
+        <div class="col-12">
             <h2>Who am I?</h2>
             <p>
                 My pronouns are he / him. I currently reside in Minneapolis, Minnesota. I write about intermediate and advanced Python, API design, and Internet technologies. If you're interested
@@ -57,7 +54,6 @@
                 an advocate for Python and Elastic through engaging with the community, attending
                 conferences, recording live webinars, and writing blog posts.
             </p>
-            <div class="col-1"></div>
         </div>
     </div>
 {% endblock %}
