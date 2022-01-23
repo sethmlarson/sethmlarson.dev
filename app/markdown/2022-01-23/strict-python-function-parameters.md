@@ -124,7 +124,7 @@ process_data(encoding="utf-8", data=b"input")
 
 **Success!!** 🎉 Your function now only allows specifying arguments as intended.
 
-## Strict signatures are superior!
+## Why use strict function signatures?
 
 So why go through this extra bit of trouble? You could read the "motivation" sections of [PEP 3102](https://www.python.org/dev/peps/pep-3102/#rationale) and [PEP-570](https://www.python.org/dev/peps/pep-0570/#motivation) for some of the reasons why these features are useful. Below are a few reasons that I think are important from an API design perspective:
 
