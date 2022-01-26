@@ -176,7 +176,7 @@ a > svg {
 a {
   text-decoration: none;
   transition: 0.5s;
-  color: #5e81ac;
+  color: #2979FF;
 }
 a:hover {
   color: #f92672 !important;
@@ -220,7 +220,7 @@ svg:hover path {
   transition: all ease 0.5s;
 }
 svg path {
-  fill: #5e81ac;
+  fill: #2979FF;
   transition: all ease 0.5s;
 }
 .navbar-inner > a {
