@@ -86,7 +86,7 @@ After that we turn each 8 bit grouping into a byte which we display in hexadecim
 
 Decoding a Unicode codepoint from bytes only requires reversing the above process. Each byte will be examined first for the header type and then individual bits will be extracted from each octet and added together to reproduce the codepoint. 
 
-> **NOTE:** You can always find a character boundary from an arbitrary point in a stream of octets by moving left an octet each time the current octet starts with the bit prefix `10` which indicates a tail octet. At most you'll have to move left 3 octets to find the nearest header octet.
+> **NOTE:** You can always find a codepoint boundary from an arbitrary point in a stream of octets by moving left an octet each time the current octet starts with the bit prefix `10` which indicates a tail octet. At most you'll have to move left 3 octets to find the nearest header octet.
 
 <div class="row">
 <div class="col-6">
