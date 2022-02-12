@@ -8,7 +8,7 @@ If you're anything like me, you love emojis! Emojis appear like an image on the 
 
 **[More often than not](https://w3techs.com/technologies/overview/character_encoding) the mechanism being used to turn bytes into characters and emojis on your computer is "UTF-8"**.
 
-I recently learned how UTF-8 works and felt that the definition lended itself perfectly to creating diagrams explaining the implementation. I created these diagrams for my own enjoyment and wanted to share them. Hopefully this will inspire you to learn how other low-level protocols work too! [All diagrams are available on GitHub](https://github.com/sethmlarson/utf-8-diagrams).
+I recently learned how UTF-8 works and felt that the definition lended itself perfectly to creating diagrams explaining the implementation. I created these diagrams for my own enjoyment and wanted to share them. Hopefully this will inspire you to learn how other low-level protocols work too! [All diagrams are available on GitHub](https://github.com/sethmlarson/diagrams/tree/main/diagrams/utf-8).
 
 ## What is UTF-8?
 
