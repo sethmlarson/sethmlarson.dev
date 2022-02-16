@@ -9,6 +9,17 @@ body {
   -moz-font-smoothing: antialiased !important;
   text-rendering: optimizelegibility !important;
 }
+li, ul {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+h2 {
+  font-size: 1.7em;
+  line-height: 1em;
+}
+h3 {
+  font-size: 1.4em;
+}
 p {
   line-height: 1.5em;
 }

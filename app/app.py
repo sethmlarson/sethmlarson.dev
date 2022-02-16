@@ -3,11 +3,21 @@ import datetime
 import pathlib
 import markdown2
 import functools
-from flask import Flask, render_template, request, url_for, make_response, abort, redirect
+from flask import (
+    Flask,
+    render_template,
+    request,
+    url_for,
+    make_response,
+    abort,
+    redirect,
+)
 import attr
+import time
 import typing
 from werkzeug.contrib.atom import AtomFeed
 from whitenoise import WhiteNoise
+from urllib.parse import parse_qsl
 
 
 base_dir = pathlib.Path(__file__).absolute().parent
@@ -148,10 +158,66 @@ def rss_blog_posts():
     return feed.get_response()
 
 
-@app.route("/blog/<string:date>/<string:blog_post>", methods=["GET"])
-@cache_for(long_cache_time)
-def redirect_to_new_blog_post_url(date: str, blog_post: str):
-    return redirect(url_for("get_blog_post", blog_post=blog_post))
+@app.route("/about", methods=["GET"])
+@cache_for(small_cache_time)
+def about():
+    latest_blog = BLOG_POSTS_BY_DATE[sorted(BLOG_POSTS_BY_DATE, reverse=True)[0]][-1]
+    return render_template("index.html", latest_blog=latest_blog)
+
+
+@app.route("/", methods=["GET"])
+@cache_for(small_cache_time)
+def index():
+    latest_blog = BLOG_POSTS_BY_DATE[sorted(BLOG_POSTS_BY_DATE, reverse=True)[0]][-1]
+    return render_template("index.html", latest_blog=latest_blog)
+
+
+@app.route("/api/wordle-stats", methods=["GET"])
+def api_wordle_stats():
+    failed = False
+    try:
+        query = dict(parse_qsl(request.query_string))
+        wins_in_1 = int(query.get(b"wins-1").strip())
+        wins_in_2 = int(query.get(b"wins-2").strip())
+        wins_in_3 = int(query.get(b"wins-3").strip())
+        wins_in_4 = int(query.get(b"wins-4").strip())
+        wins_in_5 = int(query.get(b"wins-5").strip())
+        wins_in_6 = int(query.get(b"wins-6").strip())
+        losses = int(query.get(b"losses").strip())
+        current_streak = int(query.get(b"current-streak").strip())
+        max_streak = int(query.get(b"max-streak").strip())
+        wins_total = sum(
+            [wins_in_1, wins_in_2, wins_in_3, wins_in_4, wins_in_5, wins_in_6]
+        )
+        games_played = sum([wins_total, losses])
+        if games_played == 0:
+            win_percentage = 0
+            average_guesses = 0
+        else:
+            win_percentage = int(100 * (wins_total / games_played))
+            average_guesses = int(
+                sum(
+                    [
+                        wins_in_1,
+                        wins_in_2 * 2,
+                        wins_in_3 * 3,
+                        wins_in_4 * 4,
+                        wins_in_5 * 5,
+                        wins_in_6 * 6,
+                        losses * 6,
+                    ]
+                )
+                / games_played
+            )
+    except Exception as e:
+        failed = True
+
+    if failed:
+        return redirect("https://www.nytimes.com/games/wordle")
+    return redirect(
+        f"https://www.nytimes.com/games/wordle?data={{%22time%22:{int(time.time() - (24 * 60 * 60))},%22statistics%22:{{%22currentStreak%22:{current_streak},%22maxStreak%22:{max_streak},%22guesses%22:{{%221%22:{wins_in_1},%222%22:{wins_in_2},%223%22:{wins_in_3},%224%22:{wins_in_4},%225%22:{wins_in_5},%226%22:{wins_in_6},%22fail%22:{losses}}},%22gamesPlayed%22:{games_played},%22gamesWon%22:{wins_total},%22averageGuesses%22:{average_guesses},%22winPercentage%22:{win_percentage}}},%22darkTheme%22:false,%22colorBlindTheme%22:null}}",
+        code=307,
+    )
 
 
 @app.route("/blog/<string:blog_post>", methods=["GET"])
@@ -178,15 +244,15 @@ def get_blog_post(blog_post: str):
     )
 
 
-@app.route("/about", methods=["GET"])
-@cache_for(small_cache_time)
-def about():
-    latest_blog = BLOG_POSTS_BY_DATE[sorted(BLOG_POSTS_BY_DATE, reverse=True)[0]][-1]
-    return render_template("index.html", latest_blog=latest_blog)
+@app.route("/blog/<string:date>/<string:blog_post>", methods=["GET"])
+@cache_for(long_cache_time)
+def redirect_to_new_blog_post_url(
+    blog_post: str,
+    date: str = None,
+):
+    return redirect(url_for("get_blog_post", blog_post=blog_post))
 
 
-@app.route("/", methods=["GET"])
-@cache_for(small_cache_time)
-def index():
-    latest_blog = BLOG_POSTS_BY_DATE[sorted(BLOG_POSTS_BY_DATE, reverse=True)[0]][-1]
-    return render_template("index.html", latest_blog=latest_blog)
+@app.route("/wordle-stats", methods=["GET"])
+def redirect_to_wordle_stats():
+    return redirect(url_for("get_blog_post", blog_post="wordle-stats"))
