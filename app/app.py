@@ -184,7 +184,6 @@ def api_wordle_stats():
         wins_in_5 = int(query.get(b"wins-5").strip())
         wins_in_6 = int(query.get(b"wins-6").strip())
         losses = int(query.get(b"losses").strip())
-        current_streak = int(query.get(b"current-streak").strip())
         max_streak = int(query.get(b"max-streak").strip())
         wins_total = sum(
             [wins_in_1, wins_in_2, wins_in_3, wins_in_4, wins_in_5, wins_in_6]
@@ -215,7 +214,7 @@ def api_wordle_stats():
     if failed:
         return redirect("https://www.nytimes.com/games/wordle")
     return redirect(
-        f"https://www.nytimes.com/games/wordle?data={{%22time%22:{int(time.time() - (5 * 60))},%22statistics%22:{{%22currentStreak%22:{current_streak},%22maxStreak%22:{max_streak},%22guesses%22:{{%221%22:{wins_in_1},%222%22:{wins_in_2},%223%22:{wins_in_3},%224%22:{wins_in_4},%225%22:{wins_in_5},%226%22:{wins_in_6},%22fail%22:{losses}}},%22gamesPlayed%22:{games_played},%22gamesWon%22:{wins_total},%22averageGuesses%22:{average_guesses},%22winPercentage%22:{win_percentage}}},%22darkTheme%22:false,%22colorBlindTheme%22:null}}",
+        f"https://www.nytimes.com/games/wordle?data={{%22time%22:{int(time.time() - (5 * 60))},%22statistics%22:{{%22currentStreak%22:0,%22maxStreak%22:{max_streak},%22guesses%22:{{%221%22:{wins_in_1},%222%22:{wins_in_2},%223%22:{wins_in_3},%224%22:{wins_in_4},%225%22:{wins_in_5},%226%22:{wins_in_6},%22fail%22:{losses}}},%22gamesPlayed%22:{games_played},%22gamesWon%22:{wins_total},%22averageGuesses%22:{average_guesses},%22winPercentage%22:{win_percentage}}},%22darkTheme%22:false,%22colorBlindTheme%22:null}}",
         code=307,
     )
 

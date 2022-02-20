@@ -1,4 +1,4 @@
-# Move or recover your Wordle stats and streaks
+# Move or recover your Wordle statistics
 
 Have you ever wanted to play Wordle on another device but weren't able to transfer your statistics? Or worse, cleared your browser storage and lost your Wordle statistics on accident? 😱
 
@@ -28,8 +28,6 @@ Both my partner and I have lost our Wordle stats in the past and it can feel dem
   <input class="number-inputs" type="number" id="wins-6" name="wins-6" min="0" max="1000" value="0"><br>
   <label class="number-inputs" for="losses">Losses</label>
   <input class="number-inputs" type="number" id="losses" name="losses" min="0" max="1000" value="0"><br>
-  <label class="number-inputs" for="current-streak">Current Streak</label>
-  <input class="number-inputs" type="number" id="current-streak" name="current-streak" min="0" max="1000" value="0"><br>
   <label class="number-inputs" for="max-streak">Max Streak</label>
   <input class="number-inputs" type="number" id="max-streak" name="max-streak" min="0" max="1000" value="0"><br>
   <label class="number-inputs" for="games-played">Games Played</label>
@@ -74,7 +72,7 @@ Importing statistics only works if the current browser hasn't played Wordle befo
   - [How to clear data in Safari (macOS)](https://superuser.com/a/1534142)
   - [How to clear data in Safari (iOS)](https://browserhow.com/how-to-view-cache-and-clear-site-storage-in-safari-ios-ipados)
 - Ensure that you have no tabs open for "nytimes.com", close any open tabs for "nytimes.com".
-- Complete the form above by typing in the Wordle wins, losses, and streaks that you wish to import. "Games Played" is calculated automatically as the sum of wins and losses.
+- Complete the form above by typing in the Wordle wins, losses, and streaks that you wish to import. "Games Played" is calculated automatically as the sum of wins and losses. Unfortunately I couldn't figure out how to get "Current Streak" to persist after the first game.
 - Acknowledge that using this tool will overwrite your Wordle stats.
 - Select "Import statistics into Wordle".
 - This should open a page on the New York Times, check that your statistics have imported correctly.
@@ -82,7 +80,7 @@ Importing statistics only works if the current browser hasn't played Wordle befo
 
 ### What if I lost my statistics and don't remember them?
 
-Unfortunately they can't be recovered once lost, my recommendation is try remembering the number of wins in 1, 2, or 3 guesses and approximating your current streak and then keep playing. In the end, **Wordle is about having fun** and it'll keep being the same amazing game whether you have your old statistics or not.
+Unfortunately they can't be recovered once lost, my recommendation is try remembering the number of wins in 1, 2, or 3 guesses and then keep playing. In the end, **Wordle is about having fun** and it'll keep being the same amazing game whether you have your old statistics or not.
 
 ### What if I got something wrong on my imported stats?
 
