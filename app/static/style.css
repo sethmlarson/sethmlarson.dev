@@ -265,3 +265,17 @@ td.linenos .normal{color:inherit;background-color:transparent;padding-left:5px;p
 .heart {
   color: #f92672;
 }
+.anchor {
+  line-height: 0;
+  text-decoration: none !important;
+  font-family: monospace;
+  margin-left: 0.5em;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+h1:hover .anchor, h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5 .anchor {
+  display: inline-flex;
+  visibility: visible;
+  opacity: 1;
+}
