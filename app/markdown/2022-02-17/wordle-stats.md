@@ -72,7 +72,7 @@ Importing statistics only works if the current browser hasn't played Wordle befo
   - [How to clear data in Safari (macOS)](https://superuser.com/a/1534142)
   - [How to clear data in Safari (iOS)](https://browserhow.com/how-to-view-cache-and-clear-site-storage-in-safari-ios-ipados)
 - Ensure that you have no tabs open for "nytimes.com", close any open tabs for "nytimes.com".
-- Complete the form above by typing in the Wordle wins, losses, and streaks that you wish to import. "Games Played" is calculated automatically as the sum of wins and losses. Unfortunately I couldn't figure out how to get "Current Streak" to persist after the first game.
+- Complete the form above by typing in the Wordle wins, losses, and streaks that you wish to import. "Games Played" is calculated automatically as the sum of wins and losses. **Unfortunately I can't figure out how to get "Current Streak" to persist.**
 - Acknowledge that using this tool will overwrite your Wordle stats.
 - Select "Import statistics into Wordle".
 - This should open a page on the New York Times, check that your statistics have imported correctly.
@@ -81,6 +81,28 @@ Importing statistics only works if the current browser hasn't played Wordle befo
 ### What if I lost my statistics and don't remember them?
 
 Unfortunately they can't be recovered once lost, my recommendation is try remembering the number of wins in 1, 2, or 3 guesses and then keep playing. In the end, **Wordle is about having fun** and it'll keep being the same amazing game whether you have your old statistics or not.
+
+### Why can't I import my "Current Streak"?
+
+I'm not sure it's possible anymore? From looking at the below code I don't know how to get the field `nyt-wordle-state.lastPlayedTs` set. If you can figure it out please let me know!
+
+```js
+var e = new Proxy(new URLSearchParams(window.location.search), {
+    get: function(e, a) {
+        return e.get(a)
+    }
+});
+if (e.data) ! function(e) {
+    if (!e.statistics) throw new Error("User local data does not contain statistics. Aborting transfer.");
+    if (ns(e.statistics, e.force)) {
+        ts.setItem(ss, JSON.stringify(e.statistics));
+        var a = e.darkTheme;
+        window.themeManager.setDarkTheme(a);
+        var s = !!e.colorBlindTheme;
+        window.themeManager.setColorBlindTheme(s)
+    }
+}(JSON.parse(e.data))
+```
 
 ### What if I got something wrong on my imported stats?
 
