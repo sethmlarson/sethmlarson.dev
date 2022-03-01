@@ -13,7 +13,6 @@ from flask import (
     redirect,
 )
 import attr
-import time
 import typing
 from werkzeug.contrib.atom import AtomFeed
 from whitenoise import WhiteNoise
@@ -235,9 +234,16 @@ def get_blog_post(blog_post: str):
     blog_content_text = re.sub(r"<[^>]+>", "", html)
 
     # Insert anchors into all headers automatically
-    for header_start, header, header_end in re.findall(r"(<h[1-5]>)([^<]+)(</h[1-5]>)", html):
-        anchor_href = re.sub(r"[^a-z0-9]+", "-", header.lower()).strip("-")
-        html = html.replace(header_start + header + header_end, f'{header_start[:-1]} id="{anchor_href}">{header}<a class="anchor" href="#{anchor_href}" aria-hidden="true">#</a>{header_end}')
+    for header_start, header, header_end in re.findall(
+        r"(<h[1-5]>)([^<]+)(</h[1-5]>)", html
+    ):
+        anchor_href = re.sub(r"[^a-z0-9]+", "-", header.replace("'", "").lower()).strip(
+            "-"
+        )
+        html = html.replace(
+            header_start + header + header_end,
+            f'{header_start[:-1]} id="{anchor_href}">{header}<a class="anchor" href="#{anchor_href}" aria-hidden="true">#</a>{header_end}',
+        )
 
     return render_template(
         "blog.html",
