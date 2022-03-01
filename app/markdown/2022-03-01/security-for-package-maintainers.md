@@ -55,7 +55,7 @@ This article focuses on securing **Accounts** and **Package Repositories**:
   * [GPG and signed commits](#gpg-and-signed-commits)
   * [Disk encryption](#disk-encryption)
 
-I plan on releasing an separate future article and example project on GitHub which covers how to configure a project and deployment pipeline securely. If you want to notified when that article is published you can subscribe via [email](https://tinyletter.com/sethmlarson) or [RSS](/feed).
+I plan on releasing a future article and example project on GitHub which covers how to configure a project and deployment pipeline securely. If you want to notified when that article is published you can subscribe via [email](https://tinyletter.com/sethmlarson) or [RSS](/feed).
 
 ## Securing your accounts
 
