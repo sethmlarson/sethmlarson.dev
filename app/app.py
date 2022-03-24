@@ -161,8 +161,7 @@ def rss_blog_posts():
 @app.route("/about", methods=["GET"])
 @cache_for(small_cache_time)
 def about():
-    latest_blog = BLOG_POSTS_BY_DATE[sorted(BLOG_POSTS_BY_DATE, reverse=True)[0]][-1]
-    return render_template("index.html", latest_blog=latest_blog)
+    return redirect(url_for("index"))
 
 
 @app.route("/", methods=["GET"])
