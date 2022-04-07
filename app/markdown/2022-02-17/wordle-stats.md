@@ -78,6 +78,8 @@ Importing statistics only works if the current browser hasn't played Wordle befo
 - This should open a page on the New York Times, check that your statistics have imported correctly.
 - If your statistics didn't import correctly make sure **you've followed each step above** and have **filled out the form completely**, then try again.
 
+If you were able to move or recover your stats and want to send some appreciation you can send me a tip on [Venmo](https://venmo.com/u/sethmlarson) or [GitHub Sponsors](https://github.com/sponsors/sethmlarson). Thanks much! 🥰
+
 ### What if I lost my statistics and don't remember them?
 
 Unfortunately they can't be recovered once lost, my recommendation is try remembering the number of wins in 1, 2, or 3 guesses and then keep playing. In the end, **Wordle is about having fun** and it'll keep being the same amazing game whether you have your old statistics or not.
@@ -103,6 +105,10 @@ if (e.data) ! function(e) {
     }
 }(JSON.parse(e.data))
 ```
+
+### Does this tool work with Quordle / Heardle / wordlegame.org / other Wordle clone?
+
+Unfortunately no, this tool only works with the original Wordle which was bought by the New York Times. Other Wordle clones likely don't have a way to me to import statistics. Sorry about that!
 
 ### What if I got something wrong on my imported stats?
 
