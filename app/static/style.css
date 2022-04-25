@@ -34,7 +34,8 @@ p {
 }
 .row [class^="col"] {
   float: left;
-  margin: 0.5em 2%;
+  margin-left: 2%;
+  margin-right: 2%;
   min-height: 0.125rem;
 }
 .col-1,

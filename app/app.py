@@ -29,6 +29,7 @@ md = markdown2.Markdown(extras={"fenced-code-blocks": None})
 max_cache_time = 31536000
 long_cache_time = 1800
 small_cache_time = 300
+avatar_url = "https://avatars.githubusercontent.com/u/18519037"
 
 
 def cache_for(seconds: int):
@@ -123,14 +124,19 @@ def list_blog_posts():
     return render_template("blog-posts.html", blog_posts=BLOG_POSTS_BY_DATE)
 
 
-@app.route("/blog/rss", methods=["GET"])
-@app.route("/rss", methods=["GET"])
-@app.route("/atom", methods=["GET"])
-@app.route("/feed", methods=["GET"])
-@cache_for(long_cache_time)
-def rss_blog_posts():
+RSS_RESPONSE = None
+
+def load_rss_response():
+    global RSS_RESPONSE
+    if RSS_RESPONSE is not None:
+        return RSS_RESPONSE
+
     feed = AtomFeed(
-        title="sethmlarson.dev - Last 5 Blog Posts",
+        title="Seth Michael Larson",
+        subtitle="Blogging about Python and the Internet",
+        author="Seth Michael Larson",
+        icon=avatar_url,
+        logo=avatar_url,
         feed_url=url_for("rss_blog_posts", _external=True),
         url=request.url_root,
     )
@@ -155,7 +161,17 @@ def rss_blog_posts():
         if total == 5:
             break
 
-    return feed.get_response()
+    RSS_RESPONSE = feed.get_response()
+    return RSS_RESPONSE
+
+
+@app.route("/blog/rss", methods=["GET"])
+@app.route("/rss", methods=["GET"])
+@app.route("/atom", methods=["GET"])
+@app.route("/feed", methods=["GET"])
+@cache_for(long_cache_time)
+def rss_blog_posts():
+    return load_rss_response()
 
 
 @app.route("/about", methods=["GET"])
