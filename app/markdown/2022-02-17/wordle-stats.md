@@ -28,6 +28,8 @@ Both my partner and I have lost our Wordle stats in the past and it can feel dem
   <input class="number-inputs" type="number" id="wins-6" name="wins-6" min="0" max="1000" value="0"><br>
   <label class="number-inputs" for="losses">Losses</label>
   <input class="number-inputs" type="number" id="losses" name="losses" min="0" max="1000" value="0"><br>
+  <label class="number-inputs" for="current-streak">Current Streak</label>
+  <input class="number-inputs" type="number" id="current-streak" name="current-streak" min="0" max="1000" value="0"><br>
   <label class="number-inputs" for="max-streak">Max Streak</label>
   <input class="number-inputs" type="number" id="max-streak" name="max-streak" min="0" max="1000" value="0"><br>
   <label class="number-inputs" for="games-played">Games Played</label>
@@ -83,28 +85,6 @@ If you were able to move or recover your stats and want to send some appreciatio
 ### What if I lost my statistics and don't remember them?
 
 Unfortunately they can't be recovered once lost, my recommendation is try remembering the number of wins in 1, 2, or 3 guesses and then keep playing. In the end, **Wordle is about having fun** and it'll keep being the same amazing game whether you have your old statistics or not.
-
-### Why can't I import my "Current Streak"?
-
-I'm not sure it's possible anymore? From looking at the below code I don't know how to get the field `nyt-wordle-state.lastPlayedTs` set. If you can figure it out please let me know!
-
-```js
-var e = new Proxy(new URLSearchParams(window.location.search), {
-    get: function(e, a) {
-        return e.get(a)
-    }
-});
-if (e.data) ! function(e) {
-    if (!e.statistics) throw new Error("User local data does not contain statistics. Aborting transfer.");
-    if (ns(e.statistics, e.force)) {
-        ts.setItem(ss, JSON.stringify(e.statistics));
-        var a = e.darkTheme;
-        window.themeManager.setDarkTheme(a);
-        var s = !!e.colorBlindTheme;
-        window.themeManager.setColorBlindTheme(s)
-    }
-}(JSON.parse(e.data))
-```
 
 ### Does this tool work with Quordle / Heardle / wordlegame.org / other Wordle clone?
 
