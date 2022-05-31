@@ -22,6 +22,11 @@ h3 {
 }
 p {
   line-height: 1.5em;
+  margin: 0;
+  margin-bottom: 1.5em;
+}
+ol, ul {
+  margin-bottom: 1.5em;
 }
 .container {
   width: 90%;

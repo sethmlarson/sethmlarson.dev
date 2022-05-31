@@ -134,7 +134,11 @@ def load_rss_response():
     feed = AtomFeed(
         title="Seth Michael Larson",
         subtitle="Blogging about Python and the Internet",
-        author="Seth Michael Larson",
+        author={
+            "name": "Seth Michael Larson",
+            "email": "sethmichaellarson@gmail.com",
+            "uri": "https://sethmlarson.dev",
+        },
         icon=avatar_url,
         logo=avatar_url,
         feed_url=url_for("rss_blog_posts", _external=True),
