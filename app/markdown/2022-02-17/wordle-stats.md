@@ -1,8 +1,16 @@
 # Move or recover your Wordle statistics
 
+<p>
+<blockquote>
+<center><span style="font-size: 1.2em">Starting on July 1st, 2022 I've received reports that this tool is no longer functional due to a change to Wordle. I'll remove this banner when the tool works again.<br><br>This change to Wordle wasn't announced so I'm uncertain if this tool will ever work again. Sorry for any inconvenience.</span></center>
+</blockquote>
+</p>
+
 Have you ever wanted to play Wordle on another device but weren't able to transfer your statistics? Or worse, cleared your browser storage and lost your Wordle statistics on accident? 😱
 
-Both my partner and I have lost our Wordle stats in the past and it can feel demotivating. That's why I built this tool which lets you import custom Wordle statistics for the current browser:
+Both my partner and I have lost our Wordle stats in the past and it can feel demotivating. That's why I built this tool which lets you import custom Wordle statistics for the current browser.
+
+This tool wasn't developed by the New York Times so isn't "official" but has been recommended by the [New York Times Games team on Twitter](https://twitter.com/NYTGames/status/1532414444575375361) as a way to transfer your stats.
 
 <style>
   .number-inputs {
@@ -77,8 +85,6 @@ Importing statistics only works if the current browser hasn't played Wordle befo
 - Select "Import statistics into Wordle".
 - This should open a page on the New York Times, check that your statistics have imported correctly.
 - If your statistics didn't import correctly make sure **you've followed each step above** and have **filled out the form completely**, then try again.
-
-If you were able to move or recover your stats and want to send some appreciation you can send me a tip on [Venmo](https://venmo.com/u/sethmlarson) or [GitHub Sponsors](https://github.com/sponsors/sethmlarson). Thanks much! 🥰
 
 ### What if I lost my statistics and don't remember them?
 
