@@ -12,6 +12,7 @@ body {
 li, ul {
   margin-top: 0.3em;
   margin-bottom: 0.3em;
+  line-height: 1.2em;
 }
 h2 {
   font-size: 1.7em;
@@ -220,6 +221,8 @@ pre {
   background-color: #2e3440;
   padding: 1em;
   overflow-x: scroll;
+  margin: 0;
+  margin-bottom: 1.5em;
 }
 pre > code {
   font-size: 1.1em;
