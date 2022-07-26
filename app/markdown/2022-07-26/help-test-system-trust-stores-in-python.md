@@ -54,7 +54,7 @@ Successfully installed urllib3-1.26.10
  
 - Spread this article to other people, teams, and organizations that you know use Python.
   - Retweet on [Twitter](https://twitter.com/sethmlarson/status/1551919041077542913)
-  - Upvote on [Reddit](https://www.reddit.com/r/Python/comments/w8jr7a/help_us_test_system_trust_stores_in_python/) and [Lobsters](https://lobste.rs/s/xhk30c/help_us_test_system_trust_stores_python)
+  - Upvote on [HackerNews](https://news.ycombinator.com/item?id=32238989), [Reddit](https://www.reddit.com/r/Python/comments/w8jr7a/help_us_test_system_trust_stores_in_python/), and [Lobsters](https://lobste.rs/s/xhk30c/help_us_test_system_trust_stores_python)
 - Follow the [truststore GitHub repository](https://github.com/sethmlarson/truststore). There will be updates and new releases there.
 - Read the truststore [documentation](https://truststore.readthedocs.io) and [prior art](https://truststore.readthedocs.io/en/latest/#prior-art).
 - Experiment with using truststore and give us feedback (but please don't deploy to production yet!)
