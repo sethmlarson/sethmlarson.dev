@@ -51,7 +51,7 @@ I've listed the sections below in order of priority if your end goal is to be sp
 
 ### Licensing
 
-Companies are likely already excluding packages that don't use an [OSI-approved license](https://opensource.org/licenses/alphabetical) so if you're looking for corporate sponsors for your project it's likely a non-starter to not use an OSI-approved license. Some common licenses that aren't on this list are CC0, Unlicense, and SSPL.
+Companies are likely already excluding packages that don't use an [OSI-approved license](https://opensource.org/licenses/alphabetical) so if you're looking for corporate sponsors for your project it's likely a non-starter to not use an OSI-approved license. Some common licenses that aren't on this list are CC0 and SSPL.
 
 You should also favor using a common OSI-approved license over an uncommon license for easier approval by tools unless you have a specific use-case. Common license choices include Apache-2.0, MIT, LGPL, and GPL. I always refer to [choosealicense.com](https://choosealicense.com) when deciding which license to use.
 
