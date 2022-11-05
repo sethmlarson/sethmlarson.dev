@@ -1,24 +1,25 @@
-import re
 import datetime
-import pathlib
-import markdown2
 import functools
+import pathlib
+import re
 import time
+import typing
+from urllib.parse import parse_qsl
+
+import attr
+import markdown2
 from flask import (
     Flask,
+    abort,
+    jsonify,
+    make_response,
+    redirect,
     render_template,
     request,
     url_for,
-    make_response,
-    abort,
-    redirect,
 )
-import attr
-import typing
 from werkzeug.contrib.atom import AtomFeed
 from whitenoise import WhiteNoise
-from urllib.parse import parse_qsl
-
 
 base_dir = pathlib.Path(__file__).absolute().parent
 markdown_dir = base_dir / "markdown"
@@ -118,6 +119,40 @@ def robots_txt():
     return resp
 
 
+@app.route("/.well-known/did.json", methods=["GET"])
+@cache_for(max_cache_time)
+def well_known_did_json():
+    return jsonify(
+        **{
+            "@context": [
+                "https://www.w3.org/ns/did/v1",
+                {
+                    "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018",
+                    "publicKeyJwk": {
+                        "@id": "https://w3id.org/security#publicKeyJwk",
+                        "@type": "@json",
+                    },
+                },
+            ],
+            "assertionMethod": ["did:web:sethmlarson.dev#owner"],
+            "authentication": ["did:web:sethmlarson.dev#owner"],
+            "id": "did:web:sethmlarson.dev",
+            "verificationMethod": [
+                {
+                    "controller": "did:web:sethmlarson.dev",
+                    "id": "did:web:sethmlarson.dev#owner",
+                    "publicKeyJwk": {
+                        "crv": "Ed25519",
+                        "kty": "OKP",
+                        "x": "2OgfRLhQh_d9ZOPYm1ufZzYHUFXSGASHDcCpA3-nPK8",
+                    },
+                    "type": "Ed25519VerificationKey2018",
+                }
+            ],
+        }
+    )
+
+
 @app.route("/blog", methods=["GET"])
 @cache_for(small_cache_time)
 def list_blog_posts():
@@ -125,6 +160,7 @@ def list_blog_posts():
 
 
 RSS_RESPONSE = None
+
 
 def load_rss_response():
     global RSS_RESPONSE
