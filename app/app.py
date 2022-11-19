@@ -30,7 +30,7 @@ md = markdown2.Markdown(extras={"fenced-code-blocks": None})
 max_cache_time = 31536000
 long_cache_time = 1800
 small_cache_time = 300
-avatar_url = "https://avatars.githubusercontent.com/u/18519037"
+avatar_url = "https://github.com/sethmlarson.png"
 
 
 def cache_for(seconds: int):
