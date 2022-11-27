@@ -12,30 +12,6 @@ I received many recommendations about the XPS 15 9500 series, thanks all. I set 
 
 After a few days of use I absolutely love the machine and am so happy to get back into open source after an extended break. I recorded my "speed run" to setup my machine to be ready for open source contributions below so others can recreate it:
 
-> **NOTE:** I downloaded Ubuntu 22.10 desktop edition but then upon trying to flash my 4GB flash drive
-> I received an error from Etcher that the drive wasn't big enough. Instead I opted to
-> install the server edition and upgrade to desktop edition after installation.
-
-- Download ubuntu-live-server 22.10 ISO
-- Check the hashes of the ISO against ones on Ubuntu website
-- Flash onto a USB flash drive with [Etcher](https://www.balena.io/etcher/)
-- Turn on the computer and spam F2 until we enter the BIOS setup
-- Disable secure boot, put the USB flash drive first in the boot order
-- Save the configuration and boot the computer
-- I recommend installing third-party packages so your GPU and wifi work out of the box
-- Follow all the steps to setup locale, keyboard, disk encryption, wifi, and user.
-- Restart the machine
-
-## Upgrading to desktop edition
-
-```bash
-sudo apt-get install tasksel
-sudo tasksel  # select laptop and desktop here
-sudo shutdown -r now  # shutdown and restart
-```
-
-After the restart and disk decryption a GUI should appear from now on.
-
 ## Install all the packages
 
 ```bash
