@@ -274,7 +274,17 @@ def api_wordle_stats():
     )
 
 
+@app.route("/blog/<string:date>/<string:blog_post>", methods=["GET"])
 @app.route("/blog/<string:blog_post>", methods=["GET"])
+@cache_for(long_cache_time)
+def redirect_to_new_blog_post_url(
+    blog_post: str,
+    date: str = None,
+):
+    return redirect(url_for("get_blog_post", blog_post=blog_post))
+
+
+@app.route("/<string:blog_post>", methods=["GET"])
 @cache_for(long_cache_time)
 def get_blog_post(blog_post: str):
     try:
@@ -308,17 +318,3 @@ def get_blog_post(blog_post: str):
         blog_content=html,
         blog_content_text=blog_content_text,
     )
-
-
-@app.route("/blog/<string:date>/<string:blog_post>", methods=["GET"])
-@cache_for(long_cache_time)
-def redirect_to_new_blog_post_url(
-    blog_post: str,
-    date: str = None,
-):
-    return redirect(url_for("get_blog_post", blog_post=blog_post))
-
-
-@app.route("/wordle-stats", methods=["GET"])
-def redirect_to_wordle_stats():
-    return redirect(url_for("get_blog_post", blog_post="wordle-stats"))
