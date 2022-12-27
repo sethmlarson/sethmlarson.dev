@@ -19,7 +19,7 @@ Going into the week Quentin and I had the goal of completing all the tasks neces
 alpha of urllib3 v2.0. We split up the tasks, so we could work concurrently and coordinated a time each day
 to discuss and review each other's work from the previous day.
 
-These were the two tasks I wanted to complete during the week:
+These were the three tasks I wanted to complete during the week:
 
 - [Create BaseHTTPConnection APIs](https://github.com/urllib3/urllib3/issues/1985)
 - [Write a Migration Guide for v1.26.x -> v2.0.0](https://github.com/urllib3/urllib3/issues/1973)
