@@ -16,7 +16,7 @@ accomplish everything we did in the span of months, let alone a week. Thanks to 
 ## What I accomplished in a week
 
 Going into the week Quentin and I had the goal of completing all the tasks necessary to release the first
-alpha of urllib3 v2.0. We split up the tasks, so we could work concurrently and coordinated a time each day
+alpha of urllib3 v2.0. We split up the tasks so we could work concurrently and coordinated a time each day
 to discuss and review each other's work from the previous day.
 
 These were the three tasks I wanted to complete during the week:
@@ -27,9 +27,8 @@ These were the three tasks I wanted to complete during the week:
 
 ## BaseHTTPConnection API
 
-The first task in the list we knew was going to be a large one due to how complicated the existing HTTPConnection API was
-due to being a subclass of the standard library [`http.client.HTTPConnection` class](https://docs.python.org/3/library/http.client.html#http.client.HTTPConnection).
-The task was to design the API, so it could be extended in the future to support other HTTP implementations beyond the one provided by the standard library.
+The first task in the list we knew was going to be a large one due to how complicated the existing HTTPConnection API was as a *subclass* of the standard library [`http.client.HTTPConnection` class](https://docs.python.org/3/library/http.client.html#http.client.HTTPConnection).
+The task was to design the API so it could be extended in the future to support other HTTP implementations beyond the one provided by the standard library.
 
 This work was a follow-up to the [community-contributed pull request](https://github.com/urllib3/urllib3/pull/2649) to make the urllib3's `HTTPConnection.getresponse()` method return an instance of `urllib3.HTTPResponse`
 instead of an `http.client.HTTPResponse`. Previously the `urllib3.HTTPConnectionPool` class would transform the standard library response class into
@@ -40,7 +39,7 @@ Breaking down the task into pieces I was left with the following items to comple
 - Enumerate all the ways the existing connection API was being used.
   so that future maintainers have to do less work understanding the architecture.
 - Determine which access patterns expose internal APIs and thus shouldn't be allowed. 
-- For each disallowed access pattern created a suitable alternative
+- For each disallowed access pattern create a suitable alternative
 - Create a `BaseHTTPConnection` and `BaseHTTPSConnection` protocols which can be used for type-hinting our `HTTPConnectionPool` classes.
 
 The full set of changes [were made in this pull request](https://github.com/urllib3/urllib3/pull/2768).
