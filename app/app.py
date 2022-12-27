@@ -169,7 +169,7 @@ def load_rss_response():
 
     feed = AtomFeed(
         title="Seth Michael Larson",
-        subtitle="Blogging about Python and the Internet",
+        subtitle="Python, open source, security, and the internet",
         author={
             "name": "Seth Michael Larson",
             "email": "sethmichaellarson@gmail.com",
