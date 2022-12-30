@@ -284,6 +284,11 @@ def redirect_to_new_blog_post_url(
     return redirect(url_for("get_blog_post", blog_post=blog_post))
 
 
+@app.route("/static/avatar.jpeg", methods=["GET"])
+def redirect_to_new_avatar_url():
+    return redirect(avatar_url, 308)
+
+
 @app.route("/<string:blog_post>", methods=["GET"])
 @cache_for(long_cache_time)
 def get_blog_post(blog_post: str):
