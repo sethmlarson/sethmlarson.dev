@@ -1,1 +1,1 @@
-# [sethmlarson.dev](https://sethmlarson.dev)
+[sethmlarson.dev](https://sethmlarson.dev)
