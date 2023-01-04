@@ -4,8 +4,12 @@
 
 In total urllib3 received **$26,615 USD in financial support**
 and **distributed $18,622 USD** to maintainers and community contributors.
-**We're very thankful for the financial support we receive from
-our sponsors.**
+**We're thankful for the financial support we receive from
+our sponsors.** Without funding our team wouldn't be able to
+compensate maintainers to continuously lead, upkeep, and secure urllib3.
+Without funding, we couldn't reward contributions from our team and the community and 
+larger project like urllib3 v2.0 would either never be finished or take even longer than the year+ it's taken already to ship.
+Let's dive into our sources of financial support in 2022 and how the money was spent:
 
 ### Open Collective
 
@@ -38,7 +42,7 @@ The release includes the following highlighted changes:
 
 - Added a complete set of type hints (Thanks to [Hasan Ramenzani](https://github.com/urllib3/urllib3/pulls?q=is%3Apr+author%3Ahramezani+is%3Aclosed+type+hint))
 - Added a `json` parameter to `.request()` methods and `.json()` method to `HTTPResponse`
-  for much easier processing of JSON data both for requests and responses (Thanks to [Sai Vinay](https://github.com/urllib3/urllib3/pull/2250))
+  for easier processing of JSON data both for requests and responses (Thanks to [Sai Vinay](https://github.com/urllib3/urllib3/pull/2250))
 - Added a top-level `urllib3.request()` method for sending HTTP requests without configuring a `PoolManager` (Thanks to [Franek Magiera](https://github.com/urllib3/urllib3/pull/2150))
 - Added ability to append multiple headers names to `HTTPHeaderDict` and not have them be merged when sent (Thanks to [Raphael Gaschignard](https://github.com/urllib3/urllib3/pull/2669))
 - Added support for zstandard compression (Thanks to [Mauro Amico](https://github.com/urllib3/urllib3/pull/2624) and [Gregory Szorc](https://github.com/indygreg/python-zstandard/commit/1dc39cfea821893268176dae754355ec19609ce0))
@@ -54,7 +58,7 @@ The release includes the following highlighted changes:
 
 The team is hopeful to publish the stable release in early 2023 after ensuring all major dependent packages are able to integrate safely. You can read the [v2.0 migration guide](https://urllib3.readthedocs.io/en/latest/v2-migration-guide.html) or [changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst) if you're interested more information.
 
-## OpenSSF Scorecard and SLSA
+## Security posture improvements
 
 Tidelift sponsored exploratory work into improving urllib3's security posture by evaluating OpenSSF projects like [Scorecard](https://securityscorecards.dev), [Best Practices](https://bestpractices.coreinfrastructure.org), [Sigstore](https://www.sigstore.dev), and [Supply chain Levels for Software Artifacts](https://slsa.dev) (SLSA).
 The results of the work resulted in urllib3 being scored [9.6/10](https://deps.dev/pypi/urllib3) on OpenSSF Scorecard which tracks a wide range of security health metrics.
