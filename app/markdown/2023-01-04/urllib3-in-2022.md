@@ -5,10 +5,11 @@
 In total urllib3 received **$26,615 USD in financial support**
 and **distributed $18,622 USD** to maintainers and community contributors.
 **We're thankful for the financial support we receive from
-our sponsors.** Without funding our team wouldn't be able to
+our sponsors.** Without funding we wouldn't be able to
 compensate maintainers to continuously lead, upkeep, and secure urllib3.
-Without funding, we couldn't reward contributions from our team and the community and 
-larger project like urllib3 v2.0 would either never be finished or take even longer than the year+ it's taken already to ship.
+Without funding we couldn't reward contributions and larger projects like urllib3 v2.0 would
+either never be finished or take even longer than the year+ it's taken already to ship.
+
 Let's dive into our sources of financial support in 2022 and how the money was spent:
 
 ### Open Collective
@@ -73,7 +74,7 @@ to help future project maintainers adopt these tools.
 
 Some more statistics for urllib3 in 2022:
 
-- **3 billion downloads in 2022 alone** with over 250K per month. urllib3 represented **~1.63% of all downloads on PyPI for the year**. Reached [7.4 billion total downloads](https://pepy.tech/project/urllib3) by the end of 2022.
+- **3 billion downloads in 2022 alone** with over 250 million per month. urllib3 represented **~1.63% of all downloads on PyPI for the year**. Reached [7.4 billion total downloads](https://pepy.tech/project/urllib3) by the end of 2022.
 - [1 million](https://github.com/urllib3/urllib3/network/dependents) explicitly dependent public repositories on GitHub.
 - [380K unique users to our documentation](https://urllib3.readthedocs.io).
 - [8 releases to PyPI](https://github.com/urllib3/urllib3/releases)
