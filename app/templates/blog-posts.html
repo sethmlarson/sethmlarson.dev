@@ -1,22 +1,18 @@
 {% extends "base.html" %}
+{% block header %}
+<h1>Articles</h1>
+{% endblock %}
 {% block content %}
-<br>
 <div class="row">
     <div class="col-12">
-        <center>
-        <div class="how-to-subscribe">
-            Want to be notified about new articles? <span class="heart">❤&#xFE0E</span> Subscribe via <a href="https://tinyletter.com/sethmlarson">the newsletter</a> or <a href="{{ url_for('rss_blog_posts') }}">RSS</a>
-        </div>
-        </center>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
+        <p>Subscribe for updates either via the <a href="https://tinyletter.com/sethmlarson">mailing list</a> or <a href="{{ url_for('rss_blog_posts') }}">RSS</a>.</p>
+        <ul>
         {% for month in blog_posts %}
         {% for bp in blog_posts[month] %}
-        <h3> — <a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}">{{ bp.title }}</a> ({{ bp.date }})</h3>
+        <li><a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}">{{ bp.title }}</a> ({{ bp.date }})</li>
         {% endfor %}
         {% endfor %}
+        </ul>
     </div>
 </div>
 {% endblock %}

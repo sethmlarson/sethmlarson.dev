@@ -119,40 +119,6 @@ def robots_txt():
     return resp
 
 
-@app.route("/.well-known/did.json", methods=["GET"])
-@cache_for(max_cache_time)
-def well_known_did_json():
-    return jsonify(
-        **{
-            "@context": [
-                "https://www.w3.org/ns/did/v1",
-                {
-                    "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018",
-                    "publicKeyJwk": {
-                        "@id": "https://w3id.org/security#publicKeyJwk",
-                        "@type": "@json",
-                    },
-                },
-            ],
-            "assertionMethod": ["did:web:sethmlarson.dev#owner"],
-            "authentication": ["did:web:sethmlarson.dev#owner"],
-            "id": "did:web:sethmlarson.dev",
-            "verificationMethod": [
-                {
-                    "controller": "did:web:sethmlarson.dev",
-                    "id": "did:web:sethmlarson.dev#owner",
-                    "publicKeyJwk": {
-                        "crv": "Ed25519",
-                        "kty": "OKP",
-                        "x": "2OgfRLhQh_d9ZOPYm1ufZzYHUFXSGASHDcCpA3-nPK8",
-                    },
-                    "type": "Ed25519VerificationKey2018",
-                }
-            ],
-        }
-    )
-
-
 @app.route("/blog", methods=["GET"])
 @cache_for(small_cache_time)
 def list_blog_posts():
@@ -313,7 +279,7 @@ def get_blog_post(blog_post: str):
         )
         html = html.replace(
             header_start + header + header_end,
-            f'{header_start[:-1]} id="{anchor_href}">{header}<a class="anchor" href="#{anchor_href}" aria-hidden="true">#</a>{header_end}',
+            f'{header_start[:-1]} id="{anchor_href}">{header}<a class="anchor" href="#{anchor_href}" aria-hidden="true">§</a>{header_end}',
         )
 
     return render_template(

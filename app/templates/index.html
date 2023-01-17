@@ -1,32 +1,17 @@
 {% extends "base.html" %}
+{% block header %}
+<h1 style="margin-bottom: 1rem;">Python, open source, & the internet</h1>
+<p>by Seth Michael Larson</p>
+{% endblock %}
 {% block content %}
-    <br>
-    <div class="row">
-        <div class="col-12">
-            <center>
-                <div class="how-to-subscribe">
-                    Read my latest article: <a href="{{ url_for('get_blog_post', blog_post=latest_blog.slug) }}">{{ latest_blog.title }}</a>
-                </div>
-            </center>
-        </div>
-    </div>
     <div class="row">
         </div>
         <div class="row">
         <div class="col-12">
-            <h2>Who am I?</h2>
-            <p>
-                I write about intermediate and advanced Python, open source, security, and internet tech.
-                If you're also interested in these topics you may find <a href="{{ url_for('list_blog_posts') }}">articles on my blog</a> worth a read.
-                There are two ways to avoid missing out on when new articles are published, either by <a href="https://tinyletter.com/sethmlarson" target="_blank" rel="noopener">following my mailing list</a> or using your RSS reader of
-                choice to <a href="{{ url_for('rss_blog_posts') }}">subscribe to my RSS feed</a>.
+            <p></p>
+            <p>Hey there! My name is Seth Michael Larson, my pronouns are he/him, and I'm a software engineer working remotely from Minneapolis, MN.
+            I'm on <a href="https://fosstodon.org/@sethmlarson" target="_blank" rel="noopener noreferrer">Mastodon</a> for social media and can be reached directly via <a href="mailto:sethmichaellarson@gmail.com">email</a>.
             </p>
-            <p>
-                My social media of choice is <a href="https://fosstodon.org/@sethmlarson" target="_blank" rel="noopener">Mastodon</a>.
-                Direct contact is best through <a href="mailto:sethmichaellarson@gmail.com" target="_blank" rel="noopener">email</a>.
-                My pronouns are he / him.
-            </p>
-            <h2>Open source maintainer</h2>
             <p>
                 I maintain and contribute to
                 <a href="https://github.com/sethmlarson?tab=repositories" target="_blank" rel="noopener noreferrer">many open source projects</a> which run on <a href="https://github.com/sethmlarson?tab=achievements&achievement=mars-2020-contributor" target="_blank" rel="noopener noreferrer">at least two planets</a>.
@@ -38,7 +23,7 @@
                 Google Open Source Peer Bonus</a> in 2019.
             </p>
             <p>
-                Other projects I contribute to include
+                Other open source projects I contribute to include
                 <a href="https://github.com/psf/requests" target="_blank" rel="noopener noreferrer">requests</a>,
                 <a href="https://github.com/sethmlarson/truststore" target="_blank" rel="noopener noreferrer">truststore</a>,
                 <a href="https://github.com/python-hyper/rfc3986" target="_blank" rel="noopener noreferrer">rfc3986</a>,
@@ -49,11 +34,11 @@
                 <a href="https://utf8.xyz" target="_blank" rel="noopener noreferrer">utf8.xyz</a>,
                 <a href="https://github.com/python-trio/sniffio" target="_blank" rel="noopener noreferrer">sniffio</a>, and
                 <a href="https://github.com/python-trio/unasync" target="_blank" rel="noopener noreferrer">unasync</a>.
-                If you benefit from any of these projects you can
-                <a href="https://github.com/sponsors/sethmlarson" target="_blank" rel="noopener noreferrer">
-                sponsor me on GitHub Sponsors</a>.
             </p>
-            <h2>Engineer at Elastic</h2>
+            <p>
+                I write about intermediate and advanced Python, open source, security, and internet tech.
+                If you're also interested in these topics you may find <a href="{{ url_for('list_blog_posts') }}">articles on my blog</a> worth a read.
+            </p>
             <p>
                 I'm a principal software engineer at <a href="https://elastic.co" target="_blank" rel="noopener noreferrer">Elastic</a>
                 working as a tech lead for the Language Clients team. Previously at Elastic I was the maintainer of the
