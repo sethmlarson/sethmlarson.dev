@@ -33,8 +33,8 @@ I'll [keep the list up-to-date](#additions) as I find and try new flavors. If I'
 | Red Apple & Strawberry  | RealFruit                 | No                | No        |
 | Ramune                  | Soda Pop                  | No                | Yes       |
 | Acai                    | Superfruit                | No                | Yes       |
+| Dragonfruit             | Superfruit                | No                | Yes       |
 | Kiwi                    | Superfruit, Tropical (US) | No                | Yes       |
-| Dragonfruit             | Superfruit, Tropical (US) | No                | Yes       |
 | Grapefruit              | Sweet and Sour            | No                | Yes       |
 | Lemon                   | Sweet and Sour            | No                | Yes       |
 | Watermelon              | Sweet and Sour            | No                | Yes       |
@@ -98,6 +98,7 @@ I also don't list the "Reduced Sugar" because they also change the texture.
 
 ## Additions
 
-- **2023-01-17**: Purchased the **Taiwanese Fruit** and **Yakult** mixes in [Pearl River Mart](https://pearlriver.com).
-- **2022-10-19**: Purchased the **Superfruit**, **Soda Pop**, **Sweet and Sour**, and **Yogurt** mixes in a bundle on Amazon.
-- **2021--2022**: Purchased the **Original**, **Tropical**, and **Berry** mixes, likely from Target.
+- **2023-01-17**: Purchased the **Taiwanese Fruit** and **Yakult** mixes in [Pearl River Mart](https://pearlriver.com) in NYC, USA.
+- **2022-10-19**: Purchased the **Superfruit** and **Yogurt** mixes from Amazon.
+- **2019-09-12**: Purchased the **Berry**, **Soda Pop**, and **Sweet and Sour** mixes from [Ichiban Candy and Snacks](https://aji-ichiban-snack-usa.edan.io/) in Chicago, USA.
+- **~2019**: Purchased the **Original** and **Tropical** mixes, likely from Target.
