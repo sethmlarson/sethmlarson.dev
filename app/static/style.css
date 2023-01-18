@@ -1,5 +1,5 @@
 html, body {
-  font-family: 'Menlo', 'Fira Mono', monospace;
+  font-family: 'Fira Sans', sans-serif;
 }
 body {
   background-color: #fff;
@@ -27,7 +27,42 @@ a {
   text-decoration: underline;
   text-decoration-line: underline;
 }
+a > code {
+  text-decoration: none;
+}
 a[href^=tel]{ color:#000; text-decoration:none;}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid;
+  display: block;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 0;
+  margin-bottom: 1.5em;
+}
+table td, table th {
+    border: 1px dotted #000000;
+}
+table td:first-child, table th:first-child {
+    border-left: 0px solid #000000;
+}
+table td:last-child, table th:last-child {
+    border-right: 0px solid #000000;
+}
+table th {
+    border-top: 0px solid #000000;
+}
+td, th {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+thead {
+  background-color: #f0f0f0;
+}
 
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0em;
@@ -230,12 +265,14 @@ pre {
   padding: 0;
 }
 :not(pre) > code {
+  font-family: Menlo, 'Fira Mono', monospace;
   background-color: #f0f0f0;
   border-radius: 0.2em;
   padding: 0.2em;
   white-space: nowrap;
 }
 .codehilite, :not(.codehilite) > pre {
+  font-family: Menlo, 'Fira Mono', monospace;
   background-color: #f0f0f0;
   border-style: solid;
   border-width: 1px;
@@ -260,11 +297,6 @@ blockquote {
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.3s linear;
-}
-a > code {
-  text-decoration: none;
-  transition: 0.5s;
-  color: #2979FF;
 }
 .header {
   width: 100%;

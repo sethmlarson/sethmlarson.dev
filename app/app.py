@@ -26,7 +26,7 @@ markdown_dir = base_dir / "markdown"
 static_dir = base_dir / "static"
 app = Flask(__name__, template_folder=str(base_dir / "templates"))
 app.wsgi_app = WhiteNoise(app.wsgi_app, root=str(static_dir), prefix="/static")
-md = markdown2.Markdown(extras={"fenced-code-blocks": None})
+md = markdown2.Markdown(extras={"fenced-code-blocks": None, "tables": None})
 max_cache_time = 31536000
 long_cache_time = 1800
 small_cache_time = 300

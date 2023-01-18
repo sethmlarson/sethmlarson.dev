@@ -12,9 +12,9 @@
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="{{ url_for('rss_blog_posts') }}"/>
     <link rel="icon" href="/static/favicon.ico">
     <link rel="stylesheet" href="/static/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&family=Fira+Sans:wght@400;600&display=swap" rel="stylesheet">
 {% block opengraph %}
     <meta property="og:site_name" content="Seth Michael Larson"/>
     <meta property="og:author" content="Seth Michael Larson"/>
@@ -33,9 +33,9 @@
 <div class="header">
   <div class="container">
     <div class="row">
-      <a href="/">About</a> /
-      <a href="{{ url_for('list_blog_posts') }}">Articles</a> /
-      <a href="https://tinyletter.com/sethmlarson">Newsletter</a> /
+      <a href="/">About</a> |
+      <a href="{{ url_for('list_blog_posts') }}">Blog</a> |
+      <a href="https://tinyletter.com/sethmlarson">Newsletter</a> |
       <a href="{{ url_for('rss_blog_posts') }}">RSS</a>
     </div>
     <div class="row">
