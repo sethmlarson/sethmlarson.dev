@@ -9,7 +9,9 @@
         <ul>
         {% for month in blog_posts %}
         {% for bp in blog_posts[month] %}
+        {% if bp.slug != 'hi-chew' %}
         <li><a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}">{{ bp.title }}</a> ({{ bp.date }})</li>
+        {% endif %}
         {% endfor %}
         {% endfor %}
         </ul>
