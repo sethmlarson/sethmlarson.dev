@@ -8,7 +8,7 @@ body {
   padding: 0;
   font-weight: 400;
   font-size: 1rem;
-  font-feature-settings: "liga", "tnum", "zero", "ss01", "locl";
+  font-feature-settings: "liga" 0, "tnum", "zero", "ss01", "locl";
   line-height: 1.54;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
