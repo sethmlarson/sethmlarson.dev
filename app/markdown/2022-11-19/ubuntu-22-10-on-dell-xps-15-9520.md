@@ -36,8 +36,8 @@ I previously saved my SSH public and private key and GPG key into my password ma
 Time to retrieve those values and get access to my passwords so I can login to my accounts.
 
 - Open Firefox
-- Install the Bitlocker extension
-- Login to Bitlocker
+- Install the BitWarden extension
+- Login to BitWarden
 - Download the `id_rsa`, `id_rsa.pub`, and `gpg.key` files from secure notes
 
 ```bash
