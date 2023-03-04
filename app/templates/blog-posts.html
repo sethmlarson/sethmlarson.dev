@@ -5,7 +5,9 @@
 {% block content %}
 <div class="row">
     <div class="col-12">
-        <p>Subscribe for updates either via the <a href="https://tinyletter.com/sethmlarson">mailing list</a> or <a href="{{ url_for('rss_blog_posts') }}">RSS</a>.</p>
+        <blockquote>
+            <p style="text-align: center;">Subscribe for more content like this through the <a href="https://tinyletter.com/sethmlarson">mailing list</a> or <a href="{{ url_for('rss_blog_posts') }}">RSS</a>.</p>
+        </blockquote>
         <ul>
         {% for month in blog_posts %}
         {% for bp in blog_posts[month] %}

@@ -19,9 +19,8 @@
 <p>Published {{ blog_published_date }} by Seth Michael Larson</p>
 {% endblock %}
 {% block content %}
-<div class="row">
-    <div class="col-12">
-        {{ blog_content | safe }}
-    </div>
-</div>
+<blockquote>
+    <p style="text-align: center;">Subscribe for more content like this through the <a href="https://tinyletter.com/sethmlarson">mailing list</a> or <a href="{{ url_for('rss_blog_posts') }}">RSS</a>.</p>
+</blockquote>
+{{ blog_content | safe }}
 {% endblock %}
