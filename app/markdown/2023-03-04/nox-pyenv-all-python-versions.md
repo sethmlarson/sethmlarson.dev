@@ -35,12 +35,12 @@ python: /home/sethmlarson/.pyenv/shims/python
 
 For some reason I thought pyenv was only capable of having a single version stub available at one time
 and thus was frustrated by having to cycle through the different Python versions. But that's **totally not
-the case**, you can specify multiple Python versions into `pyenv local` and have them all available through
+the case**, you can specify multiple Python versions into `pyenv global` and have them all available through
 their `python3.{minor}` aliases which `nox` can discover:
 
 ```shell
-# Enable all the Python versions in our project
-$ pyenv local 3.8 3.9 3.10 3.11 3.12-dev
+# Enable all the Python versions everywhere!
+$ pyenv global 3.8 3.9 3.10 3.11 3.12-dev
 
 # Tell nox to run all test tasks available
 $ nox -s test
