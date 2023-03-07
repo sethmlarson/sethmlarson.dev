@@ -3,7 +3,9 @@
 [Nox](https://nox.thea.codes) is an incredible tool, I use it for all my Python projects, highly recommend it.
 One of the best features of nox and tools like it is [parameterization](https://nox.thea.codes/en/stable/config.html#parametrizing-sessions).
 Usually this is done for the test suite portion where you want to run your test
-suite on many different Python versions (and maybe other things like dependency versions):
+suite on many different Python versions (and maybe other things like dependency versions).
+
+The below code goes into a file [called `noxfile.py`](https://nox.thea.codes/en/stable/config.html) typically in the root of your project directory:
 
 ```python
 import nox
