@@ -142,7 +142,7 @@ blockquote {
   border-width: 1px;
   margin: 0;
   margin-bottom: 1.5em;
-  padding: 0.5em 1em;
+  padding: 1em;
 }
 .anchor {
   line-height: 0;
@@ -280,11 +280,14 @@ blockquote {
 	display: table;
 	clear: both;
 }
-.hidden-sm {
+.hidden-lg :not(span), span.hidden-lg {
   display: none;
 }
-.hidden-lg {
+.hidden-sm :not(span) {
   display: block;
+}
+span.hidden-sm {
+  display: inline;
 }
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
@@ -304,8 +307,15 @@ blockquote {
   .col-10 {width: 79.33%}
   .col-11 {width: 87.66%}
   .col-12 {width: 96%}
-  .hidden-sm { display: block}
-  .hidden-lg {display: none}
+  .hidden-sm :not(span), span.hidden-sm {
+    display: none;
+  }
+  .hidden-lg :not(span) {
+    display: block;
+  }
+  span.hidden-lg {
+    display: inline;
+  }
 }
 
 @media only screen and (min-width: 60em) { /* 960px */

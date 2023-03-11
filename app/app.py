@@ -20,6 +20,7 @@ from flask import (
 )
 from werkzeug.contrib.atom import AtomFeed
 from whitenoise import WhiteNoise
+from bs4 import BeautifulSoup
 
 base_dir = pathlib.Path(__file__).absolute().parent
 markdown_dir = base_dir / "markdown"
@@ -31,6 +32,7 @@ max_cache_time = 31536000
 long_cache_time = 1800
 small_cache_time = 300
 avatar_url = "https://github.com/sethmlarson.png"
+reading_times = {}
 
 
 def cache_for(seconds: int):
@@ -270,6 +272,18 @@ def get_blog_post(blog_post: str):
         title = title.lstrip("# ")
         html = md.convert(rest)
 
+    # Calculate reading time and cache the value.
+    global reading_times
+    if blog_post not in reading_times:
+        word_count = len(
+            re.findall(
+                r"[a-zA-z0-9\-]+",
+                BeautifulSoup(html, features="html.parser").get_text(separator=" "),
+            )
+        )
+        reading_times[blog_post] = max(word_count // 200, 1)
+    reading_time = reading_times[blog_post]
+
     blog_content_text = re.sub(r"<[^>]+>", "", html)
 
     # Insert anchors into all headers automatically
@@ -286,6 +300,7 @@ def get_blog_post(blog_post: str):
 
     return render_template(
         "blog.html",
+        reading_time=reading_time,
         blog_title=title,
         blog_published_date=blog.date,
         blog_content=html,

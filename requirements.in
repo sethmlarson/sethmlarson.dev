@@ -7,3 +7,4 @@ gevent
 attrs
 werkzeug<1
 whitenoise
+beautifulsoup4
