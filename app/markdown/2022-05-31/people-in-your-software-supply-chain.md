@@ -36,8 +36,7 @@ These are tools like pip, twine, and virtualenv and infrastructure like PyPI. pi
 
 The people behind projects are also severely undercounted. Counting "maintainers" is typically done using metadata from package repositories like PyPI because there are no other easy ways to programmatically gather this information. Using this method leaves out many maintainers that aren't listed in package metadata. Maintainers don't exclusively manage releases and write code, they also secure funding, mentor new contributors, triage issues, and review pull requests. None of these tasks are captured by only looking at package metadata and commit authors.
 
-<span>
-
+<p>
 <div class="row">
 <div class="col-6">
 
@@ -49,14 +48,13 @@ The people behind projects are also severely undercounted. Counting "maintainers
 
 <center><img style="max-width: 100%; height: auto" referrerpolicy="no-referrer" src="https://user-images.githubusercontent.com/18519037/171068996-02f5cb1d-1bd6-457e-85d1-30c97f0ca752.png"/>
 
-<br>
-<br>
+<br/>
+<br/>
 <div><i>Requests dependencies on GitHub listing an archived fork repo instead of <a href="https://github.com/pypa/wheel">pypa/wheel</a> due to <a href="https://github.com/github/feedback/discussions/6456">github/feedback#6456</a></i></div>
 </center>
-
 </div>
 </div>
-</span>
+</p>
 
 Most of the work to improve this situation falls on platforms and organizations like GitHub, PyPA, and the PSF. I'm hopeful the roadmap for these organizations reflect the dire need to implement measures to recognize these less prominent members of the open source ecosystem.
 
