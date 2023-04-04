@@ -5,9 +5,27 @@
 {% block content %}
 <div class="row">
     <div class="col-12">
-        <blockquote>
-            <p style="text-align: center;">Subscribe for more content like this through the <a href="https://tinyletter.com/sethmlarson">mailing list</a> or <a href="{{ url_for('rss_blog_posts') }}">RSS</a>.</p>
-        </blockquote>
+        <h2 id="highlighted">Highlighted articles<a class="anchor" href="#highlighted" aria-hidden="true">§</a></h2>
+        <p>If you're a first time reader, welcome! These articles are the ones that I'm most proud of, so if you're looking for
+        somewhere to start I recommend you start with one of these:</p>
+        <p><strong><a href="/python-and-slsa">Python and SLSA 💃</a></strong><br>
+            Supply chain Layers for Software Artifacts (SLSA) is a framework of tools to generate and verify provenance for software artifacts.
+            How can these tools be put to use in existing Python packages to attest to provenance of wheels and source distributions on PyPI?
+        </p>
+        <p><strong><a href="/preparing-for-the-wave-of-open-source-funding">Preparing for the wave of open source funding</a></strong><br>
+            Financial support is becoming more frequent and in higher amounts for open source projects. From the perspective of
+            urllib3 which has seen success in this area, what are some ways that projects can prepare themselves to ride the wave?
+        </p>
+        <p><strong><a href="/people-in-your-software-supply-chain">People in your software supply chain</a></strong><br>
+            Open source is entering a new era of scrutiny. Organizations are examining their open source dependencies. Let's remember that the most important dependency you're relying on won't show up in your lock files, it's people!
+        </p>
+        <p><strong><a href="/security-for-package-maintainers">Security for package maintainers</a></strong><br>
+            Package maintainers have extremely privileged accounts with any unauthorized access having the potential to affect millions of users. What are some secure account configurations and best practices that can keep this nightmare scenario from happening to you?
+        </p>
+        <p><strong><a href="/utf-8">How does UTF-8 turn “😂” into “F09F9882”?</a></strong><br>
+            Deep-dive into how the UTF-8 encoding works bit-by-bit with hand-crafted flow chart diagrams along with some historical perspective.
+        </p>
+        <h2>Archive</h2>
         <ul>
         {% for month in blog_posts %}
         {% for bp in blog_posts[month] %}
