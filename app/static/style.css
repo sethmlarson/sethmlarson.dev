@@ -16,6 +16,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
+  padding-bottom: 4em;
 
   @media (min-width:600px) {
     font-size: 1.2rem;
