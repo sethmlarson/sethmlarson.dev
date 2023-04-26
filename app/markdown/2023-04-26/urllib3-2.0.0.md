@@ -40,7 +40,7 @@ $ python -m pip install 'urllib3>=2'
 
 After getting excited about all the new features detailed below, [please read the Migration Guide](https://urllib3.readthedocs.io/en/latest/v2-migration-guide.html)
 that the team has put together. This will help you learn about the relevant changes in v2.0.0 and what to do to migrate
-packages and applications to use the new major release. Our hope is that most folks using urllib3
+packages and applications to use the new major release.
 
 ## Top-level `urllib3.request()` function
 
