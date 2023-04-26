@@ -38,9 +38,9 @@ financially can make a huge difference.
 $ python -m pip install 'urllib3>=2'
 ```
 
-After getting excited about all the new features detailed below, [please read the Migration Guide](https://urllib3.readthedocs.io/en/latest/v2-migration-guide.html)
+After reading about all the new features detailed below, [please read the Migration Guide](https://urllib3.readthedocs.io/en/latest/v2-migration-guide.html)
 that the team has put together. This will help you learn about the relevant changes in v2.0.0 and what to do to migrate
-packages and applications to use the new major release.
+packages and applications to use the new major release. If you'd like to go into the details, you can [read the entire v2.0.0 changelog](https://github.com/urllib3/urllib3/releases/tag/2.0.0).
 
 ## Top-level `urllib3.request()` function
 
