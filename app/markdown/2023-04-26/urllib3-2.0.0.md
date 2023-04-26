@@ -46,7 +46,7 @@ packages and applications to use the new major release. If you'd like to go into
 
 This has been the most requested feature when I talk to users about urllib3.
 Many folks want to make a simple HTTP request and don't want to worry about any of the underlying complexity.
-The popularity of the Requests library and its APIs high-level APIs are proof of this.
+The popularity of the Requests library and its high-level APIs are proof of this.
 
 Starting in v2.0.0 you can use `urllib3.request()` to make HTTP requests:
 
