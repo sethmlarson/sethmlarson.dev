@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 18px;
   font-feature-settings: "liga" 0, "tnum", "zero", "ss01", "locl";
   line-height: 1.54;
   -webkit-overflow-scrolling: touch;
@@ -249,7 +249,8 @@ blockquote {
 }
 .row [class^="col"] {
   float: left;
-  margin: 0 2%;
+  margin: 0;
+  margin-right: 4%;
   min-height: 0.125rem;
 }
 .col-1,
