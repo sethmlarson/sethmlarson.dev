@@ -16,12 +16,12 @@
 {% endblock %}
 {% block header %}
 <h1>{{ blog_title }}</h1>
-<p>Published {{ blog_published_date }}<br>
+<p>Published {{ blog_published_date }} by <strong>Seth Larson</strong><br>
 Reading time: {{ reading_time }} minute{{ 's' if reading_time != 1 else '' }}</p>
 {% endblock %}
 {% block content %}
-<blockquote>
-    <p style="text-align: center;">Subscribe for more content like this through the <a href="https://tinyletter.com/sethmlarson">mailing list</a> or <a href="{{ url_for('rss_blog_posts') }}">RSS</a>.</p>
-</blockquote>
 {{ blog_content | safe }}
+<blockquote>
+    <p style="text-align: center;">Subscribe to be notified of more content like this through the <a href="https://tinyletter.com/sethmlarson">email newsletter</a> or RSS.</p>
+</blockquote>
 {% endblock %}
