@@ -35,8 +35,8 @@ An example of this happening is when `pdftopng` [contained vulnerable versions](
 (among other libraries) bundled in their wheel. There's also this [related issue](https://github.com/pypa/advisory-database/issues/103) for the PyPI Advisory database
 about vulnerabilities in shared libraries.
 
-These bundled libraries don't show up in your `requirements.txt` or `pip freeze` so it's tougher to know which
-libraries and versions you and your audit tooling to know what libraries are installed.
+These bundled libraries don't show up in your `requirements.txt` or `pip freeze` so it's tougher for
+you and your audit tooling to know what libraries and versions are in use.
 
 **Software Bill of Materials (SBOM) to the rescue!** With an SBOM, you can programmatically know what
 is included in the distribution you've downloaded, including the non-Python components. If auditing tools
