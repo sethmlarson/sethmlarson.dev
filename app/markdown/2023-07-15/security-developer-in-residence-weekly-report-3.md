@@ -78,4 +78,4 @@ recommending adopting the new feature:
 Now that this has been released and we have metrics for Trusted Publisher adoption we can see if it makes
 any noticeable difference in the rate of adoption.
 
-That's all for this week! 👋
+That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-2) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-4).

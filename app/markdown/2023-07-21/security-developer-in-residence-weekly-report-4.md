@@ -112,4 +112,4 @@ in this PEP please participate in the [discussion thread](https://discuss.python
   there isn't a perfect way to unambiguously specific the "identity" of the project (keeping in mind that the VCS isn't your project identity).
 - [Submitted an update](https://github.com/pypa/packaging.python.org/pull/1277) to the PyPA binary distribution format specification to warn about interoperability issues with build numbers.
 
-That's all for this week! 👋 If you're interested in more you can [read last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-3).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-3) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-5).

@@ -161,4 +161,4 @@ APIs for GitLab.
 - Received feedback on my high-level proposals for the Python Security Response team which was positive!
   Will be putting more detail into the proposals and eventually submit to the Steering Council for approval.
 
-That's all for now! Tune in next week for more.
+That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-3) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-1).
