@@ -95,4 +95,4 @@ required in order to transform `crt`/`sig` files into a bundle. This will allow 
 * [Manually submitted CVE-2023-37276](https://github.com/pypa/advisory-database/pull/134) which [promptly broke the automation](https://github.com/pypa/advisory-database/pull/135) due to bad formatting, [submitted a PR](https://github.com/pypa/advisory-database/pull/137) to ensure formatting is consistent for manually submitted advisories.
 * Participated in a [Discuss thread](https://discuss.python.org/t/ssl-changing-the-default-sslcontext-verify-flags/30230) on adding more secure default values for `SSLContext.verify_flags`
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-4).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-6) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-4).
