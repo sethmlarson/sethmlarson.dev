@@ -26,7 +26,8 @@ but the automation [wasn't able to import it automatically](https://github.com/p
 After that issue was resolved, pip was able to land a PR [upgrading certifi to the latest version](https://github.com/pypa/pip/pull/12206).
 
 Certifi is a critical package in the Python ecosystem as it's the most common way that `SSLContext` instances
-are configured due to strong ties to the OpenSSL library by Python's `ssl` module. 
+are configured due to strong ties to the OpenSSL library by Python's `ssl` module. A consequence of certifi's
+use in pip in particular due to bundling causes a chain of events whenever there's a security issue with a root CA:
 
 * Removal occurs in Mozilla Root CA Bundle
 * Certifi bundles the Mozilla Root CA Bundle, requires an update, advisory, and new release of certifi.
