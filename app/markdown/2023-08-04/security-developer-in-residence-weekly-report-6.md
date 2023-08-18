@@ -44,4 +44,4 @@ CNA onboarding call you can [take a look at this Gist](https://gist.github.com/s
   not [being able to successfully verify old bundles](https://github.com/sigstore/sigstore-python/issues/724).
 * Provided an OpenSSF Alpha-Omega [engagement update](https://github.com/ossf/alpha-omega/pull/197) for the month of July.
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-5).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-7) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-5).
