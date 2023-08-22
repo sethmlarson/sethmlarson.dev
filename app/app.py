@@ -259,6 +259,13 @@ def redirect_to_new_avatar_url():
     return redirect(avatar_url, 308)
 
 
+@app.route("/elegant-secure-api-design", methods=["GET"])
+def redirect_to_fixed_elegant_secure_api_design_url():
+    return redirect(
+        url_for("get_blog_post", blog_post="elegant-and-secure-api-design"), 308
+    )
+
+
 @app.route("/<string:blog_post>", methods=["GET"])
 @cache_for(long_cache_time)
 def get_blog_post(blog_post: str):
