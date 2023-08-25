@@ -118,6 +118,8 @@ If you find any CVE IDs that aren't a part of the PSF advisory database you can 
 
 ## Other items
 
+* Coordinated the [vulnerability advisory for CVE-2023-41105](https://mail.python.org/archives/list/security-announce@python.org/thread/D6CDW3ZZC5D444YGL3VQUY6D4ECMCQLD/)
+  which only affects Python 3.11.0-3.11.4.
 * Attended the CNA onboarding meeting on behalf of the PSF along with other PSF staff.
   * Was a great experience, the CNA program folks were friendly and answered all of our questions.
   * Part of becoming a CNA is an exercise determining the number of CVE IDs to issue and the contents of their
