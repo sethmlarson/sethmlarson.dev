@@ -99,4 +99,4 @@ I'm hopeful we can move away from certifi to reduce the amount of churn generate
 * [Created an issue](https://github.com/pypi/warehouse/issues/14300) for additional hardening of PyPI projects using Trusted Publishers that want to relinquish the ability to publish through other means.
 * [Created a feature request](https://github.com/orgs/community/discussions/63041) for GitHub regarding default collaborators on GitHub Security Advisories.
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-6).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-8) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-6).
