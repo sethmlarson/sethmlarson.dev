@@ -118,6 +118,8 @@ If you find any CVE IDs that aren't a part of the PSF advisory database you can 
 
 ## Other items
 
+* Published an article "[Reconciling elegance and secure-by-design in APIs](https://sethmlarson.dev/elegant-and-secure-api-design)" which discusses methodology
+  for designing APIs which are both "Pythonic" and secure against malicious inputs.
 * Coordinated the [vulnerability advisory for CVE-2023-41105](https://mail.python.org/archives/list/security-announce@python.org/thread/D6CDW3ZZC5D444YGL3VQUY6D4ECMCQLD/)
   which only affects Python 3.11.0-3.11.4.
 * Attended the CNA onboarding meeting on behalf of the PSF along with other PSF staff.
