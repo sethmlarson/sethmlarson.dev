@@ -106,6 +106,10 @@ were filed against Python that weren't submitted to the PSRT directly. Instead, 
 reported issues to MITRE directly and a CVE ID was issued without our knowledge. All of these CVE IDs
 affect Python versions older than 3.9.1 and are fixed for newer Python versions.
 
+The Python Software Foundation becoming a CVE Numbering Authority (CNA) will remove the possibility of future "shadow" CVEs
+because one of the benefits of being a CNA is that you must be contacted before a CVE ID can be issued
+against a project in your scope.
+
 One of the CVE IDs (CVE-2023-38898) appears to be of very low quality and contains incorrect information, I've
 filed a rejection request with MITRE to have this CVE withdrawn.
 
