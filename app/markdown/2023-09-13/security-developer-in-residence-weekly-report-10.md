@@ -12,7 +12,7 @@ The past few weeks I've been finishing slides, recording my video, and collabora
 
 It was a big week for Truststore!
 
-This week I [added supported for PyPy 3.10 to Truststore](https://github.com/sethmlarson/truststore/pull/113)
+This week I [added support for PyPy 3.10 to Truststore](https://github.com/sethmlarson/truststore/pull/113)
 since PyPy implements their `SSLContext` class differently
 than CPython this required an unfortunate hack after trying
 and failing to find a cleaner method that allowed `isinstance(ctx, ssl.SSLContext)`
