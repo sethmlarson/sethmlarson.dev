@@ -1,5 +1,10 @@
 # Security Developer in Residence Weekly Report #10
 
+<blockquote>
+  <center>This critical role would not be possible without funding from the <a href="https://alpha-omega.dev">OpenSSF Alpha-Omega Project</a>.
+  Massive thank-you to Alpha-Omega for investing in the security of the Python ecosystem!</center>
+</blockquote>
+
 ## OpenSSF Day Europe 2023
 
 If you haven't heard, I'm presenting on my work as the Security Developer-in-Residence at

@@ -1,5 +1,10 @@
 # CPython vulnerabilities are now published to the Open Source Vulnerability Database
 
+<blockquote>
+  <center>This critical role would not be possible without funding from the <a href="https://alpha-omega.dev">OpenSSF Alpha-Omega Project</a>.
+  Massive thank-you to Alpha-Omega for investing in the security of the Python ecosystem!</center>
+</blockquote>
+
 [Security advisories for Python](https://osv.dev/vulnerability/PSF-2023-8) are now published to the [OSV Vulnerability Database](https://osv.dev)! 🎉🥳 This means you can use
 [the OSV API](https://google.github.io/osv.dev/api/) to access machine-parseable information about security vulnerabilities affecting Python.
 

@@ -1,5 +1,10 @@
 # Visualizing the CPython Release Process
 
+<blockquote>
+  <center>This critical role would not be possible without funding from the <a href="https://alpha-omega.dev">OpenSSF Alpha-Omega Project</a>.
+  Massive thank-you to Alpha-Omega for investing in the security of the Python ecosystem!</center>
+</blockquote>
+
 Last week I met with the CPython Developer-in-Residence and Release Manager [Łukasz Langa](https://lukasz.langa.pl/) to discuss the release process for CPython (detailed in [PEP 101](https://peps.python.org/pep-0101/)). Everything I learned I've documented below and will be proposing enhancements like introducing additional hardening for the release process and capturing Software Bill of Materials for the build process and the final built artifacts.
 
 <div><center>
