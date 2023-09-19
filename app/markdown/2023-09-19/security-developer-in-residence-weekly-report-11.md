@@ -8,6 +8,8 @@ which was primarily sourced from **Victor Stinner's** [python-security project](
 is open to contributions, so if you see anything missing or incorrect we welcome pull requests. This is a huge step forward in automaticity and discoverability
 of vulnerability information for Python itself which previously would have required custom tooling.
 
+Thanks to **Oliver Chang** and **Andrew Pollock** for [setting up the ingestion into the database and helping resolve issues](https://github.com/google/osv.dev/issues/1552).
+
 To get complete information about a single vulnerability by its ID you can query the API directly:
 
 ```json
