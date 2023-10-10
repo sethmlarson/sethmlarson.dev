@@ -19,9 +19,9 @@ release tarballs and the ones I built using GitHub Actions:
 │ │ +drwx------   0 thomas (1000) thomas (1000) 0 2023-10-02 12:03:24.000000 Python-3.12.0/
 ```
 
-The biggest difference was in the archive metadata. You can see Thomas Wouters from the official python.org tarball for Python 3.12.0 there!
+The biggest difference was in the archive metadata. You can see the release manager for 3.12 Thomas Wouters' name in the python.org tarball for Python 3.12.0!
 
-Tar files save metadata about the user and group, just like a filesystem would,
+Tar files save metadata about the user and group just like a filesystem,
 and the default behavior is to save the calling users' information. I consulted the [guide on reproducible-builds.org
 for archives](https://reproducible-builds.org/docs/archives/) and the documentation for GNU tar which has a [section on reproducibility](https://www.gnu.org/software/tar/manual/html_node/Reproducibility.html#Reproducibility).
 From reading these documents I found the following individual options:
@@ -35,6 +35,19 @@ From reading these documents I found the following individual options:
 * Omit a bunch of optional metadata like process ID, file access time, status change time, and some file permissions:
   `--pax-option=exthdr.name=%d/PaxHeaders/%f,delete=atime,delete=ctime` and `--mode=go+u,go-w`.
 * Added the `--no-name` option to the gzip compression subroutine to avoid embedding the name into the gzip stream.
+
+Combining everything together you get something like this:
+
+```shell
+$ tar cf Python-3.12.0.tgz \
+    --sort=name \
+    --mtime= --clamp-mtime \
+    --owner=0 --group=0 --numeric-owner \
+    --pax-option=exthdr.name=%d/PaxHeaders/%f,delete=atime,delete=ctime \
+    --mode=go+u,go-w \
+    --use-compress-program "gzip --no-name -9" \
+    ...
+```
 
 You can see the [complete pull request to python/release-tools](https://github.com/python/release-tools/pull/62) which has all the options together.
 
