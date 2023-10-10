@@ -53,5 +53,8 @@ is being used and that malicious code can't be injected into the Windows install
 * Finishing up the Q3 report for the Security Developer-in-Residence position. Hope to publish this report to the PSF blog this month.
 * I'll be chatting remotely with attendees at the [Stockholm Python meetup](https://www.meetup.com/pysthlm/events/296576048/) on the 18th of October.
 * Working with the OpenSSF SBOM Everywhere WG on finalizing the "[Best Practices for Naming and Directory conventions for SBOMs](https://docs.google.com/document/d/1-jFoh_R7FV4NhHuUkt4Atz3h4K9b4bnmolntSbytspE)" document.
+* OpenSSF Day Europe recordings have been uploaded to YouTube. Here are two notable talks for Python:
+  * [We make Python safer than ever](https://www.youtube.com/watch?v=jhzv5RU56V4) by Cheuk Ting Ho (OpenSSF) and Seth Larson (PSF)
+  * [Trusted Publishing: Lessons from PyPI](https://www.youtube.com/watch?v=Cc7hl_tyKWE) by William Woodruff
 
 That's all for this week! 👋 If you're interested in more you can read [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-13).
