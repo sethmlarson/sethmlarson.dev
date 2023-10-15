@@ -127,6 +127,12 @@ def list_blog_posts():
     return render_template("blog-posts.html", blog_posts=BLOG_POSTS_BY_DATE)
 
 
+@app.route("/links", methods=["GET"])
+@cache_for(small_cache_time)
+def links():
+    return render_template("links.html")
+
+
 RSS_RESPONSE = None
 
 
@@ -175,6 +181,7 @@ def load_rss_response():
     return RSS_RESPONSE
 
 
+@app.route("/feed.xml")
 @app.route("/blog/rss", methods=["GET"])
 @app.route("/rss", methods=["GET"])
 @app.route("/atom", methods=["GET"])
