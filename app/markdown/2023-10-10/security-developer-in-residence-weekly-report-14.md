@@ -70,4 +70,4 @@ is being used and that malicious code can't be injected into the Windows install
   * [We make Python safer than ever](https://www.youtube.com/watch?v=jhzv5RU56V4) by Cheuk Ting Ho (OpenSSF) and Seth Larson (PSF)
   * [Trusted Publishing: Lessons from PyPI](https://www.youtube.com/watch?v=Cc7hl_tyKWE) by William Woodruff
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-13).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-15) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-13).
