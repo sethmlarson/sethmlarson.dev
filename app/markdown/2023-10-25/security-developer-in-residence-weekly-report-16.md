@@ -165,7 +165,7 @@ dependencies that were bundling libwebp such as SDL.
 Because libwebp isn't listed in any packaging metadata it's not currently possible for vulnerability detection tooling
 to alert based on insecure versions of libwebp there needs to be additional work to make vulnerability detection tooling to work.
 
-For this task, I [added entries in the PyPA Advisory database](https://github.com/pypa/advisory-database/blob/main/vulns/pillow/PYSEC-2023-175.yaml) to that tools like [pip-audit](https://pypi.org/project/pip-audit/) 
+For this task, I [added entries in the PyPA Advisory database](https://github.com/pypa/advisory-database/blob/main/vulns/pillow/PYSEC-2023-175.yaml) so tools like [pip-audit](https://pypi.org/project/pip-audit/) 
 will be able to detect vulnerable bundling of libwebp until there's a standard for encoding bundled projects into Python packaging metadata.
 
 ```shell
@@ -173,7 +173,7 @@ will be able to detect vulnerable bundling of libwebp until there's a standard f
 # version of Pillow (10.0.0) installed.
 $ python -m pip freeze
 ...
-Pillow==10.0.1
+Pillow==10.0.0
 
 # Install pip-audit and run it against the current environment:
 $ python -m pip install pip-audit
