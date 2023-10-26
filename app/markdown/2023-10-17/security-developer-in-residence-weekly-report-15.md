@@ -26,4 +26,4 @@ You should read the full report especially the section under "Future Projects" i
   * Upgraded the vendored certifi to not be vulnerable to [GHSA-xqr8-7jwr-rhp7](https://github.com/advisories/GHSA-xqr8-7jwr-rhp7).
   * Secure Transport support has been removed from pip due to pip no longer supporting an OpenSSL version that required it (1.0.1 and earlier).
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-14).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-16) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-14).
