@@ -48,7 +48,7 @@ before releasing software into the wild, so ensuring that that choice is unambig
 ## Other Items
 
 * [Discussed "affectedness" based on modules and functions for the PyPA Advisory database](https://github.com/pypa/advisory-database/issues/149). Having this information would allow
-  vulnerability scanning tools like [pip-audit](https://github.com/pypa/pip-audit) to only associate a vulnerability with a project is the affected module or function
+  vulnerability scanning tools like [pip-audit](https://github.com/pypa/pip-audit) to only associate a vulnerability with a project if the affected module or function
   is used by the project. In theory this information will reduce the amount of false-positives when a vulnerability only affects
   a single feature rather than the entire project.
 * [OSV announced broad support for C/C++ projects and vulnerabilities](https://osv.dev/blog/posts/introducing-broad-c-c++-support/). Will need to test this out against the Python ecosystem
