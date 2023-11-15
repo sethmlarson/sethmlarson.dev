@@ -22,13 +22,10 @@ Reading time: {{ reading_time }} minute{{ 's' if reading_time != 1 else '' }}</p
 {% block content %}
 {{ blog_content | safe }}
 <blockquote>
-    <p><strong>Wow, you made it to the end!</strong></p>
+    <p><strong>Don't let social media algorithms decide what you want to see.</strong></p>
     <p>
-        <strong>Social media companies shouldn't be the only way</strong> to get updates on the cool stuff your friends are up to.
-        Instead, you should either follow my blog via the <a href="{{ url_for('rss_blog_posts') }}">RSS feed</a> or the <a href="https://tinyletter.com/sethmlarson">email newsletter</a> for guaranteed article publication notifications.
-    </p>
-    <p>
-        If you really enjoyed a piece I would be grateful if you shared with a friend. If you have follow-up thoughts you can send them via email.
+        <strong>Never miss an article and support the decentralized web.</strong> Get guaranteed notifications for new publications by following the <a href="{{ url_for('rss_blog_posts') }}">RSS feed</a> or the <a href="https://tinyletter.com/sethmlarson">email newsletter</a>.
+        Send any thoughts and questions you have via <a href="https://fosstodon.org/@sethmlarson">Mastodon</a> or <a href="mailto:sethmichaellarson@gmail.com">email</a>.
     </p>
     <p>
         <strong>Thanks for reading!</strong><br> — Seth
