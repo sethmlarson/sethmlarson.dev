@@ -1,4 +1,4 @@
-# For You is not for me
+# “For You” is not for me
 
 I derive a lot of joy and meaning from being productive and engaging with people and projects I care about.
 
