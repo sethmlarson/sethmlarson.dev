@@ -41,7 +41,7 @@ Reading time: {{ reading_time }} minute{{ 's' if reading_time != 1 else '' }} <a
     .then(response => response.json()).then(responseJson => {
         if (responseJson.count) {
           var webmentionsElement = document.getElementById("webmentions");
-          webmentionsElement.innerHTML = "♡ " + String(responseJson.count) + " mentions";
+          webmentionsElement.innerHTML = "♡ " + String(responseJson.count) + " mention" + (responseJson.count > 1 ? "s" : "");
         };
     });
 </script>
