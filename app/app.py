@@ -315,6 +315,7 @@ def get_blog_post(blog_post: str):
     return render_template(
         "blog.html",
         reading_time=reading_time,
+        blog_slug=blog_post,
         blog_title=title,
         blog_published_date=blog.date,
         blog_content=html,

@@ -17,7 +17,7 @@
 {% block header %}
 <h1>{{ blog_title }}</h1>
 <p><nobr>Published {{ blog_published_date }}</nobr> <nobr>by Seth Larson</nobr><br>
-Reading time: {{ reading_time }} minute{{ 's' if reading_time != 1 else '' }}</p>
+Reading time: {{ reading_time }} minute{{ 's' if reading_time != 1 else '' }} <a href="https://webmention.io/api/mentions.html?target=https://sethmlarson.dev/{{ blog_slug }}"><span id="webmentions"></span></a></p>
 {% endblock %}
 {% block content %}
 {{ blog_content | safe }}
@@ -36,4 +36,13 @@ Reading time: {{ reading_time }} minute{{ 's' if reading_time != 1 else '' }}</p
          <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <nobr><a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0</a> <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></nobr></p>
     </center>
 </div>
+<script>
+    fetch("https://webmention.io/api/count?target=https://sethmlarson.dev/{{ blog_slug }}")
+    .then(response => response.json()).then(responseJson => {
+        if (responseJson.count) {
+          var webmentionsElement = document.getElementById("webmentions");
+          webmentionsElement.innerHTML = "♡ " + String(responseJson.count) + " mentions";
+        };
+    });
+</script>
 {% endblock %}
