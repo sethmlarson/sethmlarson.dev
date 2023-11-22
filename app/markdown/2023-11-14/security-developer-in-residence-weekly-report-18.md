@@ -222,4 +222,4 @@ from using this dataset!
   into final draft, now working with OpenSSF marketing to schedule the post for the blog.
 * Received a [shoutout from Carol Willing](https://twitter.com/tiangolo/status/1723335223750861152) during her keynote at PyCon Sweden. Thanks, Carol!
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-17).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-19) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-17).
