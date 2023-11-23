@@ -334,3 +334,11 @@ span.hidden-sm {
     max-width: 60rem;
   }
 }
+
+@keyframes webmentionsFadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.webmentions-fade-in {
+  animation: webmentionsFadeIn 0.5s;
+}
