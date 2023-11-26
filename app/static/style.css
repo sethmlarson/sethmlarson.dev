@@ -3,9 +3,6 @@
   font-feature-settings: 'liga' 1, 'calt' 1, 'ss02' 1, 'ss03' 1; /* fix for Chrome */
   font-size: 100%;
 }
-@supports (font-variation-settings: normal) {
-  :root { font-family: InterVariable, sans-serif; }
-}
 body {
   background-color: #fff;
   color: #000;
