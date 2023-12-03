@@ -67,7 +67,7 @@ Usually the error will have a message like the one below:
 ```python
 SSLCertVerificationError(1,
   '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed:'
-  'unable to get local issuer certificate (_ssl.c:997)'
+  '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)'
 )
 ```
 

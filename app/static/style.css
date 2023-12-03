@@ -30,7 +30,7 @@
   src: url("https://rsms.me/inter/font-files/Inter-BoldItalic.woff2?v=4.0") format("woff2");
 }
 
-:root {
+:root, input {
   font-family: Inter, sans-serif;
   font-size: 100%;
 }
@@ -48,7 +48,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
-  padding-bottom: 4em;
+  padding-bottom: 4rem;
 
   @media (min-width:600px) {
     font-size: 1.3rem;
@@ -150,8 +150,23 @@ p {
   margin: 0;
   margin-bottom: 1.5em;
 }
-ul {
-  list-style-type: square;
+input[type=submit], input[type=email] {
+  font-weight: 400;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  margin: 0;
+}
+input[type=submit] {
+  color: #000;
+  background-color: #f0f0f0;
+}
+input[type=email] {
+  background-color: #fff;
+}
+li:not(:first-child) {
+  margin-top: 0.5rem;
 }
 pre {
   margin: 0;

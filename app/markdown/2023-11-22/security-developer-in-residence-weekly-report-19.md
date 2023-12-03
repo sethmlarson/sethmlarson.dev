@@ -65,6 +65,7 @@ The guide itself has a [section going into the behavior and requirements of each
 
 ## Other items
 
+* My work was [featured in an article](https://thenewstack.io/pythons-new-security-developer-has-plans-to-secure-the-language/) by The New Stack.
 * I [became a Python triager](https://github.com/python/core-workflow/issues/515) thanks to the recommendation by **Hugo van Kemenade** in order to be on the `CODEOWNERS` list for CPython SBOM tooling and resources. 
 * [Submitted PR](https://github.com/python/release-tools/pull/71/files) to move CPython's source and documentation builds to GitHub Actions.
   I'm waiting for the Developer-in-Residence **Łukasz Langa** to return from conferences to land this one.

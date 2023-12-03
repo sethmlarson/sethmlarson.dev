@@ -53,7 +53,7 @@ the following platforms:
 * [Mastodon](https://fosstodon.org/@sethmlarson)
 * [Discord](https://discord.com/users/481989102951202817)
 * [Email](mailto:sethmichaellarson@gmail.com)
-* [TinyLetter](https://tinyletter.com/sethmlarson)
+* [Buttondown](https://buttondown.email/sethmlarson)
 * [RSS](https://sethmlarson.dev/feed)
 
 At least for now these platforms get directly to the source (people) and don't have most of the problems listed above. Stay safe out there, friends! 👻
