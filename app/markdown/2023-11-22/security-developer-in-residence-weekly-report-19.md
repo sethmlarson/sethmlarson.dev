@@ -78,4 +78,4 @@ The guide itself has a [section going into the behavior and requirements of each
 Thursday and Friday are holidays in the United States and from Monday to Thursday I'll be traveling to meet up with some of my colleagues at the Python Software Foundation.
 Due to this, expect there to not be much to report for next week. See you in December!
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-18).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-20) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-18).
