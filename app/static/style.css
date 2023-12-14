@@ -157,10 +157,12 @@ input[type=submit], input[type=email] {
   border-width: 1px;
   border-color: #000;
   margin: 0;
+  padding: 0.25rem;
 }
 input[type=submit] {
-  color: #000;
-  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: #000;
 }
 input[type=email] {
   background-color: #fff;
