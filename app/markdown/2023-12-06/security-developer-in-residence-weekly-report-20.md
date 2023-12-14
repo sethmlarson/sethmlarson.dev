@@ -38,4 +38,4 @@ and I'm proud of what I've been able to accomplish since June. The list of highl
 None of the above would have been possible without the trust and support of the Python community.
 The year isn't quite over yet, but I'm already excited for what we can all accomplish next year together. Thanks a million, everyone! 💜
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-19).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-21) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-19).
