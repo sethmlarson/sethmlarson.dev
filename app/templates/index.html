@@ -1,39 +1,38 @@
 {% extends "base.html" %}
 {% block header %}
-<h1 style="margin-bottom: 1rem;">Seth Michael Larson</h1>
-<p>Python, open source, & the internet</p>
+<h1>Seth Michael Larson</h1>
 {% endblock %}
 {% block content %}
     <div class="row">
-        <div class="col-12">
+        <div class="col-6 col-12-sm">
             <p>
-                Hey there! My name is Seth, and I am the <a href="https://pyfound.blogspot.com/2023/06/announcing-our-new-security-developer.html" target="_blank" rel="noopener noreferrer">Security Developer-in-Residence at the Python Software Foundation</a>
-                and working on improving the security posture of projects like CPython, PyPI, and the broader Python ecosystem.
+                Hey there! My name is Seth, and I am the <a href="https://pyfound.blogspot.com/2023/06/announcing-our-new-security-developer.html" target="_blank" rel="noopener noreferrer">Security Developer-in-Residence</a>
+                at the Python Software Foundation working on improving the security posture of the Python ecosystem.
             </p>
             <p>
-                I maintain and contribute to
-                <a href="https://github.com/sethmlarson?tab=repositories" target="_blank" rel="noopener noreferrer">multiple open source projects</a>.
-                Most notably I'm the lead maintainer of <a href="https://github.com/urllib3/urllib3" target="_blank" rel="noopener noreferrer">urllib3</a>, an HTTP
-                client library that is the most downloaded package on the Python Package Index with
-                <a href="https://pepy.tech/project/urllib3?versions=*" target="_blank" rel="noopener noreferrer">over 10 billion downloads</a>. I was made a <a href="https://pyfound.blogspot.com/2022/07/announcing-python-software-foundation.html" target="_blank" rel="noopener noreferrer">Python Software Foundation Fellow</a> in 2022.
+                I was made a Python Software Foundation Fellow in 2022. I maintain multiple open source projects
+                including urllib3, truststore, and Requests.
             </p>
-            <p>
-                I enjoy writing about Python, open source maintenance and sustainability, security, and technology powering the internet.
-                If you're also interested in these topics you may find <a href="{{ url_for('list_blog_posts') }}">articles on my blog</a> worth a read.
-            </p>
-            <p>
-                <table>
-                    <tr><th>Key</th><th>Value</th></tr>
-                    <tr><td>Pronouns</td><td>he/him</td></tr>
-                    <tr><td>Email (Personal)</td><td><a href="mailto:sethmichaellarson@gmail.com" target="_blank" rel="noopener noreferrer"><code>sethmichaellarson@gmail.com</code></a></td></tr>
-                    <tr><td>Email (Work)</td><td><a href="mailto:sethmichaellarson@gmail.com" target="_blank" rel="noopener noreferrer"><code>seth@python.org</code></a></td></tr>
-                    <tr><td>Mastodon</td><td><a href="https://fosstodon.org/@sethmlarson" target="_blank" rel="me noopener noreferrer"><code>@sethmlarson@fosstodon.org</code></a></td></tr>
-                    <tr><td>GitHub</td><td><a href="https://github.com/sethmlarson" target="_blank" rel="me noopener noreferrer"><code>@sethmlarson</code></a></td></tr>
-                    <tr><td>Discord</td><td><a href="https://discord.com/users/481989102951202817" target="_blank" rel="noopener noreferrer"><code>@sethmlarson</code></a></td></tr>
-                    <tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/in/sethmlarson/" target="_blank" rel="noopener noreferrer"><code>sethmlarson</code></a></td></tr>
-                    <tr><td>Twitter</td><td><a href="https://twitter.com/sethmlarson" target="_blank" rel="noopener noreferrer"><code>@sethmlarson</code></a></td></tr>
-                </table>
-            </p>
+        </div>
+        <div class="col-2 col-4-sm" style="text-align: right;">
+            <div>Pronouns:</div>
+            <div>Email:</div>
+            <div>Email:</div>
+            <div>Mastodon:</div>
+            <div>GitHub:</div>
+            <div>Discord:</div>
+            <div>LinkedIn:</div>
+            <div>Twitter:</div>
+        </div>
+        <div class="col-4 col-8-sm">
+            <div>he/him</div>
+            <div><a href="mailto:sethmichaellarson@gmail.com" target="_blank" rel="noopener noreferrer">sethmichaellarson@gmail.com</a></div>
+            <div><a href="mailto:seth@python.org" target="_blank" rel="noopener noreferrer">seth@python.org</a></div>
+            <div><a href="https://fosstodon.org/@sethmlarson" target="_blank" rel="me noopener noreferrer">sethmlarson@fosstodon.org</a></div>
+            <div><a href="https://github.com/sethmlarson" target="_blank" rel="me noopener noreferrer">sethmlarson</a></div>
+            <div><a href="https://discord.com/users/481989102951202817" target="_blank" rel="noopener noreferrer">sethmlarson</a></div>
+            <div><a href="https://www.linkedin.com/in/sethmlarson/" target="_blank" rel="noopener noreferrer">sethmlarson</a></div>
+            <div><a href="https://twitter.com/sethmlarson" target="_blank" rel="noopener noreferrer">sethmlarson</a></div>
         </div>
     </div>
 {% endblock %}

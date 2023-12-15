@@ -22,18 +22,17 @@ Reading time: {{ reading_time }} minute{{ 's' if reading_time != 1 else '' }} <a
 {% block content %}
 {{ blog_content | safe }}
 <blockquote>
-    <p><strong>Don't let social media algorithms decide what you want to see.</strong></p>
     <p>
-        Get notified of new publications by subscribing to the <a href="{{ url_for('rss_blog_posts') }}">RSS feed</a> or the <a href="https://buttondown.email/sethmlarson">email newsletter</a>:
-
+        <strong>Thanks for reading!</strong> ♡ Did you find this article helpful and want more content like it?
+        <nobr>Get notified of new posts</nobr> by subscribing to the <a href="{{ url_for('rss_blog_posts') }}">RSS feed</a> or the <a href="https://buttondown.email/sethmlarson">email newsletter</a>.
     <form
       action="https://buttondown.email/api/emails/embed-subscribe/sethmlarson"
       method="post"
       target="popupwindow"
       onsubmit="window.open('https://buttondown.email/sethmlarson', 'popupwindow')"
     >
-      <input type="email" name="email" id="bd-email" placeholder="you@example.com" required/>
-      <input type="submit" value="Subscribe"/>
+        <input type="email" name="email" id="bd-email" placeholder="Email address here" required/>
+    <input type="submit" value="Subscribe"/>
     </form>
     </p>
 </blockquote>

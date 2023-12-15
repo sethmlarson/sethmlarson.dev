@@ -167,6 +167,9 @@ input[type=submit] {
 input[type=email] {
   background-color: #fff;
 }
+#bd-email {
+  max-width: 60%;
+}
 li:not(:first-child) {
   margin-top: 0.5rem;
 }
