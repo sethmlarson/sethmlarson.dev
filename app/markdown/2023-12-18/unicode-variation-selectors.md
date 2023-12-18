@@ -19,17 +19,17 @@ Similar to other classic games like [Chess](https://en.wikipedia.org/wiki/Chess_
 <div class="mahjong">🀄︎🀅🀆</div>
 </div>
 <div class="col-12">
-Dots <small class="ucode">(U+1F007..U+1F00F)</small><br>
+Dots <small class="ucode">(U+1F019..U+1F021)</small><br>
 <div class="mahjong">🀙🀚🀛🀜🀝🀞🀟🀠🀡</div>
 </div>
 
 <div class="col-12">
-Bamboo <small class="ucode">(U+1F004..U+1F006)</small><br>
+Bamboo <small class="ucode">(U+1F010..U+1F018)</small><br>
 <div class="mahjong">🀐🀑🀒🀓🀔🀕🀖🀗🀘</div>
 </div>
 
 <div class="col-12">
-Characters <small class="ucode">(U+1F004..U+1F006)</small><br>
+Characters <small class="ucode">(U+1F007..U+1F00F)</small><br>
 <div class="mahjong">🀇🀈🀉🀊🀋🀌🀍🀎🀏</div>
 </div>
 
