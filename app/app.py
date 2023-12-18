@@ -312,6 +312,26 @@ def get_blog_post(blog_post: str):
             f'{header_start[:-1]} id="{anchor_href}">{header}<a class="anchor" href="#{anchor_href}" aria-hidden="true">§</a>{header_end}',
         )
 
+    # Inject custom HTML into the HTML <head> tags.
+    html_head = ""
+    if blog_post == "unicode-variation-selectors":
+        html_head = """
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Emoji&family=Noto+Sans+Symbols+2&display=swap" rel="stylesheet">
+<style>
+  .ucode {
+    font-feature-settings: 'tnum' 1;
+  }
+  .mahjong {
+    font-family: 'Noto Sans Symbols 2', 'Noto Emoji', sans-serif;
+    font-size: 5.3rem;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+  }
+</style>
+        """
+
     return render_template(
         "blog.html",
         reading_time=reading_time,
@@ -320,4 +340,5 @@ def get_blog_post(blog_post: str):
         blog_published_date=blog.date,
         blog_content=html,
         blog_content_text=blog_content_text,
+        html_head=html_head,
     )

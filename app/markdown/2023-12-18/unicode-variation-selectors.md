@@ -1,20 +1,5 @@
 # Mahjong tiles and Unicode variation selectors
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-<style>
-  .ucode {
-    font-feature-settings: 'tnum' 1;
-  }
-  .mahjong {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 5rem;
-    line-height: 5rem;
-    margin-bottom: 1.3rem;
-  }
-</style>
-
 It's been a while since I've written about Unicode, so here's
 a short one about a Unicode feature I recently learned about
 wrapped inside an opportunity to admire the Mahjong glyphs.
@@ -64,7 +49,7 @@ Reverse <small class="ucode">(U+1F02B)</small><br>
 </div>
 <div class="col-6 col-12-sm">
 Red Dragon Emoji <small class="ucode">(U+1F004)</small><br>
-<div class="mahjong">🀄</div>
+<div class="mahjong" style="font-family: sans-serif;">🀄</div>
 </div>
 </div>
 </div>
