@@ -38,4 +38,4 @@ You can see the current usage of memory-unsafe languages in Python projects [in 
 * Submitted my year-end report to OpenSSF Alpha-Omega. Subscribe to the [Alpha-Omega blog](https://alpha-omega.dev/resources/news/) to be notified when the year-end report is published.
 * Submitted to the PyCon US CFP.
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-20).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-22) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-20).

@@ -45,4 +45,4 @@ I spoke with **Jannis Leidel** to confirm that I was happy with Conda moving for
 * Discussed the release process of pip with pip maintainer **Pradyun Gedam**. Stay tuned for more there.
 * Reviewed the [proposal for the PyPI Malware Reporting API](https://github.com/pypi/warehouse/issues/14503).
 
-That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-11) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-9).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-11) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-9).

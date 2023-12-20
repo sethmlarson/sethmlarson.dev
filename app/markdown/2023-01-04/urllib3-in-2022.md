@@ -20,7 +20,7 @@ Let's dive into our sources of financial support in 2022 and how the money was s
 
 We disbursed [~$6,500 USD from our Open Collective](https://opencollective.com/urllib3/transactions?period=2022-01-01T06%3A00%3A00.000Z%E2%86%922023-01-01T05%3A59%3A59.999Z&kind=EXPENSE) to maintainers and community contributors for their work on the project.
 We go into 2023 with $18,827 in our Open Collective balance. In the new year our team will continue
-using Open Collective funds for "[issue bounties](http://sethmlarson.dev/get-paid-to-contribute-to-urllib3)"
+using Open Collective funds for "[issue bounties](https://sethmlarson.dev/get-paid-to-contribute-to-urllib3)"
 to attract new contributors and reward existing ones for their hard work. We'll also hopefully have
 time available for some contributors to work on larger initiatives as has been done in 2022.
 

@@ -97,4 +97,4 @@ wouldn't trigger the GitHub App action to add the PSRT team.
 Since I've just passed 3 months in this role (time sure does fly!) I am drafting a summarized update for my work in 2023 Q3 that will be published to
 the [Python Software Foundation blog](https://pyfound.blogspot.com/). Subscribe to the blog via RSS or other social media platform to get notified.
 
-That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-13) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-11).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-13) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-11).

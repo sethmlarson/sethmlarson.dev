@@ -139,4 +139,4 @@ If you find any CVE IDs that aren't a part of the PSF advisory database you can 
   * Fixed the formatting of newlines in the description of PSF-2023-9 ([psf/advisory-database#17](https://github.com/psf/advisory-database/pull/17))
   * Improvements to the CVE record import tool.
 
-That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-9) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-7).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-9) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-7).

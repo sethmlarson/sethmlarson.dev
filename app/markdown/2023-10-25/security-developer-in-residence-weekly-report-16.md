@@ -233,4 +233,4 @@ Overall I learned a lot from this exercise:
 * Published the [Security Developer-in-Residence Q3 Report](https://pyfound.blogspot.com/2023/10/security-developer-in-residence-2023-q3-report.html) to the PSF blog.
 * Presented to the [Stockholm Python User Group](https://www.meetup.com/pysthlm/events/296576048/).
 
-That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-17) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-15).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-17) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-15).

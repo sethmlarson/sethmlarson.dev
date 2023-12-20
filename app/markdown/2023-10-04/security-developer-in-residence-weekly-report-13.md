@@ -148,4 +148,4 @@ I'm hoping to get more visibility into the macOS and Windows installers using SB
 * [Added redirect to readers of python-security.readthedocs.io](https://github.com/vstinner/python-security/pull/42) to the PSF Advisory Database.
 * [Added an advisory to the PyPA Advisory Database](https://github.com/pypa/advisory-database/pull/161) for OpenCV libraries affected by the libwebp vulnerability.
 
-That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-14) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-12).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-14) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-12).

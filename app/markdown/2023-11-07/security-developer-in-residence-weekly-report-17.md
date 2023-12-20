@@ -55,4 +55,4 @@ before releasing software into the wild, so ensuring that that choice is unambig
   to provide feedback on their detection tooling and how it applies to Python.
 * Published the [engagement report for October 2023](https://github.com/ossf/alpha-omega/pull/265) to Alpha-Omega.
 
-That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-18) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-16).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-18) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-16).

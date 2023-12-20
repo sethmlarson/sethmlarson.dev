@@ -109,4 +109,4 @@ I [filed a potential bug about this issue](https://github.com/orgs/community/dis
   * [sigstore/sigstore-python#771](https://github.com/sigstore/sigstore-python/issues/771)
   * [python/pythondotorg#2285](https://github.com/python/pythondotorg/issues/2285)
 
-That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-12) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-10).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-12) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-10).

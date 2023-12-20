@@ -56,4 +56,4 @@ Last week the [Python Software Foundation was announced as a CNA](https://pyfoun
 * Participated in OSSF SBOM SIG for "[Best Practices for Naming and Directory Conventions for SBOMs in Open Source Projects](https://docs.google.com/document/d/1-jFoh_R7FV4NhHuUkt4Atz3h4K9b4bnmolntSbytspE)"
 * Provided an [August update for OpenSSF Alpha-Omega](https://github.com/ossf/alpha-omega/pull/221).
 
-That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-10) or [last week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-8).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-10) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-8).

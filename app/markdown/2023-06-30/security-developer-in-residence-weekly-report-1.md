@@ -109,4 +109,4 @@ most folks using GitHub Actions for releases can likely already adopt Trusted Pu
 - [Draft PR](https://github.com/pypi/warehouse/pull/13943) to integrate [Repository Service for TUF](https://github.com/repository-service-tuf/repository-service-tuf) with Warehouse.
 - [PyPI Malware Detection project](https://discuss.python.org/t/pypi-malware-detection-project/28222) funded by [CSET](https://cset.georgetown.edu/)
 
-That's all for this week! 👋 If you're interested in more you can read [next week's report](http://sethmlarson.dev/security-developer-in-residence-weekly-report-2).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-2).
