@@ -13,7 +13,7 @@ During an upgrade to CPython's `ensurepip` module, the bundled `pip` wheel was [
 however during the upgrade there was some confusion about what to do with an SBOM CI failure due to the
 Developer Guide documentation not yet being live. This resulted in the SBOM becoming out-of-date.
 
-To remedy this issue beyond having process documentation available. I [fixed the SBOM](https://github.com/python/cpython/pull/113262) ahead of the 3.13.0a3 release and
+I [fixed the SBOM](https://github.com/python/cpython/pull/113262) ahead of the 3.13.0a3 release and
 [automated the pip SBOM metadata discovery](https://github.com/python/cpython/pull/113295) since pip is a part of a packaging ecosystem which isn't the case for most
 of CPython dependencies in the source tree.
 
