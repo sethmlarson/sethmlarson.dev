@@ -30,7 +30,7 @@ You can see the current usage of memory-unsafe languages in Python projects [in 
 
 ## Other items
 
-* PyPI Safety and Security Engineer Mike Fielder published an announcement [about 2FA enforcement of PyPI starting January 1st, 2024](https://discuss.python.org/t/announcement-2fa-requirement-for-pypi-2024-01-01/40906). **All users of PyPI will be required to use 2FA.**
+* PyPI Safety and Security Engineer Mike Fiedler published an announcement [about 2FA enforcement of PyPI starting January 1st, 2024](https://discuss.python.org/t/announcement-2fa-requirement-for-pypi-2024-01-01/40906). **All users of PyPI will be required to use 2FA.**
 * [Initial pull request](https://github.com/python/cpython/pull/112303) adding Software Bill-of-Materials for CPython dependencies has been merged.
   I've created a [list of sub-issues](https://discuss.python.org/t/create-and-distribute-software-bill-of-materials-sbom-for-python-artifacts/39293/11?u=sethmlarson) on different projects for where the work will be progressing next.
 * Łukasz [will dry-run](https://github.com/python/release-tools/pull/71#issuecomment-1843852272) the automation for the CPython release process for CPython 3.13.0a3 (according to PEP 719 will be in about a week).
