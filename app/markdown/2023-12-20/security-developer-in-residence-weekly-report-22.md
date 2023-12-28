@@ -30,4 +30,4 @@ and doing discovery work on macOS installers.
 * [Reviewed](https://github.com/pypi/warehouse/issues/14961#issuecomment-1856913333) the secret scanning payload [proposed by GitGuardian](https://github.com/pypi/warehouse/issues/14961).
   This payload would allow PyPI to alert users when secrets are uploaded with donated secret scanning expertise from GitGuardian.
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-21).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-23) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-21).
