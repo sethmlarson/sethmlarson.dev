@@ -38,7 +38,9 @@ Elastic had its first Engineering All Hands in-person since COVID to start off 2
 </p>
 
 After 3 great years at Elastic I was hired by the Python Software Foundation to be the Security Developer-in-Residence.
-I still have days when I think I'm dreaming, I'm so grateful I have the opportunity to work full-time serving a community I love.
+It was a surreal feeling sitting near the front of the 2023 Python Software Foundation update and hearing
+that the role was ["very close" to being finalized](https://youtu.be/NZhHFDbul8g?si=3XaN4DVl0m8wIclI&t=792) a few weeks before the
+public announcement was made in June. I still have days when I think I'm dreaming, I'm so grateful I have the opportunity to work full-time serving a community I love.
 
 <p>
 <center>
