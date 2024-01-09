@@ -45,4 +45,4 @@ There's lots of cool stuff coming in this space next year, look forward to more 
 * Submitted a [pull request](https://github.com/python/cpython/pull/113490) for adding the new Software Bill-of-Materials Devguide URL to validation errors.
 * Triaged and responded to multiple security reports submitted to the Python Security Response Team at `security@python.org`.
 
-That's all for this year! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-22).
+That's all for this year! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-24) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-22).
