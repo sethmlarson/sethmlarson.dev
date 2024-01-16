@@ -30,7 +30,7 @@
   src: url("https://rsms.me/inter/font-files/Inter-BoldItalic.woff2?v=4.0") format("woff2");
 }
 
-:root, input {
+:root, input, textarea, button {
   font-family: Inter, sans-serif;
   font-size: 100%;
 }
@@ -167,6 +167,18 @@ input[type=submit] {
 input[type=email] {
   background-color: #fff;
 }
+button {
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: #000;
+ font-weight: 400;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  margin: 0;
+  padding: 0.25rem;
+}
+}
 #bd-email {
   max-width: 60%;
 }
@@ -301,7 +313,6 @@ blockquote {
 .row {
   position: relative;
   width: 100%;
-  margin-bottom: 1.5em;
 }
 .row [class^="col"] {
   float: left;
