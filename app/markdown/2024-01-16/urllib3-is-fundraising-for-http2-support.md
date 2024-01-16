@@ -1,6 +1,6 @@
 # urllib3 is fundraising for HTTP/2 support
 
-> **TLDR:** urllib3 is raising **~$40,000 USD** to release HTTP/2 support and ensure long-term sustainable maintenance of the project after a sharp decline in financial support for 2023.
+> **TLDR:** [urllib3 is raising **~$40,000 USD**](https://opencollective.com/urllib3) to release HTTP/2 support and ensure long-term sustainable maintenance of the project after a sharp decline in financial support for 2023.
 
 ## What is urllib3?
 
@@ -84,10 +84,10 @@ requires adding more long-term maintenance burden to maintainers. **This importa
 should not be uncompensated.**
 
 To ensure timely and sustainable development of HTTP/2 for urllib3 we're launching a fundraiser with a goal
-of raising our [Open Collective balance to $50,000 USD](https://opencollective.com/urllib3). HTTP/2 support has
+of raising our **[Open Collective balance to $50,000 USD](https://opencollective.com/urllib3)**. HTTP/2 support has
 just started being developed and we're hoping to release stable support once our fundraising goal has been reached.
-Donations to [Open Collective](https://opencollective.com/urllib3) directly or to platforms like [GitHub Sponsors](https://github.com/sponsors/urllib3/)
-or [Thanks.dev](https://thanks.dev/) will all be counted towards this fundraising goal.
+**Donations to [Open Collective](https://opencollective.com/urllib3)** directly or to platforms like **[GitHub Sponsors](https://github.com/sponsors/urllib3/)**
+or **[Thanks.dev](https://thanks.dev/)** will all be counted towards this fundraising goal.
 
 Our team has a long track record of using our financial resources to complete larger projects like [secure URL parsing](https://sethmlarson.dev/sponsored-work-on-urllib3), [TLS 1.3](https://sethmlarson.dev/review-of-2019-for-urllib3#releases-and-changes), [modernizing our test suite framework](https://quentin.pradet.me/blog/ive-been-paid-to-work-on-open-source.html), and [finding security issues across multiple projects](https://quentin.pradet.me/blog/i-got-paid-to-work-on-open-source-2.html). All receipts are [published publicly on our Open Collective](https://opencollective.com/urllib3/expenses) with links to the work items being accomplished and blogged about by our maintainers. If you or your organization has questions about this fundraiser please email [sethmichaellarson@gmail.com](mailto:sethmichaellarson@gmail.com) or ask in our [community Discord](discord.gg/urllib3).
 
