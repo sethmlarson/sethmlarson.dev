@@ -78,4 +78,4 @@ model them properly.
   for 2024 would be, there will be more to share as we approach the start of those projects.
 * Triaging multiple reports to the Python Security Response Team.
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-23).
+That's all for this year! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-25) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-23).
