@@ -33,6 +33,17 @@ long_cache_time = 1800
 small_cache_time = 300
 avatar_url = "https://github.com/sethmlarson.png"
 reading_times = {}
+favorite_posts = {
+    "utf-8",
+    "for-you-is-not-for-me",
+    "urllib3-is-fundraising-for-http2-support",
+    "security-developer-in-residence-weekly-report-9",
+    "security-developer-in-residence-weekly-report-13",
+    "security-developer-in-residence-weekly-report-18",
+    "pep-440",
+    "security-for-package-maintainers",
+    "people-in-your-software-supply-chain",
+}
 
 
 def cache_for(seconds: int):
@@ -124,7 +135,7 @@ def robots_txt():
 @app.route("/blog", methods=["GET"])
 @cache_for(small_cache_time)
 def list_blog_posts():
-    return render_template("blog-posts.html", blog_posts=BLOG_POSTS_BY_DATE)
+    return render_template("blog-posts.html", blog_posts=BLOG_POSTS_BY_DATE, favorite_posts=favorite_posts)
 
 
 @app.route("/links", methods=["GET"])
@@ -143,7 +154,6 @@ def load_rss_response():
 
     feed = AtomFeed(
         title="Seth Michael Larson",
-        subtitle="Python, open source, and the internet",
         author={
             "name": "Seth Michael Larson",
             "email": "sethmichaellarson@gmail.com",
@@ -200,8 +210,7 @@ def about():
 @app.route("/", methods=["GET"])
 @cache_for(small_cache_time)
 def index():
-    latest_blog = BLOG_POSTS_BY_DATE[sorted(BLOG_POSTS_BY_DATE, reverse=True)[0]][-1]
-    return render_template("index.html", latest_blog=latest_blog)
+    return render_template("index.html")
 
 
 @app.route("/api/wordle-stats", methods=["GET"])
