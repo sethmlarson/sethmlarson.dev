@@ -54,4 +54,4 @@ Next I'm working on the infrastructure for actually generating and making the SB
 * Reviewed [PEP 740 proposal](https://github.com/python/peps/pull/3618) for arbitrary attestation mechanism for PyPI artifacts.
 * Triaged multiple reports to the Python Security Response Team.
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-24).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-26) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-24).
