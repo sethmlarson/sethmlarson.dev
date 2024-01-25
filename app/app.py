@@ -34,6 +34,11 @@ small_cache_time = 300
 avatar_url = "https://github.com/sethmlarson.png"
 reading_times = {}
 favorite_posts = {
+    "designing-for-real-world-https",
+    "api-design-for-an-async-open",
+    "tests-arent-enough-case-study-after-adding-types-to-urllib3",
+    "experimental-python-3.10-apis-and-trust-stores",
+    "strict-python-function-parameters",
     "utf-8",
     "for-you-is-not-for-me",
     "urllib3-is-fundraising-for-http2-support",
@@ -43,6 +48,7 @@ favorite_posts = {
     "pep-440",
     "security-for-package-maintainers",
     "people-in-your-software-supply-chain",
+    "removing-maintainers-from-open-source-projects",
 }
 
 
