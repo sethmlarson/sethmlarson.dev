@@ -42,4 +42,5 @@ once new rules are published.
   and [draft](https://peps.python.org/pep-0740/) was created by **William Woodruff**.
 * Triaged multiple reports to the Python Security Response Team.
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-26).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-28) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-26).
+

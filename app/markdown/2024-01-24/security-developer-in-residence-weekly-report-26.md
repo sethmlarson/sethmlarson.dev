@@ -62,4 +62,4 @@ and uploading them during the release. Once those SBOMs start being generated th
 * I [published a blog post](https://sethmlarson.dev/removing-maintainers-from-open-source-projects) which provides guidance
   on how to remove a maintainer from an open source project to reduce the attack surface of an open source project.
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-25).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-27) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-25).
