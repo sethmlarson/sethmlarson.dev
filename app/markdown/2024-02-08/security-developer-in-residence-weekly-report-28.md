@@ -36,4 +36,4 @@ about Vulnerability Exchange (VEX) and how it can be applied to CPython SBOMs.
 * Attended the Alpha-Omega monthly community meeting.
 * Triaged reports to the Python Security Response Team.
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-27).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-29) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-27).
