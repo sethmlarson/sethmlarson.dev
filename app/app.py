@@ -49,6 +49,7 @@ favorite_posts = {
     "security-for-package-maintainers",
     "people-in-your-software-supply-chain",
     "removing-maintainers-from-open-source-projects",
+    "websites-without-servers-or-networking",
 }
 
 
