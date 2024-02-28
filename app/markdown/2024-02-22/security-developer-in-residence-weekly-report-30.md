@@ -49,4 +49,4 @@ take a look if you're interested in what Alpha-Omega has next in 2024.
 * Reviewed the [OpenSSF announcement blog post for Linux becoming a CNA](https://openssf.org/blog/2024/02/14/linux-kernel-achieves-cve-numbering-authority-status/)
 * [Reviewed the lock file with sdists proposal](https://discuss.python.org/t/lock-files-again-but-this-time-w-sdists/46593/17) from **Brett Cannon**
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-29).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-31) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-29).
