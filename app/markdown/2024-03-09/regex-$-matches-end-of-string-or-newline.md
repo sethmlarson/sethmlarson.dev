@@ -11,7 +11,9 @@ and the behavior is *platform-dependent*. Specifically for Python with multiline
 the `$` character can match either the end of a string *or a trailing newline before the end of a string*.
 
 So if you're trying to match a string without a newline at the end, **you can't only use `$` in Python!**
-Next logical question is how does one match the end of a string without a newline?
+My expectation was having multiline mode disabled wouldn't have had this newline-matching behavior, but that isn't the case.
+
+Next logical question is how does one match the end of a string without a newline in Python?
 
 After doing more research on [Python](https://docs.python.org/3/library/re.html#regular-expression-syntax)
 and [other regular expression syntaxes](https://www.regular-expressions.info/anchors.html)
