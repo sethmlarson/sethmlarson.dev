@@ -46,11 +46,11 @@ the [Tabletop Exercise](https://sched.co/1aN8l) that caps off SOSS Community Day
 
 ## Other items
 
-* CPython source and documentation builds moved to GitHub Actions thanks to Developer-in-Residence **Łukasz Langa**
+* [CPython source and documentation builds moved to GitHub Actions](https://github.com/python/release-tools/pull/71) thanks to Developer-in-Residence **Łukasz Langa**
   for reviewing and dry-running the GitHub Action during the most recent CPython release.
 * Security advisories for [CVE-2023-6597](https://mail.python.org/archives/list/security-announce@python.org/thread/Q5C6ATFC67K53XFV4KE45325S7NS62LD/) and [CVE-2024-0450](https://mail.python.org/archives/list/security-announce@python.org/thread/XELNUX2L3IOHBTFU7RQHCY6OUVEWZ2FG/) were published while I was away by Ee Durbin.
 * [CPython 3.13.0a5](https://www.python.org/downloads/release/python-3130a5/) is released containing some [changes to default certificate verification behavior](https://github.com/python/cpython/pull/112389). Please test the latest CPython alpha releases for 3.13!
-* Reviewed Brett Cannon's lock file pre-PEP to ensure package URLs and SBOMs can be constructed reliably
+* Reviewed **Brett Cannon**'s [lock file pre-PEP](https://discuss.python.org/t/lock-files-again-but-this-time-w-sdists/46593) to ensure package URLs and SBOMs can be constructed reliably
   and for future changes to checksum algorithms.
 * I'll be blogging for the [Python Language Summit](https://us.pycon.org/2024/events/language-summit/) at PyCon US 2024.
 
