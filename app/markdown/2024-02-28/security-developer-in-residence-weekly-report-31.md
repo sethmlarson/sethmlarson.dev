@@ -1,5 +1,9 @@
 # Security Developer-in-Residence Weekly Report #31
 
+<blockquote>
+  <center>This critical role would not be possible without funding from the <a href="https://alpha-omega.dev">Alpha-Omega project</a>. Massive thank-you to Alpha-Omega for investing in the security of the Python ecosystem!</center>
+</blockquote>
+
 ## Windows CPython SBOMs
 
 I've finished up work for Software Bill-of-Materials for generating Windows CPython artifacts,
@@ -39,4 +43,4 @@ I'll be taking a break from weekly updates in March because I'll be traveling in
 meaning I'll only have ~5 normal work days, so if you're curious why there aren't any weekly updates
 that will be why. ✈️
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-30).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-32) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-30).
