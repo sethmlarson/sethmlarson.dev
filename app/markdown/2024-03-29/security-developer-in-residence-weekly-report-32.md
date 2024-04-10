@@ -54,4 +54,4 @@ the [Tabletop Exercise](https://sched.co/1aN8l) that caps off SOSS Community Day
   and for future changes to checksum algorithms.
 * I'll be blogging for the [Python Language Summit](https://us.pycon.org/2024/events/language-summit/) at PyCon US 2024.
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-31).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-33) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-31).
