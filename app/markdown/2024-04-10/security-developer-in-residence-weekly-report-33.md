@@ -69,7 +69,7 @@ Things to keep in mind when working on solutions:
   this exact attack*", let's focus on how the sum of contributions and support are
   making attacks on open source more difficult in general.
 * We need better visibility into critical languishing projects. xz likely wasn't on anyone's list of critical projects before this event (when it should have been!) 
-  It isn't sustainable to figure out which projects are on critical and need help
+  It isn't sustainable to figure out which projects are critical and need help
   by waiting for the next newsworthy attack or vulnerability.
 
 I also reflected on how my own work is contributing to one of many solutions to problems like this.
