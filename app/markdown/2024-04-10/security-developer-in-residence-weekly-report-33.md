@@ -91,4 +91,4 @@ component if the attack affected CPython.
 * Added support for Python 3.13 to Truststore.
 * Triaged reports to the Python Security Response Team.
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-32).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-34) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-32).
