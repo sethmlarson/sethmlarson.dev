@@ -61,4 +61,4 @@ I also met up with many folks doing open source security, maintenance, and fundi
 
 Note that I've been summoned for jury duty starting next week, so expect fewer updates over the next two weeks depending on how that goes.
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-33).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-35) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-33).
