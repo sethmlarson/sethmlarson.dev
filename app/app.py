@@ -50,6 +50,8 @@ favorite_posts = {
     "people-in-your-software-supply-chain",
     "removing-maintainers-from-open-source-projects",
     "websites-without-servers-or-networking",
+    "regex-$-matches-end-of-string-or-newline",
+    "security-developer-in-residence-weekly-report-35",
 }
 
 
