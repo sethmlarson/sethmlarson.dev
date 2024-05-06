@@ -52,6 +52,7 @@ favorite_posts = {
     "websites-without-servers-or-networking",
     "regex-$-matches-end-of-string-or-newline",
     "security-developer-in-residence-weekly-report-35",
+    "backup-game-boy-roms-and-saves-on-ubuntu",
 }
 
 
