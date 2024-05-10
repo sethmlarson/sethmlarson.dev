@@ -1,5 +1,9 @@
 # Bringing supply chain security to PyCon US 2024
 
+<blockquote>
+  <center>This critical role would not be possible without funding from the <a href="https://alpha-omega.dev">Alpha-Omega project</a>. Massive thank-you to Alpha-Omega for investing in the security of the Python ecosystem!</center>
+</blockquote>
+
 <div class="row">
 <div class="col-9">
 
@@ -13,7 +17,7 @@ and we'll meet up sometime during the conference.</p>
 <div class="col-3">
 <center>
 <img src="https://storage.googleapis.com/sethmlarson-dev-static-assets/knightsnake.png" style="max-width: 100%;"/>
-<br><small><i>Secure snek 🐍🛡️</i></small>
+<br><small><i>Secure snek</i> 🐍🛡️</small>
 </center>
 </div>
 </div>
@@ -37,4 +41,4 @@ If you're interested in security, I recommend considering these other tutorials 
 * [Talk: Building a Rusty path validation library for PyCA Cryptography](https://us.pycon.org/2024/schedule/presentation/49/) by **William Woodruff**
 * [Talk: How Python harnesses Rust through PyO3](https://us.pycon.org/2024/schedule/presentation/89/) by **David Hewitt**
 
-See you there!
+That's all for this week! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-35).

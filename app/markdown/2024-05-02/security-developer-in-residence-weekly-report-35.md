@@ -83,4 +83,4 @@ in [adopting hardened compiler options](https://github.com/python/cpython/issues
 * Submitted a few bugfixes and [released Truststore v0.9.0](https://github.com/sethmlarson/truststore/pull/136), [upgraded pip's vendored copy](https://github.com/pypa/pip/pull/12662).
 * Created the [April report](https://github.com/ossf/alpha-omega/pull/361) for Alpha-Omega
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-34).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-36) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-34).
