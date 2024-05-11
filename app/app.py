@@ -137,7 +137,37 @@ load_blog_posts()
 @app.route("/robots.txt", methods=["GET"])
 @cache_for(max_cache_time)
 def robots_txt():
-    resp = make_response("User-agent: *\nDisallow:")
+    resp = make_response("""User-agent: *
+Disallow:
+
+User-agent: AdsBot-Google
+User-agent: Amazonbot
+User-agent: anthropic-ai
+User-agent: Applebot
+User-agent: AwarioRssBot
+User-agent: AwarioSmartBot
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: cohere-ai
+User-agent: DataForSeoBot
+User-agent: FacebookBot
+User-agent: Google-Extended
+User-agent: GoogleOther
+User-agent: GPTBot
+User-agent: ImagesiftBot
+User-agent: magpie-crawler
+User-agent: Meltwater
+User-agent: omgili
+User-agent: omgilibot
+User-agent: peer39_crawler
+User-agent: peer39_crawler/1.0
+User-agent: PerplexityBot
+User-agent: Seekr
+User-agent: YouBot
+Disallow: /""")
     resp.headers["Content-Type"] = "text/plain"
     return resp
 
