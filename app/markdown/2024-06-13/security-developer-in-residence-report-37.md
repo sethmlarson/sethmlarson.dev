@@ -124,7 +124,7 @@ Release manager and core developer Pablo Galindo Salgado spoke about the Python 
 
 The complete language summit blog posts are [coming soon to the Python Software Foundation blog](https://pyfound.blogspot.com/) (I should know, I authored them!)
 so if you're interested in this topic you can stay tuned over there. I won't spoil any of the contents of the blog post here, but it was a great discussion all around.
-Lots of interesting ideas and thoughts from core developers that'll with figuring process improvements that work for CPython.
+Lots of interesting ideas and thoughts from core developers that'll help with figuring process improvements that work for CPython.
 
 ## Meeting all the people
 
