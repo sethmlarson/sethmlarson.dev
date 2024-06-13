@@ -41,4 +41,4 @@ If you're interested in security, I recommend considering these other tutorials 
 * [Talk: Building a Rusty path validation library for PyCA Cryptography](https://us.pycon.org/2024/schedule/presentation/49/) by **William Woodruff**
 * [Talk: How Python harnesses Rust through PyO3](https://us.pycon.org/2024/schedule/presentation/89/) by **David Hewitt**
 
-That's all for this week! 👋 If you're interested in more you can read [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-35).
+That's all for this week! 👋 If you're interested in more you can read [next week's report](https://sethmlarson.dev/security-developer-in-residence-report-37) or [last week's report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-35).
