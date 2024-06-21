@@ -142,4 +142,4 @@ PyCon US 2024 is the start of conferences this year for me.
 Shortly after PyCon US it was announced that [I will be keynoting](https://x.com/PyConTW/status/1793884640379335026) [PyCon Taiwan](https://tw.pycon.org/2024/en-us) in September and also speaking at [All Things Open 2024](https://2024.allthingsopen.org/) in Raleigh, North Carolina.
 If you're attending either of these events get in contact with me (and I promise to bring stickers).
 
-That's all for this post! 👋 If you're interested in more you can read [the previous report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-35).
+That's all for this post! 👋 If you're interested in more you can read [the next report](https://sethmlarson.dev/security-developer-in-residence-report-38) or [the last report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-36).
