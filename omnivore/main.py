@@ -1,11 +1,12 @@
-import os
+from pathlib import Path
 
 from dateutil.parser import parse as parse_datetime
 from omnivoreql import OmnivoreQL
 
 
 def main():
-    omnivore = OmnivoreQL(api_token=os.environ["OMNIVORE_API_TOKEN"])
+    api_token = (Path(__file__).parent / "secret.txt").read_text()
+    omnivore = OmnivoreQL(api_token=api_token)
     labels = [node["name"][1:] for node in omnivore.get_labels()["labels"]["labels"] if node["name"].startswith("+") and node["name"] != "+RT"]
 
     print("<p>")
