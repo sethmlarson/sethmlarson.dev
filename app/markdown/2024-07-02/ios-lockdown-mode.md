@@ -57,7 +57,7 @@ Beyond this, some image formats don't load in any context (likely WebP?) and I h
 
 ## Would I recommend Lockdown Mode?
 
-For most people: no. If you have a decent reason to expect you'd be the target of a cyberattack, *then maybe?*
+For most people: no. If you have a decent reason to expect you'd be the target of a cyberattack, then you should definitely consider it.
 
 There is a non-zero amount of extra friction to using your phone, but as someone who's trying to actively
 reduce my phone usage anyway it wasn't a big issue over the year that I've had it enabled.
