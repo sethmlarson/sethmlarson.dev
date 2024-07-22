@@ -24,8 +24,7 @@ your “Watch History” will disable the YouTube Shorts infinite feed. <em>My m
 </center>
 </div>
 </div>
-
-<div></div>
+<span></span>
 
 I disabled my Watch History and deleted my existing history and sure enough,
 <strong>no Shorts!</strong> (also no home page, which I can also live without). Here's how to do it:
