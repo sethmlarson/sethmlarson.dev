@@ -7,6 +7,8 @@ from omnivoreql import OmnivoreQL
 def main():
     api_token = (Path(__file__).parent / "secret.txt").read_text()
     omnivore = OmnivoreQL(api_token=api_token)
+    omnivore.client.transport.timeout = 3
+    omnivore.client.transport.retries = 5
     labels = [node["name"][1:] for node in omnivore.get_labels()["labels"]["labels"] if node["name"].startswith("+") and node["name"] != "+RT"]
 
     print("<p>")

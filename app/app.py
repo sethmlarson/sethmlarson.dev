@@ -11,7 +11,6 @@ import markdown2
 from flask import (
     Flask,
     abort,
-    jsonify,
     make_response,
     redirect,
     render_template,
@@ -53,6 +52,7 @@ favorite_posts = {
     "regex-$-matches-end-of-string-or-newline",
     "security-developer-in-residence-weekly-report-35",
     "backup-game-boy-roms-and-saves-on-ubuntu",
+    "security-developer-in-residence-report-37",
 }
 
 
@@ -92,13 +92,16 @@ class BlogPost:
             blog_content_text=blog_content_text,
         )
 
-    def url(self) -> str:
-        return url_for(
+    def url(self, utm_campaign=None) -> str:
+        url = url_for(
             "get_blog_post",
-            date=self.date,
             blog_post=self.markdown_path.name[:-3],
             _external=True,
+            **({"utm_campaign": utm_campaign} if utm_campaign else {})
         )
+        if "sethmlarson.dev" in url:
+            url = url.replace("http://", "https://")
+        return url
 
     def utc(self) -> datetime.datetime:
         return datetime.datetime.fromisoformat(f"{self.date}T00:00:00")
@@ -219,7 +222,7 @@ def load_rss_response():
                 blog_post.render_html(),
                 content_type="html",
                 author="Seth Michael Larson",
-                url=blog_post.url(),
+                url=blog_post.url(utm_campaign="rss"),
                 published=blog_utc,
                 updated=blog_utc,
             )
