@@ -24,7 +24,7 @@ This year included a noticeable increase in the amount of Cajun seasoning,
 or we got lucky and someone behind the scenes gave us an extra
 coating (either way we're not complaining!)
 
-## [Peanut Butter Bacon Cakes](https://www.mnstatefair.org/new-this-year/food/pb-bacon-cakes/) and from [The Blue Barn](https://www.mnstatefair.org/vendor/1968.1/)
+## [Peanut Butter Bacon Cakes](https://www.mnstatefair.org/new-this-year/food/pb-bacon-cakes/) and Blue Cheese & Corn Fritz from [The Blue Barn](https://www.mnstatefair.org/vendor/1968.1/)
 
 Celebrating their 10th consecutive year at the Minnesota State Fair, The Blue Barn
 is always a fan favorite. Seriously, run over there if you get to the fair early to
