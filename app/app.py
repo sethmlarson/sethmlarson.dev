@@ -212,7 +212,7 @@ def load_rss_response():
         for blog_post in blog_posts:
             if total == 5:
                 break
-            if blog_post.slug == "hi-chew":
+            if blog_post.slug in ("hi-chew", "minnesota-state-fair-foods-2024"):
                 continue
             total += 1
             blog_utc = blog_post.utc()
