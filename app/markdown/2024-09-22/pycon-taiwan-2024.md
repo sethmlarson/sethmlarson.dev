@@ -10,7 +10,7 @@ subscribe to the [PyCon Taiwan YouTube channel](https://www.youtube.com/@PyConTa
 > for producing secure software to meet user expectations.
 >
 > Luckily for us, many of the tools, data, and systems already exist to
-> help us discuss and **build a culture of security for Python**. These tools help relay messages
+> help us **build a culture of security for Python**. These tools help relay messages
 > between software creators and users so we collaborate closely on this shared goal.
 >
 > By actively participating you are starting the positive feedback loop of software security, making users safer faster!
