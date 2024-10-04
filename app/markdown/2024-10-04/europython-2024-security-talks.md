@@ -21,6 +21,9 @@ Starting with improving the
 Software Bill-of-Materials (SBOM) story for Python, because this is required by both (and likely, future)
 regulations. Knowing *what* software you are running is an important first step towards being able to secure that same software.
 
+To collaborate with other open source foundations and projects on this work, I've joined the
+[Open Regulatory Compliance Working Group](https://orcwg.org/) hosted by the Eclipse Foundation.
+
 ## Towards licensing standardization in Python packaging
 
 This talk was given by **Karolina Surma** and it detailed all the work that goes into researching, writing,
@@ -40,7 +43,9 @@ and it detailed the history and current status of The Update Framework (TUF)
 integration into the Python Package Index.
 
 TUF provides better integrity guarantees for software repositories like PyPI
-by. For a full history and latest status, you can view [PEP 458](https://peps.python.org/pep-0458/) and the [top-level GitHub issue](https://github.com/pypi/warehouse/issues/10672) for Warehouse.
+like making it more difficult to "compel" the index to serve the incorrect artifacts
+and to make a compromise of PyPI easier to roll-back and be certain that files hadn't been modified.
+For a full history and latest status, you can view [PEP 458](https://peps.python.org/pep-0458/) and the [top-level GitHub issue](https://github.com/pypi/warehouse/issues/10672) for Warehouse.
 
 <div><center><iframe width="560" height="315" src="https://www.youtube.com/embed/ZKcxa6Ch6mY?si=6NLnGSXpQ9YkBzWr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center></div>
 
