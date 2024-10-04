@@ -45,7 +45,7 @@ Below is a list of items that actions can implement to build a culture of securi
 * [Supply chain security threats (SLSA)](https://slsa.dev/spec/v1.0/threats)
 * [Grype](https://github.com/anchore/grype)
 * [Trivy](https://trivy.dev)
-* [Ecosystem.ms](https://packages.ecosyste.ms)
+* [Ecosyste.ms](https://packages.ecosyste.ms)
 * [Libraries.io](https://libraries.io)
 * [Deps.dev](https://deps.dev)
 * [Trusty](https://trustypkg.dev)
