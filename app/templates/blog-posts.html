@@ -7,8 +7,8 @@
     <div class="col-12">
         {% for month in blog_posts %}
         {% for bp in blog_posts[month] %}
-        {% if bp.slug != 'hi-chew' %}
-        <div style="margin-bottom: 0.5em;">{% if bp.slug in favorite_posts %}★ {% endif %}<a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}">{{ bp.title }}</a> <span style="color: #999; font-size: 0.6em;">{{ bp.date }}</span></div>
+        {% if bp.slug not in hide_posts %}
+        <div style="margin-bottom: 0.5em;">{% if bp.slug in favorite_posts %}★ {% endif %}<a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}">{{ bp.title }}</a> <span style="color: #999; font-size: 0.6em;"><nobr>{{ bp.date }}</nobr></span></div>
         {% endif %}
         {% endfor %}
         {% endfor %}

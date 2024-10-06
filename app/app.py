@@ -53,6 +53,11 @@ favorite_posts = {
     "security-developer-in-residence-weekly-report-35",
     "backup-game-boy-roms-and-saves-on-ubuntu",
     "security-developer-in-residence-report-37",
+    "youtube-without-youtube-shorts",
+}
+hide_posts = {
+    "hi-chew",
+    "minnesota-state-fair-foods-2024",
 }
 
 
@@ -178,7 +183,7 @@ Disallow: /""")
 @app.route("/blog", methods=["GET"])
 @cache_for(small_cache_time)
 def list_blog_posts():
-    return render_template("blog-posts.html", blog_posts=BLOG_POSTS_BY_DATE, favorite_posts=favorite_posts)
+    return render_template("blog-posts.html", blog_posts=BLOG_POSTS_BY_DATE, favorite_posts=favorite_posts, hide_posts=hide_posts)
 
 
 @app.route("/links", methods=["GET"])
@@ -212,7 +217,7 @@ def load_rss_response():
         for blog_post in blog_posts:
             if total == 5:
                 break
-            if blog_post.slug in ("hi-chew", "minnesota-state-fair-foods-2024"):
+            if blog_post.slug in hide_posts:
                 continue
             total += 1
             blog_utc = blog_post.utc()

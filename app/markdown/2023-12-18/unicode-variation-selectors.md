@@ -49,7 +49,7 @@ Reverse <small class="ucode">(U+1F02B)</small><br>
 </div>
 <div class="col-6 col-12-sm">
 Red Dragon Emoji <small class="ucode">(U+1F004)</small><br>
-<div class="mahjong" style="font-family: sans-serif;">🀄</div>
+<div class="mahjong" style="font-family: sans-serif;">🀄&#xFE0E</div>
 </div>
 </div>
 </div>

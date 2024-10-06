@@ -23,33 +23,41 @@ Reading time: {{ reading_time }} minute{{ 's' if reading_time != 1 else '' }} <a
 {{ blog_content | safe }}
 <blockquote>
     <p>
-        <strong>Thanks for reading!</strong> ♡ Did you find this article helpful and want more content like it?
+        <strong>Have thoughts or questions?</strong> Let's chat with email or social:
+        <ul>
+    <li><a href="mailto:sethmichaellarson@gmail.com"><code>sethmichaellarson@gmail.com</code></a></li>
+    <li><a href="https://fosstodon.org/@sethmlarson"><code>@sethmlarson@fosstodon.org</code></a></li>
+    <li><a href="https://twitter.com/sethmlarson"><code>@sethmlarson</code></a></li>
+        </ul>
+    </p>
+    <p>
+        <strong>Want more articles like this one?</strong>
         <nobr>Get notified of new posts</nobr> by subscribing to the <a href="{{ url_for('rss_blog_posts') }}">RSS feed</a> or the <a href="https://buttondown.email/sethmlarson">email newsletter</a>.
+        Promise not to share your email or send you spam.
     <form
       action="https://buttondown.email/api/emails/embed-subscribe/sethmlarson"
       method="post"
       target="popupwindow"
       onsubmit="window.open('https://buttondown.email/sethmlarson', 'popupwindow')"
     >
-    <center>
-        <input type="email" name="email" id="bd-email" placeholder="Email address here" style="max-width: 100%; width: 16em; margin-bottom: 0.5em;" required/><br>
-        <input type="submit" value="Subscribe" style="max-width: 100%; width: 16em;"/>
-    </center>
+        <input type="email" name="email" id="bd-email" placeholder="Email address here" style="max-width: 100%; width: 16em; margin-bottom: 0.5em;" required/>
+        <input type="submit" value="Subscribe" style="max-width: 100%; width: 8em;"/>
     </form>
     </p>
+    <p>
+        <strong>Find a typo?</strong> <a href="https://github.com/sethmlarson/sethmlarson.dev">This blog is open source</a>, pull requests are welcome.
+    </p>
+    <p>
+        <strong>Thanks for reading!</strong> ♡ This work is licensed under <nobr><a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0</a> <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></nobr>
+    </p>
 </blockquote>
-<div>
-    <center>
-         <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <nobr><a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0</a> <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></nobr></p>
-    </center>
-</div>
 <script>
     fetch("https://webmention.io/api/count?target=https://sethmlarson.dev/{{ blog_slug }}")
     .then(response => response.json()).then(responseJson => {
         if (responseJson.count) {
           var webmentionsElement = document.getElementById("webmentions");
           webmentionsElement.classList.add("webmentions-fade-in");
-          webmentionsElement.innerHTML = "❤ × " + String(responseJson.count);
+          webmentionsElement.innerHTML = "❤&#xFE0E × " + String(responseJson.count);
         };
     });
 </script>
