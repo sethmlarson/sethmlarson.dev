@@ -1,14 +1,15 @@
 {% extends "base.html" %}
 {% block title %}{{ blog_title }}{% endblock %}
 {% block opengraph %}
-    <meta property="og:site_name" content="Seth Michael Larson"/>
+    <meta property="og:site_name" content="sethmlarson.dev"/>
     <meta property="og:author" content="Seth Michael Larson"/>
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="{{ blog_title }}"/>
     <meta property="og:description" content="{{ blog_content_text | truncate(200, true, '...')}}"/>
     <meta property="og:image" content="https://github.com/sethmlarson.png"/>
+    <meta property="og:locale" content="en_US"/>
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:site" content="@sethmlarson"/>
+    <meta name="twitter:site" content="sethmlarson.dev"/>
     <meta name="twitter:creator" content="@sethmlarson"/>
     <meta name="twitter:title" content="{{ blog_title }}"/>
     <meta name="twitter:description" content="{{ blog_content_text | truncate(200, true, '...')}}"/>
@@ -27,13 +28,12 @@
         <ul>
     <li><a href="mailto:sethmichaellarson@gmail.com"><code>sethmichaellarson@gmail.com</code></a></li>
     <li><a href="https://fosstodon.org/@sethmlarson"><code>@sethmlarson@fosstodon.org</code></a></li>
-    <li><a href="https://twitter.com/sethmlarson"><code>@sethmlarson</code></a></li>
         </ul>
     </p>
     <p>
         <strong>Want more articles like this one?</strong>
         <nobr>Get notified of new posts</nobr> by subscribing to the <a href="{{ url_for('rss_blog_posts') }}">RSS feed</a> or the <a href="https://buttondown.email/sethmlarson">email newsletter</a>.
-        Promise not to share your email or send you spam.
+        Promise not to share your email or send you spam, only whatever <em>this</em> is!
     <form
       action="https://buttondown.email/api/emails/embed-subscribe/sethmlarson"
       method="post"

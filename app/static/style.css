@@ -59,6 +59,7 @@ a {
   color: #0000ff;
   text-decoration: underline;
   text-decoration-line: underline;
+  text-underline-offset: 4px;
 }
 a > code {
   text-decoration: none;
