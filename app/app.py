@@ -399,5 +399,6 @@ def get_blog_post(blog_post: str):
         blog_content=html,
         blog_content_text=blog_content_text,
         blog_is_favorite=blog_post in favorite_posts,
+        total_blog_count=len(BLOG_POSTS_BY_SLUG),
         html_head=html_head,
     )

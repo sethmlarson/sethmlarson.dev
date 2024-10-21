@@ -4,6 +4,9 @@
   <center>This critical role would not be possible without funding from the <a href="https://alpha-omega.dev">Alpha-Omega project</a>. Massive thank-you to Alpha-Omega for investing in the security of the Python ecosystem!</center>
 </blockquote>
 
+I was a guest on the [Open Source Security podcast](https://opensourcesecurity.io/2024/10/20/episode-451-python-security-with-seth-larson/)
+this week talking about Sigstore and Python among other things I'm working on at the Python Software Foundation.
+
 <div class="row">
 <div class="col-9 col-sm-12">
 <p><a href="https://sigstore.dev">Sigstore</a> is a digital signing method that has been <a href="https://python.org/downloads/metadata/sigstore">used by CPython since 3.11.0</a>
