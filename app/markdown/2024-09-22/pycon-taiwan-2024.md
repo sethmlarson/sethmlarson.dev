@@ -1,5 +1,9 @@
 # PyCon Taiwan 2024 Keynote
 
+<blockquote>
+  <center>This critical role would not be possible without funding from the <a href="https://alpha-omega.dev">Alpha-Omega project</a>. Massive thank-you to Alpha-Omega for investing in the security of the Python ecosystem!</center>
+</blockquote>
+
 [Here are my slides](https://storage.googleapis.com/sethmlarson-dev-static-assets/PyCon-Taiwan-Keynote-Bytes-Pipes-and-People.pdf) and overview of my PyCon Taiwan 2024 Keynote
 titled "Bytes, Pipes, and People". The video will be [published to YouTube](https://www.youtube.com/@PyConTaiwanVideo),
 subscribe to the [PyCon Taiwan YouTube channel](https://www.youtube.com/@PyConTaiwanVideo) to be notified when available.
@@ -62,3 +66,5 @@ Below is a list of items that actions can implement to build a culture of securi
 * [Sonatype 2023 Annual State of Software Supply Chain Report](https://www.sonatype.com/en/press-releases/sonatype-9th-annual-state-of-the-software-supply-chain-report)
 * Kushal Das for Python Language Summit photos
 * [StackOverflow](https://stackoverflow.com/q/25981703)
+
+That's all for this post! 👋 If you're interested in more you can read [the last report](https://sethmlarson.dev/security-developer-in-residence-report-38).

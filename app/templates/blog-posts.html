@@ -9,7 +9,7 @@
     <blockquote>
     <p>
         <strong><nobr>Get notified of new posts</nobr></strong> by subscribing to the <a href="{{ url_for('rss_blog_posts') }}">RSS feed</a> or the <a href="https://buttondown.email/sethmlarson">email newsletter</a>.
-        Promise not to share your email or send you spam, only whatever <em>this</em> is!
+        <nobr>Promise not to</nobr> share your email or send you spam, only whatever <em>this</em> is!
     <form
       action="https://buttondown.email/api/emails/embed-subscribe/sethmlarson"
       method="post"
@@ -22,16 +22,19 @@
 </blockquote>
 </p>
 
-<div class="row">
-    <div class="col-12">
+<p>
+    <table style="width: 100%;">
         {% for month in blog_posts %}
         {% for bp in blog_posts[month] %}
         {% if bp.slug not in hide_posts %}
-        <div style="margin-bottom: 0.5em;">{% if bp.slug in favorite_posts %}<span title="This means this article is one of my favorites, nice choice!">★</span> {% endif %}<a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}">{{ bp.title }}</a> <span style="color: #999; font-size: 0.6em;"><nobr>{{ bp.date }}</nobr></span></div>
+            <tr>
+                <td style="font-variant-numeric: tabular-nums;"><nobr>{{ bp.date }}</nobr></td>
+                <td style="text-align: center;">{% if bp.slug in favorite_posts %}<span title="This means this article is one of my favorites, nice choice!">★</span> {% endif %}</td>
+                <td><a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}">{{ bp.title }}</a></td>
+            </tr>
         {% endif %}
         {% endfor %}
         {% endfor %}
-    </div>
-</div>
-<h2></h2>
+    </table>
+</p>
 {% endblock %}

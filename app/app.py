@@ -54,6 +54,7 @@ favorite_posts = {
     "backup-game-boy-roms-and-saves-on-ubuntu",
     "security-developer-in-residence-report-37",
     "youtube-without-youtube-shorts",
+    "python-and-sigstore",
 }
 hide_posts = {
     "hi-chew",

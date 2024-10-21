@@ -65,4 +65,4 @@ so these scripts run periodically to avoid tracking these updates manually.
 * Google Summer of Code contributor, **Nate Ohlson** has been making excellent progress on the effort for CPython to adopt the "Hardened Compiler Options Guide" from the OpenSSF Best Practices WG.
   You can follow along with his progress [on Mastodon](https://social.python-gsoc.org/@nohlson) and [on GitHub](https://github.com/python/cpython/issues/112301).
 
-That's all for this post! 👋 If you're interested in more you can read [the last report](https://sethmlarson.dev/security-developer-in-residence-report-37).
+That's all for this post! 👋 If you're interested in more you can read [the next report](https://sethmlarson.dev/pycon-taiwan-2024) or [the last report](https://sethmlarson.dev/security-developer-in-residence-weekly-report-37).
