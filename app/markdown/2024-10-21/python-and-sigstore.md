@@ -46,7 +46,7 @@ already trust these platforms' identity management teams for things like GitHub 
 For this reason, I've [authored PEP 761](https://peps.python.org/pep-0761/) providing a deprecation and discontinuance plan of PGP signatures for CPython artifacts.
 You can [join the discussion of this PEP](https://discuss.python.org/t/pep-761-deprecating-pgp-signatures-for-cpython-artifacts/67180) on discuss.python.org.
 Big thank-you to [Hugo van Kemenade](https://github.com/hugovk), the release manager for Python 3.14 for sponsoring my first PEP and helping me with the process
-and thanks to [William Woodruff](github.com/woodruffw) for reviewing the PEP draft and explaining the nitty-gritty details of Sigstore.
+and thanks to [William Woodruff](https://github.com/woodruffw) for reviewing the PEP draft and explaining the nitty-gritty details of Sigstore.
 
 This PEP deprecates the expectation that future CPython releases will provide PGP signatures
 and sets a timeline for discontinuance (Python 3.14) and a mechanism for that timeline to be extended
