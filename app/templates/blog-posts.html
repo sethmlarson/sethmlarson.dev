@@ -23,12 +23,11 @@
 </p>
 
 <p>
-    <table style="width: 100%;">
+    <table style="max-width: 100%;">
         {% for month in blog_posts %}
         {% for bp in blog_posts[month] %}
         {% if bp.slug not in hide_posts %}
             <tr>
-                <td style="font-variant-numeric: tabular-nums;"><nobr>{{ bp.date }}</nobr></td>
                 <td style="text-align: center;">{% if bp.slug in favorite_posts %}<span title="This means this article is one of my favorites, nice choice!">★</span> {% endif %}</td>
                 <td><a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}">{{ bp.title }}</a></td>
             </tr>
