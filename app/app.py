@@ -55,6 +55,7 @@ favorite_posts = {
     "security-developer-in-residence-report-37",
     "youtube-without-youtube-shorts",
     "python-and-sigstore",
+    "writing-for-the-internet",
 }
 hide_posts = {
     "hi-chew",
