@@ -7,7 +7,7 @@
   </center>
 </blockquote>
 
-I've kicked off a project to reduce the "phantom dependency" problem for Python. The phantom dependency problem
+I've [kicked off a project](https://discuss.python.org/t/sboms-for-python-packages-project/70261) to reduce the "phantom dependency" problem for Python. The phantom dependency problem
 is where distinct software (sometimes written in Python, but often C, C++, Rust, etc) is included in
 a Python package but then isn't recorded anywhere in the package metadata.
 
