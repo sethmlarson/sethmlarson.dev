@@ -1,6 +1,7 @@
 # Drafts should not be published
 app/markdown/draft
-omnivore/secret.txt
+archive/secrets.json
+archive/app-secrets.json
 
 # Logs
 logs

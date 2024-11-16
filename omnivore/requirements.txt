@@ -1,3 +1,0 @@
-omnivoreql
-feedgenerator
-python-dateutil
