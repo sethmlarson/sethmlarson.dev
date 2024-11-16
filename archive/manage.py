@@ -90,7 +90,7 @@ def feeds_opml_from_inoreader() -> None:
         "https://www.inoreader.com/reader/api/0/subscription/list",
         headers=headers(),
     )
-    for sub in resp.json()["subscriptions"]:
+    for sub in sorted(resp.json()["subscriptions"], key=lambda x: x["title"]):
         feeds_opml.add_rss(
             text=sub["title"],
             xml_url=normalize_url(sub["url"]),
@@ -207,7 +207,6 @@ def articles_opml_from_links():
 
 
 def update_links():
-
     articles_opml_path = archive_dir / "articles.opml"
     articles_opml = opml.OpmlDocument.loads(articles_opml_path.read_text())
     tags = set()
@@ -217,7 +216,7 @@ def update_links():
         except IndexError:
             raise RuntimeError(f"Article {outline.text!r} has no tags")
 
-    links_path = (archive_dir.parent / "app/templates/links.html")
+    links_path = archive_dir.parent / "app/templates/links.html"
     lines = links_path.read_text().splitlines()
     new_lines = []
     sentinel_found = False
@@ -233,20 +232,30 @@ def update_links():
 
         # Look for our sentinel so we can insert our generated lines.
         if "#sentinel" in line:
+            new_lines.append(line)  # Add our sentinel line first.
             sentinel_found = True
-            # Add all of the generated content!
+            # Add all the generated content!
             for tag in sorted(tags):
                 new_lines.extend((f"<h2>{tag}</h2>", "<ul>"))
                 for outline in articles_opml.outlines:
                     if outline.categories[0] != tag:
                         continue
-                    new_lines.append(f"<li>“<a href=\"{outline.url}\">{outline.text}</a>”</li>")
+                    title, author = re.match(
+                        r"^“([^”]+)”(?: by (.*))?$", outline.text
+                    ).groups()
+                    new_lines.append(
+                        f"<li>“<a href=\"{outline.url}\">{title}</a>”{' by <strong>' + author + '</strong>' if author else ''}</li>"
+                    )
                 new_lines.append("</ul>")
+            continue
 
         new_lines.append(line)
 
+    links_path.write_text("\n".join(new_lines))
+
+
 if __name__ == "__main__":
-    # feeds_opml_from_inoreader()
+    feeds_opml_from_inoreader()
     articles_opml_from_inoreader()
     # articles_opml_from_links()
     update_links()

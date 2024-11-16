@@ -9,12 +9,12 @@
   </head>
   <body>
     <outline text="“Canned Fish Files” by Matthew Carlson" type="link" url="https://www.youtube.com/@CannedFishFiles" category="Life"/>
-    <outline text="“Tim Walz plays Crazy Taxi with Alexandria Ocasio-Cortez”" type="link" url="https://www.youtube.com/watch?v=1n9Gqa-0Cp0", category="Life"/>
-    <outline text="“Animal Crossing Nook Code Generator” by Cuyler" type="link" url="https://nookipedia.com/wiki/Secret_code/Generator"/>
-    <outline text="“The Internet Gopher from Minnesota”" type="link" url="https://www.abortretry.fail/p/the-internet-gopher-from-minnesota"/>
+    <outline text="“Tim Walz plays Crazy Taxi with Alexandria Ocasio-Cortez”" type="link" url="https://www.youtube.com/watch?v=1n9Gqa-0Cp0" category="Life"/>
+    <outline text="“Nook Code Generator for Animal Crossing GC” by Cuyler" type="link" url="https://nookipedia.com/wiki/Secret_code/Generator" category="Retro Gaming"/>
+    <outline text="“The Internet Gopher from Minnesota”" type="link" url="https://www.abortretry.fail/p/the-internet-gopher-from-minnesota" category="Software and OSS"/>
     <outline text="“Sign Painter” by Forrest Wozniak" type="link" url="https://www.forrestwozniak.com" category="Life"/>
-    <outline text="“Dive into anything”" type="link" url="https://www.reddit.com/r/Gamecube/comments/1gqfbae/my_niece_turned_18_and_i_gave_her_an_animal/?share_id=_XF34GcRZ_h-J5UqZDfZj&amp;utm_content=1&amp;utm_medium=ios_app&amp;utm_name=iossmf&amp;utm_source=share&amp;utm_term=22&amp;rdt=34253" category="Retro Gaming"/>
-    <outline text="“Konga Beat: Custom track editor for Donkey Konga 2 and 3” by Parham Gholami and Dexter Friedman" type="link" url="https://www.kongabeat.com" category="Retro Gaming"/>
+    <outline text="“Sharing items in Animal Crossing GC: &quot;It's still online???&quot;”" type="link" url="https://www.reddit.com/r/Gamecube/comments/1gqfbae/my_niece_turned_18_and_i_gave_her_an_animal/?share_id=_XF34GcRZ_h-J5UqZDfZj&amp;utm_content=1&amp;utm_medium=ios_app&amp;utm_name=iossmf&amp;utm_source=share&amp;utm_term=22&amp;rdt=34253" category="Retro Gaming"/>
+    <outline text="“Konga Beat: Track editor for Donkey Konga 2 and 3” by Parham Gholami and Dexter Friedman" type="link" url="https://www.kongabeat.com" category="Retro Gaming"/>
     <outline text="“It’s Time for Twin Cities Chefs to Embrace Spam” by Em Cassel" type="link" url="https://racketmn.com/its-time-for-twin-cities-mn-chefs-to-embrace-spam-hormel" category="Life"/>
     <outline text="“Bypassing AirPods regulatory locks with Faraday cages” by Lagrange Point" type="link" url="https://lagrangepoint.substack.com/p/airpods-hearing-aid-hacking" category="Software and OSS"/>
     <outline text="“GCNET” by NeoStormer" type="link" url="https://geeceenet.com" category="Retro Gaming"/>
@@ -29,7 +29,7 @@
     <outline text="“What We Got Wrong and How to Find Meaning in Life” by Anne-Laure Le Cunff" type="link" url="https://nesslabs.com/ikigai" category="Life"/>
     <outline text="“The world is awful, much better, and can be much better” by Max Roser" type="link" url="https://ourworldindata.org/much-better-awful-can-be-better" category="Life"/>
     <outline text="“Algorithms flatten culture” by Tonya Mosley" type="link" url="https://www.npr.org/2024/01/17/1224955473/social-media-algorithm-filterworld" category="Life"/>
-    <outline text="“I miss human curation” by Cassidy Williams" type="link" url="https://cassidoo.co/post/human-curation"/>
+    <outline text="“I miss human curation”" type="link" url="https://cassidoo.co/post/human-curation" category="Life"/>
     <outline text="“Robots will make us more human” by Andrew Golis" type="link" url="https://www.niemanlab.org/2023/12/the-robots-will-make-us-more-human" category="Life"/>
     <outline text="“I want to see my friends’ posts” by Luna" type="link" url="https://moonbase.lgbt/blog/i-want-to-see-my-friends-posts" category="Life"/>
     <outline text="“The Economics of Programming Languages” by Evan Czaplicki" type="link" url="https://www.youtube.com/watch?v=XZ3w_jec1v8" category="Life"/>
@@ -41,7 +41,7 @@
     <outline text="“Reflected energy” by Ned Batchelder" type="link" url="https://nedbatchelder.com/blog/202310/reflected_energy.html" category="Life"/>
     <outline text="“Where did everyone go?” by Ned Batchelder" type="link" url="https://nedbatchelder.com/blog/202310/where_did_everyone_go.html" category="Life"/>
     <outline text="“You’re not lacking creativity, you’re overwhelmed” by Jorge Medina" type="link" url="https://newsletter.thejorgemedina.com/p/youre-not-lacking-creativity-youre" category="Life"/>
-    <outline text="“Tech doesn’t make our lives easier. It makes them faster” by Brett Scott" type="link" url="https://www.asomo.co/p/tech-doesnt-make-our-lives-easier"/>
+    <outline text="“Tech doesn’t make our lives easier. It makes them faster”" type="link" url="https://www.asomo.co/p/tech-doesnt-make-our-lives-easier" category="Life"/>
     <outline text="“Super Mario 64 in Sonic Adventure DX” by Sora" type="link" url="https://gamebanana.com/mods/544238" category="Retro Gaming"/>
     <outline text="“FlippyDrive for the GameCube” by Macho Nacho" type="link" url="https://www.youtube.com/watch?v=1-LWI2tGfhQ" category="Retro Gaming"/>
     <outline text="“Super Nintendo Video System” by Fabien Sanglard" type="link" url="https://fabiensanglard.net/snes_video/index.html" category="Retro Gaming"/>
@@ -71,7 +71,7 @@
     <outline text="“Game Boy Link Cable Breakout Board” by Nick Palmer" type="link" url="https://palmr.co.uk/posts/26-gameboy-link-cable-breakout" category="Retro Gaming"/>
     <outline text="“USB to GB Link Cable Adapter Kit” by Stacksmashing" type="link" url="https://stacksmashing.gumroad.com/l/gb-link" category="Retro Gaming"/>
     <outline text="“Connect Game Boy Advance to Raspberry Pi Pico W” by zenaro147" type="link" url="https://github.com/zenaro147/PicoAdapterGB" category="Retro Gaming"/>
-    <outline text="“11,000km Game Boy Advance Link Cable” by Cariad Keigher" type="link" url="https://cariadheather.medium.com/adventures-with-an-11-000-kilometre-long-game-boy-advance-link-fa52082a31c9"/>
+    <outline text="“Adventures with an 11,000 kilometre-long Game Boy Advance link”" type="link" url="https://cariadheather.medium.com/adventures-with-an-11-000-kilometre-long-game-boy-advance-link-fa52082a31c9" category="Retro Gaming"/>
     <outline text="“Digital signatures and how to avoid them” by Neil Madden" type="link" url="https://neilmadden.blog/2024/09/18/digital-signatures-and-how-to-avoid-them" category="Security"/>
     <outline text="“Hacking a Virtual Power Plant” by Ryan Castellucci" type="link" url="https://rya.nc/vpp-hack.html" category="Security"/>
     <outline text="“Make Your Electronics Tamper-Evident” by AnarSec" type="link" url="https://www.anarsec.guide/posts/tamper" category="Security"/>
@@ -86,84 +86,83 @@
     <outline text="“Announcing the $8,192 NIST Elliptic Curves Seeds Bounty” by Filippo Valsorda" type="link" url="https://words.filippo.io/dispatches/seeds-bounty" category="Security"/>
     <outline text="“Defining the memory safe problem” by Alex Gaynor" type="link" url="https://alexgaynor.net/2023/oct/02/defining-the-memory-safety-problem" category="Security"/>
     <outline text="“Trusted publishing: a new benchmark for packaging security” by William Woodruff" type="link" url="https://blog.trailofbits.com/2023/05/23/trusted-publishing-a-new-benchmark-for-packaging-security" category="Security"/>
-    <outline text="“Federation Deathmatch” by Glyph" type="link" url="https://blog.glyph.im/2024/11/the-federation-deathmatch.html" category="Software / OSS"/>
-    <outline text="“Enabled by default” by Jim Nielsen" type="link" url="https://blog.jim-nielsen.com/2024/enabled-by-default" category="Software / OSS"/>
-    <outline text="“Where the digital sidewalk ends” by Huston Bokinsky" type="link" url="https://www.smolways.com/post/where-the-digital-sidewalk-ends" category="Software / OSS"/>
-    <outline text="“Solar-powered self-hosted website” by Dries Buytaert" type="link" url="https://dri.es/my-solar-powered-and-self-hosted-website" category="Software / OSS"/>
-    <outline text="“Mastodon Author Tags” by Robb Knight" type="link" url="https://rknight.me/blog/setting-up-mastodon-author-tags" category="Software / OSS"/>
-    <outline text="“Solving methane mysteries with satellite imagery” by Louis Goddard" type="link" url="https://blog.datadesk.eco/p/methane-mysteries" category="Software / OSS"/>
-    <outline text="“Do AI companies work?” by Benn Stancil" type="link" url="https://benn.substack.com/p/do-ai-companies-work" category="Software / OSS"/>
-    <outline text="“The Infrastructure Shock” by Debbie Chachra" type="link" url="https://berjon.com/infrastructure-shock" category="Software / OSS"/>
-    <outline text="“Cool URIs don't change” by W3C" type="link" url="https://www.w3.org/Provider/Style/URI" category="Software / OSS"/>
-    <outline text="“Reckoning for web frontend” by Alex Russell" type="link" url="https://infrequently.org/series/reckoning" category="Software / OSS"/>
-    <outline text="“Frontend is haunted by 2013's Great Branch Mispredict” by Alex Russell" type="link" url="https://infrequently.org/2024/01/performance-inequality-gap-2024" category="Software / OSS"/>
-    <outline text="“Resilient Sync for Local First” by Dirk Holtwick" type="link" url="https://holtwick.de/en/blog/localfirst-resilient-sync" category="Software / OSS"/>
-    <outline text="“Local, first, forever” by Nikita Prokopov" type="link" url="https://tonsky.me/blog/crdt-filesync" category="Software / OSS"/>
-    <outline text="“Stupid Slow” by Carl Svensson" type="link" url="https://www.datagubbe.se/stupidslow" category="Software / OSS"/>
-    <outline text="“Local-first software” by Martin Kleppmann" type="link" url="https://www.inkandswitch.com/local-first" category="Software / OSS"/>
-    <outline text="“Engineering for Slow Internet” by brr" type="link" url="https://brr.fyi/posts/engineering-for-slow-internet" category="Software / OSS"/>
-    <outline text="“Untold stories from 6 years working on Python packaging” by Sumana Harihareswara" type="link" url="https://harihareswara.net/posts/2024/references-pycon-us-keynote" category="Software / OSS"/>
-    <outline text="“Map of GPS/GNSS interference” by John Wiseman" type="link" url="https://gpsjam.org" category="Software / OSS"/>
-    <outline text="“Fear makes you a worse programmer” by Julia Evans" type="link" url="https://jvns.ca/blog/2014/12/21/fear-makes-you-a-worse-programmer" category="Software / OSS"/>
-    <outline text="“10 &gt; 64, in QR codes”" type="link" url="https://huonw.github.io/blog/2024/03/qr-base10-base64"/>
-    <outline text="“32/Z85 | ZeroMQ RFC”" type="link" url="https://rfc.zeromq.org/spec/32" category="Software / OSS"/>
-    <outline text="“Never rewrite software from scratch” by Joel Spolsky" type="link" url="https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i" category="Software / OSS"/>
-    <outline text="“Command Line Interface Guidelines”" type="link" url="https://clig.dev" category="Software / OSS"/>
-    <outline text="“Ruffle: Flash player written in Rust”" type="link" url="https://ruffle.rs" category="Software / OSS"/>
-    <outline text="“why lowercase letters save data” by Nathaniel" type="link" url="https://endtimes.dev/why-lowercase-letters-save-data" category="Software / OSS"/>
-    <outline text="“How Firefox is disadvantaged on every platform” by Mozilla" type="link" url="https://mozilla.github.io/platform-tilt" category="Software / OSS"/>
-    <outline text="“QR error correction” by Huon Wilson" type="link" url="https://huonw.github.io/blog/2021/09/qr-error-correction" category="Software / OSS"/>
-    <outline text="“Mess with DNS” by Julia Evans" type="link" url="https://messwithdns.net" category="Software / OSS"/>
-    <outline text="“You don't need analytics on your blog” by William Woodruff" type="link" url="https://blog.yossarian.net/2023/12/24/You-dont-need-analytics-on-your-blog" category="Software / OSS"/>
-    <outline text="“GitHub Actions Feels Bad” by Amos Wenger" type="link" url="https://m.youtube.com/watch?v=9qljpi5jiMQ" category="Software / OSS"/>
-    <outline text="“Pitfalls for Pull Requests on GitHub” by David Lord" type="link" url="https://davidism.com/github-pull-request-pitfalls" category="Software / OSS"/>
-    <outline text="“User Interface Typography”" type="link" url="https://imperavi.com/books/ui-typography" category="Software / OSS"/>
-    <outline text="“iMessage protocol” by JJTech" type="link" url="https://jjtech.dev/reverse-engineering/imessage-explained" category="Software / OSS"/>
-    <outline text="“How Did I Get Here?”" type="link" url="https://how-did-i-get-here.net" category="Software / OSS"/>
-    <outline text="“Hypermedia Systems” by Carson Gross, Adam Stepinski, and Deniz Akşimşek" type="link" url="https://hypermedia.systems" category="Software / OSS"/>
-    <outline text="“Asahi Linux folks are doing us a solid with WPA3 fixes”" type="link" url="https://rachelbythebay.com/w/2023/11/07/wpa3" category="Software / OSS"/>
-    <outline text="“The Angle Bracket”" type="link" url="https://theanglebracket.com" category="Toy / Art"/>
-    <outline text="“Hyphens, minus, and dashes in Debian man pages” by Jonathan Corbet" type="link" url="https://lwn.net/Articles/947941" category="Software / OSS"/>
-    <outline text="“Why software ends up complex” by Alex Gaynor" type="link" url="https://alexgaynor.net/2020/nov/30/why-software-ends-up-complex" category="Software / OSS"/>
-    <outline text="“Progress on no-GIL CPython” by Jake Edge" type="link" url="https://lwn.net/Articles/947138" category="Software / OSS"/>
-    <outline text="“Write more &quot;useless&quot; software” by Nicole" type="link" url="https://www.ntietz.com/blog/write-more-useless-software"/>
-    <outline text="“What software developers must know about Unicode in 2023” by Nikita Prokopov" type="link" url="https://tonsky.me/blog/unicode" category="Software / OSS"/>
-    <outline text="“QR Code Artwork Generator” by Russ Cox" type="link" url="https://research.swtch.com/qr/draw" category="Software / OSS"/>
-    <outline text="“Stripe Payment API Design” by Michelle Bu" type="link" url="https://stripe.com/blog/payment-api-design" category="Software / OSS"/>
-    <outline text="“Is It Tofu? Check Unicode compatibility” by Aaron Madlon-Kay" type="link" url="https://tofu.quest" category="Software / OSS"/>
-    <outline text="“Walking wooden coffee table” by Giliam de Carpentier" type="link" url="https://www.decarpentier.nl/carpentopod" category="Toy / Art"/>
-    <outline text="“The Monospace Web” by Oskar Wickström" type="link" url="https://owickstrom.github.io/the-monospace-web" category="Toy / Art"/>
-    <outline text="“Algorithmic fitting of Japanese candy” by Candy Japan" type="link" url="https://www.candyjapan.com/behind-the-scenes/algorithmic-fitting-of-japanese-candy" category="Toy / Art"/>
-    <outline text="“ASCII Silhouettify” by Meat Fighter" type="link" url="https://meatfighter.com/ascii-silhouettify" category="Toy / Art"/>
-    <outline text="“Order coffee from your terminal”" type="link" url="https://www.terminal.shop" category="Toy / Art"/>
-    <outline text="“Porting 8-bit Sonic 2 to the TI-84 CE” by grubbycoder" type="link" url="https://medium.com/@grubbycoder/porting-8-bit-sonic-2-to-the-ti-84-ce-7ec99f9981c9" category="Toy / Art"/>
-    <outline text="“KidPix for the web” by Craig Hickman" type="link" url="https://kidpix.app" category="Toy / Art"/>
-    <outline text="“Physics simulation of the Nebraska maintainer XKCD” by Adam Leventhal" type="link" url="https://mastodon.social/@ahl/112243122623783002" category="Toy / Art"/>
-    <outline text="“Mario meets Pareto” by Antoine Mayerowitz" type="link" url="https://www.mayerowitz.io/blog/mario-meets-pareto" category="Toy / Art"/>
-    <outline text="“Watchy from SQFMI on Tindie”" type="link" url="https://www.tindie.com/products/sqfmi/watchy" category="Toy / Art"/>
-    <outline text="“Joy-Con and WebHID”" type="link" url="https://tomayac.github.io/joy-con-webhid/demo" category="Toy / Art"/>
-    <outline text="“CLI for capturing pictures and PDFs of websites” by Simon Willison" type="link" url="https://shot-scraper.datasette.io/en/stable" category="Toy / Art"/>
-    <outline text="“McBroken: is the McDonalds ice cream machine broken?” by Rashiq" type="link" url="https://mcbroken.com" category="Toy / Art"/>
-    <outline text="“Pikmin 2 Procedural Cave Music” by Scruffy" type="link" url="https://www.youtube.com/watch?v=QPFWzSlg-78" category="Toy / Art"/>
-    <outline text="“The Angle Bracket”" type="link" url="https://theanglebracket.com" category="Toy / Art"/>
-    <outline text="“Making &quot;LCD, Please&quot;” by Lucas Pope" type="link" url="https://dukope.com/devlogs/papers-please/lcdplease" category="Toy / Art"/>
-    <outline text="“Joys of Small Game Development” by abagames" type="link" url="https://abagames.github.io/joys-of-small-game-development-en" category="Toy / Art"/>
-    <outline text="“GRID WORLD” by Alexander Miller" type="link" url="https://alex.miller.garden/grid-world" category="Toy / Art"/>
-    <outline text="“KGT: Beautiful railroad diagram tool” by Kate" type="link" url="https://github.com/katef/kgt" category="Toy / Art"/>
-    <outline text="“Wakamai Fondue, the tool that answers the question “what can my font do?””" type="link" url="https://wakamaifondue.com/beta" category="Toy / Art"/>
+    <outline text="“Federation Deathmatch” by Glyph" type="link" url="https://blog.glyph.im/2024/11/the-federation-deathmatch.html" category="Software and OSS"/>
+    <outline text="“Enabled by default” by Jim Nielsen" type="link" url="https://blog.jim-nielsen.com/2024/enabled-by-default" category="Software and OSS"/>
+    <outline text="“Where the digital sidewalk ends” by Huston Bokinsky" type="link" url="https://www.smolways.com/post/where-the-digital-sidewalk-ends" category="Software and OSS"/>
+    <outline text="“Solar-powered self-hosted website” by Dries Buytaert" type="link" url="https://dri.es/my-solar-powered-and-self-hosted-website" category="Software and OSS"/>
+    <outline text="“Mastodon Author Tags” by Robb Knight" type="link" url="https://rknight.me/blog/setting-up-mastodon-author-tags" category="Software and OSS"/>
+    <outline text="“Solving methane mysteries with satellite imagery” by Louis Goddard" type="link" url="https://blog.datadesk.eco/p/methane-mysteries" category="Software and OSS"/>
+    <outline text="“Do AI companies work?” by Benn Stancil" type="link" url="https://benn.substack.com/p/do-ai-companies-work" category="Software and OSS"/>
+    <outline text="“The Infrastructure Shock” by Debbie Chachra" type="link" url="https://berjon.com/infrastructure-shock" category="Software and OSS"/>
+    <outline text="“Cool URIs don't change” by W3C" type="link" url="https://www.w3.org/Provider/Style/URI" category="Software and OSS"/>
+    <outline text="“Reckoning for web frontend” by Alex Russell" type="link" url="https://infrequently.org/series/reckoning" category="Software and OSS"/>
+    <outline text="“Frontend is haunted by 2013's Great Branch Mispredict” by Alex Russell" type="link" url="https://infrequently.org/2024/01/performance-inequality-gap-2024" category="Software and OSS"/>
+    <outline text="“Resilient Sync for Local First” by Dirk Holtwick" type="link" url="https://holtwick.de/en/blog/localfirst-resilient-sync" category="Software and OSS"/>
+    <outline text="“Local, first, forever” by Nikita Prokopov" type="link" url="https://tonsky.me/blog/crdt-filesync" category="Software and OSS"/>
+    <outline text="“Stupid Slow” by Carl Svensson" type="link" url="https://www.datagubbe.se/stupidslow" category="Software and OSS"/>
+    <outline text="“Local-first software” by Martin Kleppmann" type="link" url="https://www.inkandswitch.com/local-first" category="Software and OSS"/>
+    <outline text="“Engineering for Slow Internet” by brr" type="link" url="https://brr.fyi/posts/engineering-for-slow-internet" category="Software and OSS"/>
+    <outline text="“Untold stories from 6 years working on Python packaging” by Sumana Harihareswara" type="link" url="https://harihareswara.net/posts/2024/references-pycon-us-keynote" category="Software and OSS"/>
+    <outline text="“Map of GPS/GNSS interference” by John Wiseman" type="link" url="https://gpsjam.org/?date=2024-04-28&amp;lat=53.47155&amp;lon=32.20202&amp;z=4.2" category="Software and OSS"/>
+    <outline text="“Fear makes you a worse programmer” by Julia Evans" type="link" url="https://jvns.ca/blog/2014/12/21/fear-makes-you-a-worse-programmer" category="Software and OSS"/>
+    <outline text="“10 &gt; 64, in QR codes”" type="link" url="https://huonw.github.io/blog/2024/03/qr-base10-base64" category="Software and OSS"/>
+    <outline text="“32/Z85 | ZeroMQ RFC”" type="link" url="https://rfc.zeromq.org/spec/32" category="Software and OSS"/>
+    <outline text="“Never rewrite software from scratch” by Joel Spolsky" type="link" url="https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i" category="Software and OSS"/>
+    <outline text="“Command Line Interface Guidelines”" type="link" url="https://clig.dev" category="Software and OSS"/>
+    <outline text="“Ruffle: Flash player written in Rust”" type="link" url="https://ruffle.rs" category="Software and OSS"/>
+    <outline text="“why lowercase letters save data” by Nathaniel" type="link" url="https://endtimes.dev/why-lowercase-letters-save-data" category="Software and OSS"/>
+    <outline text="“How Firefox is disadvantaged on every platform” by Mozilla" type="link" url="https://mozilla.github.io/platform-tilt" category="Software and OSS"/>
+    <outline text="“QR error correction” by Huon Wilson" type="link" url="https://huonw.github.io/blog/2021/09/qr-error-correction" category="Software and OSS"/>
+    <outline text="“Mess with DNS” by Julia Evans" type="link" url="https://messwithdns.net" category="Software and OSS"/>
+    <outline text="“You don't need analytics on your blog” by William Woodruff" type="link" url="https://blog.yossarian.net/2023/12/24/You-dont-need-analytics-on-your-blog" category="Software and OSS"/>
+    <outline text="“GitHub Actions Feels Bad” by Amos Wenger" type="link" url="https://m.youtube.com/watch?v=9qljpi5jiMQ" category="Software and OSS"/>
+    <outline text="“Pitfalls for Pull Requests on GitHub” by David Lord" type="link" url="https://davidism.com/github-pull-request-pitfalls" category="Software and OSS"/>
+    <outline text="“User Interface Typography”" type="link" url="https://imperavi.com/books/ui-typography" category="Software and OSS"/>
+    <outline text="“iMessage protocol” by JJTech" type="link" url="https://jjtech.dev/reverse-engineering/imessage-explained" category="Software and OSS"/>
+    <outline text="“How Did I Get Here?”" type="link" url="https://how-did-i-get-here.net" category="Software and OSS"/>
+    <outline text="“Hypermedia Systems” by Carson Gross, Adam Stepinski, and Deniz Akşimşek" type="link" url="https://hypermedia.systems" category="Software and OSS"/>
+    <outline text="“Asahi Linux folks are doing us a solid with WPA3 fixes”" type="link" url="https://rachelbythebay.com/w/2023/11/07/wpa3" category="Software and OSS"/>
+    <outline text="“The Angle Bracket”" type="link" url="https://theanglebracket.com" category="Toys and Art"/>
+    <outline text="“Hyphens, minus, and dashes in Debian man pages” by Jonathan Corbet" type="link" url="https://lwn.net/Articles/947941" category="Software and OSS"/>
+    <outline text="“Why software ends up complex” by Alex Gaynor" type="link" url="https://alexgaynor.net/2020/nov/30/why-software-ends-up-complex" category="Software and OSS"/>
+    <outline text="“Progress on no-GIL CPython” by Jake Edge" type="link" url="https://lwn.net/Articles/947138" category="Software and OSS"/>
+    <outline text="“Write more &quot;useless&quot; software”" type="link" url="https://www.ntietz.com/blog/write-more-useless-software" category="Software and OSS"/>
+    <outline text="“What software developers must know about Unicode in 2023” by Nikita Prokopov" type="link" url="https://tonsky.me/blog/unicode" category="Software and OSS"/>
+    <outline text="“QR Code Artwork Generator” by Russ Cox" type="link" url="https://research.swtch.com/qr/draw" category="Software and OSS"/>
+    <outline text="“Stripe Payment API Design” by Michelle Bu" type="link" url="https://stripe.com/blog/payment-api-design" category="Software and OSS"/>
+    <outline text="“Is It Tofu? Check Unicode compatibility” by Aaron Madlon-Kay" type="link" url="https://tofu.quest" category="Software and OSS"/>
+    <outline text="“Walking wooden coffee table” by Giliam de Carpentier" type="link" url="https://www.decarpentier.nl/carpentopod" category="Toys and Art"/>
+    <outline text="“The Monospace Web” by Oskar Wickström" type="link" url="https://owickstrom.github.io/the-monospace-web" category="Toys and Art"/>
+    <outline text="“Algorithmic fitting of Japanese candy” by Candy Japan" type="link" url="https://www.candyjapan.com/behind-the-scenes/algorithmic-fitting-of-japanese-candy" category="Toys and Art"/>
+    <outline text="“ASCII Silhouettify” by Meat Fighter" type="link" url="https://meatfighter.com/ascii-silhouettify" category="Toys and Art"/>
+    <outline text="“Order coffee from your terminal”" type="link" url="https://www.terminal.shop" category="Toys and Art"/>
+    <outline text="“Porting 8-bit Sonic 2 to the TI-84 CE” by grubbycoder" type="link" url="https://medium.com/@grubbycoder/porting-8-bit-sonic-2-to-the-ti-84-ce-7ec99f9981c9" category="Toys and Art"/>
+    <outline text="“KidPix for the web” by Craig Hickman" type="link" url="https://kidpix.app" category="Toys and Art"/>
+    <outline text="“Physics simulation of the Nebraska maintainer XKCD” by Adam Leventhal" type="link" url="https://mastodon.social/@ahl/112243122623783002" category="Toys and Art"/>
+    <outline text="“Mario meets Pareto” by Antoine Mayerowitz" type="link" url="https://www.mayerowitz.io/blog/mario-meets-pareto" category="Toys and Art"/>
+    <outline text="“Watchy from SQFMI on Tindie”" type="link" url="https://www.tindie.com/products/sqfmi/watchy" category="Toys and Art"/>
+    <outline text="“Joy-Con and WebHID”" type="link" url="https://tomayac.github.io/joy-con-webhid/demo" category="Toys and Art"/>
+    <outline text="“CLI for capturing pictures and PDFs of websites” by Simon Willison" type="link" url="https://shot-scraper.datasette.io/en/stable" category="Toys and Art"/>
+    <outline text="“McBroken: is the McDonalds ice cream machine broken?” by Rashiq" type="link" url="https://mcbroken.com" category="Toys and Art"/>
+    <outline text="“Pikmin 2 Procedural Cave Music” by Scruffy" type="link" url="https://www.youtube.com/watch?v=QPFWzSlg-78" category="Toys and Art"/>
+    <outline text="“The Angle Bracket”" type="link" url="https://theanglebracket.com" category="Toys and Art"/>
+    <outline text="“Making &quot;LCD, Please&quot;” by Lucas Pope" type="link" url="https://dukope.com/devlogs/papers-please/lcdplease" category="Toys and Art"/>
+    <outline text="“Joys of Small Game Development” by abagames" type="link" url="https://abagames.github.io/joys-of-small-game-development-en" category="Toys and Art"/>
+    <outline text="“GRID WORLD” by Alexander Miller" type="link" url="https://alex.miller.garden/grid-world" category="Toys and Art"/>
+    <outline text="“KGT: Beautiful railroad diagram tool” by Kate" type="link" url="https://github.com/katef/kgt" category="Toys and Art"/>
+    <outline text="“Wakamai Fondue, the tool that answers the question &quot;what can my font do?&quot;”" type="link" url="https://wakamaifondue.com/beta" category="Toys and Art"/>
     <outline text="“Internet-enabled GameCube Memory Card” by Macho Nacho" type="link" url="https://youtube.com/watch?si=qnFN8X6I2wZ8WW0e&amp;v=tsfuIRWK-BY" category="Retro Gaming"/>
     <outline text="“PicoBoot GameCube modchip” by Macho Nacho" type="link" url="https://youtube.com/watch?si=HUTEvS41iLInTyDI&amp;v=qwL4ZSa0xMo" category="Retro Gaming"/>
     <outline text="“E-Reader Development Resources”" type="link" url="https://ereader.miraheze.org/wiki/Main_Page" category="Retro Gaming"/>
     <outline text="“FlippyDrive GameCube modchip” by Macho Nacho" type="link" url="https://m.youtube.com/watch?v=YPq48Wm8y-U" category="Retro Gaming"/>
-    <outline text="“M2 Loader for the GameCube”" type="link" url="https://m.youtube.com/watch?v=1uxu8anymDg" category="Retro Gaming"/>
+    <outline text="“M2 Loader for the GameCube” by Macho Nacho" type="link" url="https://m.youtube.com/watch?v=1uxu8anymDg" category="Retro Gaming"/>
     <outline text="“Technical info on NES, SNES, GBA, DS, 3DS” by caitsith2" type="link" url="https://caitsith2.com" category="Retro Gaming"/>
     <outline text="“Ashida Portable GameCube Assembly” by GingerOfVODs" type="link" url="https://www.youtube.com/watch?v=EkcISHZvWHE" category="Retro Gaming"/>
     <outline text="“Printing Nintendo E-Reader Cards”" type="link" url="https://mattgreer.dev/blog/printing-ereader-cards" category="Retro Gaming"/>
     <outline text="“TONC: Framework for GameBoy Advance game programming” by Cearn" type="link" url="https://www.coranac.com/tonc/text/toc.htm" category="Retro Gaming"/>
     <outline text="“E-Reader Development Resources” by loociano" type="link" url="https://github.com/loociano/awesome-ereader-dev" category="Retro Gaming"/>
     <outline text="“E-Reader Info and Downloads” by Kiczek" type="link" url="http://ereader.kiczek.com" category="Retro Gaming"/>
-    <outline text="“Smarter than 'Ctrl+F': Linking Directly to Web Page Content”" type="link" url="https://alfy.blog/2024/10/19/linking-directly-to-web-page-content.html" category="Software and OSS"/>
-    <outline text="“Podcast: &quot;Digital Infrastructure and Why Open Source Is Not Enough Anymore&quot;”" type="link" url="https://tante.cc/2024/11/06/podcast-digital-infrastructure-and-why-open-source-is-not-enough-anymore"/>
+    <outline text="“Link to web content in URL fragments”" type="link" url="https://alfy.blog/2024/10/19/linking-directly-to-web-page-content.html" category="Software and OSS"/>
     <outline text="“Mii Library”" type="link" url="https://www.miilibrary.com" category="Retro Gaming"/>
   </body>
 </opml>
