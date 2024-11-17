@@ -121,20 +121,43 @@ def articles_opml_from_inoreader():
     )
 
     def fetch_articles():
-        continuation = None
-        stream_url = "https://www.inoreader.com/reader/api/0/stream/contents/user/-/state/com.google/saved-web-pages?output=json&n=100"
-        while True:
-            url = stream_url
-            if continuation is not None:
-                url = url + f"&c={continuation}"
-            resp = http_client.request("GET", url, headers=headers())
-            if resp.status != 200:
-                raise RuntimeError(resp.status, resp.data)
-            resp_data = resp.json()
-            for item in resp_data["items"]:
-                yield item
-            if not (continuation := resp_data.get("continuation", None)):
-                break
+        # Inoreader has two ways of "saving" an article,
+        # with stars and with a "saved web page". One
+        # is easy from mobile one is easy from web.
+        stream_ids = ["starred", "saved-web-pages"]
+
+        # Deduplicate URLs because articles might be in both streams.
+        deduplicated_urls = set()
+
+        for stream_id in stream_ids:
+            stream_url = f"https://www.inoreader.com/reader/api/0/stream/contents/user/-/state/com.google/{stream_id}?output=json&n=100"
+            continuation = None
+            while True:
+                url = stream_url
+                if continuation is not None:
+                    url = url + f"&c={continuation}"
+
+                resp = http_client.request("GET", url, headers=headers())
+                if resp.status != 200:
+                    raise RuntimeError(resp.status, resp.data)
+                resp_data = resp.json()
+
+                for item in resp_data["items"]:
+                    # If an article has no tags then we skip it,
+                    # likely because I haven't processed it yet.
+                    if not any("/label/" in cat for cat in item["categories"]):
+                        continue
+
+                    # Deduplicate an article by URL before yielding.
+                    article_url = normalize_url(item["canonical"][0]["href"])
+                    if article_url in deduplicated_urls:
+                        continue
+                    deduplicated_urls.add(article_url)
+
+                    yield item
+
+                if not (continuation := resp_data.get("continuation", None)):
+                    break
 
     for article in fetch_articles():
         author = article.get("author", None)

@@ -8,6 +8,7 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Custom item name routine while translating Dōbutsu no Mori e+” by Cuyler" type="link" url="https://cuyler36.github.io/2017/10/31/creating-a-custom-name-routine.html" category="Retro Gaming"/>
     <outline text="“Canned Fish Files” by Matthew Carlson" type="link" url="https://www.youtube.com/@CannedFishFiles" category="Life"/>
     <outline text="“Tim Walz plays Crazy Taxi with Alexandria Ocasio-Cortez”" type="link" url="https://www.youtube.com/watch?v=1n9Gqa-0Cp0" category="Life"/>
     <outline text="“Nook Code Generator for Animal Crossing GC” by Cuyler" type="link" url="https://nookipedia.com/wiki/Secret_code/Generator" category="Retro Gaming"/>
@@ -17,6 +18,7 @@
     <outline text="“Konga Beat: Track editor for Donkey Konga 2 and 3” by Parham Gholami and Dexter Friedman" type="link" url="https://www.kongabeat.com" category="Retro Gaming"/>
     <outline text="“It’s Time for Twin Cities Chefs to Embrace Spam” by Em Cassel" type="link" url="https://racketmn.com/its-time-for-twin-cities-mn-chefs-to-embrace-spam-hormel" category="Life"/>
     <outline text="“Bypassing AirPods regulatory locks with Faraday cages” by Lagrange Point" type="link" url="https://lagrangepoint.substack.com/p/airpods-hearing-aid-hacking" category="Software and OSS"/>
+    <outline text="“Cultural tech debt” by Joan Westenberg" type="link" url="https://www.joanwestenberg.com/is-cultural-technical-debt-sabotaging-our-survival" category="Life"/>
     <outline text="“GCNET” by NeoStormer" type="link" url="https://geeceenet.com" category="Retro Gaming"/>
     <outline text="“The Garden” by Maggie Appleton" type="link" url="https://maggieappleton.com/garden" category="Life"/>
     <outline text="“Turning gas cars electric in Latin America” by Daniela Dib" type="link" url="https://restofworld.org/2024/electric-vehicle-conversions-uruguay" category="Life"/>
@@ -145,7 +147,6 @@
     <outline text="“CLI for capturing pictures and PDFs of websites” by Simon Willison" type="link" url="https://shot-scraper.datasette.io/en/stable" category="Toys and Art"/>
     <outline text="“McBroken: is the McDonalds ice cream machine broken?” by Rashiq" type="link" url="https://mcbroken.com" category="Toys and Art"/>
     <outline text="“Pikmin 2 Procedural Cave Music” by Scruffy" type="link" url="https://www.youtube.com/watch?v=QPFWzSlg-78" category="Toys and Art"/>
-    <outline text="“The Angle Bracket”" type="link" url="https://theanglebracket.com" category="Toys and Art"/>
     <outline text="“Making &quot;LCD, Please&quot;” by Lucas Pope" type="link" url="https://dukope.com/devlogs/papers-please/lcdplease" category="Toys and Art"/>
     <outline text="“Joys of Small Game Development” by abagames" type="link" url="https://abagames.github.io/joys-of-small-game-development-en" category="Toys and Art"/>
     <outline text="“GRID WORLD” by Alexander Miller" type="link" url="https://alex.miller.garden/grid-world" category="Toys and Art"/>
