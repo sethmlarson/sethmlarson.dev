@@ -8,6 +8,10 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“How long should we be in charge?” by Jay Miller" type="link" url="https://kjaymiller.com/blog/how-long-should-we-be-in-charge.html" category="Life"/>
+    <outline text="“View source web” by Garry Ing" type="link" url="https://viewsource.info" category="Software and OSS"/>
+    <outline text="“Boredom sharpens the mind” by Dakara" type="link" url="https://medium.com/@dakara.liberty/boredom-sharpens-the-mind-752d4b44d05d" category="Life"/>
+    <outline text="“Security means securing people where they are” by William Woodruff" type="link" url="https://blog.yossarian.net/2024/11/18/Security-means-securing-people-where-they-are" category="Security"/>
     <outline text="“Custom item name routine while translating Dōbutsu no Mori e+” by Cuyler" type="link" url="https://cuyler36.github.io/2017/10/31/creating-a-custom-name-routine.html" category="Retro Gaming"/>
     <outline text="“Canned Fish Files” by Matthew Carlson" type="link" url="https://www.youtube.com/@CannedFishFiles" category="Life"/>
     <outline text="“Tim Walz plays Crazy Taxi with Alexandria Ocasio-Cortez”" type="link" url="https://www.youtube.com/watch?v=1n9Gqa-0Cp0" category="Life"/>

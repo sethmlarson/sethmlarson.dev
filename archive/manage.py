@@ -143,11 +143,6 @@ def articles_opml_from_inoreader():
                 resp_data = resp.json()
 
                 for item in resp_data["items"]:
-                    # If an article has no tags then we skip it,
-                    # likely because I haven't processed it yet.
-                    if not any("/label/" in cat for cat in item["categories"]):
-                        continue
-
                     # Deduplicate an article by URL before yielding.
                     article_url = normalize_url(item["canonical"][0]["href"])
                     if article_url in deduplicated_urls:
@@ -180,6 +175,10 @@ def articles_opml_from_inoreader():
             outline = existing_urls[url]
             articles_opml.outlines.append(outline)
         else:
+            # If an article has no tags then we skip it,
+            # likely because I haven't processed it yet.
+            if not tags:
+                continue
             articles_opml.add_link(
                 text=title,
                 url=url,

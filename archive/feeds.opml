@@ -72,6 +72,7 @@
     <outline text="Jacob Kaplan-Moss" type="rss" xmlUrl="https://jacobian.org/feed" htmlUrl="http://jacobian.org"/>
     <outline text="Jake Simmons" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBq2LJclLonhNaDV_p809fA" htmlUrl="https://www.youtube.com/channel/UCBq2LJclLonhNaDV_p809fA"/>
     <outline text="James Bennett" type="rss" xmlUrl="https://www.b-list.org/feeds/entries" htmlUrl="http://www.b-list.org/feeds/entries"/>
+    <outline text="Jay Miller" type="rss" xmlUrl="https://kjaymiller.com/blog.rss" htmlUrl="https://example.com"/>
     <outline text="JessicaIn3D" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJIx6QNSYoUNH3GTLxPN3qw" htmlUrl="https://www.youtube.com/channel/UCJIx6QNSYoUNH3GTLxPN3qw"/>
     <outline text="Joel Spolsky" type="rss" xmlUrl="https://www.joelonsoftware.com/feed" htmlUrl="https://www.joelonsoftware.com"/>
     <outline text="Julia Evans" type="rss" xmlUrl="http://jvns.ca/atom.xml" htmlUrl="http://jvns.ca"/>
@@ -135,6 +136,7 @@
     <outline text="Supper Mario Broth" type="rss" xmlUrl="https://www.suppermariobroth.com/rss" htmlUrl="https://www.suppermariobroth.com"/>
     <outline text="Sustain" type="rss" xmlUrl="https://feeds.fireside.fm/sustain/rss" htmlUrl="https://podcast.sustainoss.org"/>
     <outline text="System of Levers" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSH44z64-vxbVY3nXePm6xA" htmlUrl="https://www.youtube.com/channel/UCSH44z64-vxbVY3nXePm6xA"/>
+    <outline text="The HTML Review" type="rss" xmlUrl="https://thehtml.review/rss.xml" htmlUrl="https://thehtml.review"/>
     <outline text="The Perry Bible Fellowship" type="rss" xmlUrl="https://pbfcomics.com/feed" htmlUrl="https://pbfcomics.com"/>
     <outline text="The Real Python Podcast" type="rss" xmlUrl="https://realpython.com/podcasts/rpp/feed" htmlUrl="https://realpython.com/podcasts/rpp"/>
     <outline text="The Wulff Den" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCr613nJgA50o8DUUT00qHvw" htmlUrl="http://www.youtube.com/channel/UCr613nJgA50o8DUUT00qHvw"/>
