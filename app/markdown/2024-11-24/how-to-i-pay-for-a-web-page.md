@@ -47,6 +47,12 @@ generated content (links in comments, etc) and whatever the "authoritative"
 URLs are for paying the creator of the page. Being able to set `<meta>` tags
 in `<head>` is typically a higher bar than setting arbitrary URLs in the `<body>`.
 
+### Brave
+
+I know about Brave, and I would like to avoid crypto in my solution. Also many of the
+creators I pay for don't use crypto but do have multiple payment methods. I don't think
+the solution should require creators AND users adopt new technology to work.
+
 ## What happens now?
 
 I'm no stranger to standards, so maybe I do some research and
