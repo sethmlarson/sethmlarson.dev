@@ -1,4 +1,4 @@
-# How do I pay for a web page?
+# How do I pay the publisher of a web page?
 
 Here's an unanswered question:
 
