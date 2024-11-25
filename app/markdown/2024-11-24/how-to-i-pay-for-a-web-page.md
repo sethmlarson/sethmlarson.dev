@@ -47,6 +47,36 @@ generated content (links in comments, etc) and whatever the "authoritative"
 URLs are for paying the creator of the page. Being able to set `<meta>` tags
 in `<head>` is typically a higher bar than setting arbitrary URLs in the `<body>`.
 
+### Podcasting 2.0 RSS `<podcast:funding>` tag
+
+[Podcasting 2.0](https://podcasting2.org/podcast-namespace/tags/funding) supports basically the exact tag that
+I want to use which encodes a URL and  a human-readable name for that URL
+into the metadata description of a podcast publication. Really great to see some prior art here.
+
+[Thanks to DamonHD](https://news.ycombinator.com/reply?id=42229968&goto=item%3Fid%3D42229930%2342229968) for sending me this reference.
+
+### Flattr
+
+Flattr is a service that tried to turn a "subscription" from users into micro-payouts
+based on a users' browsing history. Flattr shut down in 2023. This approach isn't one I'm interested in replicating for
+a few reasons:
+
+* Access to the entire browsing history feels like a privacy nightmare.
+  Yes you receive a "complete" sample of which web pages a user has visited
+  but, yeah this doesn't seem great?
+* Flattr tried to create its own payment platform for creators, rather than
+  pushing users to send monetary support through existing stable payment methods
+  like Patreon. They had to do this because of the micro-payments thing.
+
+In general this is making me think micro-payments is extremely hard to do.
+I think having a handful of dedicated fans for small creators might be enough
+to "offset" the "loss" of micro-payments? Perhaps there can be a recommendation
+to note to users when certain creators are "niche" and therefore are receiving
+fewer payments relative to other creators and thus would benefit more from
+a contribution / boost?
+
+[Thanks to Quentin](https://bsky.app/profile/quentin.pradet.me/post/3lbqj52tpes2p) for sending me this reference.
+
 ### Brave
 
 I know about Brave, and I would like to avoid crypto in my solution. Also many of the

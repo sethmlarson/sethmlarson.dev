@@ -70,6 +70,7 @@
     <outline text="Infrequently Noted" type="rss" xmlUrl="https://infrequently.org/feed" htmlUrl="https://infrequently.org"/>
     <outline text="Inoreader" type="rss" xmlUrl="https://www.inoreader.com/blog/feed" htmlUrl="https://www.inoreader.com/blog"/>
     <outline text="Interconnected" type="rss" xmlUrl="https://interconnected.org/home/feed" htmlUrl="https://interconnected.org/home"/>
+    <outline text="Internet Security Research Group" type="rss" xmlUrl="https://www.abetterinternet.org/index.xml" htmlUrl="https://www.abetterinternet.org"/>
     <outline text="Isosceles" type="rss" xmlUrl="https://blog.isosceles.com/rss" htmlUrl="https://blog.isosceles.com"/>
     <outline text="Jacob Kaplan-Moss" type="rss" xmlUrl="https://jacobian.org/feed" htmlUrl="http://jacobian.org"/>
     <outline text="Jake Simmons" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBq2LJclLonhNaDV_p809fA" htmlUrl="https://www.youtube.com/channel/UCBq2LJclLonhNaDV_p809fA"/>
