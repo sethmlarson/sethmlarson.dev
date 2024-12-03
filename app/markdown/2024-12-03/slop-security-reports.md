@@ -95,7 +95,7 @@ Here are some questions to ask of a security report and reporter:
   that are willing to help**. For Python open source projects you can ask for help
   from me if needed.
 
-* Does the reporter will have a new account, no public identity,
+* Does the reporter have a new account, no public identity,
   or multiple "credited" security reports of low quality? There are sometimes
   legitimate reasons to want anonymity, but I've seen this commonly on very
   low-stakes vulnerability reports.
