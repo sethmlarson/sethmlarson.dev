@@ -113,3 +113,9 @@ to make the world a better place.
 
 Unfortunately, an increasing majority of reports are of low quality and are ruining the
 experience for others. I hope we're able to fix this issue before it gets out of hand.
+
+<blockquote>
+  <center>
+    This critical role would not be possible without funding from the <a href="https://alpha-omega.dev">Alpha-Omega project</a>.
+  </center>
+</blockquote>
