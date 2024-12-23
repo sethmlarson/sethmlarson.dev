@@ -8,8 +8,30 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
-    <outline text="“Fix the fucking networks”" type="link" url="https://www.youtube.com/watch?v=0FwM8HdOY-A" category="Life"/>
-    <outline text="“Custom villagers in Animal Crossing e+” by Hunter R." type="link" url="https://www.youtube.com/watch?v=V1d8XWf8dDk" category="Retro Gaming"/>
+    <outline text="“The year of McDonald’s” by Chris Arnade" type="link" url="https://www.thefp.com/p/the-year-of-mcdonalds-trump-luigi-mangione" category="Life"/>
+    <outline text="“What do we owe each other?” by Sumana Harihareswara" type="link" url="https://youtu.be/JE5u5mUT6gQ?t=1937" category="Software and OSS"/>
+    <outline text="“NES expansion port” by Ernie Smith" type="link" url="https://tedium.co/2024/12/02/nintendo-expansion-port-history" category="Retro Gaming"/>
+    <outline text="“Supporting the software you use, not the software you see”" type="link" url="https://funds.ecosyste.ms" category="Software and OSS"/>
+    <outline text="“Spatial Pixel”" type="link" url="https://spatialpixel.com" category="Software and OSS"/>
+    <outline text="“Sega Channel game image file format”" type="link" url="https://www.infochunk.com/schannel/index.html" category="Retro Gaming"/>
+    <outline text="“How to create an RFC” by Ben Cox" type="link" url="https://blog.benjojo.co.uk/post/rfc-in-38-simple-steps" category="Software and OSS"/>
+    <outline text="“Microsoft Entertainment Pack: The Puzzle Collection”" type="link" url="https://en.wikipedia.org/wiki/Microsoft_Entertainment_Pack:_The_Puzzle_Collection" category="Retro Gaming"/>
+    <outline text="“Rogue” by Joachim Froholt" type="link" url="https://spillhistorie.no/the-story-of-rogue" category="Retro Gaming"/>
+    <outline text="“The Timeless Way of Software” by Taylor Troesh" type="link" url="https://www.youtube.com/watch?v=wTv5kvuP1hI" category="Software and OSS"/>
+    <outline text="“Sonic Adventure DX is a bad port” by Chaomix" type="link" url="https://www.youtube.com/watch?v=SORYL5J1Heg" category="Retro Gaming"/>
+    <outline text="“Star Garden: Chao Garden and Kirby Air Ride” by Chaomix" type="link" url="https://www.youtube.com/watch?v=pOni5zVp5uQ" category="Retro Gaming"/>
+    <outline text="“If not React, then what?” by Alex Russell" type="link" url="https://infrequently.org/2024/11/if-not-react-then-what" category="Software and OSS"/>
+    <outline text="“What RSS needs” by Mark Nottingham" type="link" url="https://www.mnot.net/blog/2024/08/25/feeds" category="Software and OSS"/>
+    <outline text="“Platform advantages: not just network effects” by Mark Nottingham" type="link" url="https://www.mnot.net/blog/2024/11/29/platforms" category="Software and OSS"/>
+    <outline text="“LEGO interface panels” by George Cave" type="link" url="https://interactionmagic.com/UX-LEGO-Interfaces" category="Toys and Art"/>
+    <outline text="“Location-appropriate bike racks of Minneapolis” by Bennet Hartz" type="link" url="https://medium.com/@bennetthartz/location-appropriate-bike-racks-of-minneapolis-273bdc67046d" category="Life"/>
+    <outline text="“Building LLMs is probably not a good business” by Cal Paterson" type="link" url="https://calpaterson.com/porter.html" category="Software and OSS"/>
+    <outline text="“Global BGP table” by Greg Foletta" type="link" url="https://articles.foletta.org/post/2024-01-08-a-day-in-the-life-the-bgp-table" category="Software and OSS"/>
+    <outline text="“Populism and media revolutions” by Hank Green" type="link" url="https://www.youtube.com/watch?v=d8PndpFPL8g" category="Life"/>
+    <outline text="“Fix the fucking networks” by Erin Kissane" type="link" url="https://www.youtube.com/watch?v=0FwM8HdOY-A" category="Life"/>
+    <outline text="“FaSTer Atari ST digital magazine”" type="link" url="https://www.goto10retro.com/p/faster-atari-st-digital-magazine" category="Retro Gaming"/>
+    <outline text="“Handling cookies is a minefield” by April King" type="link" url="https://grayduck.mn/2024/11/21/handling-cookies-is-a-minefield" category="Software and OSS"/>
+    <outline text="“Custom villagers in Dōbutsu no Mori e+” by Hunter R." type="link" url="https://www.youtube.com/watch?v=V1d8XWf8dDk" category="Retro Gaming"/>
     <outline text="“Villager E-Reader card format for Dōbutsu no Mori e+” by Hunter R." type="link" url="https://hunter-r.com/posts/dnm-ereader-doc" category="Retro Gaming"/>
     <outline text="“How long should we be in charge?” by Jay Miller" type="link" url="https://kjaymiller.com/blog/how-long-should-we-be-in-charge.html" category="Life"/>
     <outline text="“View source web” by Garry Ing" type="link" url="https://viewsource.info" category="Software and OSS"/>
@@ -18,12 +40,12 @@
     <outline text="“Custom item name routine while translating Dōbutsu no Mori e+” by Cuyler" type="link" url="https://cuyler36.github.io/2017/10/31/creating-a-custom-name-routine.html" category="Retro Gaming"/>
     <outline text="“Canned Fish Files” by Matthew Carlson" type="link" url="https://www.youtube.com/@CannedFishFiles" category="Life"/>
     <outline text="“Tim Walz plays Crazy Taxi with Alexandria Ocasio-Cortez”" type="link" url="https://www.youtube.com/watch?v=1n9Gqa-0Cp0" category="Life"/>
-    <outline text="“Nook Code Generator for Animal Crossing GC” by Cuyler" type="link" url="https://nookipedia.com/wiki/Secret_code/Generator" category="Retro Gaming"/>
+    <outline text="“Nook Code generator for Animal Crossing GC” by Cuyler" type="link" url="https://nookipedia.com/wiki/Secret_code/Generator" category="Retro Gaming"/>
     <outline text="“The Internet Gopher from Minnesota”" type="link" url="https://www.abortretry.fail/p/the-internet-gopher-from-minnesota" category="Software and OSS"/>
-    <outline text="“Sign Painter” by Forrest Wozniak" type="link" url="https://www.forrestwozniak.com" category="Life"/>
+    <outline text="“Sign painter” by Forrest Wozniak" type="link" url="https://www.forrestwozniak.com" category="Life"/>
     <outline text="“Sharing items in Animal Crossing GC: &quot;It's still online???&quot;”" type="link" url="https://www.reddit.com/r/Gamecube/comments/1gqfbae/my_niece_turned_18_and_i_gave_her_an_animal/?share_id=_XF34GcRZ_h-J5UqZDfZj&amp;utm_content=1&amp;utm_medium=ios_app&amp;utm_name=iossmf&amp;utm_source=share&amp;utm_term=22&amp;rdt=34253" category="Retro Gaming"/>
     <outline text="“Konga Beat: Track editor for Donkey Konga 2 and 3” by Parham Gholami and Dexter Friedman" type="link" url="https://www.kongabeat.com" category="Retro Gaming"/>
-    <outline text="“It’s Time for Twin Cities Chefs to Embrace Spam” by Em Cassel" type="link" url="https://racketmn.com/its-time-for-twin-cities-mn-chefs-to-embrace-spam-hormel" category="Life"/>
+    <outline text="“It’s time for Twin Cities chefs to embrace Spam” by Em Cassel" type="link" url="https://racketmn.com/its-time-for-twin-cities-mn-chefs-to-embrace-spam-hormel" category="Life"/>
     <outline text="“Bypassing AirPods regulatory locks with Faraday cages” by Lagrange Point" type="link" url="https://lagrangepoint.substack.com/p/airpods-hearing-aid-hacking" category="Software and OSS"/>
     <outline text="“Cultural tech debt” by Joan Westenberg" type="link" url="https://www.joanwestenberg.com/is-cultural-technical-debt-sabotaging-our-survival" category="Life"/>
     <outline text="“GCNET” by NeoStormer" type="link" url="https://geeceenet.com" category="Retro Gaming"/>
