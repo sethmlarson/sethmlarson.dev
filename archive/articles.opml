@@ -8,6 +8,17 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Degrow or Die: Resource Consumption of AI/LLMs”" type="link" url="https://www.youtube.com/watch?v=4ouNbLgJEHA" category="Life"/>
+    <outline text="“Boredom” by Joan Westenberg" type="link" url="https://www.joanwestenberg.com/the-only-true-goal-is-boredom" category="Life"/>
+    <outline text="“Triptych Proposals” by Alexander Petros and Carson Gross" type="link" url="https://alexanderpetros.com/triptych" category="Software and OSS"/>
+    <outline text="“Missing years of emoji history” by Matt Stephton" type="link" url="https://blog.gingerbeardman.com/2024/05/10/emoji-history-the-missing-years" category="Toys and Art"/>
+    <outline text="“DOGE is procurement capture” by Anil Dash" type="link" url="https://anildash.com/2025/01/04/DOGE-procurement-capture" category="Life"/>
+    <outline text="“Lens” by Robb Knight" type="link" url="https://lens.rknight.me" category="Software and OSS"/>
+    <outline text="“Picture to Game Boy” by Jesse Doherty" type="link" url="https://pictogb.com" category="Retro Gaming"/>
+    <outline text="“GPUs, not TPMs, are the root of hardware DRM” by Matthew Garrett" type="link" url="https://mjg59.dreamwidth.org/70954.html" category="Software and OSS"/>
+    <outline text="“Pikmin 1²” by PikHacker" type="link" url="https://www.youtube.com/watch?v=aQ3U82Ulro0" category="Software and OSS"/>
+    <outline text="“The life and death of HTMX” by Alexander Petros" type="link" url="https://www.youtube.com/watch?v=inRB6ull5WQ" category="Software and OSS"/>
+    <outline text="“Declaring platform independence” by Jason Koebler" type="link" url="https://www.niemanlab.org/2024/12/declaring-platform-independence" category="Software and OSS"/>
     <outline text="“The year of McDonald’s” by Chris Arnade" type="link" url="https://www.thefp.com/p/the-year-of-mcdonalds-trump-luigi-mangione" category="Life"/>
     <outline text="“What do we owe each other?” by Sumana Harihareswara" type="link" url="https://youtu.be/JE5u5mUT6gQ?t=1937" category="Software and OSS"/>
     <outline text="“NES expansion port” by Ernie Smith" type="link" url="https://tedium.co/2024/12/02/nintendo-expansion-port-history" category="Retro Gaming"/>
