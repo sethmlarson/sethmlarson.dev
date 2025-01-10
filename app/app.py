@@ -56,6 +56,8 @@ favorite_posts = {
     "youtube-without-youtube-shorts",
     "python-and-sigstore",
     "writing-for-the-internet",
+    "how-do-i-pay-for-a-web-page",
+    "slop-security-reports",
 }
 hide_posts = {
     "hi-chew",
@@ -98,6 +100,14 @@ class BlogPost:
             blog_content=html,
             blog_content_text=blog_content_text,
         )
+
+    def render_rss_html(self):
+        with self.markdown_path.open(mode="r") as f:
+            text = f.read()
+            _, text = text.split("\n", 1)
+        html = md.convert(text)
+        blog_content_text = re.sub(r"<[^>]+>", "", html)
+        return f"<h1>{{ self.title }}</h1>" + blog_content_text
 
     def url(self, utm_campaign=None) -> str:
         url = url_for(
@@ -226,7 +236,7 @@ def load_rss_response():
 
             feed.add(
                 blog_post.title,
-                blog_post.render_html(),
+                blog_post.render_rss_html(),
                 content_type="html",
                 author="Seth Michael Larson",
                 url=blog_post.url(utm_campaign="rss"),

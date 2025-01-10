@@ -37,7 +37,8 @@
     <div class="row">
       <a href="/">About</a> •
       <a href="{{ url_for('list_blog_posts') }}">Blog</a> •
-      <a href="{{ url_for('links') }}">Cool URLs</a>
+      <a href="{{ url_for('rss_blog_posts') }}">RSS</a> •
+      <a href="{{ url_for('links') }}">Blogroll</a>
     </div>
     <div class="row">
       {% block header %}
