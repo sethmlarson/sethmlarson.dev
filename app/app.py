@@ -107,7 +107,7 @@ class BlogPost:
             _, text = text.split("\n", 1)
         html = md.convert(text)
         blog_content_text = re.sub(r"<[^>]+>", "", html)
-        return f"<h1>{ self.title }</h1>" + blog_content_text
+        return blog_content_text
 
     def url(self, utm_campaign=None) -> str:
         url = url_for(
