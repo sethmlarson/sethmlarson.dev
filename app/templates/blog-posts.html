@@ -4,24 +4,6 @@
 <h1>Blog archive</h1>
 {% endblock %}
 {% block content %}
-
-<p>
-    <blockquote>
-    <p>
-        <strong><nobr>Get notified of new posts</nobr></strong> by subscribing to the <a href="{{ url_for('rss_blog_posts') }}">RSS feed</a> or the <a href="https://buttondown.email/sethmlarson">email newsletter</a>.
-        <nobr>Promise not to</nobr> share your email or send you spam, only whatever <em>this</em> is!
-    <form
-      action="https://buttondown.email/api/emails/embed-subscribe/sethmlarson"
-      method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/sethmlarson', 'popupwindow')"
-    >
-        <input type="email" name="email" id="bd-email" placeholder="Email address here" style="max-width: 100%; width: 16em; margin-bottom: 0.5em;" required/>
-        <input type="submit" value="Subscribe" style="max-width: 100%; width: 8em;"/>
-    </form>
-</blockquote>
-</p>
-
 <p>
     <table style="max-width: 100%;">
         {% for month in blog_posts %}
