@@ -8,7 +8,13 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
-    <outline text="“Degrow or Die: Resource Consumption of AI/LLMs”" type="link" url="https://www.youtube.com/watch?v=4ouNbLgJEHA" category="Life"/>
+    <outline text="“Sub-Pixel Art” by Japhy Riddle" type="link" url="https://youtu.be/SlS3FOmKUbE" category="Toys and Art"/>
+    <outline text="“Homomorphic Encryption in iOS 18” by Evan Boehs" type="link" url="https://boehs.org/node/homomorphic-encryption" category="Security"/>
+    <outline text="“sup” by Drew Schuster" type="link" url="https://drew.shoes/posts/sup" category="Software and OSS"/>
+    <outline text="“F-Zero X can't be made today” by Sepi" type="link" url="https://youtu.be/RG8ljpIwsgc" category="Retro Gaming"/>
+    <outline text="“Chess Zoo” by Randall Munroe" type="link" url="https://xkcd.com/3036" category="Toys and Art"/>
+    <outline text="“Never Forgive Them” by Ed Zitron" type="link" url="https://www.wheresyoured.at/never-forgive-them" category="Life"/>
+    <outline text="“Degrow or die: resource consumption of LLMs” by Thomas Fricke" type="link" url="https://www.youtube.com/watch?v=4ouNbLgJEHA" category="Life"/>
     <outline text="“Boredom” by Joan Westenberg" type="link" url="https://www.joanwestenberg.com/the-only-true-goal-is-boredom" category="Life"/>
     <outline text="“Triptych Proposals” by Alexander Petros and Carson Gross" type="link" url="https://alexanderpetros.com/triptych" category="Software and OSS"/>
     <outline text="“Missing years of emoji history” by Matt Stephton" type="link" url="https://blog.gingerbeardman.com/2024/05/10/emoji-history-the-missing-years" category="Toys and Art"/>

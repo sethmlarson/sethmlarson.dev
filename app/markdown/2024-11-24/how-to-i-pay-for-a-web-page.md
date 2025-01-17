@@ -55,6 +55,17 @@ into the metadata description of a podcast publication. Really great to see some
 
 [Thanks to DamonHD](https://news.ycombinator.com/reply?id=42229968&goto=item%3Fid%3D42229930%2342229968) for sending me this reference.
 
+### Web Monetization and Payment Link
+
+Both of these are existing monetization / payment web standards, these
+look to be mostly what I'd need to scrape an identifier from a page.
+
+Both are fairly similar from first reading, there's [Web Monetization](https://webmonetization.org/) and
+and the newer [Payment Link](https://github.com/WICG/paymentlink).
+
+[Jeffery Yaskin](https://fosstodon.org/@jyasskin@hachyderm.io/113617654657782176)
+for sending me these references.
+
 ### Flattr
 
 Flattr is a service that tried to turn a "subscription" from users into micro-payouts
@@ -82,6 +93,11 @@ a contribution / boost?
 I know about Brave, and I would like to avoid crypto in my solution. Also many of the
 creators I pay for don't use crypto but do have multiple payment methods. I don't think
 the solution should require creators AND users adopt new technology to work.
+
+### Why federate just the social web?
+
+[Article](https://voxpelli.com/2012/10/why-federate-just-the-social-web/) by Pelle Westman on the monetary and media web being federated,
+not only the social web from 2012.
 
 ## What happens now?
 

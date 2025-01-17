@@ -56,8 +56,9 @@ favorite_posts = {
     "youtube-without-youtube-shorts",
     "python-and-sigstore",
     "writing-for-the-internet",
-    "how-do-i-pay-for-a-web-page",
+    "how-to-i-pay-for-a-web-page",
     "slop-security-reports",
+    "connecting-without-connectivity-in-animal-crossing",
 }
 hide_posts = {
     "hi-chew",
@@ -213,9 +214,9 @@ def load_rss_response():
         return RSS_RESPONSE
 
     feed = AtomFeed(
-        title="Seth Michael Larson",
+        title="Seth Larson",
         author={
-            "name": "Seth Michael Larson",
+            "name": "Seth Larson",
             "email": "sethmichaellarson@gmail.com",
             "uri": "https://sethmlarson.dev",
         },
@@ -238,7 +239,7 @@ def load_rss_response():
                 blog_post.title,
                 blog_post.render_rss_html(),
                 content_type="html",
-                author="Seth Michael Larson",
+                author="Seth Larson",
                 url=blog_post.url(utm_campaign="rss"),
                 published=blog_utc,
                 updated=blog_utc,
