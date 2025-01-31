@@ -18,17 +18,18 @@
 {% block header %}
 <h1>{{ blog_title }}</h1>
 <p><nobr>Published {{ blog_published_date }}</nobr> <nobr>by Seth Larson</nobr><br>
-{% if blog_is_favorite %}<span title="This means this article is one of my favorites, nice choice!">★</span> {% endif %} Reading time: {{ reading_time }} minute{{ 's' if reading_time != 1 else '' }} <a href="https://webmention.io/api/mentions.html?target=https://sethmlarson.dev/{{ blog_slug }}"><span id="webmentions"></span></a></p>
+{% if blog_is_favorite %}<span title="This means this article is one of my favorites, nice choice!">★</span> {% endif %}{% if reading_time > 0 %} Reading time: {{ reading_time }} minute{{ 's' if reading_time != 1 else '' }}{% endif %} <a href="https://webmention.io/api/mentions.html?target=https://sethmlarson.dev/{{ blog_slug }}"><span id="webmentions"></span></a></p>
 {% endblock %}
 {% block content %}
 {{ blog_content | safe }}
 <blockquote>
     <p>
-        <strong>Have thoughts or questions?</strong> Let's chat over email or social:
+        <strong>Have thoughts or questions?</strong> Send them my way:
     </p>
     <p>
-        <a href="mailto:sethmichaellarson@gmail.com"><code>sethmichaellarson@gmail.com</code></a><br>
-        <a href="https://fosstodon.org/@sethmlarson"><code>@sethmlarson@fosstodon.org</code></a>
+        <a href="https://signal.me/#eu/gpQLD3Q+O1Azvo7cD5nggei42PazYNXHnL1XYLaumYjv/ZCr09NK0Z7uJKTlnFJw" target="_blank"><code>sethmlarson.99</code></a> (Signal)<br>
+        <a href="mailto:sethmichaellarson@gmail.com" target="_blank"><code>sethmichaellarson@gmail.com</code></a><br>
+        <a href="https://fosstodon.org/@sethmlarson" target="_blank"><code>@sethmlarson@fosstodon.org</code></a>
     </p>
     <p>
         <strong>Want more articles like this one?</strong>

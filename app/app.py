@@ -107,8 +107,7 @@ class BlogPost:
             text = f.read()
             _, text = text.split("\n", 1)
         html = md.convert(text)
-        blog_content_text = re.sub(r"<[^>]+>", "", html)
-        return blog_content_text
+        return html
 
     def url(self, utm_campaign=None) -> str:
         url = url_for(
@@ -401,6 +400,9 @@ def get_blog_post(blog_post: str):
   }
 </style>
         """
+
+    if blog_post == "significant-whitespace":
+        reading_time = 0
 
     return render_template(
         "blog.html",

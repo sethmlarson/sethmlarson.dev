@@ -8,6 +8,18 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Powder Game” by Dan-Ball" type="link" url="https://dan-ball.jp/en/javagame/dust" category="Toys and Art"/>
+    <outline text="“Web localStorage limits”" type="link" url="https://arty.name/localstorage.html" category="Software and OSS"/>
+    <outline text="“Open Heart Protocol”" type="link" url="https://openheart.fyi" category="Toys and Art"/>
+    <outline text="“PhysicsForums and the Dead Internet Theory” by David and Felipe" type="link" url="http://hallofdreams.org/posts/physicsforums" category="Software and OSS"/>
+    <outline text="“The most Mario colors” by Louie Mantia" type="link" url="https://lmnt.me/blog/the-most-mario-colors.html" category="Retro Gaming"/>
+    <outline text="“File systems: the original hypermedia” by Jon Secchis" type="link" url="https://jon.work/og" category="Software and OSS"/>
+    <outline text="“Simple CPU design”" type="link" url="http://simplecpudesign.com" category="Software and OSS"/>
+    <outline text="“Secrets of the Pocket Camera” by Jonathan Traynor" type="link" url="https://www.jofamo.com/blog/secrets-of-the-pocket-camera" category="Retro Gaming"/>
+    <outline text="“Sending data between two phones”" type="link" url="https://retro.social/@ifixcoinops/113838462085835742" category="Software and OSS"/>
+    <outline text="“Loneliness epidemic” by Alvin Chang" type="link" url="https://pudding.cool/2023/09/invisible-epidemic" category="Life"/>
+    <outline text="“Personal computing is dead” by Benj Edwards" type="link" url="https://www.vintagecomputing.com/index.php/archives/3292/the-pc-is-dead-its-time-to-make-computing-personal-again" category="Software and OSS"/>
+    <outline text="“Typography of Japanese chopstick sleeves”" type="link" url="https://letterformarchive.org/news/this-just-in-chopstick-sleeves-as-emissaries-of-japanese-typography-and-culture" category="Toys and Art"/>
     <outline text="“Sub-Pixel Art” by Japhy Riddle" type="link" url="https://youtu.be/SlS3FOmKUbE" category="Toys and Art"/>
     <outline text="“Homomorphic Encryption in iOS 18” by Evan Boehs" type="link" url="https://boehs.org/node/homomorphic-encryption" category="Security"/>
     <outline text="“sup” by Drew Schuster" type="link" url="https://drew.shoes/posts/sup" category="Software and OSS"/>
@@ -93,8 +105,8 @@
     <outline text="“Super Mario 64 in Sonic Adventure DX” by Sora" type="link" url="https://gamebanana.com/mods/544238" category="Retro Gaming"/>
     <outline text="“FlippyDrive for the GameCube” by Macho Nacho" type="link" url="https://www.youtube.com/watch?v=1-LWI2tGfhQ" category="Retro Gaming"/>
     <outline text="“Super Nintendo Video System” by Fabien Sanglard" type="link" url="https://fabiensanglard.net/snes_video/index.html" category="Retro Gaming"/>
-    <outline text="“A video about Melee” by AsumSaus" type="link" url="https://youtu.be/nviIKTywuYU?si=mgFOhNBRMCTAIwOU" category="Retro Gaming"/>
     <outline text="“Super Paper Mario's design” by Kirbyster" type="link" url="https://youtube.com/watch?si=BDytOgheHFncVBK9&amp;v=tfS9SYPT-jw" category="Retro Gaming"/>
+    <outline text="“A video about Melee” by AsumSaus" type="link" url="https://youtu.be/nviIKTywuYU?si=mgFOhNBRMCTAIwOU" category="Retro Gaming"/>
     <outline text="“ORANGE FM, Game Boy cartridge for FM Radio” by Evan Barger" type="link" url="https://orangegb.com/orangefm" category="Retro Gaming"/>
     <outline text="“Gamecube ASCII keyboard controller and libogc” by Gered King" type="link" url="http://www.blarg.ca/2021/02/15/using-a-gamecube-ascii-keyboard-controller-with-libogc" category="Retro Gaming"/>
     <outline text="“GameCube, Wii, Wii U, and PC connected via Broadband Adapter” by Good Vibes Gaming" type="link" url="https://www.youtube.com/watch?v=699HVbOKNtc" category="Retro Gaming"/>
