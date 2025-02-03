@@ -12,6 +12,7 @@
     <outline text="@Westenberg" type="rss" xmlUrl="https://www.joanwestenberg.com/rss" htmlUrl="https://www.joanwestenberg.com"/>
     <outline text="Aeva Black" type="rss" xmlUrl="https://aeva.online/rss.xml" htmlUrl="https://aeva.online"/>
     <outline text="Alex Gaynor" type="rss" xmlUrl="https://alexgaynor.net/feed.xml" htmlUrl="https://alexgaynor.net"/>
+    <outline text="Alexander Obenauer" type="rss" xmlUrl="https://alexanderobenauer.com/assets/feed/rss.xml" htmlUrl="https://alexanderobenauer.com"/>
     <outline text="Allison Parrish" type="rss" xmlUrl="https://posts.decontextualize.com/atom.xml" htmlUrl="https://posts.decontextualize.com"/>
     <outline text="Analogue" type="rss" xmlUrl="https://www.analogue.co/feed/all" htmlUrl="https://www.analogue.co/feed/all"/>
     <outline text="Andrew Ayer" type="rss" xmlUrl="https://www.agwa.name/blog/feed" htmlUrl="https://www.agwa.name/blog"/>
@@ -112,6 +113,8 @@
     <outline text="Mike Fiedler" type="rss" xmlUrl="https://www.miketheman.net/feed" htmlUrl="https://www.miketheman.net"/>
     <outline text="Modding Marius" type="rss" xmlUrl="https://moddingmarius.com/feed" htmlUrl="https://moddingmarius.com"/>
     <outline text="Mouse Bite Labs" type="rss" xmlUrl="https://mousebitelabs.com/feed" htmlUrl="https://mousebitelabs.com"/>
+    <outline text="NGI0: Next Generation Internet" type="rss" xmlUrl="https://podcast.nlnet.nl/@NGIZero/feed.xml" htmlUrl="https://podcast.nlnet.nl/@NGIZero"/>
+    <outline text="NLnet news" type="rss" xmlUrl="https://nlnet.nl/feed.atom"/>
     <outline text="Nadia Eghbal" type="rss" xmlUrl="https://nadia.xyz/feed.xml" htmlUrl="http://nadia.xyz"/>
     <outline text="Natalie the Nerd" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCw-mRS7dBMCw8RJ6GuIFUqQ" htmlUrl="https://www.youtube.com/channel/UCw-mRS7dBMCw8RJ6GuIFUqQ"/>
     <outline text="Natalie the Nerd" type="rss" xmlUrl="https://nataliethenerd.com/blogs/news.atom" htmlUrl="https://nataliethenerd.com/blogs/news"/>
@@ -174,6 +177,7 @@
     <outline text="Vintage Computing and Gaming" type="rss" xmlUrl="https://www.vintagecomputing.com/index.php/feed" htmlUrl="https://www.vintagecomputing.com"/>
     <outline text="Will McGugan" type="rss" xmlUrl="https://www.willmcgugan.com/blog/rootblog/feeds/posts" htmlUrl="https://www.willmcgugan.com/blog/rootblog"/>
     <outline text="William Woodruff" type="rss" xmlUrl="http://blog.yossarian.net/feed.xml" htmlUrl="https://blog.yossarian.net"/>
+    <outline text="Willow News and Updates" type="rss" xmlUrl="https://willowprotocol.org/rss_news.xml" htmlUrl="https://willowprotocol.org/more/changes/index.html#news_and_updates"/>
     <outline text="XKCD" type="rss" xmlUrl="https://xkcd.com/atom.xml" htmlUrl="https://xkcd.com"/>
     <outline text="Zebra Cat Zebra" type="rss" xmlUrl="https://zebracatzebra.com/feed" htmlUrl="https://zebracatzebra.com"/>
     <outline text="Zig" type="rss" xmlUrl="https://ziglang.org/news/index.xml" htmlUrl="https://ziglang.org/news"/>
