@@ -9,9 +9,9 @@ being at an all-time high, [feelings of loneliness](https://www.hhs.gov/sites/de
 
 The shape of today's “<em>software for connection</em>” uses 
 centralized servers in the cloud, algorithmic curation, and incentives 
-optimize 
-for users
-connecting to 
+optimized 
+for users to
+connect with 
 <em>the 
 platform</em> <nobr>(aka “<em>engagement</em>” and</nobr> “<em><a href="https://en.wikipedia.org/wiki/Parasocial_interaction">parasociality</a></em>”), not necessarily 
 <em>with other humans</em>. Software for connection has followed in the same rut created by
