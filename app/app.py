@@ -58,7 +58,7 @@ favorite_posts = {
     "writing-for-the-internet",
     "how-to-i-pay-for-a-web-page",
     "slop-security-reports",
-    "connecting-without-connectivity-in-animal-crossing",
+    "connection-without-connectivity-space",
 }
 hide_posts = {
     "hi-chew",
