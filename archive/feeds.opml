@@ -100,6 +100,7 @@
     <outline text="Kushal Das" type="rss" xmlUrl="https://kushaldas.in/rss.xml" htmlUrl="https://kushaldas.in"/>
     <outline text="LOW←TECH MAGAZINE" type="rss" xmlUrl="https://solar.lowtechmagazine.com/posts/index.xml" htmlUrl="https://solar.lowtechmagazine.com/posts"/>
     <outline text="Lapper" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4Jo-LsA04_rms601MTE1lQ" htmlUrl="https://www.youtube.com/channel/UC4Jo-LsA04_rms601MTE1lQ"/>
+    <outline text="Localfirst.fm" type="rss" xmlUrl="https://www.localfirst.fm/feed" htmlUrl="https://www.localfirst.fm"/>
     <outline text="Louie Mantia" type="rss" xmlUrl="https://lmnt.me/feed.xml" htmlUrl="https://lmnt.me"/>
     <outline text="Ludicity by Nikhil Suresh" type="rss" xmlUrl="https://ludic.mataroa.blog/rss" htmlUrl="https://ludic.mataroa.blog"/>
     <outline text="Luna" type="rss" xmlUrl="https://moonbase.lgbt/blog/atom.xml" htmlUrl="https://moonbase.lgbt/blog"/>
@@ -114,7 +115,7 @@
     <outline text="Modding Marius" type="rss" xmlUrl="https://moddingmarius.com/feed" htmlUrl="https://moddingmarius.com"/>
     <outline text="Mouse Bite Labs" type="rss" xmlUrl="https://mousebitelabs.com/feed" htmlUrl="https://mousebitelabs.com"/>
     <outline text="NGI0: Next Generation Internet" type="rss" xmlUrl="https://podcast.nlnet.nl/@NGIZero/feed.xml" htmlUrl="https://podcast.nlnet.nl/@NGIZero"/>
-    <outline text="NLnet news" type="rss" xmlUrl="https://nlnet.nl/feed.atom"/>
+    <outline text="NLnet" type="rss" xmlUrl="https://nlnet.nl/feed.atom"/>
     <outline text="Nadia Eghbal" type="rss" xmlUrl="https://nadia.xyz/feed.xml" htmlUrl="http://nadia.xyz"/>
     <outline text="Natalie the Nerd" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCw-mRS7dBMCw8RJ6GuIFUqQ" htmlUrl="https://www.youtube.com/channel/UCw-mRS7dBMCw8RJ6GuIFUqQ"/>
     <outline text="Natalie the Nerd" type="rss" xmlUrl="https://nataliethenerd.com/blogs/news.atom" htmlUrl="https://nataliethenerd.com/blogs/news"/>
@@ -177,7 +178,7 @@
     <outline text="Vintage Computing and Gaming" type="rss" xmlUrl="https://www.vintagecomputing.com/index.php/feed" htmlUrl="https://www.vintagecomputing.com"/>
     <outline text="Will McGugan" type="rss" xmlUrl="https://www.willmcgugan.com/blog/rootblog/feeds/posts" htmlUrl="https://www.willmcgugan.com/blog/rootblog"/>
     <outline text="William Woodruff" type="rss" xmlUrl="http://blog.yossarian.net/feed.xml" htmlUrl="https://blog.yossarian.net"/>
-    <outline text="Willow News and Updates" type="rss" xmlUrl="https://willowprotocol.org/rss_news.xml" htmlUrl="https://willowprotocol.org/more/changes/index.html#news_and_updates"/>
+    <outline text="Willow Protocol" type="rss" xmlUrl="https://willowprotocol.org/rss_news.xml" htmlUrl="https://willowprotocol.org/more/changes/index.html#news_and_updates"/>
     <outline text="XKCD" type="rss" xmlUrl="https://xkcd.com/atom.xml" htmlUrl="https://xkcd.com"/>
     <outline text="Zebra Cat Zebra" type="rss" xmlUrl="https://zebracatzebra.com/feed" htmlUrl="https://zebracatzebra.com"/>
     <outline text="Zig" type="rss" xmlUrl="https://ziglang.org/news/index.xml" htmlUrl="https://ziglang.org/news"/>
@@ -189,6 +190,7 @@
     <outline text="marginalia.nu" type="rss" xmlUrl="https://www.marginalia.nu/log/index.xml" htmlUrl="https://www.marginalia.nu/log"/>
     <outline text="plasticbag.org by Tom Coates" type="rss" xmlUrl="http://plasticbag.org/feed" htmlUrl="http://plasticbag.org"/>
     <outline text="so I bought a pinball machine" type="rss" xmlUrl="http://pinballnovice.blogspot.com/feeds/posts/default" htmlUrl="http://pinballnovice.blogspot.com"/>
+    <outline text="sometimes.digital - personal website" type="rss" xmlUrl="https://sometimes.digital/feed.xml" htmlUrl="https://sometimes.digital/feed.xml"/>
     <outline text="streets.mn" type="rss" xmlUrl="https://streets.mn/feed" htmlUrl="https://streets.mn"/>
     <outline text="suckerpinch" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC3azLjQuz9s5qk76KEXaTvA" htmlUrl="https://www.youtube.com/channel/UC3azLjQuz9s5qk76KEXaTvA/videos"/>
     <outline text="taylor.town" type="rss" xmlUrl="https://taylor.town/feed.xml" htmlUrl="https://taylor.town/feed.xml"/>

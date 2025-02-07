@@ -1,6 +1,6 @@
-# Connection without Connectivity (#1: Space)
+# Building software for connection (#1: Local-First)
 
-<center><blockquote>This is the first article in a 7-part series about <em>software for connection</em>.</blockquote></center>
+<center><blockquote>This is the first article in a series about <em>software for connection</em>.</blockquote></center>
 
 Feeling connected to others is a basic human need,
 so it is no surprise we want software to enable human connection.

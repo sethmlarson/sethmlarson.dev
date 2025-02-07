@@ -8,6 +8,12 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“The computer is a feeling” by Robin Rendle" type="link" url="https://robinrendle.com/notes/the-computer-is-a-feeling" category="Software and OSS"/>
+    <outline text="“Apps vs Files” by Gordon Brander, Peter van Hardenberg, and Jess Martin" type="link" url="https://www.localfirst.fm/s1" category="Software and OSS"/>
+    <outline text="“Inventory spreadsheets for Lego sets” by Alex Chan" type="link" url="https://alexwlchan.net/2025/lego-inventory-spreadsheets" category="Toys and Art"/>
+    <outline text="“Willow Protocol” by Aljoscha Meyer and Sam Gwilym" type="link" url="https://willowprotocol.org" category="Software and OSS"/>
+    <outline text="“Caring about infrastructure” by Randall Munroe" type="link" url="https://xkcd.com/743" category="Life"/>
+    <outline text="“Vietnamese Typography” by Donny Trương" type="link" url="https://vietnamesetypography.com" category="Toys and Art"/>
     <outline text="“Powder Game” by Dan-Ball" type="link" url="https://dan-ball.jp/en/javagame/dust" category="Toys and Art"/>
     <outline text="“Web localStorage limits”" type="link" url="https://arty.name/localstorage.html" category="Software and OSS"/>
     <outline text="“Open Heart Protocol”" type="link" url="https://openheart.fyi" category="Toys and Art"/>

@@ -58,7 +58,7 @@ favorite_posts = {
     "writing-for-the-internet",
     "how-to-i-pay-for-a-web-page",
     "slop-security-reports",
-    "connection-without-connectivity-space",
+    "building-software-for-connection-local-first",
 }
 hide_posts = {
     "hi-chew",
@@ -339,6 +339,13 @@ def redirect_to_new_avatar_url():
 def redirect_to_fixed_elegant_secure_api_design_url():
     return redirect(
         url_for("get_blog_post", blog_post="elegant-and-secure-api-design"), 308
+    )
+
+
+@app.route("/connection-without-connectivity-space", methods=["GET"])
+def redirect_to_new_slug1():
+    return redirect(
+        url_for("get_blog_post", blog_post="building-software-for-connection-local-first"), 308
     )
 
 
