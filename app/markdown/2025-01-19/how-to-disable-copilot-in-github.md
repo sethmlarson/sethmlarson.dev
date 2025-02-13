@@ -1,4 +1,4 @@
-# How to disable Copilot in GitHub
+# How to disable Copilot in GitHub?
 
 For the first time in months GitHub has released
 a feature that I actually enjoy: a way to disable
