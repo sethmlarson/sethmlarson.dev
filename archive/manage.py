@@ -169,6 +169,10 @@ def articles_opml_from_inoreader():
             }
         )
 
+        # Avoid publishing gift ideas!
+        if "Gift" in tags:
+            continue
+
         # If this URL is already in our OPML then we use
         # the existing data, otherwise we add the new data.
         if url in existing_urls:

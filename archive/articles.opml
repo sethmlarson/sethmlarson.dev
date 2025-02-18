@@ -8,7 +8,16 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Quiet” by Robb Knight" type="link" url="https://rknight.me/blog/quiet" category="Life"/>
+    <outline text="“Not anyone can make a calculator app” by Chad Nauseam" type="link" url="https://chadnauseam.com/coding/random/calculator-app" category="Software and OSS"/>
+    <outline text="“Django in governments” by Thibaud" type="link" url="https://thib.me/django-in-government" category="Software and OSS"/>
+    <outline text="“White Elephant is surprisingly effective” by Bobbie and Yee Aun" type="link" url="https://bobbiec.github.io/white-elephant.html" category="Life"/>
+    <outline text="“Connecting a 1980s pinball machine to the internet” by Eli Lipsitz" type="link" url="https://eli.lipsitz.net/posts/internet-connected-pinball" category="Retro Gaming"/>
+    <outline text="“RSS is not dead yet” by Audra McNamee" type="link" url="https://audmcname.com/comics/rss-is-not-dead-yet" category="Software and OSS"/>
+    <outline text="“Offline celebrations affect internet traffic”" type="link" url="https://blog.cloudflare.com/offline-celebrations-how-christmas-nye-and-lunar-new-year-festivities-shape-online-behavior" category="Life"/>
     <outline text="“Screens remove social friction and higher-order thinking” by Joan Westenberg" type="link" url="https://www.joanwestenberg.com/when-screens-remove-our-better-angels" category="Life"/>
+    <outline text="“Why blog if no one reads it?” by Andy Hawthorne" type="link" url="https://andysblog.uk/why-blog-if-nobody-reads-it" category="Life"/>
+    <outline text="“Exploiting Animal Crossing's NES emulator” by James Chambers" type="link" url="https://jamchamb.net/2018/07/11/animal-crossing-nes-emulator-hacks.html" category="Retro Gaming"/>
     <outline text="“The computer is a feeling” by Robin Rendle" type="link" url="https://robinrendle.com/notes/the-computer-is-a-feeling" category="Software and OSS"/>
     <outline text="“Apps vs Files” by Gordon Brander, Peter van Hardenberg, and Jess Martin" type="link" url="https://www.localfirst.fm/s1" category="Software and OSS"/>
     <outline text="“Inventory spreadsheets for Lego sets” by Alex Chan" type="link" url="https://alexwlchan.net/2025/lego-inventory-spreadsheets" category="Toys and Art"/>
