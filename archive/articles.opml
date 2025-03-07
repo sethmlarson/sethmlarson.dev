@@ -8,6 +8,21 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Good thing we're not writing a database” by Peter van Hardenberg" type="link" url="https://www.hytradboi.com/2025/943c54af-ea5f-4d3e-b3e3-7767b5a1bfc5-good-thing-were-not-writing-a-database" category="Software and OSS"/>
+    <outline text="“Piratería y Famicom: Nintendo en América Latina en la década de los 90” by Fernando Briano" type="link" url="https://picandocodigo.net/2025/nintendo-america-latina-90s-pirateria-famicom" category="Retro Gaming"/>
+    <outline text="“How far I'll go to make an RSS feed of your website” by Chris Hardie" type="link" url="https://tech.chrishardie.com/2025/rss-feed-of-your-website" category="Software and OSS"/>
+    <outline text="“Solitaire” by Localthunk" type="link" url="https://localthunk.com/blog/solitaire" category="Toys and Art"/>
+    <outline text="“Creating non-rectangular layouts with CSS shapes” by Sara Soueidan" type="link" url="https://sarasoueidan.com/blog/css-shapes" category="Software and OSS"/>
+    <outline text="“Ghost House” by Ted Wiggin" type="link" url="https://www.tedwiggin.com/MIMT.html" category="Toys and Art"/>
+    <outline text="“What felt impossible became possible” by Dan Sinker" type="link" url="https://dansinker.com/posts/2025-02-23-dale" category="Life"/>
+    <outline text="“Vietnamese Graphic Design”" type="link" url="https://vietgd.com" category="Toys and Art"/>
+    <outline text="“YELL IN YOUR QR CODES” by Terence Eden" type="link" url="https://shkspr.mobi/blog/2025/02/why-are-qr-codes-with-capital-letters-smaller-than-qr-codes-with-lower-case-letters" category="Software and OSS"/>
+    <outline text="“Algorithms are breaking how we think” by Alec Watson" type="link" url="https://www.youtube.com/watch?v=QEJpZjg8GuA" category="Life"/>
+    <outline text="“Garbage” by Craig Mod" type="link" url="https://craigmod.com/ridgeline/203" category="Life"/>
+    <outline text="“Screwball Scramble” by Doug Arcuri" type="link" url="https://medium.com/@solidi/the-tomy-screwball-scramble-9f4eab3681da" category="Toys and Art"/>
+    <outline text="“Beautiful, boring, and without soul” by Steyn Viljoen" type="link" url="https://www.doc.cc/articles/beautiful-boring-and-without-soul" category="Life"/>
+    <outline text="“Tech workers and monopolies” by Alex Gaynor" type="link" url="https://alexgaynor.net/2025/feb/19/tech-workers-monopoly-and-monopsony" category="Life"/>
+    <outline text="“Generative AI con” by Edward Zitron" type="link" url="https://www.wheresyoured.at/longcon" category="Life"/>
     <outline text="“Quiet” by Robb Knight" type="link" url="https://rknight.me/blog/quiet" category="Life"/>
     <outline text="“Not anyone can make a calculator app” by Chad Nauseam" type="link" url="https://chadnauseam.com/coding/random/calculator-app" category="Software and OSS"/>
     <outline text="“Django in governments” by Thibaud" type="link" url="https://thib.me/django-in-government" category="Software and OSS"/>
@@ -196,7 +211,6 @@
     <outline text="“User Interface Typography”" type="link" url="https://imperavi.com/books/ui-typography" category="Software and OSS"/>
     <outline text="“iMessage protocol” by JJTech" type="link" url="https://jjtech.dev/reverse-engineering/imessage-explained" category="Software and OSS"/>
     <outline text="“How Did I Get Here?”" type="link" url="https://how-did-i-get-here.net" category="Software and OSS"/>
-    <outline text="“Hypermedia Systems” by Carson Gross, Adam Stepinski, and Deniz Akşimşek" type="link" url="https://hypermedia.systems" category="Software and OSS"/>
     <outline text="“Asahi Linux folks are doing us a solid with WPA3 fixes”" type="link" url="https://rachelbythebay.com/w/2023/11/07/wpa3" category="Software and OSS"/>
     <outline text="“The Angle Bracket”" type="link" url="https://theanglebracket.com" category="Toys and Art"/>
     <outline text="“Hyphens, minus, and dashes in Debian man pages” by Jonathan Corbet" type="link" url="https://lwn.net/Articles/947941" category="Software and OSS"/>
