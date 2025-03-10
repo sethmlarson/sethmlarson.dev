@@ -1,3 +1,6 @@
+# Unencrypted vCards
+*.vcf
+
 # Drafts should not be published
 app/markdown/draft
 archive/secrets.json

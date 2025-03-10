@@ -1,3 +1,4 @@
+import datetime
 import re
 import json
 import pathlib
@@ -161,6 +162,9 @@ def articles_opml_from_inoreader():
         if author:
             author = author.strip()
             title = f"{title} by {author}"
+        created_at = datetime.datetime.fromtimestamp(
+            int(article["crawlTimeMsec"]) // 1000, tz=datetime.UTC
+        )
         tags = sorted(
             {
                 cat.rsplit("/", 1)[-1]
@@ -177,6 +181,8 @@ def articles_opml_from_inoreader():
         # the existing data, otherwise we add the new data.
         if url in existing_urls:
             outline = existing_urls[url]
+            if outline.created is None:
+                outline.created = created_at
             articles_opml.outlines.append(outline)
         else:
             # If an article has no tags then we skip it,
@@ -187,6 +193,7 @@ def articles_opml_from_inoreader():
                 text=title,
                 url=url,
                 categories=tags,
+                created=created_at,
             )
 
     with articles_opml_path.open(mode="w") as f:
