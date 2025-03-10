@@ -29,7 +29,8 @@ from Bath &amp; Body Works. The smell was so potent I would not be surprised if 
 <p>The actual flavor was not as strong, but still pretty sweet (enough to give you a <nobr><a href="https://en.wikipedia.org/wiki/Twelve_Carat_Toothache">12Kt toothache</a></nobr>). The salt and the shortbread
 were welcome in toning down the caramel sweetness.</p>
 
-<p>Overall I liked the cookies! If you're a fan of Oreos and caramel then they are a must-try!</p>
+<p>Overall I liked the cookies! If you're a fan of Oreos and caramel then they are a must-try!
+My recommended musical pairing for these snacks is '<a href="https://www.youtube.com/watch?v=wXhTHyIgQ_U">Circles</a>', which in retrospect might have been about Oreo cookies all along! ⚫⚪</p>
 
 If you're curious about the circular word-wrapping (check out the page on desktop) I read this lovely [article
 about CSS shapes](https://www.sarasoueidan.com/blog/css-shapes/) from [Sara Soueidan](https://www.sarasoueidan.com/).
