@@ -5,6 +5,6 @@ pygments
 h11
 gevent
 attrs
-werkzeug<1
+werkzeug<3
 whitenoise
 beautifulsoup4
