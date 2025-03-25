@@ -8,6 +8,21 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Navigation queues, navigation cues” by Domitille Debret" type="link" created="Mon, 24 Mar 2025 18:00:38 +0000" url="https://navigation-queues-navigation-cues.f451.studio" category="Software and OSS"/>
+    <outline text="“Apple's browser engine ban harms competition”" type="link" created="Fri, 21 Mar 2025 15:00:31 +0000" url="https://open-web-advocacy.org/blog/uk-regulators-final-verdict--apples-browser-engine-ban-harms-competition" category="Software and OSS"/>
+    <outline text="“There is nothing new here” by Angela Collier" type="link" created="Thu, 20 Mar 2025 18:07:21 +0000" url="https://www.youtube.com/watch?v=rFGcqWbwvyc" category="Software and OSS"/>
+    <outline text="“Digital sovereignty is the new influencer status” by Molly White" type="link" created="Thu, 20 Mar 2025 15:17:50 +0000" url="https://schedule.sxsw.com/2025/events/PP147154" category="Social Media"/>
+    <outline text="“The Cube Rule”" type="link" created="Wed, 19 Mar 2025 19:17:09 +0000" url="https://cuberule.com" category="Toys and Art"/>
+    <outline text="“Rotating sandwiches”" type="link" created="Wed, 19 Mar 2025 19:13:46 +0000" url="https://rotatingsandwiches.com" category="Toys and Art"/>
+    <outline text="“Stop externalizing your costs directly into my face” by Drew DeVault" type="link" created="Wed, 19 Mar 2025 01:07:36 +0000" url="https://drewdevault.com/2025/03/17/2025-03-17-Stop-externalizing-your-costs-on-me.html" category="Software and OSS"/>
+    <outline text="“How you can protect Democracy”" type="link" created="Tue, 18 Mar 2025 13:14:29 +0000" url="https://protectdemocracy.org/how-to-protect-democracy" category="Life"/>
+    <outline text="“Certificate that is PEM and DER encoded” by Soso" type="link" created="Tue, 18 Mar 2025 01:21:09 +0000" url="https://sgued.fr/blog/der-pem-cert" category="Security"/>
+    <outline text="“Social network that's only open from 7:39pm to 10:39pm EST”" type="link" created="Tue, 11 Mar 2025 03:57:23 +0000" url="https://www.seven39.com" category="Social Media"/>
+    <outline text="“Edge of Emulation” by D. S. Baxter" type="link" created="Mon, 10 Mar 2025 19:33:04 +0000" url="https://shonumi.github.io/articles.html" category="Retro Gaming"/>
+    <outline text="“Comics about Mastodon” by Ulli Lust" type="link" created="Mon, 10 Mar 2025 19:13:54 +0000" url="https://mastodon.social/@Ullilust/114138199183667985" category="Social Media"/>
+    <outline text="“MAGA will fail because it's an internet thing” by Noah Smith" type="link" created="Mon, 10 Mar 2025 18:45:50 +0000" url="https://www.noahpinion.blog/p/this-thing-will-fail" category="Social Media"/>
+    <outline text="“Vertical communities” by Noah Smith" type="link" created="Mon, 10 Mar 2025 18:40:03 +0000" url="https://www.noahpinion.blog/p/vertical-communities" category="Social Media"/>
+    <outline text="“Every NES &amp; Famicom Add-on”" type="link" created="Mon, 10 Mar 2025 02:24:01 +0000" url="https://youtu.be/2vC-m4k5yZ8?feature=shared" category="Retro Gaming"/>
     <outline text="“Good thing we're not writing a database” by Peter van Hardenberg" type="link" created="Thu, 06 Mar 2025 18:35:28 +0000" url="https://www.hytradboi.com/2025/943c54af-ea5f-4d3e-b3e3-7767b5a1bfc5-good-thing-were-not-writing-a-database" category="Software and OSS"/>
     <outline text="“Piratería y Famicom: Nintendo en América Latina en la década de los 90” by Fernando Briano" type="link" created="Tue, 04 Mar 2025 22:16:33 +0000" url="https://picandocodigo.net/2025/nintendo-america-latina-90s-pirateria-famicom" category="Retro Gaming"/>
     <outline text="“How far I'll go to make an RSS feed of your website” by Chris Hardie" type="link" created="Tue, 04 Mar 2025 18:44:34 +0000" url="https://tech.chrishardie.com/2025/rss-feed-of-your-website" category="Software and OSS"/>
@@ -17,13 +32,14 @@
     <outline text="“What felt impossible became possible” by Dan Sinker" type="link" created="Mon, 24 Feb 2025 05:15:13 +0000" url="https://dansinker.com/posts/2025-02-23-dale" category="Life"/>
     <outline text="“Vietnamese Graphic Design”" type="link" created="Sun, 23 Feb 2025 19:41:01 +0000" url="https://vietgd.com" category="Toys and Art"/>
     <outline text="“YELL IN YOUR QR CODES” by Terence Eden" type="link" created="Sun, 23 Feb 2025 14:04:34 +0000" url="https://shkspr.mobi/blog/2025/02/why-are-qr-codes-with-capital-letters-smaller-than-qr-codes-with-lower-case-letters" category="Software and OSS"/>
-    <outline text="“Algorithms are breaking how we think” by Alec Watson" type="link" created="Sun, 23 Feb 2025 02:33:41 +0000" url="https://www.youtube.com/watch?v=QEJpZjg8GuA" category="Life"/>
+    <outline text="“Algorithms are breaking how we think” by Alec Watson" type="link" created="Sun, 23 Feb 2025 02:33:41 +0000" url="https://www.youtube.com/watch?v=QEJpZjg8GuA" category="Social Media"/>
     <outline text="“Garbage” by Craig Mod" type="link" created="Fri, 21 Feb 2025 17:58:55 +0000" url="https://craigmod.com/ridgeline/203" category="Life"/>
     <outline text="“Screwball Scramble” by Doug Arcuri" type="link" created="Thu, 20 Feb 2025 14:44:08 +0000" url="https://medium.com/@solidi/the-tomy-screwball-scramble-9f4eab3681da" category="Toys and Art"/>
     <outline text="“Beautiful, boring, and without soul” by Steyn Viljoen" type="link" created="Thu, 20 Feb 2025 00:03:20 +0000" url="https://www.doc.cc/articles/beautiful-boring-and-without-soul" category="Life"/>
     <outline text="“Tech workers and monopolies” by Alex Gaynor" type="link" created="Wed, 19 Feb 2025 17:16:13 +0000" url="https://alexgaynor.net/2025/feb/19/tech-workers-monopoly-and-monopsony" category="Life"/>
+    <outline text="“Tech continues to be political”" type="link" created="Tue, 18 Feb 2025 21:43:01 +0000" url="https://www.miriamsuzanne.com/2025/02/12/tech-ai-wtf" category="Software and OSS"/>
     <outline text="“Generative AI con” by Edward Zitron" type="link" created="Tue, 18 Feb 2025 14:23:48 +0000" url="https://www.wheresyoured.at/longcon" category="Life"/>
-    <outline text="“Quiet” by Robb Knight" type="link" created="Mon, 17 Feb 2025 18:13:03 +0000" url="https://rknight.me/blog/quiet" category="Life"/>
+    <outline text="“Quiet” by Robb Knight" type="link" created="Mon, 17 Feb 2025 18:13:03 +0000" url="https://rknight.me/blog/quiet" category="Social Media"/>
     <outline text="“Not anyone can make a calculator app” by Chad Nauseam" type="link" created="Sun, 16 Feb 2025 15:00:30 +0000" url="https://chadnauseam.com/coding/random/calculator-app" category="Software and OSS"/>
     <outline text="“Django in governments” by Thibaud" type="link" created="Fri, 14 Feb 2025 18:24:22 +0000" url="https://thib.me/django-in-government" category="Software and OSS"/>
     <outline text="“White Elephant is surprisingly effective” by Bobbie and Yee Aun" type="link" created="Thu, 13 Feb 2025 16:15:50 +0000" url="https://bobbiec.github.io/white-elephant.html" category="Life"/>
@@ -42,13 +58,13 @@
     <outline text="“Powder Game” by Dan-Ball" type="link" created="Mon, 27 Jan 2025 23:22:31 +0000" url="https://dan-ball.jp/en/javagame/dust" category="Toys and Art"/>
     <outline text="“Web localStorage limits”" type="link" created="Sun, 26 Jan 2025 21:38:57 +0000" url="https://arty.name/localstorage.html" category="Software and OSS"/>
     <outline text="“Open Heart Protocol”" type="link" created="Sat, 25 Jan 2025 19:01:35 +0000" url="https://openheart.fyi" category="Toys and Art"/>
-    <outline text="“PhysicsForums and the Dead Internet Theory” by David and Felipe" type="link" created="Fri, 24 Jan 2025 20:53:49 +0000" url="http://hallofdreams.org/posts/physicsforums" category="Software and OSS"/>
+    <outline text="“PhysicsForums and the Dead Internet Theory” by David and Felipe" type="link" created="Fri, 24 Jan 2025 20:53:49 +0000" url="http://hallofdreams.org/posts/physicsforums" category="Social Media"/>
     <outline text="“The most Mario colors” by Louie Mantia" type="link" created="Thu, 23 Jan 2025 21:03:49 +0000" url="https://lmnt.me/blog/the-most-mario-colors.html" category="Retro Gaming"/>
     <outline text="“File systems: the original hypermedia” by Jon Secchis" type="link" created="Thu, 23 Jan 2025 04:07:54 +0000" url="https://jon.work/og" category="Software and OSS"/>
     <outline text="“Simple CPU design”" type="link" created="Wed, 22 Jan 2025 17:55:20 +0000" url="http://simplecpudesign.com" category="Software and OSS"/>
     <outline text="“Secrets of the Pocket Camera” by Jonathan Traynor" type="link" created="Tue, 21 Jan 2025 16:55:19 +0000" url="https://www.jofamo.com/blog/secrets-of-the-pocket-camera" category="Retro Gaming"/>
-    <outline text="“Sending data between two phones”" type="link" created="Tue, 21 Jan 2025 16:17:34 +0000" url="https://retro.social/@ifixcoinops/113838462085835742" category="Software and OSS"/>
-    <outline text="“Loneliness epidemic” by Alvin Chang" type="link" created="Mon, 20 Jan 2025 02:14:18 +0000" url="https://pudding.cool/2023/09/invisible-epidemic" category="Life"/>
+    <outline text="“Sending data between two phones”" type="link" created="Tue, 21 Jan 2025 16:17:34 +0000" url="https://retro.social/@ifixcoinops/113838462085835742" category="Social Media"/>
+    <outline text="“Loneliness epidemic” by Alvin Chang" type="link" created="Mon, 20 Jan 2025 02:14:18 +0000" url="https://pudding.cool/2023/09/invisible-epidemic" category="Social Media"/>
     <outline text="“Personal computing is dead” by Benj Edwards" type="link" created="Mon, 20 Jan 2025 00:36:57 +0000" url="https://www.vintagecomputing.com/index.php/archives/3292/the-pc-is-dead-its-time-to-make-computing-personal-again" category="Software and OSS"/>
     <outline text="“Typography of Japanese chopstick sleeves”" type="link" created="Mon, 20 Jan 2025 00:08:42 +0000" url="https://letterformarchive.org/news/this-just-in-chopstick-sleeves-as-emissaries-of-japanese-typography-and-culture" category="Toys and Art"/>
     <outline text="“Sub-Pixel Art” by Japhy Riddle" type="link" created="Thu, 16 Jan 2025 18:31:13 +0000" url="https://youtu.be/SlS3FOmKUbE" category="Toys and Art"/>
@@ -65,9 +81,9 @@
     <outline text="“Lens” by Robb Knight" type="link" created="Sat, 04 Jan 2025 15:32:34 +0000" url="https://lens.rknight.me" category="Software and OSS"/>
     <outline text="“Picture to Game Boy” by Jesse Doherty" type="link" created="Fri, 03 Jan 2025 20:36:36 +0000" url="https://pictogb.com" category="Retro Gaming"/>
     <outline text="“GPUs, not TPMs, are the root of hardware DRM” by Matthew Garrett" type="link" created="Thu, 02 Jan 2025 15:24:46 +0000" url="https://mjg59.dreamwidth.org/70954.html" category="Software and OSS"/>
-    <outline text="“Pikmin 1²” by PikHacker" type="link" created="Tue, 31 Dec 2024 21:27:53 +0000" url="https://www.youtube.com/watch?v=aQ3U82Ulro0" category="Software and OSS"/>
+    <outline text="“Pikmin 1²” by PikHacker" type="link" created="Tue, 31 Dec 2024 21:27:53 +0000" url="https://www.youtube.com/watch?v=aQ3U82Ulro0" category="Retro Gaming"/>
     <outline text="“The life and death of HTMX” by Alexander Petros" type="link" created="Sat, 28 Dec 2024 21:53:21 +0000" url="https://www.youtube.com/watch?v=inRB6ull5WQ" category="Software and OSS"/>
-    <outline text="“Declaring platform independence” by Jason Koebler" type="link" created="Mon, 16 Dec 2024 22:18:19 +0000" url="https://www.niemanlab.org/2024/12/declaring-platform-independence" category="Software and OSS"/>
+    <outline text="“Declaring platform independence” by Jason Koebler" type="link" created="Mon, 16 Dec 2024 22:18:19 +0000" url="https://www.niemanlab.org/2024/12/declaring-platform-independence" category="Social Media"/>
     <outline text="“The year of McDonald’s” by Chris Arnade" type="link" created="Mon, 16 Dec 2024 22:05:01 +0000" url="https://www.thefp.com/p/the-year-of-mcdonalds-trump-luigi-mangione" category="Life"/>
     <outline text="“What do we owe each other?” by Sumana Harihareswara" type="link" created="Fri, 13 Dec 2024 20:52:38 +0000" url="https://youtu.be/JE5u5mUT6gQ?t=1937" category="Software and OSS"/>
     <outline text="“NES expansion port” by Ernie Smith" type="link" created="Fri, 13 Dec 2024 00:25:10 +0000" url="https://tedium.co/2024/12/02/nintendo-expansion-port-history" category="Retro Gaming"/>
@@ -82,13 +98,13 @@
     <outline text="“Star Garden: Chao Garden and Kirby Air Ride” by Chaomix" type="link" created="Sat, 30 Nov 2024 18:22:39 +0000" url="https://www.youtube.com/watch?v=pOni5zVp5uQ" category="Retro Gaming"/>
     <outline text="“If not React, then what?” by Alex Russell" type="link" created="Sat, 30 Nov 2024 06:21:11 +0000" url="https://infrequently.org/2024/11/if-not-react-then-what" category="Software and OSS"/>
     <outline text="“What RSS needs” by Mark Nottingham" type="link" created="Fri, 29 Nov 2024 01:34:06 +0000" url="https://www.mnot.net/blog/2024/08/25/feeds" category="Software and OSS"/>
-    <outline text="“Platform advantages: not just network effects” by Mark Nottingham" type="link" created="Fri, 29 Nov 2024 01:24:47 +0000" url="https://www.mnot.net/blog/2024/11/29/platforms" category="Software and OSS"/>
+    <outline text="“Platform advantages: not just network effects” by Mark Nottingham" type="link" created="Fri, 29 Nov 2024 01:24:47 +0000" url="https://www.mnot.net/blog/2024/11/29/platforms" category="Social Media"/>
     <outline text="“LEGO interface panels” by George Cave" type="link" created="Thu, 28 Nov 2024 19:32:36 +0000" url="https://interactionmagic.com/UX-LEGO-Interfaces" category="Toys and Art"/>
     <outline text="“Location-appropriate bike racks of Minneapolis” by Bennet Hartz" type="link" created="Tue, 26 Nov 2024 17:41:12 +0000" url="https://medium.com/@bennetthartz/location-appropriate-bike-racks-of-minneapolis-273bdc67046d" category="Life"/>
     <outline text="“Building LLMs is probably not a good business” by Cal Paterson" type="link" created="Tue, 26 Nov 2024 14:52:59 +0000" url="https://calpaterson.com/porter.html" category="Software and OSS"/>
     <outline text="“Global BGP table” by Greg Foletta" type="link" created="Mon, 25 Nov 2024 16:17:38 +0000" url="https://articles.foletta.org/post/2024-01-08-a-day-in-the-life-the-bgp-table" category="Software and OSS"/>
-    <outline text="“Populism and media revolutions” by Hank Green" type="link" created="Fri, 22 Nov 2024 20:57:06 +0000" url="https://www.youtube.com/watch?v=d8PndpFPL8g" category="Life"/>
-    <outline text="“Fix the fucking networks” by Erin Kissane" type="link" created="Fri, 22 Nov 2024 16:55:42 +0000" url="https://www.youtube.com/watch?v=0FwM8HdOY-A" category="Life"/>
+    <outline text="“Populism and media revolutions” by Hank Green" type="link" created="Fri, 22 Nov 2024 20:57:06 +0000" url="https://www.youtube.com/watch?v=d8PndpFPL8g" category="Social Media"/>
+    <outline text="“Fix the fucking networks” by Erin Kissane" type="link" created="Fri, 22 Nov 2024 16:55:42 +0000" url="https://www.youtube.com/watch?v=0FwM8HdOY-A" category="Social Media"/>
     <outline text="“FaSTer Atari ST digital magazine”" type="link" created="Fri, 22 Nov 2024 16:43:37 +0000" url="https://www.goto10retro.com/p/faster-atari-st-digital-magazine" category="Retro Gaming"/>
     <outline text="“Handling cookies is a minefield” by April King" type="link" created="Thu, 21 Nov 2024 18:27:09 +0000" url="https://grayduck.mn/2024/11/21/handling-cookies-is-a-minefield" category="Software and OSS"/>
     <outline text="“Custom villagers in Dōbutsu no Mori e+” by Hunter R." type="link" created="Thu, 21 Nov 2024 01:04:22 +0000" url="https://www.youtube.com/watch?v=V1d8XWf8dDk" category="Retro Gaming"/>
@@ -122,15 +138,15 @@
     <outline text="“Algorithms flatten culture” by Tonya Mosley" type="link" created="Mon, 11 Nov 2024 21:29:50 +0000" url="https://www.npr.org/2024/01/17/1224955473/social-media-algorithm-filterworld" category="Life"/>
     <outline text="“I miss human curation”" type="link" created="Mon, 11 Nov 2024 21:29:47 +0000" url="https://cassidoo.co/post/human-curation" category="Life"/>
     <outline text="“Robots will make us more human” by Andrew Golis" type="link" created="Mon, 11 Nov 2024 21:29:46 +0000" url="https://www.niemanlab.org/2023/12/the-robots-will-make-us-more-human" category="Life"/>
-    <outline text="“I want to see my friends’ posts” by Luna" type="link" created="Mon, 11 Nov 2024 21:29:44 +0000" url="https://moonbase.lgbt/blog/i-want-to-see-my-friends-posts" category="Life"/>
+    <outline text="“I want to see my friends’ posts” by Luna" type="link" created="Mon, 11 Nov 2024 21:29:44 +0000" url="https://moonbase.lgbt/blog/i-want-to-see-my-friends-posts" category="Social Media"/>
     <outline text="“The Economics of Programming Languages” by Evan Czaplicki" type="link" created="Mon, 11 Nov 2024 21:29:43 +0000" url="https://www.youtube.com/watch?v=XZ3w_jec1v8" category="Life"/>
     <outline text="“Don't play near black holes” by Taylor Troesh" type="link" created="Mon, 11 Nov 2024 21:29:42 +0000" url="https://taylor.town/black-holes" category="Life"/>
-    <outline text="“Killing Community” by marginalia.nu" type="link" created="Mon, 11 Nov 2024 21:29:41 +0000" url="https://www.marginalia.nu/log/82_killing_community" category="Life"/>
-    <outline text="“The Small Website Discoverability Crisis” by marginalia.nu" type="link" created="Mon, 11 Nov 2024 21:29:40 +0000" url="https://www.marginalia.nu/log/19-website-discoverability-crisis" category="Life"/>
+    <outline text="“Killing Community” by marginalia.nu" type="link" created="Mon, 11 Nov 2024 21:29:41 +0000" url="https://www.marginalia.nu/log/82_killing_community" category="Social Media"/>
+    <outline text="“The Small Website Discoverability Crisis” by marginalia.nu" type="link" created="Mon, 11 Nov 2024 21:29:40 +0000" url="https://www.marginalia.nu/log/19-website-discoverability-crisis" category="Social Media"/>
     <outline text="“Elegance of endurance” by Joan Westenberg" type="link" created="Mon, 11 Nov 2024 21:29:39 +0000" url="https://www.theindex.media/p/the-elegance-of-endurance-what-centuries" category="Life"/>
-    <outline text="“The chaos of Social Media vs. the order of RSS” by Joan Westenberg" type="link" created="Mon, 11 Nov 2024 21:29:37 +0000" url="https://www.theindex.media/p/the-chaos-of-social-media-vs-the" category="Life"/>
+    <outline text="“The chaos of Social Media vs. the order of RSS” by Joan Westenberg" type="link" created="Mon, 11 Nov 2024 21:29:37 +0000" url="https://www.theindex.media/p/the-chaos-of-social-media-vs-the" category="Social Media"/>
     <outline text="“Reflected energy” by Ned Batchelder" type="link" created="Mon, 11 Nov 2024 21:29:35 +0000" url="https://nedbatchelder.com/blog/202310/reflected_energy.html" category="Life"/>
-    <outline text="“Where did everyone go?” by Ned Batchelder" type="link" created="Mon, 11 Nov 2024 21:29:34 +0000" url="https://nedbatchelder.com/blog/202310/where_did_everyone_go.html" category="Life"/>
+    <outline text="“Where did everyone go?” by Ned Batchelder" type="link" created="Mon, 11 Nov 2024 21:29:34 +0000" url="https://nedbatchelder.com/blog/202310/where_did_everyone_go.html" category="Social Media"/>
     <outline text="“You’re not lacking creativity, you’re overwhelmed” by Jorge Medina" type="link" created="Mon, 11 Nov 2024 21:29:32 +0000" url="https://newsletter.thejorgemedina.com/p/youre-not-lacking-creativity-youre" category="Life"/>
     <outline text="“Tech doesn’t make our lives easier. It makes them faster”" type="link" created="Mon, 11 Nov 2024 21:29:31 +0000" url="https://www.asomo.co/p/tech-doesnt-make-our-lives-easier" category="Life"/>
     <outline text="“Super Mario 64 in Sonic Adventure DX” by Sora" type="link" created="Mon, 11 Nov 2024 21:29:30 +0000" url="https://gamebanana.com/mods/544238" category="Retro Gaming"/>
@@ -181,7 +197,7 @@
     <outline text="“Enabled by default” by Jim Nielsen" type="link" created="Mon, 11 Nov 2024 21:28:27 +0000" url="https://blog.jim-nielsen.com/2024/enabled-by-default" category="Software and OSS"/>
     <outline text="“Where the digital sidewalk ends” by Huston Bokinsky" type="link" created="Mon, 11 Nov 2024 21:28:26 +0000" url="https://www.smolways.com/post/where-the-digital-sidewalk-ends" category="Software and OSS"/>
     <outline text="“Solar-powered self-hosted website” by Dries Buytaert" type="link" created="Mon, 11 Nov 2024 21:28:21 +0000" url="https://dri.es/my-solar-powered-and-self-hosted-website" category="Software and OSS"/>
-    <outline text="“Mastodon Author Tags” by Robb Knight" type="link" created="Mon, 11 Nov 2024 21:28:20 +0000" url="https://rknight.me/blog/setting-up-mastodon-author-tags" category="Software and OSS"/>
+    <outline text="“Mastodon Author Tags” by Robb Knight" type="link" created="Mon, 11 Nov 2024 21:28:20 +0000" url="https://rknight.me/blog/setting-up-mastodon-author-tags" category="Social Media"/>
     <outline text="“Solving methane mysteries with satellite imagery” by Louis Goddard" type="link" created="Mon, 11 Nov 2024 21:28:19 +0000" url="https://blog.datadesk.eco/p/methane-mysteries" category="Software and OSS"/>
     <outline text="“Do AI companies work?” by Benn Stancil" type="link" created="Mon, 11 Nov 2024 21:28:18 +0000" url="https://benn.substack.com/p/do-ai-companies-work" category="Software and OSS"/>
     <outline text="“The Infrastructure Shock” by Debbie Chachra" type="link" created="Mon, 11 Nov 2024 21:28:17 +0000" url="https://berjon.com/infrastructure-shock" category="Software and OSS"/>

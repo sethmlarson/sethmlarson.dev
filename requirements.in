@@ -8,3 +8,4 @@ attrs
 werkzeug<1
 whitenoise
 beautifulsoup4
+opml

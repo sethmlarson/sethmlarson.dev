@@ -4,6 +4,7 @@ import json
 import pathlib
 import opml
 import urllib3
+from mastodon import Mastodon
 
 
 http_client = urllib3.PoolManager()
@@ -13,6 +14,12 @@ app_secrets = json.loads((archive_dir / "app-secrets.json").read_text())
 app_id = app_secrets["app_id"]
 app_key = app_secrets["app_key"]
 app_state = "state"
+mastodon_access_token = app_secrets["mastodon_access_token"]
+mastodon = Mastodon(
+    api_base_url="https://fosstodon.org",
+    access_token=mastodon_access_token
+)
+mastodon_field_url_re = re.compile(r"\"(https?://[^\"]+)\"")
 
 
 def headers():
@@ -181,6 +188,8 @@ def articles_opml_from_inoreader():
         # the existing data, otherwise we add the new data.
         if url in existing_urls:
             outline = existing_urls[url]
+            if tags:
+                outline.categories = tags
             if outline.created is None:
                 outline.created = created_at
             articles_opml.outlines.append(outline)
@@ -287,8 +296,45 @@ def update_links():
     links_path.write_text("\n".join(new_lines))
 
 
+def mastodon_follow_graph():
+    mastodon_followers_path = archive_dir / "mastodon-followers.opml"
+    mastodon_following_path = archive_dir / "mastodon-following.opml"
+    # mastodon_followers_opml = opml.OpmlDocument.loads(mastodon_followers_path.read_text())
+
+    def yield_accounts(page):
+        while page is not None:
+            for account in page:
+                if account.bot:  # No bots, please.
+                    continue
+                yield account
+            page = mastodon.fetch_next(page)
+
+    def write_opml_for_accounts(filepath: pathlib.Path, accounts) -> None:
+        accounts_opml = opml.OpmlDocument()
+        accounts = sorted(accounts, key=lambda acc: acc.acct)
+        for account in accounts:
+            accounts_opml.add_link(
+                text=account.acct,
+                url=account.url,
+            )
+        with filepath.open(mode="w") as f:
+            f.truncate()
+            f.write(accounts_opml.dumps(pretty=True))
+
+    me = mastodon.me()
+    write_opml_for_accounts(
+        mastodon_followers_path,
+        yield_accounts(mastodon.account_followers(id=me, limit=1000))
+    )
+    write_opml_for_accounts(
+        mastodon_following_path,
+        yield_accounts(mastodon.account_following(id=me, limit=1000))
+    )
+
+
 if __name__ == "__main__":
     feeds_opml_from_inoreader()
     articles_opml_from_inoreader()
     # articles_opml_from_links()
     update_links()
+    mastodon_follow_graph()
