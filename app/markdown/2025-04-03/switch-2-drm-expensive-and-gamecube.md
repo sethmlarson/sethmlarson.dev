@@ -55,14 +55,14 @@ cost of $500 USD. Inflation-adjusted the Switch 1 cost $390 USD
 in today's money back in 2017, so $450 is a 15% cost increase on
 launch. I am less concerned about this price difference given it's
 a one-time purchase, the Switch 2 is a backwards compatible console,
-and that the Switch family has proven shown itself to be a very
+and that the Switch family has proven itself to be a
 valuable entertainment investment.
 
 The very first game announced for the Switch 2 is Mario Kart World,
 an open-world party kart game. **This game is going to cost $80 USD for a
 physical copy of the game and $70 USD for a digital-only copy**.
 This is the **first Nintendo title to cost $80 USD** and the first
-Nintendo title to have a price **difference between physical and
+Nintendo title to have a **price difference between physical and
 digital editions**. Lots of implications for this...
 
 The difference in cost between physical and digital makes sense to me.
@@ -83,7 +83,8 @@ As far as the actual prices, I am hoping that Mario Kart, likely one
 of the best games for every Nintendo console, is an exception rather than
 a rule for this price. Mario Kart 8 Deluxe sold 67M units, 10M more than the second-best
 selling Switch game. Knowing what I know now about the Switch I would pay
-$80 for *Mario Kart 8 Deluxe!*
+$80 for *Mario Kart 8 Deluxe!* I wonder what customers are going to think
+though now that the first Nintendo Switch 2 game is $20 more than usual.
 
 I worry that other publishers, and even Nintendo themselves, are going to try
 to push the envelope on game prices. It's never made much sense why every
@@ -99,7 +100,7 @@ pre-order games, I think this would be a good development if game prices increas
 ## Switch 2 requires microSD Express cards
 
 If you bought a bunch of large microSD cards because they'll be useful
-"one-day", then you'll be a bit disappointed by this one. The Switch 2
+"eventually", then you'll be a bit disappointed by this one. The Switch 2
 requires microSD Express cards. I personally don't own any microSD Express cards
 but have a handful of 256GB+ microSD cards without "Express".
 
@@ -110,7 +111,7 @@ microSD card for your Switch 2 just to store all the games.
 
 This is another part of the price of the Switch 2 to consider when purchasing.
 
-## Single-Pak/Download Play is back with GameShare
+## "Single-Pak" / "Download Play" is back with GameShare
 
 What's old is new again: the Switch 2 supports playing
 a single copy of a game across multiple consoles with
