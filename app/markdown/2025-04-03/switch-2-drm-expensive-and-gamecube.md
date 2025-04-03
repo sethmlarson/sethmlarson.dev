@@ -8,7 +8,7 @@ thoughts, especially about things that weren't included in the live stream.
 ## New physical cartridges that don't work offline
 
 I saw on Mastodon that there's a new cartridge coming for the Switch 2
-called a "[Game-Key Card](https://support.nintendo.com/switch2/gamekeycard)".
+called a "[Game-Key Card](https://en-americas-support.nintendo.com/app/answers/detail/a_id/68415/~/nintendo-switch%26nbsp%3B2-game-key-card-overview)".
 The existence of this cartridge is disappointing to me, it's essentially
 the worst of both worlds for both physical and digital downloads. This
 cartridge type combines the [now more expensive medium](#switch-2-might-be-expensive) (physical)
