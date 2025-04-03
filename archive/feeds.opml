@@ -11,6 +11,7 @@
     <outline text="3DSage" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCjdHbo8_vh3rxQ-875XGkvw" htmlUrl="https://www.youtube.com/channel/UCjdHbo8_vh3rxQ-875XGkvw"/>
     <outline text="5Calls" type="rss" xmlUrl="5calls@ino.to" htmlUrl="https://www.inoreader.com"/>
     <outline text="@Westenberg" type="rss" xmlUrl="https://www.joanwestenberg.com/rss" htmlUrl="https://www.joanwestenberg.com"/>
+    <outline text="A New Social" type="rss" xmlUrl="https://blog.anew.social/rss" htmlUrl="https://blog.anew.social"/>
     <outline text="Aeva Black" type="rss" xmlUrl="https://aeva.online/rss.xml" htmlUrl="https://aeva.online"/>
     <outline text="Alex Gaynor" type="rss" xmlUrl="https://alexgaynor.net/feed.xml" htmlUrl="https://alexgaynor.net"/>
     <outline text="Alexander Obenauer" type="rss" xmlUrl="https://alexanderobenauer.com/assets/feed/rss.xml" htmlUrl="https://alexanderobenauer.com"/>
@@ -171,6 +172,7 @@
     <outline text="Queer Space Collective" type="rss" xmlUrl="queerspacecollective@ino.to" htmlUrl="https://www.inoreader.com"/>
     <outline text="Quentin Pradet" type="rss" xmlUrl="https://quentin.pradet.me/blog/feeds/all.atom.xml" htmlUrl="https://quentin.pradet.me/blog"/>
     <outline text="Racket MN" type="rss" xmlUrl="racketmn@ino.to" htmlUrl="https://www.inoreader.com"/>
+    <outline text="Read the Tea Leaves" type="rss" xmlUrl="https://nolanlawson.com/feed" htmlUrl="https://nolanlawson.com"/>
     <outline text="RedMonk Tech Events" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCaUtAK8xECTkETCYivJegeQ" htmlUrl="https://www.youtube.com/channel/UCaUtAK8xECTkETCYivJegeQ"/>
     <outline text="Retro Game Mechanics Explained" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwRqWnW5ZkVaP_lZF7caZ-g" htmlUrl="https://www.youtube.com/feeds"/>
     <outline text="Rings of Saturn" type="rss" xmlUrl="https://32bits.substack.com/feed" htmlUrl="https://32bits.substack.com"/>

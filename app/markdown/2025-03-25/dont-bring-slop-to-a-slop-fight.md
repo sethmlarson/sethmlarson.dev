@@ -37,7 +37,7 @@ We got a sneak peek at the real
 price of generative AI from OpenAI where [a future top-tier model](https://techcrunch.com/2025/03/05/openai-reportedly-plans-to-charge-up-to-20000-a-month-for-specialized-ai-agents/?guccounter=1) (as of March 5th, 2025)
 is supposedly going to be $20,000 USD *per month*.
 
-That's sounds more like it. The sooner we get to unsubsidized generative AI
+That sounds more like it. The sooner we get to unsubsidized generative AI
 pricing the better we'll all be, including the planet. So let's hold out for that future
 and think
 asymmetrically, not symmetrically, on methods to make generative AI slop not viable until we get there.

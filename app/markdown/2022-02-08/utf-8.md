@@ -14,10 +14,10 @@ I recently learned how UTF-8 works and felt that the definition lended itself pe
 
 UTF-8 is an encoding currently defined in [RFC 3629](https://www.rfc-editor.org/rfc/rfc3629.html) ([first published in 1996 in RFC 2044](https://www.rfc-editor.org/rfc/rfc2044.html)) describes encoding Unicode characters into bytes. Unicode uses a concept called a "[codepoint](https://en.wikipedia.org/wiki/Code_point)" which is essentially a number that maps to a single "character" within the Unicode standard. Unicode codepoints are often written as hex with a `U+` prefix. For example, the character "😂" is codepoint `0x1F602` (128,514 in decimal) and would be written as `U+1F602`.
 
+## The 5 octets of UTF-8
+
 <div class="row">
 <div class="col-6">
-
-<h2>The 5 octets of UTF-8</h2>
 
 <blockquote>
   <p><strong>NOTE:</strong> I use the term "octet" in this article which means "a grouping of 8 bits". Today's computers consider 8 bits to be 1 byte, but previously there were systems which used a different number of bits per "byte" hence the distinction. For our purposes an octet and a byte are the same thing.</p>
@@ -51,10 +51,10 @@ In the case of UTF-8 the shortest prefixes are `0` and `10` where `10` is for th
 
 Looking at the prefixes for UTF-8 octets the possibilities are <code>0</code>, <code>10</code>, <code>110</code>, <code>1110</code>, and <code>11110</code>. If I start reading an octet from left to right and encounter the bits <code>1</code>, <code>1</code>, and <code>0</code> I immediately know without reading further that this octet is a "2 octet header" and can't possibly be any other octet type.
 
+<h2>Following the flow of bits</h2>
+
 <div class="row">
 <div class="col-6">
-
-<h2>Following the flow of bits</h2>
 
 <p>Using Python we're able to see that our target output is <code>\xf0\x9f\x98\x82</code>:</p>
 
@@ -88,10 +88,11 @@ Decoding a Unicode codepoint from bytes only requires reversing the above proces
 
 > **NOTE:** You can always find a codepoint boundary from an arbitrary point in a stream of octets by moving left an octet each time the current octet starts with the bit prefix `10` which indicates a tail octet. At most you'll have to move left 3 octets to find the nearest header octet.
 
-<div class="row">
-<div class="col-6">
 
 <h2>Why is UTF-8 everywhere?</h2>
+
+<div class="row">
+<div class="col-6">
 
 <p>
 Back when UTF-8 was first introduced there were many systems that didn't understand any character encoding beyond "<a href="https://datatracker.ietf.org/doc/html/rfc20">US-ASCII</a>". This meant whenever data encoded with another Unicode encoding was used then that system would produce garbage, even if the characters were within the US-ASCII range.
