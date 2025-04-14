@@ -43,8 +43,9 @@ Unfortunately the talks won't be recorded but a write-up will
 be produced with some notes about the event and discussions.
 
 In addition to the Security Mini-Track, there are many security-focused topics
-and talks being presented at PyCon US 2025:
+and talks being presented at PyCon US 2025 and the Maintainers Summit:
 
+* "[So you have a security vulnerability, what now?](https://us.pycon.org/2025/events/maintainers-summit/)" by Dan Shernicoff (Maintainers Summit)
 * "[Safeguard your FastAPI API endpoints with OAuth](https://us.pycon.org/2025/schedule/presentation/88/)" by Semona Igama
 * "[Tips and Tricks for JSON Web Tokens (JWTs)](https://us.pycon.org/2025/schedule/presentation/91/)" by Emin Martinian
 * "[Rust + Python: Poder Ilimitado: Introduccion a PyO3](https://us.pycon.org/2025/schedule/presentation/109/)" by Daniel Hernández Méndez
