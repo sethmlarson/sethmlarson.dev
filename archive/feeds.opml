@@ -68,6 +68,7 @@
     <outline text="Ecosystems Blog" type="rss" xmlUrl="https://blog.ecosyste.ms/feed.xml" htmlUrl="http://0.0.0.0:5000"/>
     <outline text="Eli Lipsitz" type="rss" xmlUrl="https://eli.lipsitz.net/index.xml" htmlUrl="https://eli.lipsitz.net"/>
     <outline text="Elliot Crespel" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCefAbzsWZE4uXU-mqQMrr4Q" htmlUrl="https://www.youtube.com/channel/UCefAbzsWZE4uXU-mqQMrr4Q"/>
+    <outline text="Emily Gorcenski" type="rss" xmlUrl="https://emilygorcenski.com/tags/indieweb/index.xml" htmlUrl="https://emilygorcenski.com/tags/indieweb"/>
     <outline text="Erin Kissane" type="rss" xmlUrl="https://erinkissane.com/feed.rss" htmlUrl="https://erinkissane.com"/>
     <outline text="Ethan Marcotte" type="rss" xmlUrl="https://ethanmarcotte.com/wrote/feed.xml" htmlUrl="https://ethanmarcotte.com"/>
     <outline text="Etymology Nerd" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNHb7I85BKnwbJF4fWBXJjA" htmlUrl="https://www.youtube.com/channel/UCNHb7I85BKnwbJF4fWBXJjA"/>
@@ -118,6 +119,7 @@
     <outline text="Jonathan Traynor" type="rss" xmlUrl="https://www.jofamo.com/blog?format=rss" htmlUrl="https://www.jofamo.com/blog"/>
     <outline text="Julia Evans" type="rss" xmlUrl="http://jvns.ca/atom.xml" htmlUrl="http://jvns.ca"/>
     <outline text="Julia Ferraioli" type="rss" xmlUrl="https://juliaferraioli.com/index.xml" htmlUrl="http://blog.juliaferraioli.com"/>
+    <outline text="Jürgen Geuter" type="rss" xmlUrl="https://tante.cc/category/writing/english/feed" htmlUrl="https://tante.cc"/>
     <outline text="KRAZAM" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCgBVkKoOAr3ajSdFFLp13_A" htmlUrl="https://www.youtube.com/channel/UCgBVkKoOAr3ajSdFFLp13_A"/>
     <outline text="Krebs on Security" type="rss" xmlUrl="https://krebsonsecurity.com/feed" htmlUrl="https://krebsonsecurity.com"/>
     <outline text="Kunal Mehta" type="rss" xmlUrl="https://blog.legoktm.com/feeds/all.atom.xml" htmlUrl="https://blog.legoktm.com"/>
@@ -144,6 +146,7 @@
     <outline text="Minnesota Freedom Fund" type="rss" xmlUrl="https://mnfreedomfund.org/feed" htmlUrl="https://mnfreedomfund.org"/>
     <outline text="Mitchell Baker" type="rss" xmlUrl="https://mitchellbaker.net/?feed=rss2" htmlUrl="https://mitchellbaker.net"/>
     <outline text="Modding Marius" type="rss" xmlUrl="https://moddingmarius.com/feed" htmlUrl="https://moddingmarius.com"/>
+    <outline text="Molly White" type="rss" xmlUrl="https://www.citationneeded.news/rss" htmlUrl="https://www.citationneeded.news"/>
     <outline text="Mouse Bite Labs" type="rss" xmlUrl="https://mousebitelabs.com/feed" htmlUrl="https://mousebitelabs.com"/>
     <outline text="NGI0: Next Generation Internet" type="rss" xmlUrl="https://podcast.nlnet.nl/@NGIZero/feed.xml" htmlUrl="https://podcast.nlnet.nl/@NGIZero"/>
     <outline text="NLnet" type="rss" xmlUrl="https://nlnet.nl/feed.atom"/>
@@ -190,6 +193,7 @@
     <outline text="Seth Larson" type="rss" xmlUrl="https://sethmlarson.dev/feed" htmlUrl="http://sethmlarson.dev"/>
     <outline text="Shank Mods" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUCo_G9HneFK4Luncw6v-Bw" htmlUrl="https://www.youtube.com/channel/UCUCo_G9HneFK4Luncw6v-Bw"/>
     <outline text="Shesez" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHTnEwQKNwm49CQeCVZogMw" htmlUrl="http://www.youtube.com/channel/UCHTnEwQKNwm49CQeCVZogMw"/>
+    <outline text="Simone" type="rss" xmlUrl="https://simone.org/rss" htmlUrl="https://simone.org"/>
     <outline text="Smolka" type="rss" xmlUrl="https://www.smolka.dev/index.xml" htmlUrl="https://smolka.dev"/>
     <outline text="Squishy Computer" type="rss" xmlUrl="https://newsletter.squishy.computer/feed" htmlUrl="https://newsletter.squishy.computer"/>
     <outline text="Stargirl Flowers" type="rss" xmlUrl="https://blog.thea.codes/feed.xml" htmlUrl="https://blog.thea.codes"/>
@@ -225,8 +229,10 @@
     <outline text="core.py Podcast" type="rss" xmlUrl="https://anchor.fm/s/eb6edc3c/podcast/rss" htmlUrl="https://podcasters.spotify.com/pod/show/corepy"/>
     <outline text="eieio.games" type="rss" xmlUrl="https://eieio.games/feed.xml" htmlUrl="https://eieio.games"/>
     <outline text="grape lab" type="rss" xmlUrl="https://grapelab.co/en/feed" htmlUrl="https://grapelab.co/en"/>
+    <outline text="iroh" type="rss" xmlUrl="https://www.iroh.computer/rss.xml" htmlUrl="https://iroh.computer"/>
     <outline text="mGBA" type="rss" xmlUrl="https://mgba.io/feed.xml" htmlUrl="https://mgba.io"/>
     <outline text="marginalia.nu" type="rss" xmlUrl="https://www.marginalia.nu/log/index.xml" htmlUrl="https://www.marginalia.nu/log"/>
+    <outline text="p2panda" type="rss" xmlUrl="https://p2panda.org/feed.xml" htmlUrl="https://p2panda.org"/>
     <outline text="plasticbag.org by Tom Coates" type="rss" xmlUrl="http://plasticbag.org/feed" htmlUrl="http://plasticbag.org"/>
     <outline text="raocow" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCjM-Wd2651MWgo0s5yNQRJA" htmlUrl="https://www.youtube.com/channel/UCjM-Wd2651MWgo0s5yNQRJA/videos"/>
     <outline text="so I bought a pinball machine" type="rss" xmlUrl="http://pinballnovice.blogspot.com/feeds/posts/default" htmlUrl="http://pinballnovice.blogspot.com"/>

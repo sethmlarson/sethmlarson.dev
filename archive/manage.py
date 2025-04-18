@@ -181,7 +181,7 @@ def articles_opml_from_inoreader():
         )
 
         # Avoid publishing gift ideas!
-        if "Gift" in tags:
+        if "Gift" in tags or "Video" in tags:
             continue
 
         # If this URL is already in our OPML then we use

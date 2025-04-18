@@ -59,10 +59,10 @@ favorite_posts = {
     "how-to-i-pay-for-a-web-page",
     "slop-security-reports",
     "building-software-for-connection-local-first",
+    "i-fear-for-the-unauthenticated-web",
 }
 hide_posts = {
     "hi-chew",
-    "minnesota-state-fair-foods-2024",
 }
 
 

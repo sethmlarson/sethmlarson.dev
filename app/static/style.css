@@ -383,3 +383,7 @@ span.hidden-sm {
 .webmentions-fade-in {
   animation: webmentionsFadeIn 0.5s;
 }
+hr {
+  border: 0;
+  border-top: 2px solid #000;
+}
