@@ -1,10 +1,20 @@
 # Quick Mastodon toot templates for event hashtags
 
-I'm a big fan of [Mastodon](https://fosstodon.org/@sethmlarson) and I plan to cover PyCon US 2025
-on Mastodon almost exclusively ([and it sounds like I'm not alone](https://treyhunner.com/2025/04/which-social-network-are-we-using-for-pycon/)). This was the plan last year, too, but
-I found typing out all the hashtags every time definitely discouraged me a bit when
-posting about "in-the-moment" stuff. You want to quickly capture a thought, interaction, or image,
-share on Mastodon, and then *get back to enjoying the conference*. 
+<div class="row">
+<div class="col-6 col-sm-12">
+<p>I'm a big fan of <a href="https://fosstodon.org/@sethmlarson">Mastodon</a> and I plan to cover PyCon US 2025
+on Mastodon almost exclusively (<a href="https://treyhunner.com/2025/04/which-social-network-are-we-using-for-pycon/">and it sounds like I'm not alone</a>).</p>
+<p>This was the plan last year, too, but
+I found typing out all the hashtags every time definitely discouraged me from
+posting about "in-the-moment" stuff.</p>
+<p>The goal is to quickly capture a thought, interaction, or image,
+share to Mastodon, and then <em>get back to enjoying the conference</em>. </p>
+</div>
+<div class="col-6 col-sm-12">
+<center><img style="max-width: 100%; border: 2px solid black;" src="https://storage.googleapis.com/sethmlarson-dev-static-assets/IMG_1503.jpeg"/><br>
+<small><em>Pre-populated event hashtags!</em></small></center>
+</div>
+</div>
 
 So I went looking for a solution and found that Mastodon supports
 share URLs with pre-filled content, like hashtags. What I wanted to do was add a URL to my phone home screen:
