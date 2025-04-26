@@ -8,6 +8,13 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Hyperwood – Open-Source Furniture”" type="link" created="Fri, 25 Apr 2025 14:47:23 +0000" url="https://hyperwood.org" category="Toys and Art"/>
+    <outline text="“Every complex ecosystem has parasites (24 Apr 2025)”" type="link" created="Thu, 24 Apr 2025 15:38:46 +0000" url="https://pluralistic.net/2025/04/24/hermit-kingdom" category="Life"/>
+    <outline text="“Printing Nintendo E-Reader Cards: Part 4, troubleshooting”" type="link" created="Wed, 23 Apr 2025 17:42:02 +0000" url="https://mattgreer.dev/blog/printing-ereader-cards-part-4" category="Retro Gaming"/>
+    <outline text="“The Cold Start Problem: Using Network Effects to Scale Your Product - A Review”" type="link" created="Tue, 22 Apr 2025 20:08:46 +0000" url="https://madhavajay.com/the-cold-start-problem-using-network-effects-to-scale-your-product" category="Social Media"/>
+    <outline text="“This blog is hosted on a Nintendo Wii”" type="link" created="Mon, 21 Apr 2025 22:11:45 +0000" url="https://blog.infected.systems/posts/2025-04-21-this-blog-is-hosted-on-a-nintendo-wii" category="Toys and Art"/>
+    <outline text="“How I Managed To Get Doom In A QR Code”" type="link" created="Fri, 18 Apr 2025 22:33:51 +0000" url="https://kuberwastaken.github.io/blog/Projects/How-I-Managed-To-Get-Doom-In-A-QR-Code" category="Toys and Art"/>
+    <outline text="“15,000 lines of verified cryptography now in Python”" type="link" created="Fri, 18 Apr 2025 22:26:10 +0000" url="https://jonathan.protzenko.fr/2025/04/18/python.html" category="Security"/>
     <outline text="“iCal and ray-casting” by Patryk Wychowaniec" type="link" created="Thu, 17 Apr 2025 18:48:24 +0000" url="https://pwy.io/posts/marching-events" category="Software and OSS"/>
     <outline text="“HDR‑infused emoji” by Corry Haines" type="link" created="Thu, 17 Apr 2025 17:40:52 +0000" url="https://sharpletters.net/2025/04/16/hdr-emoji" category="Toys and Art"/>
     <outline text="“e-Ink for web pages”" type="link" created="Wed, 16 Apr 2025 18:44:13 +0000" url="https://jackscogito.blogspot.com/2025/04/e-ink-mode-making-web-pages-easier-to.html" category="Software and OSS"/>
@@ -22,14 +29,14 @@
     <outline text="“Every medium doesn't have to be TikTok” by Rakhim" type="link" created="Fri, 11 Apr 2025 18:34:30 +0000" url="https://rakhim.exotext.com/but-what-if-i-really-want-a-faster-horse" category="Software and OSS"/>
     <outline text="“WebRTC for the curious”" type="link" created="Fri, 11 Apr 2025 17:54:49 +0000" url="https://webrtcforthecurious.com" category="Software and OSS"/>
     <outline text="“Searchception” by Colin Hayhurst" type="link" created="Thu, 10 Apr 2025 21:18:26 +0000" url="https://blog.mojeek.com/2025/04/searchception.html" category="Software and OSS"/>
-    <outline text="“Guide for reducing screen time”" type="link" created="Wed, 09 Apr 2025 17:20:41 +0000" url="https://speedbumpapp.com/en/blog/how-to-reduce-screen-time" category="Social Media"/>
+    <outline text="“Guide for reducing screen time” by Mario Ortiz Manero" type="link" created="Wed, 09 Apr 2025 17:20:41 +0000" url="https://speedbumpapp.com/en/blog/how-to-reduce-screen-time" category="Social Media"/>
     <outline text="“Putting a price on open source” by Alex Gaynor" type="link" created="Tue, 08 Apr 2025 21:14:40 +0000" url="https://alexgaynor.net/2025/apr/08/putting-a-price-tag-on-open-source" category="Software and OSS"/>
     <outline text="“Legend of Zelda and miniature gardens (箱庭)” by Javed Sterritt" type="link" created="Tue, 08 Apr 2025 20:34:19 +0000" url="https://www.youtube.com/watch?v=n3dFAK3Owtg" category="Retro Gaming"/>
     <outline text="“What if we made advertising illegal?”" type="link" created="Mon, 07 Apr 2025 18:42:10 +0000" url="https://simone.org/advertising" category="Life"/>
     <outline text="“Hiding elements that require JavaScript without JavaScript”" type="link" created="Sun, 06 Apr 2025 18:27:45 +0000" url="https://0xda.de/blog/2025/04/hiding-elements-that-require-javascript-without-javascript" category="Software and OSS"/>
     <outline text="“Iron rings: a symbol of engineer's commitment”" type="link" created="Sun, 06 Apr 2025 03:15:46 +0000" url="https://engineerscanada.ca/nem2025/feature-stories/100-years-of-the-iron-ring-a-symbol-of-an-engineers-commitment" category="Life"/>
     <outline text="“Self-hosted digital calendar” by Emily Gorcenski" type="link" created="Sat, 05 Apr 2025 22:43:40 +0000" url="https://emilygorcenski.com/post/owning-my-own-data-part-1-integrating-a-self-hosted-calendar-solution" category="Software and OSS"/>
-    <outline text="“Digital 'views' are lies”" type="link" created="Sat, 05 Apr 2025 15:01:29 +0000" url="https://www.theverge.com/social/639811/view-counts-tiktok-instagram-x-youtube-lies" category="Social Media"/>
+    <outline text="“Digital 'views' are lies” by David Pierce" type="link" created="Sat, 05 Apr 2025 15:01:29 +0000" url="https://www.theverge.com/social/639811/view-counts-tiktok-instagram-x-youtube-lies" category="Social Media"/>
     <outline text="“Nintendo Switch 2 Game-Key Cards”" type="link" created="Wed, 02 Apr 2025 19:12:19 +0000" url="https://en-americas-support.nintendo.com/app/answers/detail/a_id/68415/~/nintendo-switch%26nbsp%3B2-game-key-card-overview" category="Retro Gaming"/>
     <outline text="“Skeptical Hedonism” by Hank Green" type="link" created="Wed, 02 Apr 2025 16:47:37 +0000" url="https://www.youtube.com/watch?v=FRjGhCQi4U8" category="Life"/>
     <outline text="“Crawlers and Wikimedia projects”" type="link" created="Wed, 02 Apr 2025 15:07:51 +0000" url="https://diff.wikimedia.org/2025/04/01/how-crawlers-impact-the-operations-of-the-wikimedia-projects" category="Software and OSS"/>
@@ -47,7 +54,7 @@
     <outline text="“Rotating sandwiches”" type="link" created="Wed, 19 Mar 2025 19:13:46 +0000" url="https://rotatingsandwiches.com" category="Toys and Art"/>
     <outline text="“Stop externalizing your costs directly into my face” by Drew DeVault" type="link" created="Wed, 19 Mar 2025 01:07:36 +0000" url="https://drewdevault.com/2025/03/17/2025-03-17-Stop-externalizing-your-costs-on-me.html" category="Software and OSS"/>
     <outline text="“How you can protect Democracy”" type="link" created="Tue, 18 Mar 2025 13:14:29 +0000" url="https://protectdemocracy.org/how-to-protect-democracy" category="Life"/>
-    <outline text="“Certificate that is PEM and DER encoded” by Soso" type="link" created="Tue, 18 Mar 2025 01:21:09 +0000" url="https://sgued.fr/blog/der-pem-cert" category="Security"/>
+    <outline text="“Certificate that is PEM and DER encoded” by Sosthène Guédon" type="link" created="Tue, 18 Mar 2025 01:21:09 +0000" url="https://sgued.fr/blog/der-pem-cert" category="Security"/>
     <outline text="“Social network that's only open from 7:39pm to 10:39pm EST”" type="link" created="Tue, 11 Mar 2025 03:57:23 +0000" url="https://www.seven39.com" category="Social Media"/>
     <outline text="“Edge of Emulation” by D. S. Baxter" type="link" created="Mon, 10 Mar 2025 19:33:04 +0000" url="https://shonumi.github.io/articles.html" category="Retro Gaming"/>
     <outline text="“Comics about Mastodon” by Ulli Lust" type="link" created="Mon, 10 Mar 2025 19:13:54 +0000" url="https://mastodon.social/@Ullilust/114138199183667985" category="Social Media"/>
@@ -183,8 +190,8 @@
     <outline text="“Super Mario 64 in Sonic Adventure DX” by Sora" type="link" created="Mon, 11 Nov 2024 21:29:30 +0000" url="https://gamebanana.com/mods/544238" category="Retro Gaming"/>
     <outline text="“FlippyDrive for the GameCube” by Macho Nacho" type="link" created="Mon, 11 Nov 2024 21:29:29 +0000" url="https://www.youtube.com/watch?v=1-LWI2tGfhQ" category="Retro Gaming"/>
     <outline text="“Super Nintendo Video System” by Fabien Sanglard" type="link" created="Mon, 11 Nov 2024 21:29:28 +0000" url="https://fabiensanglard.net/snes_video/index.html" category="Retro Gaming"/>
-    <outline text="“A video about Melee” by AsumSaus" type="link" created="Mon, 11 Nov 2024 21:29:26 +0000" url="https://youtu.be/nviIKTywuYU?si=mgFOhNBRMCTAIwOU" category="Retro Gaming"/>
     <outline text="“Super Paper Mario's design” by Kirbyster" type="link" created="Mon, 11 Nov 2024 21:29:26 +0000" url="https://youtube.com/watch?si=BDytOgheHFncVBK9&amp;v=tfS9SYPT-jw" category="Retro Gaming"/>
+    <outline text="“A video about Melee” by AsumSaus" type="link" created="Mon, 11 Nov 2024 21:29:26 +0000" url="https://youtu.be/nviIKTywuYU?si=mgFOhNBRMCTAIwOU" category="Retro Gaming"/>
     <outline text="“ORANGE FM, Game Boy cartridge for FM Radio” by Evan Barger" type="link" created="Mon, 11 Nov 2024 21:29:25 +0000" url="https://orangegb.com/orangefm" category="Retro Gaming"/>
     <outline text="“Gamecube ASCII keyboard controller and libogc” by Gered King" type="link" created="Mon, 11 Nov 2024 21:29:23 +0000" url="http://www.blarg.ca/2021/02/15/using-a-gamecube-ascii-keyboard-controller-with-libogc" category="Retro Gaming"/>
     <outline text="“GameCube, Wii, Wii U, and PC connected via Broadband Adapter” by Good Vibes Gaming" type="link" created="Mon, 11 Nov 2024 21:29:22 +0000" url="https://www.youtube.com/watch?v=699HVbOKNtc" category="Retro Gaming"/>
