@@ -1,5 +1,9 @@
 # Better boosting on Mastodon with smart clients
 
+> Happy May Day (aka International Workers' Day). Consider celebrating by reading about
+> the [origins of May Day](https://archive.iww.org/history/library/misc/origins_of_mayday/)
+> and how workers before us fought and died for the 8-hour work week that we, the workers of today, now enjoy.
+
 If you've been on Mastodon for long enough it's likely you've heard the phrase <nobr>“you are the algorithm”</nobr> in reference to the fact that Mastodon by default doesn't provide algorithmic curation of your timeline. Instead, Mastodon implements a simple linear timeline and users are expected to "boost" posts so they reach a wider audience, specifically their own followers. I'll be calling Mastodon's approach "boost curation" in this post.
 
 Don't get me wrong, I'm a fan of understandable systems and a [critic of algorithmic curation](https://sethmlarson.dev/for-you-is-not-for-me). I do wonder if Mastodon's allergy to algorithm curation does not play well for folks who have different expectations of social media, such as wanting more "town-square" moments [1] where a substantial number of users are talking about one or two topics that interest them all at once.
