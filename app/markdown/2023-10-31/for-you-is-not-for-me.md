@@ -30,14 +30,9 @@ want to "focus" on more than one social media platform. I don't plan on trying T
 
 Of course, I still want to see content on the internet, including from many
 of my friends! I continue to follow the hundreds of blogs, websites, and newsletters that I've enjoyed before purging platforms
-through the lovely and relatively new reader and newsletter app [**Omnivore**](https://omnivore.app) (previously I used Feedly for RSS).
+through the lovely and relatively new reader and newsletter app [Inoreader](https://inoreader.com).
 I use **[Mastodon](https://fosstodon.org/@sethmlarson)** for the closest definition of social media.
 For synchronous communication I use apps like **Signal**, **Discord**, and **Slack**.
-
-I highly recommend picking up [Omnivore](https://omnivore.app) or some other RSS/reader application to be able to keep track of
-the websites and creators you're interested in without locking yourself into a given platform. If you do decide to use Omnivore, [please support their
-team](https://opencollective.com/omnivore) to avoid yet another platform becoming enshittified or unsustainable. If you have the funds to do so, you should be supporting
-creators you regularly enjoy content from, especially if you're not doing so through their platform which relies on ads.
 
 Another thing I recently discovered was that some popular platforms like YouTube
 have RSS feeds available which makes it possible to consume the content from a platform while avoiding the exploitative UI patterns (we'll see how long that lasts...).
@@ -51,10 +46,10 @@ If you're interested in content that I create or interacting with me over the in
 the following platforms:
 
 * [Mastodon](https://fosstodon.org/@sethmlarson)
-* [Discord](https://discord.com/users/481989102951202817)
 * [Email](mailto:sethmichaellarson@gmail.com)
-* [Buttondown](https://buttondown.email/sethmlarson)
 * [RSS](https://sethmlarson.dev/feed)
+* [Buttondown](https://buttondown.email/sethmlarson)
+* [Discord](https://discord.com/users/481989102951202817)
 
 At least for now these platforms get directly to the source (people) and don't have most of the problems listed above. Stay safe out there, friends! 👻
 
