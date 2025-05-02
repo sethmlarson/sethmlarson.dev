@@ -8,13 +8,18 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
-    <outline text="“Hyperwood – Open-Source Furniture”" type="link" created="Fri, 25 Apr 2025 14:47:23 +0000" url="https://hyperwood.org" category="Toys and Art"/>
-    <outline text="“Every complex ecosystem has parasites (24 Apr 2025)”" type="link" created="Thu, 24 Apr 2025 15:38:46 +0000" url="https://pluralistic.net/2025/04/24/hermit-kingdom" category="Life"/>
-    <outline text="“Printing Nintendo E-Reader Cards: Part 4, troubleshooting”" type="link" created="Wed, 23 Apr 2025 17:42:02 +0000" url="https://mattgreer.dev/blog/printing-ereader-cards-part-4" category="Retro Gaming"/>
-    <outline text="“The Cold Start Problem: Using Network Effects to Scale Your Product - A Review”" type="link" created="Tue, 22 Apr 2025 20:08:46 +0000" url="https://madhavajay.com/the-cold-start-problem-using-network-effects-to-scale-your-product" category="Social Media"/>
-    <outline text="“This blog is hosted on a Nintendo Wii”" type="link" created="Mon, 21 Apr 2025 22:11:45 +0000" url="https://blog.infected.systems/posts/2025-04-21-this-blog-is-hosted-on-a-nintendo-wii" category="Toys and Art"/>
-    <outline text="“How I Managed To Get Doom In A QR Code”" type="link" created="Fri, 18 Apr 2025 22:33:51 +0000" url="https://kuberwastaken.github.io/blog/Projects/How-I-Managed-To-Get-Doom-In-A-QR-Code" category="Toys and Art"/>
-    <outline text="“15,000 lines of verified cryptography now in Python”" type="link" created="Fri, 18 Apr 2025 22:26:10 +0000" url="https://jonathan.protzenko.fr/2025/04/18/python.html" category="Security"/>
+    <outline text="“Growing corn versus solar energy is no contest” by Emma Bryce" type="link" created="Thu, 01 May 2025 13:55:31 +0000" url="https://www.anthropocenemagazine.org/2025/04/new-study-compares-growing-corn-for-energy-to-solar-production-its-no-contest" category="Life"/>
+    <outline text="“Copying SQLite databases without indexes” by Alex Chan" type="link" created="Thu, 01 May 2025 13:27:13 +0000" url="https://alexwlchan.net/2025/copying-sqlite-databases" category="Software and OSS"/>
+    <outline text="“Switch 2 Game-Key Cards are disheartening but inevitable”" type="link" created="Thu, 01 May 2025 13:25:05 +0000" url="https://www.videogameschronicle.com/news/game-preservationists-say-switch-2-game-key-cards-are-disheartening-but-inevitable" category="Retro Gaming"/>
+    <outline text="“The best software delivery is static HTML and JavaScript” by Simon Willison" type="link" created="Tue, 29 Apr 2025 12:54:25 +0000" url="https://simonwillison.net/2025/Apr/28/give-it-away-for-free" category="Software and OSS"/>
+    <outline text="“Hyperwood”" type="link" created="Fri, 25 Apr 2025 14:47:23 +0000" url="https://hyperwood.org" category="Toys and Art"/>
+    <outline text="“Every complex ecosystem has parasites” by Cory Doctorow" type="link" created="Thu, 24 Apr 2025 15:38:46 +0000" url="https://pluralistic.net/2025/04/24/hermit-kingdom" category="Life"/>
+    <outline text="“Elon Musk punishes dissent on Twitter with algorithm”" type="link" created="Wed, 23 Apr 2025 19:44:15 +0000" url="https://www.nytimes.com/interactive/2025/04/23/business/elon-musk-x-suppression-laura-loomer.html" category="Social Media"/>
+    <outline text="“Troubleshooting Nintendo E-Reader Card printing” by Matt Greer" type="link" created="Wed, 23 Apr 2025 17:42:02 +0000" url="https://mattgreer.dev/blog/printing-ereader-cards-part-4" category="Retro Gaming"/>
+    <outline text="“Network effects and the cold-start problem” by Madhava Jay" type="link" created="Tue, 22 Apr 2025 20:08:46 +0000" url="https://madhavajay.com/the-cold-start-problem-using-network-effects-to-scale-your-product" category="Social Media"/>
+    <outline text="“This blog is hosted on a Nintendo Wii” by Alex Haydock" type="link" created="Mon, 21 Apr 2025 22:11:45 +0000" url="https://blog.infected.systems/posts/2025-04-21-this-blog-is-hosted-on-a-nintendo-wii" category="Toys and Art"/>
+    <outline text="“Doom in a QR code” by Kuber Mehta" type="link" created="Fri, 18 Apr 2025 22:33:51 +0000" url="https://kuberwastaken.github.io/blog/Projects/How-I-Managed-To-Get-Doom-In-A-QR-Code" category="Toys and Art"/>
+    <outline text="“15,000 lines of verified cryptography now in Python” by Jonathan Protzenko" type="link" created="Fri, 18 Apr 2025 22:26:10 +0000" url="https://jonathan.protzenko.fr/2025/04/18/python.html" category="Security"/>
     <outline text="“iCal and ray-casting” by Patryk Wychowaniec" type="link" created="Thu, 17 Apr 2025 18:48:24 +0000" url="https://pwy.io/posts/marching-events" category="Software and OSS"/>
     <outline text="“HDR‑infused emoji” by Corry Haines" type="link" created="Thu, 17 Apr 2025 17:40:52 +0000" url="https://sharpletters.net/2025/04/16/hdr-emoji" category="Toys and Art"/>
     <outline text="“e-Ink for web pages”" type="link" created="Wed, 16 Apr 2025 18:44:13 +0000" url="https://jackscogito.blogspot.com/2025/04/e-ink-mode-making-web-pages-easier-to.html" category="Software and OSS"/>

@@ -155,6 +155,7 @@
     <outline text="glyph@mastodon.social" type="link" url="https://mastodon.social/@glyph"/>
     <outline text="gpshead@infosec.exchange" type="link" url="https://infosec.exchange/@gpshead"/>
     <outline text="gregkh@social.kernel.org" type="link" url="https://social.kernel.org/users/gregkh"/>
+    <outline text="grimalkina@mastodon.social" type="link" url="https://mastodon.social/@grimalkina"/>
     <outline text="gtback@mstdn.social" type="link" url="https://mstdn.social/@gtback"/>
     <outline text="gvwilson@mastodon.social" type="link" url="https://mastodon.social/@gvwilson"/>
     <outline text="gvy_dvpont@mastodon.social" type="link" url="https://mastodon.social/@gvy_dvpont"/>
@@ -205,8 +206,9 @@
     <outline text="juliaferraioli@floss.social" type="link" url="https://floss.social/@juliaferraioli"/>
     <outline text="justin@ramble.space" type="link" url="https://ramble.space/@justin"/>
     <outline text="justvanrossum@typo.social" type="link" url="https://typo.social/@justvanrossum"/>
+    <outline text="karlbode.com@bsky.brid.gy" type="link" url="https://bsky.brid.gy/r/https://bsky.app/profile/karlbode.com"/>
     <outline text="karo@floss.social" type="link" url="https://floss.social/@karo"/>
-    <outline text="kate" type="link" url="https://fosstodon.org/@kate"/>
+    <outline text="katemorley@hachyderm.io" type="link" url="https://hachyderm.io/@katemorley"/>
     <outline text="kautumn06" type="link" url="https://fosstodon.org/@kautumn06"/>
     <outline text="kayserifserif@sunny.garden" type="link" url="https://sunny.garden/@kayserifserif"/>
     <outline text="kelseyhightower@mastodon.social" type="link" url="https://mastodon.social/@kelseyhightower"/>

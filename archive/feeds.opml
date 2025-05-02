@@ -62,7 +62,6 @@
     <outline text="Did You Know Gaming?" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCyS4xQE6DK4_p3qXQwJQAyA" htmlUrl="https://www.youtube.com/channel/UCyS4xQE6DK4_p3qXQwJQAyA/videos"/>
     <outline text="Digital Seams" type="rss" xmlUrl="https://digitalseams.com/blog?format=rss" htmlUrl="https://digitalseams.com"/>
     <outline text="Dolphin Emulator" type="rss" xmlUrl="https://dolphin-emu.org/blog/feeds" htmlUrl="https://dolphin-emu.org/blog"/>
-    <outline text="Droomish" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCeZWSYna3ryLAj7gEDuOjGg" htmlUrl="https://www.youtube.com/channel/UCeZWSYna3ryLAj7gEDuOjGg"/>
     <outline text="Duane O'Brien" type="rss" xmlUrl="https://www.duaneobrien.com/rss" htmlUrl="https://www.duaneobrien.com"/>
     <outline text="Dustin Ingram" type="rss" xmlUrl="https://dustingram.com/atom.xml" htmlUrl="https://dustingram.com"/>
     <outline text="Ecosystems Blog" type="rss" xmlUrl="https://blog.ecosyste.ms/feed.xml" htmlUrl="http://0.0.0.0:5000"/>
@@ -71,7 +70,6 @@
     <outline text="Emily Gorcenski" type="rss" xmlUrl="https://emilygorcenski.com/tags/indieweb/index.xml" htmlUrl="https://emilygorcenski.com/tags/indieweb"/>
     <outline text="Erin Kissane" type="rss" xmlUrl="https://erinkissane.com/feed.rss" htmlUrl="https://erinkissane.com"/>
     <outline text="Ethan Marcotte" type="rss" xmlUrl="https://ethanmarcotte.com/wrote/feed.xml" htmlUrl="https://ethanmarcotte.com"/>
-    <outline text="Etymology Nerd" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNHb7I85BKnwbJF4fWBXJjA" htmlUrl="https://www.youtube.com/channel/UCNHb7I85BKnwbJF4fWBXJjA"/>
     <outline text="Fabien Sanglard" type="rss" xmlUrl="https://fabiensanglard.net/rss.xml" htmlUrl="https://fabiensanglard.net"/>
     <outline text="Filippo Valsorda" type="rss" xmlUrl="https://words.filippo.io/rss" htmlUrl="https://words.filippo.io"/>
     <outline text="Fix The News" type="rss" xmlUrl="https://fixthenews.com/rss" htmlUrl="https://fixthenews.com"/>
@@ -84,8 +82,6 @@
     <outline text="GingerOfMods" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDfr25a1fzOgWZFwvIIRuHg" htmlUrl="https://www.youtube.com/channel/UCDfr25a1fzOgWZFwvIIRuHg"/>
     <outline text="Glasnt" type="rss" xmlUrl="https://glasnt.com/blog/feed.xml" htmlUrl="https://glasnt.com/blog"/>
     <outline text="Good Internet Magazine" type="rss" xmlUrl="goodinternetmagazine@ino.to" htmlUrl="https://www.inoreader.com"/>
-    <outline text="Good Mythical More" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCzpCc5n9hqiVC7HhPwcIKEg" htmlUrl="https://www.youtube.com/channel/UCzpCc5n9hqiVC7HhPwcIKEg/videos"/>
-    <outline text="Good Mythical Morning" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4PooiX37Pld1T8J5SYT-SQ" htmlUrl="https://www.youtube.com/channel/UC4PooiX37Pld1T8J5SYT-SQ/videos"/>
     <outline text="Goppier" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCMh_TE7Xy3yVs9QLn-VsWbw" htmlUrl="https://www.youtube.com/channel/UCMh_TE7Xy3yVs9QLn-VsWbw"/>
     <outline text="Guido van Rossum" type="rss" xmlUrl="https://neopythonic.blogspot.com/feeds/posts/default" htmlUrl="https://neopythonic.blogspot.com"/>
     <outline text="HTMHell" type="rss" xmlUrl="https://www.htmhell.dev/feed.xml" htmlUrl="http://htmhell.dev"/>
@@ -187,7 +183,6 @@
     <outline text="Ryan Castellucci" type="rss" xmlUrl="https://rya.nc/feeds/all.xml" htmlUrl="https://rya.nc"/>
     <outline text="SLSA" type="rss" xmlUrl="https://slsa.dev/feed.xml" htmlUrl="https://slsa.dev"/>
     <outline text="Samuel Giddins" type="rss" xmlUrl="https://blog.segiddins.me/rss" htmlUrl="https://blog.segiddins.me"/>
-    <outline text="Scott The Woz" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4rqhyiTs7XyuODcECvuiiQ" htmlUrl="https://www.youtube.com/channel/UC4rqhyiTs7XyuODcECvuiiQ"/>
     <outline text="Scruffy" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDoKh1xoqKDfUr3YxQBs_1w" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDoKh1xoqKDfUr3YxQBs_1w"/>
     <outline text="Semantically Secure" type="rss" xmlUrl="https://scottarc.blog/feed" htmlUrl="https://scottarc.blog"/>
     <outline text="Seth Larson" type="rss" xmlUrl="https://sethmlarson.dev/feed" htmlUrl="http://sethmlarson.dev"/>
@@ -204,6 +199,7 @@
     <outline text="Sustain" type="rss" xmlUrl="https://feeds.fireside.fm/sustain/rss" htmlUrl="https://podcast.sustainoss.org"/>
     <outline text="System of Levers" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSH44z64-vxbVY3nXePm6xA" htmlUrl="https://www.youtube.com/channel/UCSH44z64-vxbVY3nXePm6xA"/>
     <outline text="Technology Connections" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q" htmlUrl="https://www.youtube.com/channel/UCy0tKL1T7wFoYcxCe0xjN6Q"/>
+    <outline text="The Fediverse Report" type="rss" xmlUrl="https://fediversereport.com/feed" htmlUrl="https://fediversereport.com"/>
     <outline text="The HTML Review" type="rss" xmlUrl="https://thehtml.review/rss.xml" htmlUrl="https://thehtml.review"/>
     <outline text="The Perry Bible Fellowship" type="rss" xmlUrl="https://pbfcomics.com/feed" htmlUrl="https://pbfcomics.com"/>
     <outline text="The Pudding" type="rss" xmlUrl="https://pudding.cool/rss.xml" htmlUrl="https://pudding.cool"/>
@@ -234,7 +230,6 @@
     <outline text="marginalia.nu" type="rss" xmlUrl="https://www.marginalia.nu/log/index.xml" htmlUrl="https://www.marginalia.nu/log"/>
     <outline text="p2panda" type="rss" xmlUrl="https://p2panda.org/feed.xml" htmlUrl="https://p2panda.org"/>
     <outline text="plasticbag.org by Tom Coates" type="rss" xmlUrl="http://plasticbag.org/feed" htmlUrl="http://plasticbag.org"/>
-    <outline text="raocow" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCjM-Wd2651MWgo0s5yNQRJA" htmlUrl="https://www.youtube.com/channel/UCjM-Wd2651MWgo0s5yNQRJA/videos"/>
     <outline text="so I bought a pinball machine" type="rss" xmlUrl="http://pinballnovice.blogspot.com/feeds/posts/default" htmlUrl="http://pinballnovice.blogspot.com"/>
     <outline text="sometimes.digital - personal website" type="rss" xmlUrl="https://sometimes.digital/feed.xml" htmlUrl="https://sometimes.digital/feed.xml"/>
     <outline text="streets.mn" type="rss" xmlUrl="https://streets.mn/feed" htmlUrl="https://streets.mn"/>
