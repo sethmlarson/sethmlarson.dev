@@ -2,10 +2,13 @@
 
 What is the character encoding for Animal Crossing?
 [This page](https://nookipedia.com/wiki/Secret_code/Generator) details all the characters that are allowed for player
-names and town names in the NTSC edition of Animal Crossing for the GameCube.
+names, town names, and passwords in Animal Crossing for the GameCube. A much larger
+character set was used for writing mail and communication.
 
-Each character was internally represented as a value between `0x00` and `0xFF`.
+Each character was internally represented as a value between `0x00` and `0xFF`
+which is the same size as ASCII, thus me naming this encoding “Animal CrosSCII”.
 The characters between `0xD5` and `0xDE` are only used in the EU version. `0xDF` to `0xFF` are unused.
+
 The names of the characters (and descriptions when ambiguous) were sourced from the [Animal Crossing decompilation project](https://github.com/ACreTeam/ac-decomp/blob/da0c91fd94282e5fa8999a2f5ace5304f2d95288/include/m_font.h#L14).
 I've mapped each character to the best of my ability back to Unicode
 and collected them in a table below:
