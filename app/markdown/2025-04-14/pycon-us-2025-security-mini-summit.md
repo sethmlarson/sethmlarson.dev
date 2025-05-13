@@ -1,4 +1,32 @@
-# Join the PyCon US 2025 Security Mini-Track! 🐍🛡️
+# Security events at PyCon US 2025! 🐍🛡️
+
+There's many security-related talks, open spaces, and meetups at PyCon US 2025 in Pittsburgh, PA. Don't miss out:
+
+* [Alpha-Omega and PSF engagement year-in-review](#alpha-omega-and-psf-engagement-year-in-review)
+* [Meet the Developer's-in-Residence](#meet-the-developers-in-residence)
+* [Supply-Chain Security Mini-Track](#supply-chain-security-mini-track)
+* [Security-related Talks](#security-related-talks)
+
+## Alpha-Omega and PSF engagement year-in-review
+
+Alpha-Omega sponsors tons of security work at the Python Software Foundation
+and in the Python ecosystem. This [talk is an update for Alpha-Omega's
+engagement with the Python Software Foundation](https://us.pycon.org/2025/schedule/presentation/153/).
+The talk happens on Thursday before the main conference, so if you're not able
+to make it you can read the PSF's update in the [Alpha-Omega 2024 Annual Report](https://alpha-omega.dev/wp-content/uploads/sites/22/2025/01/Alpha-Omega-Annual-Report-2024_012925.pdf).
+
+## Meet the Developers-in-Residence
+
+During the opening reception the Python Software Foundation booth is hosting
+a "[Meet the Developers-in-Residence](https://www.python.org/psf/developersinresidence/)" meet-and-greet session at the Python Software
+Foundation booth in the Expo Hall. This is a
+great chance to introduce yourself, ask questions about our work,
+and find out what we're all focusing on in 2025 and beyond.
+
+Seth Larson, Mike Fiedler, and Łukasz Langa will be the
+attending Developers-in-Residence.
+
+## Supply-Chain Security Mini-Track
 
 Did you know that I'm co-organizing an [open source supply-chain security mini-track](https://us.pycon.org/2025/events/open-spaces/#:~:text=Supply-Chain%20Security)
 with [Dustin Ingram](https://dustingram.com) during PyCon US 2025 open spaces? This mini-track is for both
@@ -28,8 +56,6 @@ post on <a href="https://mastodonshare.com/?text=I%27m%20attending%20the%20Suppl
 </div>
 </div>
 
-## Talks and Discussions
-
 The format will be a list of short talks followed by audience discussion.
 The planned topics are:
 
@@ -42,9 +68,15 @@ which will be submitted closer to the mini-track.
 Unfortunately the talks won't be recorded but a write-up will
 be produced with some notes about the event and discussions.
 
+If you have questions you can reach out to the mini-track organizers via email:
+<a href="mailto:seth@python.org">seth@python.org</a> and <a href="di@python.org">di@python.org</a>.
+
+## Security-related Talks
+
 In addition to the Security Mini-Track, there are many security-focused topics
 and talks being presented at PyCon US 2025 and the Maintainers Summit:
 
+* "[Reviewing another year of Alpha-Omega and the PSF](https://us.pycon.org/2025/schedule/presentation/153/)" by Michael Winser, Seth Larson, and Mike Fiedler (Sponsor Presentation) 
 * "[So you have a security vulnerability, what now?](https://us.pycon.org/2025/events/maintainers-summit/)" by Dan Shernicoff (Maintainers Summit)
 * "[Safeguard your FastAPI API endpoints with OAuth](https://us.pycon.org/2025/schedule/presentation/88/)" by Semona Igama
 * "[Tips and Tricks for JSON Web Tokens (JWTs)](https://us.pycon.org/2025/schedule/presentation/91/)" by Emin Martinian
@@ -53,5 +85,4 @@ and talks being presented at PyCon US 2025 and the Maintainers Summit:
 * "[Living in a Passwordless world](https://us.pycon.org/2025/schedule/presentation/97/)" by Steve Yonkeu
 * "[Phantom Dependencies: is your requirements.txt haunted?](https://us.pycon.org/2025/schedule/presentation/14/)" by Seth Larson
 
-If you have questions you can reach out to the mini-track organizers via email:
-<a href="mailto:seth@python.org">seth@python.org</a> and <a href="di@python.org">di@python.org</a>.
+If you miss any of the talks you can [watch them online once available on YouTube](https://www.youtube.com/@PyConUS).
