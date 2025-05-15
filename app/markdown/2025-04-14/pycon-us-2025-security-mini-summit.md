@@ -10,7 +10,7 @@ There's many security-related talks, open spaces, and meetups at [PyCon US 2025]
 | [Safeguard your FastAPI API endpoints with OAuth](https://us.pycon.org/2025/schedule/presentation/88/)                                                       | Friday, 2:00PM    | Hall C               |
 | [So you have a security vulnerability, what now?](https://us.pycon.org/2025/events/maintainers-summit/)                                                      | Friday, 2:30PM    | Room 402             |
 | [Tips and Tricks for JSON Web Tokens (JWTs)](https://us.pycon.org/2025/schedule/presentation/91/)                                                            | Friday 2:45PM     | Hall C               |
-| [Supply-Chain Security Mini-Track](#supply-chain-security-mini-track)                                                                                        | Saturday, 10:30AM | TBD                  |
+| [Supply-Chain Security Mini-Track](#supply-chain-security-mini-track)                                                                                        | Saturday, 10:30AM | Room 321             |
 | [Rust + Python: Poder Ilimitado: Introduccion a PyO3](https://us.pycon.org/2025/schedule/presentation/109/)                                                  | Saturday 2:30PM   | Room 310/311         |
 | [Attestations: a new generation of signatures for PyPI](https://us.pycon.org/2025/schedule/presentation/76/)                                                 | Saturday 3:15PM   | Ballroom A           |
 | [Phantom Dependencies: is your requirements.txt haunted?](https://us.pycon.org/2025/schedule/presentation/14/)                                               | Sunday 1:45PM     | Ballroom BC          |
