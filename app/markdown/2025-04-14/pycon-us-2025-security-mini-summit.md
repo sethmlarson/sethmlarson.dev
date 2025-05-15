@@ -1,12 +1,19 @@
-# Security events at PyCon US 2025! 🐍🛡️
+# Everything Security at PyCon US 2025 🐍🛡️
 
 There's many security-related talks, open spaces, and meetups at [PyCon US 2025](https://us.pycon.org/2025/) in Pittsburgh, Pennsylvania.
 
-* [Alpha-Omega and PSF engagement year-in-review](#alpha-omega-and-psf-engagement-year-in-review) (Thursday, )
-* [Meet the PSF Developer's-in-Residence](#meet-the-psf-developers-in-residence)
-* [AWS "Meet the Security Experts"](#aws-meet-the-security-experts)
-* [Supply-Chain Security Mini-Track](#supply-chain-security-mini-track)
-* [Security-related Talks](#security-related-talks)
+| Event                                                                                                                                                        | When?             | Where?               |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|----------------------|
+| [Alpha-Omega and PSF engagement year-in-review](#alpha-omega-and-psf-engagement-year-in-review)                                                              | Thursday 3:30PM   | Room 309             | 
+| [Meet the PSF Developer's-in-Residence](#meet-the-psf-developers-in-residence)                                                                               | Thursday 5:00PM   | PSF Booth, Expo Hall |
+| [AWS "Meet the Security Experts"](#aws-meet-the-security-experts)                                                                                            | Friday 12:00PM    | AWS Booth, Expo Hall |
+| [Safeguard your FastAPI API endpoints with OAuth](https://us.pycon.org/2025/schedule/presentation/88/)                                                       | Friday, 2:00PM    | Hall C               |
+| [So you have a security vulnerability, what now?](https://us.pycon.org/2025/events/maintainers-summit/)                                                      | Friday, 2:30PM    | Room 402             |
+| [Tips and Tricks for JSON Web Tokens (JWTs)](https://us.pycon.org/2025/schedule/presentation/91/)                                                            | Friday 2:45PM     | Hall C               |
+| [Supply-Chain Security Mini-Track](#supply-chain-security-mini-track)                                                                                        | Saturday, 10:30AM | TBD                  |
+| [Rust + Python: Poder Ilimitado: Introduccion a PyO3](https://us.pycon.org/2025/schedule/presentation/109/)                                                  | Saturday 2:30PM   | Room 310/311         |
+| [Attestations: a new generation of signatures for PyPI](https://us.pycon.org/2025/schedule/presentation/76/)                                                 | Saturday 3:15PM   | Ballroom A           |
+| [Phantom Dependencies: is your requirements.txt haunted?](https://us.pycon.org/2025/schedule/presentation/14/)                                               | Sunday 1:45PM     | Ballroom BC          |
 
 ## Alpha-Omega and PSF engagement year-in-review
 
@@ -79,19 +86,3 @@ be produced with some notes about the event and discussions.
 
 If you have questions you can reach out to the mini-track organizers via email:
 <a href="mailto:seth@python.org">seth@python.org</a> and <a href="di@python.org">di@python.org</a>.
-
-## Security-related Talks
-
-In addition to the Security Mini-Track, there are many security-focused topics
-and talks being presented at PyCon US 2025 and the Maintainers Summit:
-
-* "[Reviewing another year of Alpha-Omega and the PSF](https://us.pycon.org/2025/schedule/presentation/153/)" by Michael Winser, Seth Larson, and Mike Fiedler (Sponsor Presentation) 
-* "[So you have a security vulnerability, what now?](https://us.pycon.org/2025/events/maintainers-summit/)" by Dan Shernicoff (Maintainers Summit)
-* "[Safeguard your FastAPI API endpoints with OAuth](https://us.pycon.org/2025/schedule/presentation/88/)" by Semona Igama
-* "[Tips and Tricks for JSON Web Tokens (JWTs)](https://us.pycon.org/2025/schedule/presentation/91/)" by Emin Martinian
-* "[Rust + Python: Poder Ilimitado: Introduccion a PyO3](https://us.pycon.org/2025/schedule/presentation/109/)" by Daniel Hernández Méndez
-* "[Attestations: a new generation of signatures for PyPI](https://us.pycon.org/2025/schedule/presentation/76/)" by William Woodruff
-* "[Living in a Passwordless world](https://us.pycon.org/2025/schedule/presentation/97/)" by Steve Yonkeu
-* "[Phantom Dependencies: is your requirements.txt haunted?](https://us.pycon.org/2025/schedule/presentation/14/)" by Seth Larson
-
-If you miss any of the talks you can [watch them online once available on YouTube](https://www.youtube.com/@PyConUS).
