@@ -1,9 +1,10 @@
 # Security events at PyCon US 2025! 🐍🛡️
 
-There's many security-related talks, open spaces, and meetups at PyCon US 2025 in Pittsburgh, PA. Don't miss out:
+There's many security-related talks, open spaces, and meetups at [PyCon US 2025](https://us.pycon.org/2025/) in Pittsburgh, Pennsylvania.
 
-* [Alpha-Omega and PSF engagement year-in-review](#alpha-omega-and-psf-engagement-year-in-review)
-* [Meet the Developer's-in-Residence](#meet-the-developers-in-residence)
+* [Alpha-Omega and PSF engagement year-in-review](#alpha-omega-and-psf-engagement-year-in-review) (Thursday, )
+* [Meet the PSF Developer's-in-Residence](#meet-the-psf-developers-in-residence)
+* [AWS "Meet the Security Experts"](#aws-meet-the-security-experts)
 * [Supply-Chain Security Mini-Track](#supply-chain-security-mini-track)
 * [Security-related Talks](#security-related-talks)
 
