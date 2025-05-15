@@ -15,16 +15,24 @@ engagement with the Python Software Foundation](https://us.pycon.org/2025/schedu
 The talk happens on Thursday before the main conference, so if you're not able
 to make it you can read the PSF's update in the [Alpha-Omega 2024 Annual Report](https://alpha-omega.dev/wp-content/uploads/sites/22/2025/01/Alpha-Omega-Annual-Report-2024_012925.pdf).
 
-## Meet the Developers-in-Residence
+## Meet the PSF Developers-in-Residence
 
-During the opening reception the Python Software Foundation booth is hosting
-a "[Meet the Developers-in-Residence](https://www.python.org/psf/developersinresidence/)" meet-and-greet session at the Python Software
+During the opening reception the Python Software Foundation (PSF) booth is hosting
+a "[Meet the Developers-in-Residence](https://www.python.org/psf/developersinresidence/)"
+meet-and-greet session at the Python Software
 Foundation booth in the Expo Hall. This is a
 great chance to introduce yourself, ask questions about our work,
 and find out what we're all focusing on in 2025 and beyond.
 
 Seth Larson, Mike Fiedler, and Łukasz Langa will be the
 attending Developers-in-Residence.
+
+## AWS "Meet the Security Experts"
+
+After the Friday morning keynote Seth Larson, Mike Fiedler, and Alpha-Omega's
+Michael Winser will be hosting a "Meet the Security Experts" session at the AWS booth
+in the expo hall from 12:00-1:00PM. Introduce yourself, ask questions about
+open source security, and hear what's coming next.
 
 ## Supply-Chain Security Mini-Track
 
