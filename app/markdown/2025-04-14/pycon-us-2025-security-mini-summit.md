@@ -34,9 +34,9 @@ best-practices and news.
 <div class="row">
 <div class="col-6 col-sm-12">
 <p>
-<strong>When?</strong> Saturday, May 17th 2025, 10:30AM to 12:30PM<br>
-<strong>Where?</strong> David L. Lawrence Convention Center. <a href="https://www.pittsburghcc.com">1000 Fort Duquesne Blvd, Pittsburgh, PA 15222</a><br>
-<strong>Room #?</strong>: TBD, check Open Spaces info at the conference<br>
+<strong>When</strong>: Saturday, May 17th 2025, 10:30AM to 12:30PM<br>
+<strong>Where</strong>: David L. Lawrence Convention Center. <a href="https://www.pittsburghcc.com">1000 Fort Duquesne Blvd, Pittsburgh, PA 15222</a><br>
+<strong>Room #</strong>: 321<br>
 </p>
 <p>The event is co-located within the <nobr>PyCon US 2025</nobr> conference, <a href="https://us.pycon.org/2025/attend/information/">registration for
 <nobr>PyCon US 2025</nobr></a> is required to attend.</p>
