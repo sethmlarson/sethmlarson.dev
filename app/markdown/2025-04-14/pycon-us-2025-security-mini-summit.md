@@ -31,6 +31,9 @@ short talks and discussions. Come meet your fellow Pythonistas that
 are interested in security and learn from experts about the latest
 best-practices and news.
 
+We are accepting lightning talks (5 minutes max, any security topic, slides optional).
+[Submit your proposal to this form](https://forms.gle/B3HanjcJHvC5ToFh6).
+
 <div class="row">
 <div class="col-6 col-sm-12">
 <p>
