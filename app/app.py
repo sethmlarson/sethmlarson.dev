@@ -349,6 +349,11 @@ def redirect_to_new_slug1():
     )
 
 
+@app.route("/supplychain")
+def supplychain_google_meet():
+    return redirect("https://meet.google.com/mxn-ouhp-jkh")
+
+
 @app.route("/<string:blog_post>", methods=["GET"])
 @cache_for(long_cache_time)
 def get_blog_post(blog_post: str):
