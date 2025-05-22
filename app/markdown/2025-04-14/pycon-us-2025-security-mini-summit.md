@@ -4,6 +4,8 @@ There's many security-related talks, open spaces, and meetups at [PyCon US 2025]
 
 | Event                                                                                                          | When?             | Where?               |
 |----------------------------------------------------------------------------------------------------------------|-------------------|----------------------|
+| [Alpha-Omega and PSF engagement year-in-review](#alpha-omega-and-psf-engagement-year-in-review)                | Thursday 3:30PM   | Room 309             | 
+| [Meet the PSF Developer's-in-Residence](#meet-the-psf-developers-in-residence)                                 | Thursday 5:00PM   | PSF Booth, Expo Hall |
 | [AWS "Meet the Security Experts"](#aws-meet-the-security-experts)                                              | Friday 12:00PM    | AWS Booth, Expo Hall |
 | [Safeguard your FastAPI API endpoints with OAuth](https://us.pycon.org/2025/schedule/presentation/88/)         | Friday, 2:00PM    | Hall C               |
 | [So you have a security vulnerability, what now?](https://us.pycon.org/2025/events/maintainers-summit/)        | Friday, 2:30PM    | Room 402             |
@@ -12,8 +14,26 @@ There's many security-related talks, open spaces, and meetups at [PyCon US 2025]
 | [Rust + Python: Poder Ilimitado: Introduccion a PyO3](https://us.pycon.org/2025/schedule/presentation/109/)    | Saturday 2:30PM   | Room 310/311         |
 | [Attestations: a new generation of signatures for PyPI](https://us.pycon.org/2025/schedule/presentation/76/)   | Saturday 3:15PM   | Ballroom A           |
 | [Phantom Dependencies: is your requirements.txt haunted?](https://us.pycon.org/2025/schedule/presentation/14/) | Sunday 1:45PM     | Ballroom BC          |
-| [Alpha-Omega and PSF engagement year-in-review](#alpha-omega-and-psf-engagement-year-in-review) (done)         | Thursday 3:30PM   | Room 309             | 
-| [Meet the PSF Developer's-in-Residence](#meet-the-psf-developers-in-residence)               (done)            | Thursday 5:00PM   | PSF Booth, Expo Hall |
+
+## Alpha-Omega and PSF engagement year-in-review
+
+Alpha-Omega sponsors tons of security work at the Python Software Foundation
+and in the Python ecosystem. This [talk is an update for Alpha-Omega's
+engagement with the Python Software Foundation](https://us.pycon.org/2025/schedule/presentation/153/).
+The talk happens on Thursday before the main conference, so if you're not able
+to make it you can read the PSF's update in the [Alpha-Omega 2024 Annual Report](https://alpha-omega.dev/wp-content/uploads/sites/22/2025/01/Alpha-Omega-Annual-Report-2024_012925.pdf).
+
+## Meet the PSF Developers-in-Residence
+
+During the opening reception the Python Software Foundation (PSF) booth is hosting
+a "[Meet the Developers-in-Residence](https://www.python.org/psf/developersinresidence/)"
+meet-and-greet session at the Python Software
+Foundation booth in the Expo Hall. This is a
+great chance to introduce yourself, ask questions about our work,
+and find out what we're all focusing on in 2025 and beyond.
+
+Seth Larson, Mike Fiedler, and Łukasz Langa will be the
+attending Developers-in-Residence.
 
 ## AWS "Meet the Security Experts"
 
@@ -69,23 +89,3 @@ be produced with some notes about the event and discussions.
 
 If you have questions you can reach out to the mini-track organizers via email:
 <a href="mailto:seth@python.org">seth@python.org</a> and <a href="di@python.org">di@python.org</a>.
-
-## Alpha-Omega and PSF engagement year-in-review
-
-Alpha-Omega sponsors tons of security work at the Python Software Foundation
-and in the Python ecosystem. This [talk is an update for Alpha-Omega's
-engagement with the Python Software Foundation](https://us.pycon.org/2025/schedule/presentation/153/).
-The talk happens on Thursday before the main conference, so if you're not able
-to make it you can read the PSF's update in the [Alpha-Omega 2024 Annual Report](https://alpha-omega.dev/wp-content/uploads/sites/22/2025/01/Alpha-Omega-Annual-Report-2024_012925.pdf).
-
-## Meet the PSF Developers-in-Residence
-
-During the opening reception the Python Software Foundation (PSF) booth is hosting
-a "[Meet the Developers-in-Residence](https://www.python.org/psf/developersinresidence/)"
-meet-and-greet session at the Python Software
-Foundation booth in the Expo Hall. This is a
-great chance to introduce yourself, ask questions about our work,
-and find out what we're all focusing on in 2025 and beyond.
-
-Seth Larson, Mike Fiedler, and Łukasz Langa will be the
-attending Developers-in-Residence.
