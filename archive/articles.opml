@@ -8,6 +8,19 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“A love letter to old cars” by James Pumphrey" type="link" created="Thu, 29 May 2025 22:13:22 +0000" url="https://www.youtube.com/watch?v=HAf4BZwyBeo" category="Life"/>
+    <outline text="“Waffle House Cease &amp; Desist” by Jack LaFond" type="link" created="Wed, 28 May 2025 18:05:48 +0000" url="https://www.jack.bio/blog/wafflehouse" category="Life"/>
+    <outline text="“RetroAchievements”" type="link" created="Tue, 27 May 2025 19:56:07 +0000" url="https://retroachievements.org" category="Retro Gaming"/>
+    <outline text="“WavePhoenix: Open source of the WaveBird protocol” by James Smith" type="link" created="Mon, 26 May 2025 21:30:55 +0000" url="https://github.com/loopj/wavephoenix" category="Retro Gaming"/>
+    <outline text="“Learning PKI” by Ian Stapleton Cordasco" type="link" created="Mon, 26 May 2025 18:37:41 +0000" url="https://blog.ian.stapletoncordas.co/2025/05/learning-pki.html" category="Security"/>
+    <outline text="“Pikmin 2 save file format”" type="link" created="Fri, 23 May 2025 20:39:02 +0000" url="https://pikmintkb.com/wiki/Pikmin_2_save_file" category="Retro Gaming"/>
+    <outline text="“Am Dash”" type="link" created="Fri, 23 May 2025 14:12:39 +0000" url="https://www.theamdash.com" category="Toys and Art"/>
+    <outline text="“Yet Another Gamecube Documentation”" type="link" created="Fri, 23 May 2025 13:46:37 +0000" url="https://hitmen.c02.at/files/yagcd/yagcd/chap12.html" category="Retro Gaming"/>
+    <outline text="“Loaded dice and Settlers of Catan” by Mike Izbicki" type="link" created="Thu, 22 May 2025 20:55:52 +0000" url="https://izbicki.me/blog/how-to-cheat-at-settlers-of-catan-by-loading-the-dice-and-prove-it-with-p-values.html" category="Toys and Art"/>
+    <outline text="“The 'U' in '?utm=' means 'Urchin'” by Jan Schaumann" type="link" created="Wed, 21 May 2025 11:28:59 +0000" url="https://mstdn.social/@jschauma/114543264171179185" category="Software and OSS"/>
+    <outline text="“Shattering &quot;passkeys&quot; as a word” by Irenes" type="link" created="Tue, 13 May 2025 20:54:12 +0000" url="https://irenes.space/leaves/2025-05-10-shattering-passkeys" category="Security"/>
+    <outline text="“QR code not scanning? Let us help!”" type="link" created="Sun, 11 May 2025 13:54:05 +0000" url="https://www.humanqr.com/news/qr-code-not-scanning-well-try-to-help" category="Software and OSS"/>
+    <outline text="“Dotless domains”" type="link" created="Sun, 11 May 2025 02:58:14 +0000" url="https://lab.avl.la/dotless" category="Toys and Art"/>
     <outline text="“Growing corn versus solar energy is no contest” by Emma Bryce" type="link" created="Thu, 01 May 2025 13:55:31 +0000" url="https://www.anthropocenemagazine.org/2025/04/new-study-compares-growing-corn-for-energy-to-solar-production-its-no-contest" category="Life"/>
     <outline text="“Copying SQLite databases without indexes” by Alex Chan" type="link" created="Thu, 01 May 2025 13:27:13 +0000" url="https://alexwlchan.net/2025/copying-sqlite-databases" category="Software and OSS"/>
     <outline text="“Switch 2 Game-Key Cards are disheartening but inevitable”" type="link" created="Thu, 01 May 2025 13:25:05 +0000" url="https://www.videogameschronicle.com/news/game-preservationists-say-switch-2-game-key-cards-are-disheartening-but-inevitable" category="Retro Gaming"/>

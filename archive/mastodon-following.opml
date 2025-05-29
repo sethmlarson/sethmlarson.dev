@@ -17,7 +17,6 @@
     <outline text="EWDurbin@mastodon.social" type="link" url="https://mastodon.social/@EWDurbin"/>
     <outline text="EvilDMP@mastodon.online" type="link" url="https://mastodon.online/@EvilDMP"/>
     <outline text="Foodiesalibi@pixelfed.social" type="link" url="https://pixelfed.social/Foodiesalibi"/>
-    <outline text="FrankenGraphics@mastodon.art" type="link" url="https://mastodon.art/@FrankenGraphics"/>
     <outline text="GameArtArchive@mastodon.social" type="link" url="https://mastodon.social/@GameArtArchive"/>
     <outline text="Goodly@mastodon.gamedev.place" type="link" url="https://mastodon.gamedev.place/@Goodly"/>
     <outline text="Inoreader@mastodon.social" type="link" url="https://mastodon.social/@Inoreader"/>
@@ -43,6 +42,7 @@
     <outline text="a@lawngno.me" type="link" url="https://fedi.lawngno.me/@a"/>
     <outline text="abbycabs@hachyderm.io" type="link" url="https://hachyderm.io/@abbycabs"/>
     <outline text="aclark@mastodon.social" type="link" url="https://mastodon.social/@aclark"/>
+    <outline text="acollierastro@mastodon.social" type="link" url="https://mastodon.social/@acollierastro"/>
     <outline text="adamchainz" type="link" url="https://fosstodon.org/@adamchainz"/>
     <outline text="aleksandrasamulenkova@pixelfed.social" type="link" url="https://pixelfed.social/aleksandrasamulenkova"/>
     <outline text="alex@dair-community.social" type="link" url="https://dair-community.social/@alex"/>
@@ -119,6 +119,7 @@
     <outline text="ehmatthes" type="link" url="https://fosstodon.org/@ehmatthes"/>
     <outline text="eieio@mastodon.gamedev.place" type="link" url="https://mastodon.gamedev.place/@eieio"/>
     <outline text="ejodlowska@infosec.exchange" type="link" url="https://infosec.exchange/@ejodlowska"/>
+    <outline text="elthenerd" type="link" url="https://fosstodon.org/@elthenerd"/>
     <outline text="emilyyoung@tech.lgbt" type="link" url="https://tech.lgbt/@emilyyoung"/>
     <outline text="emmatyping@hachyderm.io" type="link" url="https://hachyderm.io/@emmatyping"/>
     <outline text="encukou@mastodon.social" type="link" url="https://mastodon.social/@encukou"/>
@@ -164,6 +165,7 @@
     <outline text="hajoslyn@hachyderm.io" type="link" url="https://hachyderm.io/@hajoslyn"/>
     <outline text="halbecaf@mastodon.social" type="link" url="https://mastodon.social/@halbecaf"/>
     <outline text="hasanramezani" type="link" url="https://fosstodon.org/@hasanramezani"/>
+    <outline text="haubles@hachyderm.io" type="link" url="https://hachyderm.io/@haubles"/>
     <outline text="havocp@mastodon.social" type="link" url="https://mastodon.social/@havocp"/>
     <outline text="hawkes@infosec.exchange" type="link" url="https://infosec.exchange/@hawkes"/>
     <outline text="henry@front-end.social" type="link" url="https://front-end.social/@henry"/>
@@ -206,7 +208,6 @@
     <outline text="juliaferraioli@floss.social" type="link" url="https://floss.social/@juliaferraioli"/>
     <outline text="justin@ramble.space" type="link" url="https://ramble.space/@justin"/>
     <outline text="justvanrossum@typo.social" type="link" url="https://typo.social/@justvanrossum"/>
-    <outline text="karlbode.com@bsky.brid.gy" type="link" url="https://bsky.brid.gy/r/https://bsky.app/profile/karlbode.com"/>
     <outline text="karo@floss.social" type="link" url="https://floss.social/@karo"/>
     <outline text="katemorley@hachyderm.io" type="link" url="https://hachyderm.io/@katemorley"/>
     <outline text="kautumn06" type="link" url="https://fosstodon.org/@kautumn06"/>
@@ -253,12 +254,12 @@
     <outline text="msp@midwest.social" type="link" url="https://midwest.social/c/msp"/>
     <outline text="mystmarkdown" type="link" url="https://fosstodon.org/@mystmarkdown"/>
     <outline text="nanjekyejoannah@mathstodon.xyz" type="link" url="https://mathstodon.xyz/@nanjekyejoannah"/>
-    <outline text="naomiceder@mastodon.art" type="link" url="https://mastodon.art/@naomiceder"/>
     <outline text="nateprewitt" type="link" url="https://fosstodon.org/@nateprewitt"/>
     <outline text="nathaniel@indieweb.social" type="link" url="https://indieweb.social/@nathaniel"/>
     <outline text="nedbat@hachyderm.io" type="link" url="https://hachyderm.io/@nedbat"/>
     <outline text="nessita" type="link" url="https://fosstodon.org/@nessita"/>
     <outline text="nicoddemus@mastodon.social" type="link" url="https://mastodon.social/@nicoddemus"/>
+    <outline text="nicole@oldbytes.space" type="link" url="https://oldbytes.space/@nicole"/>
     <outline text="nigel@soundbyte.social" type="link" url="https://soundbyte.social/@nigel"/>
     <outline text="njs@mastodon.social" type="link" url="https://mastodon.social/@njs"/>
     <outline text="nlnetlabs" type="link" url="https://fosstodon.org/@nlnetlabs"/>
@@ -318,6 +319,7 @@
     <outline text="samueloph@mastodon.social" type="link" url="https://mastodon.social/@samueloph"/>
     <outline text="sarah_edo@hachyderm.io" type="link" url="https://hachyderm.io/@sarah_edo"/>
     <outline text="sarahboyce@mastodon.social" type="link" url="https://mastodon.social/@sarahboyce"/>
+    <outline text="scunning@metalhead.club" type="link" url="https://metalhead.club/@scunning"/>
     <outline text="seaotta@toot.cafe" type="link" url="https://toot.cafe/@seaotta"/>
     <outline text="segacity@mastodon.social" type="link" url="https://mastodon.social/@segacity"/>
     <outline text="segiddins@hachyderm.io" type="link" url="https://hachyderm.io/@segiddins"/>
@@ -362,6 +364,7 @@
     <outline text="tyrel@mastodon.social" type="link" url="https://mastodon.social/@tyrel"/>
     <outline text="uranusjr@g0v.social" type="link" url="https://g0v.social/@uranusjr"/>
     <outline text="vagrantc@floss.social" type="link" url="https://floss.social/@vagrantc"/>
+    <outline text="veldakiara@mastodon.social" type="link" url="https://mastodon.social/@veldakiara"/>
     <outline text="venthur@mastodon.social" type="link" url="https://mastodon.social/@venthur"/>
     <outline text="vicki@jawns.club" type="link" url="https://jawns.club/@vicki"/>
     <outline text="vmbrasseur@social.vmbrasseur.com" type="link" url="https://social.vmbrasseur.com/@vmbrasseur"/>

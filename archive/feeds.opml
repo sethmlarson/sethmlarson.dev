@@ -48,6 +48,7 @@
     <outline text="Cassidy Williams" type="rss" xmlUrl="https://blog.cassidoo.co/rss.xml" htmlUrl="https://blog.cassidoo.co"/>
     <outline text="Change, Technically" type="rss" xmlUrl="https://feeds.buzzsprout.com/2396236.rss" htmlUrl="https://www.changetechnically.fyi"/>
     <outline text="Changeset" type="rss" xmlUrl="https://buttondown.email/Changeset/rss" htmlUrl="https://buttondown.email/Changeset"/>
+    <outline text="Chris Siebenmann" type="rss" xmlUrl="https://utcc.utoronto.ca/~cks/space/blog/?atom" htmlUrl="https://utcc.utoronto.ca/~cks/space/blog"/>
     <outline text="Colin Devroe" type="rss" xmlUrl="https://cdevroe.com/feed" htmlUrl="https://cdevroe.com/blog"/>
     <outline text="Computer Graphics &amp; Programming with Pekka Väänänen - 30fps.net" type="rss" xmlUrl="https://30fps.net/atom.xml" htmlUrl="https://30fps.net"/>
     <outline text="Cory Doctorow" type="rss" xmlUrl="https://pluralistic.net/feed" htmlUrl="https://pluralistic.net"/>
@@ -77,6 +78,7 @@
     <outline text="Frederik Braun" type="rss" xmlUrl="https://frederikbraun.de/feeds/all.atom.xml" htmlUrl="https://frederikbraun.de"/>
     <outline text="GOTO 10" type="rss" xmlUrl="https://www.goto10retro.com/feed" htmlUrl="https://www.goto10retro.com"/>
     <outline text="Game Garage" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCohhR4cYWHl4wJdkyelbJHg" htmlUrl="https://www.youtube.com/channel/UCohhR4cYWHl4wJdkyelbJHg"/>
+    <outline text="Georgi Ker" type="rss" xmlUrl="https://georgiker.com/blog/index.xml" htmlUrl="https://georgiker.com/blog"/>
     <outline text="Gered King" type="rss" xmlUrl="http://www.blarg.ca/rss" htmlUrl="https://blarg.ca"/>
     <outline text="Ghidra Ninja" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC3S8vxwRfqLBdIhgRlDRVzw" htmlUrl="https://www.youtube.com/channel/UC3S8vxwRfqLBdIhgRlDRVzw"/>
     <outline text="GingerOfMods" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDfr25a1fzOgWZFwvIIRuHg" htmlUrl="https://www.youtube.com/channel/UCDfr25a1fzOgWZFwvIIRuHg"/>
@@ -86,6 +88,7 @@
     <outline text="Guido van Rossum" type="rss" xmlUrl="https://neopythonic.blogspot.com/feeds/posts/default" htmlUrl="https://neopythonic.blogspot.com"/>
     <outline text="HTMHell" type="rss" xmlUrl="https://www.htmhell.dev/feed.xml" htmlUrl="http://htmhell.dev"/>
     <outline text="Hank Green" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCOT2iLov0V7Re7ku_3UBtcQ" htmlUrl="https://www.youtube.com/channel/UCOT2iLov0V7Re7ku_3UBtcQ/videos"/>
+    <outline text="Hannah Aubry" type="rss" xmlUrl="https://hannahaubry.online/feed" htmlUrl="https://hannahaubry.online"/>
     <outline text="Haterade" type="rss" xmlUrl="https://haterade.substack.com/feed" htmlUrl="https://haterade.substack.com"/>
     <outline text="Henry Desroches" type="rss" xmlUrl="https://henry.codes/rss/writing.xml" htmlUrl="https://henry.codes"/>
     <outline text="Henry Desroches blogroll" type="rss" xmlUrl="https://henry.codes/rss/reading-list.xml" htmlUrl="https://henry.codes"/>
@@ -151,6 +154,7 @@
     <outline text="Natalie the Nerd" type="rss" xmlUrl="https://nataliethenerd.com/blogs/news.atom" htmlUrl="https://nataliethenerd.com/blogs/news"/>
     <outline text="Nathaniel J. Smith" type="rss" xmlUrl="https://vorpus.org/blog/feeds/atom.xml" htmlUrl="https://vorpus.org/blog"/>
     <outline text="Ned Batchelder" type="rss" xmlUrl="https://nedbatchelder.com/blog/rss.xml" htmlUrl="https://nedbatchelder.com/blog"/>
+    <outline text="Nicole Express" type="rss" xmlUrl="https://nicole.express/feed.xml" htmlUrl="https://nicole.express"/>
     <outline text="Nintendo Collecting" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCkMlE43OUrn7S1HKnk2-HzA" htmlUrl="http://www.youtube.com/user/lithium017"/>
     <outline text="Nintendo Forecast" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCU9jRARYgFplM9_u8yTFkHA" htmlUrl="https://www.youtube.com/channel/UCU9jRARYgFplM9_u8yTFkHA"/>
     <outline text="Open Path by Chad Whitacre" type="rss" xmlUrl="https://openpath.quest/feed.xml" htmlUrl="https://openpath.quest"/>
