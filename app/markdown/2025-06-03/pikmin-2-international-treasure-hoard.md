@@ -25,7 +25,7 @@ for when I collected the treasure. So far I have 63/242 treasures collected (26%
 as I collect more treasure (when playing on real GameCube hardware).
 
 If you're on mobile I recommend scrolling left and right on the table
-to see all the values.
+to see all the columns.
 
 <table><thead><th></th><th>Treasure</th><th>Regions</th><th>Location</th><th>Collected</th></thead>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/8/81/Spiny_Alien_Treat_icon.png"/></td><td>Spiny Alien Treat</td><td></td><td>Valley of Repose</td><td style="font-variant-numeric: tabular-nums"></td></tr>
