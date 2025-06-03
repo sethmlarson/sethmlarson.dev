@@ -60,6 +60,8 @@ favorite_posts = {
     "slop-security-reports",
     "building-software-for-connection-local-first",
     "i-fear-for-the-unauthenticated-web",
+    "animal-crossci",
+    "pikmin-2-international-treasure-hoard",
 }
 hide_posts = {
     "hi-chew",

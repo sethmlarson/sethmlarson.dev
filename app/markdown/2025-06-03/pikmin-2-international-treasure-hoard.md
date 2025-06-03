@@ -6,7 +6,7 @@
 One of the most distinguishing features of the treasures
 is that they sometimes use real-life brands like <a href="https://www.pikminwiki.com/Courage_Reactor">Duracell</a>
 and <a href="https://www.pikminwiki.com/Drought_Ender">Dr. Pepper</a>.</p>
-<p>The game had <a href="https://www.pikminwiki.com/List_of_Pikmin_2_treasures">three distinct treasure hoards</a> each with
+<p>Pikmin 2 has <a href="https://www.pikminwiki.com/List_of_Pikmin_2_treasures">three distinct regional treasure hoards</a>, each with
 unique treasures: US, JP, and PAL. I've only personally
 played the US version of the game, but I'd like to
 try collecting all 242 unique treasures across all three regions.</p>
@@ -21,8 +21,11 @@ try collecting all 242 unique treasures across all three regions.</p>
 </div>
 
 You can see my current progress below highlighted in green with timestamps
-for when I collected the treasure. So far I have 52/242 treasures collected (21%). This table is [automatically generated](#generating-the-above-table)
+for when I collected the treasure. So far I have 63/242 treasures collected (26%). This table is [automatically generated](#generating-the-above-table)
 as I collect more treasure (when playing on real GameCube hardware).
+
+If you're on mobile I recommend scrolling left and right on the table
+to see all the values.
 
 <table><thead><th></th><th>Treasure</th><th>Regions</th><th>Location</th><th>Collected</th></thead>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/8/81/Spiny_Alien_Treat_icon.png"/></td><td>Spiny Alien Treat</td><td></td><td>Valley of Repose</td><td style="font-variant-numeric: tabular-nums"></td></tr>
@@ -60,7 +63,7 @@ as I collect more treasure (when playing on real GameCube hardware).
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/c/c5/Impediment_Scourge_icon.png"/></td><td>Impediment Scourge</td><td>PAL, US</td><td>Perplexing Pool</td><td style="font-variant-numeric: tabular-nums">Jun 01, 2025 13:30:54</td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/1/1b/Massage_Girdle_icon.png"/></td><td>Massage Girdle</td><td></td><td>Perplexing Pool</td><td style="font-variant-numeric: tabular-nums"></td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/5/51/Aquatic_Mine_icon.png"/></td><td>Aquatic Mine</td><td></td><td>Perplexing Pool</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/8/80/Optical_Illustration_icon.png"/></td><td>Optical Illustration</td><td>US</td><td>Perplexing Pool</td><td style="font-variant-numeric: tabular-nums"></td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/8/80/Optical_Illustration_icon.png"/></td><td>Optical Illustration</td><td>US</td><td>Perplexing Pool</td><td style="font-variant-numeric: tabular-nums">Jun 02, 2025 22:34:24</td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/b/bb/Gherkin_Gate_icon.png"/></td><td>Gherkin Gate</td><td>PAL, US</td><td>Perplexing Pool</td><td style="font-variant-numeric: tabular-nums"></td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/9/92/Love_Nugget_icon.png"/></td><td>Love Nugget</td><td></td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 01, 2025 13:33:15</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/e/e8/King_of_Sweets_icon.png"/></td><td>King of Sweets</td><td></td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 01, 2025 15:24:52</td></tr>
@@ -87,16 +90,16 @@ as I collect more treasure (when playing on real GameCube hardware).
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/a/a1/Massive_Lid_icon.png"/></td><td>Massive Lid</td><td>US</td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums"></td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/d/d3/Happiness_Emblem_US_icon.png"/></td><td>Happiness Emblem</td><td>US</td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums"></td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/0/05/Dream_Material_icon.png"/></td><td>Dream Material</td><td></td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/9/90/Anxious_Sprout_icon.png"/></td><td>Anxious Sprout</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/5/5b/Colossal_Fossil_icon.png"/></td><td>Colossal Fossil</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/d/d1/Olimarnite_Shell_icon.png"/></td><td>Olimarnite Shell</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/4/41/Crystal_King_icon.png"/></td><td>Crystal King</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/d/d6/Gyroid_Bust_icon.png"/></td><td>Gyroid Bust</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/c/c6/Unknown_Merit_icon.png"/></td><td>Unknown Merit</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/2/2a/Eternal_Emerald_Eye_icon.png"/></td><td>Eternal Emerald Eye</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/4/41/Tear_Stone_icon.png"/></td><td>Tear Stone</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/2/2e/Crystal_Clover_icon.png"/></td><td>Crystal Clover</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/a/aa/Forged_Courage_icon.png"/></td><td>Forged Courage</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums"></td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/9/90/Anxious_Sprout_icon.png"/></td><td>Anxious Sprout</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums">Jun 02, 2025 22:09:49</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/5/5b/Colossal_Fossil_icon.png"/></td><td>Colossal Fossil</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums">Jun 02, 2025 22:15:54</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/d/d1/Olimarnite_Shell_icon.png"/></td><td>Olimarnite Shell</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums">Jun 02, 2025 22:02:09</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/4/41/Crystal_King_icon.png"/></td><td>Crystal King</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums">Jun 02, 2025 22:07:30</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/d/d6/Gyroid_Bust_icon.png"/></td><td>Gyroid Bust</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums">Jun 02, 2025 22:20:43</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/c/c6/Unknown_Merit_icon.png"/></td><td>Unknown Merit</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums">Jun 02, 2025 22:07:30</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/2/2a/Eternal_Emerald_Eye_icon.png"/></td><td>Eternal Emerald Eye</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums">Jun 02, 2025 22:15:54</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/4/41/Tear_Stone_icon.png"/></td><td>Tear Stone</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums">Jun 02, 2025 22:00:05</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/2/2e/Crystal_Clover_icon.png"/></td><td>Crystal Clover</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums">Jun 02, 2025 21:57:59</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/a/aa/Forged_Courage_icon.png"/></td><td>Forged Courage</td><td></td><td>Bulblax Kingdom</td><td style="font-variant-numeric: tabular-nums">Jun 02, 2025 22:20:43</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/2/28/Cupid%27s_Grenade_TH_icon.png"/></td><td>Cupid's Grenade</td><td></td><td>Snagret Hole</td><td style="font-variant-numeric: tabular-nums">Jun 01, 2025 16:24:58</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/5/54/Combustion_Berry_icon.png"/></td><td>Combustion Berry</td><td></td><td>Snagret Hole</td><td style="font-variant-numeric: tabular-nums">Jun 01, 2025 16:13:52</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/c/c7/Science_Project_icon.png"/></td><td>Science Project</td><td></td><td>Snagret Hole</td><td style="font-variant-numeric: tabular-nums">Jun 01, 2025 16:55:19</td></tr>
@@ -274,6 +277,10 @@ as I collect more treasure (when playing on real GameCube hardware).
 The table is laid out in an approximate order for collection taking into account
 the region(s) the treasure is available in and the location in-game. I already own the US
 region copy of Pikmin 2, I've purchased a JP region copy from eBay, and the [PAL region is on my wishlist](https://www.pricecharting.com/game/pal-gamecube/pikmin-2).
+
+You can see that at a minimum to collect every treasure you need to complete
+the Dream Den (final cave of Pikmin 2) in both US and JP, but it's optional in
+PAL. This means it's probably optimal to leave PAL for last.
 
 The above treasure hoard was generated by copying the save data on my
 [Memcard Pro GC](https://www.8bitmods.wiki/memcard-pro-gc) regularly over time via FTP. The script to generate the table above
