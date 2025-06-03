@@ -1,17 +1,27 @@
 # Pikmin 2 International Treasure Hoard
 
-Pikmin 2 is a treasure collect-a-thon for the GameCube.
+<div class="row">
+<div class="col-6">
+<p>Pikmin 2 is a treasure collect-a-thon for the GameCube.
 One of the most distinguishing features of the treasures
-is that they sometimes use real-life brands like [Duracell](https://www.pikminwiki.com/Courage_Reactor)
-and [Dr. Pepper](https://www.pikminwiki.com/Drought_Ender).
-
-The game had [three distinct treasure hoards](https://www.pikminwiki.com/List_of_Pikmin_2_treasures) each with
+is that they sometimes use real-life brands like <a href="https://www.pikminwiki.com/Courage_Reactor">Duracell</a>
+and <a href="https://www.pikminwiki.com/Drought_Ender">Dr. Pepper</a>.</p>
+<p>The game had <a href="https://www.pikminwiki.com/List_of_Pikmin_2_treasures">three distinct treasure hoards</a> each with
 unique treasures: US, JP, and PAL. I've only personally
 played the US version of the game, but I'd like to
-try collecting all 242 unique treasures across all three regions.
+try collecting all 242 unique treasures across all three regions.</p>
+</div>
+<div class="col-6">
+<p>
+<center>
+<img style="border: 2px black solid;" src="https://pikmin.wiki.gallery/images/8/8b/P2_Nutrient_Silo_Treasure_Hoard.png?20240526152219"/>
+<br><small><i>'Nutrient Silo', aka Skippy Peanut Butter in Pikmin 2</i></small></center>
+</p>
+</div>
+</div>
 
 You can see my current progress below highlighted in green with timestamps
-for when I collected the treasure. This table is [automatically generated](#generating-the-above-table)
+for when I collected the treasure. So far I have 52/242 treasures collected (21%). This table is [automatically generated](#generating-the-above-table)
 as I collect more treasure (when playing on real GameCube hardware).
 
 <table><thead><th></th><th>Treasure</th><th>Regions</th><th>Location</th><th>Collected</th></thead>
