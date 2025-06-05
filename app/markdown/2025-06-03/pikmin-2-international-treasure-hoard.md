@@ -21,7 +21,7 @@ try collecting all <strong>242 unique treasures</strong> across all three region
 </div>
 
 You can see my current progress below highlighted in green with timestamps
-for when I collected the treasure. So far I have 97/242 treasures collected (40%). This table is [automatically generated](#generating-the-table)
+for when I collected the treasure. So far I have 98/242 treasures collected (40%). This table is [automatically generated](#generating-the-table)
 as I collect more treasure (when playing on real GameCube hardware).
 
 If you're on mobile I recommend scrolling left and right on the table
@@ -229,7 +229,7 @@ to see all the columns.
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/8/85/Comedy_Bomb_icon.png"/></td><td>Comedy Bomb</td><td></td><td>Dream Den</td><td style="font-variant-numeric: tabular-nums"></td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/a/a1/Monster_Pump_icon.png"/></td><td>Monster Pump</td><td></td><td>Dream Den</td><td style="font-variant-numeric: tabular-nums"></td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/0/05/King_of_Bugs_icon.png"/></td><td>King of Bugs</td><td></td><td>Dream Den</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/9/9c/Love_and_Courage_Reactor_icon.png"/></td><td>Love and Courage Reactor</td><td>JP</td><td>Valley of Repose</td><td style="font-variant-numeric: tabular-nums"></td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/9/9c/Love_and_Courage_Reactor_icon.png"/></td><td>Love and Courage Reactor</td><td>JP</td><td>Valley of Repose</td><td style="font-variant-numeric: tabular-nums">Jun 05, 2025 14:09:04</td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/a/ac/Paper_Slider_icon.png"/></td><td>Paper Slider</td><td>JP</td><td>White Flower Garden</td><td style="font-variant-numeric: tabular-nums"></td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/b/b9/Seat_of_Enlightenment_icon.png"/></td><td>Seat of Enlightenment</td><td>JP</td><td>Awakening Wood</td><td style="font-variant-numeric: tabular-nums"></td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/3/34/Lightning_Bolt_icon.png"/></td><td>Lightning Bolt</td><td>JP</td><td>Perplexing Pool</td><td style="font-variant-numeric: tabular-nums"></td></tr>
