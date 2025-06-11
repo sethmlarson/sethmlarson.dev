@@ -21,7 +21,7 @@ try collecting all <strong>242 unique treasures</strong> across all three region
 </div>
 
 You can see my current progress below highlighted in green with timestamps
-for when I collected the treasure. So far I have 98/242 treasures collected (40%). This table is [automatically generated](#generating-the-table)
+for when I collected the treasure. So far I have 106/242 treasures collected (43%). This table is [automatically generated](#generating-the-table)
 as I collect more treasure (when playing on real GameCube hardware).
 
 If you're on mobile I recommend scrolling left and right on the table
@@ -230,17 +230,17 @@ to see all the columns.
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/a/a1/Monster_Pump_icon.png"/></td><td>Monster Pump</td><td></td><td>Dream Den</td><td style="font-variant-numeric: tabular-nums"></td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/0/05/King_of_Bugs_icon.png"/></td><td>King of Bugs</td><td></td><td>Dream Den</td><td style="font-variant-numeric: tabular-nums"></td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/9/9c/Love_and_Courage_Reactor_icon.png"/></td><td>Love and Courage Reactor</td><td>JP</td><td>Valley of Repose</td><td style="font-variant-numeric: tabular-nums">Jun 05, 2025 14:09:04</td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/a/ac/Paper_Slider_icon.png"/></td><td>Paper Slider</td><td>JP</td><td>White Flower Garden</td><td style="font-variant-numeric: tabular-nums"></td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/a/ac/Paper_Slider_icon.png"/></td><td>Paper Slider</td><td>JP</td><td>White Flower Garden</td><td style="font-variant-numeric: tabular-nums">Jun 10, 2025 22:32:20</td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/b/b9/Seat_of_Enlightenment_icon.png"/></td><td>Seat of Enlightenment</td><td>JP</td><td>Awakening Wood</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/3/34/Lightning_Bolt_icon.png"/></td><td>Lightning Bolt</td><td>JP</td><td>Perplexing Pool</td><td style="font-variant-numeric: tabular-nums"></td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/3/34/Lightning_Bolt_icon.png"/></td><td>Lightning Bolt</td><td>JP</td><td>Perplexing Pool</td><td style="font-variant-numeric: tabular-nums">Jun 11, 2025 00:08:53</td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/c/cb/Yell_Battery_icon.png"/></td><td>Yell Battery</td><td>JP</td><td>Perplexing Pool</td><td style="font-variant-numeric: tabular-nums"></td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/b/b7/Idea_Assistant_icon.png"/></td><td>Idea Assistant</td><td>JP</td><td>Perplexing Pool</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/f/f8/Family_Raft_icon.png"/></td><td>Family Raft</td><td>JP</td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/2/21/Open_Architecture_icon.png"/></td><td>Open Architecture</td><td>JP, PAL</td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/b/b3/Milky_Team_icon.png"/></td><td>Milky Team</td><td>JP</td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/5/5b/Magical_Stage_icon.png"/></td><td>Magical Stage</td><td>JP, PAL</td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/7/7a/Milk_Lid_icon.png"/></td><td>Milk Lid</td><td>JP</td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums"></td></tr>
-<tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/9/98/Good_Old_Memories_icon.png"/></td><td>Good Old Memories</td><td>JP</td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums"></td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/f/f8/Family_Raft_icon.png"/></td><td>Family Raft</td><td>JP</td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 11, 2025 00:14:20</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/b/b3/Milky_Team_icon.png"/></td><td>Milky Team</td><td>JP</td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 11, 2025 00:14:20</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/2/21/Open_Architecture_icon.png"/></td><td>Open Architecture</td><td>JP, PAL</td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 11, 2025 00:20:55</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/7/7a/Milk_Lid_icon.png"/></td><td>Milk Lid</td><td>JP</td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums">Jun 10, 2025 23:46:30</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/9/98/Good_Old_Memories_icon.png"/></td><td>Good Old Memories</td><td>JP</td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums">Jun 10, 2025 23:56:55</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/5/5b/Magical_Stage_icon.png"/></td><td>Magical Stage</td><td>JP, PAL</td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums">Jun 11, 2025 00:01:16</td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/1/1d/Ultimate_Spinner_icon.png"/></td><td>Ultimate Spinner</td><td>JP</td><td>Snagret Hole</td><td style="font-variant-numeric: tabular-nums"></td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/b/b6/Coiny_The_Refined_icon.png"/></td><td>Coiny The Refined</td><td>JP</td><td>Snagret Hole</td><td style="font-variant-numeric: tabular-nums"></td></tr>
 <tr style="background-color: #ffffff"><td><img src="https://pikmin.wiki.gallery/images/2/25/Alternative_Reactor_icon.png"/></td><td>Alternative Reactor</td><td>JP</td><td>Subterranean Complex</td><td style="font-variant-numeric: tabular-nums"></td></tr>
