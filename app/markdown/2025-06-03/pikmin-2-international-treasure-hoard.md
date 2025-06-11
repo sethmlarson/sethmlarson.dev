@@ -21,12 +21,12 @@ try collecting all <strong>242 unique treasures</strong> across all three region
 </div>
 
 You can see my current progress below highlighted in green with timestamps
-for when I collected the treasure. So far I have 106/242 treasures collected (43%). This table is [automatically generated](#generating-the-table)
+for when I collected the treasure. So far I have 108/244 treasures collected (44%). This table is [automatically generated](#generating-the-table)
 as I collect more treasure (when playing on real GameCube hardware).
 
 If you're on mobile I recommend scrolling left and right on the table
 to see all the columns.
-
+ 
 <table><thead><th></th><th>Treasure</th><th>Regions</th><th>Location</th><th>Collected</th></thead>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/1/1b/Courage_Reactor_icon.png"/></td><td>Courage Reactor</td><td>PAL, US</td><td>Valley of Repose</td><td style="font-variant-numeric: tabular-nums">May 31, 2025 23:25:47</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/0/0b/Utter_Scrap_icon.png"/></td><td>Utter Scrap</td><td></td><td>Valley of Repose</td><td style="font-variant-numeric: tabular-nums">May 31, 2025 23:50:57</td></tr>
@@ -72,11 +72,11 @@ to see all the columns.
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/8/84/Memorial_Shell_icon.png"/></td><td>Memorial Shell</td><td></td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 01, 2025 15:19:49</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/5/5d/Patience_Tester_icon.png"/></td><td>Patience Tester</td><td>PAL, US</td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 01, 2025 15:19:49</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/e/e8/King_of_Sweets_icon.png"/></td><td>King of Sweets</td><td></td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 01, 2025 15:24:52</td></tr>
-<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/0/0b/Flame_of_Tomorrow_icon.png"/></td><td>Flame of Tomorrow</td><td></td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 01, 2025 15:24:52</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/0/0b/Flame_of_Tomorrow_icon.png"/></td><td>Flame of Tomorrow</td><td>PAL, US</td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 01, 2025 15:24:52</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/2/24/Time_Capsule_icon.png"/></td><td>Time Capsule</td><td></td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 01, 2025 15:24:52</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/e/e7/Regal_Diamond_icon.png"/></td><td>Regal Diamond</td><td></td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 01, 2025 15:32:40</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/7/7d/The_Key_icon.png"/></td><td>The Key</td><td></td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 01, 2025 15:32:40</td></tr>
-<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/b/b6/Master%27s_Instrument_icon.png"/></td><td>Master's Instrument</td><td></td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums">Jun 03, 2025 11:17:40</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/b/b6/Master%27s_Instrument_icon.png"/></td><td>Master's Instrument</td><td>PAL, US</td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums">Jun 03, 2025 11:17:40</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/a/a7/Imperative_Cookie_icon.png"/></td><td>Imperative Cookie</td><td></td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums">Jun 03, 2025 11:21:46</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/a/a1/Massive_Lid_icon.png"/></td><td>Massive Lid</td><td>US</td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums">Jun 03, 2025 11:21:46</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/1/1a/Harmonic_Synthesizer_icon.png"/></td><td>Harmonic Synthesizer</td><td></td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums">Jun 03, 2025 11:25:38</td></tr>
@@ -238,6 +238,8 @@ to see all the columns.
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/f/f8/Family_Raft_icon.png"/></td><td>Family Raft</td><td>JP</td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 11, 2025 00:14:20</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/b/b3/Milky_Team_icon.png"/></td><td>Milky Team</td><td>JP</td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 11, 2025 00:14:20</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/2/21/Open_Architecture_icon.png"/></td><td>Open Architecture</td><td>JP, PAL</td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 11, 2025 00:20:55</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/0/0b/Flame_of_Tomorrow_icon.png"/></td><td>Flame of Tomorrow</td><td>JP</td><td>Citadel of Spiders</td><td style="font-variant-numeric: tabular-nums">Jun 11, 2025 00:25:17</td></tr>
+<tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/b/b6/Master%27s_Instrument_icon.png"/></td><td>Master's Instrument</td><td>JP</td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums">Jun 10, 2025 23:40:28</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/7/7a/Milk_Lid_icon.png"/></td><td>Milk Lid</td><td>JP</td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums">Jun 10, 2025 23:46:30</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/9/98/Good_Old_Memories_icon.png"/></td><td>Good Old Memories</td><td>JP</td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums">Jun 10, 2025 23:56:55</td></tr>
 <tr style="background-color: #ddffdd"><td><img src="https://pikmin.wiki.gallery/images/5/5b/Magical_Stage_icon.png"/></td><td>Magical Stage</td><td>JP, PAL</td><td>Glutton's Kitchen</td><td style="font-variant-numeric: tabular-nums">Jun 11, 2025 00:01:16</td></tr>
@@ -287,3 +289,14 @@ The above treasure hoard was generated by copying the save data on my
 [Memcard Pro GC](https://www.8bitmods.wiki/memcard-pro-gc) regularly over time via FTP. The script to generate the table above
 from a directory of memory card dumps (`.raw` files)
 is [available on GitHub](https://gist.github.com/sethmlarson/6e83d8d0e4d6412ec8f9c27ec165fa51).
+
+## Updates
+
+(2025-06-11): The list of treasures on Pikmin wikis doesn't have the 
+complete information about uniqueness of models embedded into the tables.
+For example, the "Master's Instrument" and "Flame of Tomorrow" treasures
+have unique models for the Japan region but don't have their own row.
+Master's Instrument doesn't have a unique treasure hoard icon
+but "Flame of Tomorrow" does. I confirmed this by looking at [Models Resource](https://www.models-resource.com/gamecube/pikmin2/)
+and [Spriter's Resource](https://www.spriters-resource.com/gamecube/pikmin2/sheet/53416/)
+and will be on the look-out for more region-specific variants missing from the table.
