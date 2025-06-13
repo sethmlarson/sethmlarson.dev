@@ -302,5 +302,3 @@ have unique models for the Japan region but don't have their own row.
 but "Flame of Tomorrow" does. I confirmed this by looking at [Models Resource](https://www.models-resource.com/gamecube/pikmin2/)
 and [Spriter's Resource](https://www.spriters-resource.com/gamecube/pikmin2/sheet/53416/)
 and will be on the look-out for more region-specific variants missing from the table.
-
-(**2025-0)
