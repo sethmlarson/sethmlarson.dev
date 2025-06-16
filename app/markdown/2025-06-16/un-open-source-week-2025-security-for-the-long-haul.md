@@ -63,30 +63,27 @@ may not see themselves as security-sensitive.
   community by default.
 * New security features for project (source forge, package repository, accounts) are not enabled by default.
 * Fewer features for maintainers to work on to be excited, inspired, recognition.
-* Maintainers want to work on domain-specific code, not necessarily security.
+* Many contributors want to work on domain-specific code, not necessarily security.
 * Want to minimize effort keeping up-to-date with latest security practices / tools.
-* Planning for this moment ahead of when it happens.
 * Less energy to improve or change processes when a project
   is heading in the wrong direction.
 
 ## Low-Energy Security: Keeping the lights on
 
-There are four "keep-the-lights on" practices for low-energy security.
+There are three "keep-the-lights on" practices for low-energy security:
 
-* Finding energy (onboarding!)
+* Finding energy by onboarding new contributors
   * Fewer contributors interested based on new development
   * Need to find new sources of contributors: users, dependents, foundation/group
+  * "Working group" of projects sharing resources: Jazzband, Django-Commons, Flask-Eco
 * Vulnerability handling
-  * Time-sensitive, secret, isolating
+  * Time-sensitive, secret, work is isolating
   * Backwards compatibility
   * Release process
-* Security practices
-  * Tools, scanners, 
-  * New security features
-  * Can users handle this themselves? -> Let them!
-    * Backporting a security patch
-    * Pinning dependency to new minimum version
-    * 
+* Security best practices
+  * Tools, scanners, linters
+  * New security features (repository, package manager, accounts, email)
+  * Can users handle a request themselves? -> Let them!
 
 ## Onboarding new contributors
 
@@ -99,7 +96,7 @@ There are four "keep-the-lights on" practices for low-energy security.
   Gather and celebrate the good and bad.
 * Listen to yourself when processes don't match your energy level. Avoid burnout.
   If something is not working: fix it to maintain your energy long-term.
-* xz-utils: who do you trust? Volunteers can't be expected to filter out
+* xz-utils backdoor: who do you trust? Volunteers can't be expected to filter out
   patient, highly-resourced attackers.
 
 ```
