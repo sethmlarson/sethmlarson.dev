@@ -1,15 +1,14 @@
 # UN Open Source Week 2025: Security for the Long-Haul
 
-This presentation was given during the [United Nations Open Source Week](https://www.un.org/digital-emerging-technologies/content/open-source-week-2025) "Maintain-a-thon"
+This page was used during the [United Nations Open Source Week](https://www.un.org/digital-emerging-technologies/content/open-source-week-2025) "Maintain-a-thon"
 hosted by the [Sovereign Tech Agency](https://sovereign.tech) and [Alpha Omega](https://alpha-omega.dev). Thanks to both the Sovereign Tech Agency
 and Alpha Omega for supporting my attendance at this event and Alpha Omega for
 supporting security in the Python ecosystem.
 
-<p>
-<center>
-<img style="max-width: 100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcIAAAHCAQAAAABUY/ToAAAChUlEQVR4nO3aS26EMAyAYUtzAI7E1TkSB6iUgt8Epmq7bH8voMzkYzZW4jiV8cvYBIlEIpFIJPIPSfF4DVnHhxwfH7Hu/tnxeFzGHqNWJPIu9WHsLh0t+tf5WVzaYCRykrvkKEc2bFv0cj6e33qCIpHvpU5UOkrH2zuQyB9IqdD1MCO+RSLfSL1lztlcdn5h2WeV1NfrJ/KfS49eNd0vlZZI5Czn2CLndLxn3zQEiezS9nGWWrrYWTXuF0+8JVdLJPIuLXLF25YqnbQ4F6l2wTX7kEi/LyNL7cjDTLdjVMVUjSORkX2L3r0NEIV4yLH7KyMPkchZan5578ik80A+odnPIJF3WS1tH5/SmwSSGZmtbySySw/LPh9fs5X03uW8fiKRSmx62upEpL0ty2+r1ef1E4k0KdHX9lESNXhvCPQ2NxJ5lbfjWclHydaAVeNI5KOUqRfQGgJLtSjPtz2c1iKRFroARn8gJ69Iy+ENzHXMe0Ek0rLvDJ+3Ir/a7k3r8pQWSORVZjXeUE9BkTo5QSKfZNXbmn2S76hTklwU5x0dEmn3M5ZYCvuJyDSNzXU8Ehn3l/HYs/k7nLeGwIcgkQ+yksxXQYmhtqOr9tKIQCKvUrIQbw0BketS2IstJHKSdcRvO7o9z/nHiMdoEiCRz3K07Bt54m8o29xPe0Ek8hqSve6o0M9RS+WhCBL5IMUjGgIp4/Qtp7FRqYpEdqkPusRJHJXImsez1bbsqyUSeZGx+a+zkZqt7FsNJPIbUiPKqXZAUps+JPIrWcte/AOAPuZSOG6rIBI58mFEI1vyvMSyb9jQV/wCEnmXHtlA0rdZ+R1FVD+HQyJn+YtAIpFIJBKJ/CPyE4xxc4lzmop+AAAAAElFTkSuQmCC"/>
-<br><small><i>Use this QR code to share with your neighbors!</i></small>
-</center></p>
+This page contains the content from the break-out session
+I led during the "Maintain-a-thon" titled "Security for the Long-Haul".
+The format was quite loose and in-the-moment, so apologies for
+the extremely light amount of editing in this article.
 
 ## Why does long-haul security matter?
 
@@ -68,65 +67,6 @@ may not see themselves as security-sensitive.
 * Less energy to improve or change processes when a project
   is heading in the wrong direction.
 
-## Low-Energy Security: Keeping the lights on
-
-There are three "keep-the-lights on" practices for low-energy security:
-
-* Finding energy by onboarding new contributors
-  * Fewer contributors interested based on new development
-  * Need to find new sources of contributors: users, dependents, foundation/group
-  * "Working group" of projects sharing resources: Jazzband, Django-Commons, Flask-Eco
-* Vulnerability handling
-  * Time-sensitive, secret, work is isolating
-  * Backwards compatibility
-  * Release process
-* Security best practices
-  * Tools, scanners, linters
-  * New security features (repository, package manager, accounts, email)
-  * Can users handle a request themselves? -> Let them!
-
-## Onboarding new contributors
-
-* Community is important even when a project is feature-complete
-  or in "security-only" mode. Look inwards, up and down the dependency chain,
-  or for security-focused contributors in your ecosystem.
-* Contributors guide, make the status of the project clear.
-* You are not alone in security work: ask for help!
-* Recognition is the currency of open source volunteerism.
-  Gather and celebrate the good and bad.
-* Listen to yourself when processes don't match your energy level. Avoid burnout.
-  If something is not working: fix it to maintain your energy long-term.
-* xz-utils backdoor: who do you trust? Volunteers can't be expected to filter out
-  patient, highly-resourced attackers.
-
-```
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!! <blink>Expat is UNDERSTAFFED and WITHOUT FUNDING.</blink>                 !!
-!!                 ~~~~~~~~~~~~                                              !!
-!!  ...                                                                      !!
-!!                                                                           !!
-!! For details, please reach out via e-mail to sebastian@pipping.org so we   !!
-!! can schedule a voice call on the topic, in English or German.             !!
-!!                                                                           !!
-!! THANK YOU!                        Sebastian Pipping -- Berlin, 2024-03-09 !!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-```
-
-## Vulnerability handling
-
-Security policy with how to submit vulnerability reports (form or email)
-in `SECURITY.md`.
-
-Not actively exploited? Walk, don't run. 90 days is industry standard.
-Use the 90 days when you need to! Put the deadline on your calendar.
-
-Highly recommend using repository features when available (GitHub Security Advisories
-or Confidential Issues / Merge Requests on GitLab).
-
-Cyber Resilience Act (CRA): many open source projects not likely to have much
-obligation. Open Source Stewards (such as non-profits, foundations, companies
-publishing open source software) required to have vulnerability handling.
-
 ## Questions for discussion
 
 * Who can be helpful in solving these challenges?
@@ -134,3 +74,118 @@ publishing open source software) required to have vulnerability handling.
 * How to celebrate and reward long-term maintenance of open source software?
 * How to establish trust among new contributors, especially those with less online presence?
 * How to find and onboard contributors interested in security work safely?
+
+## Notes from the Discussion
+
+> **Beware! From this section onwards is a raw dump of notes from a Google document!** They have not been edited in any way, but if you're interested they are here.
+
+### What I learned today
+
+* Quantifying the fInancial risk, better feedback mechanism between the security funding versus the risk. Down the dependency graph beyond the product. Financial connection.
+    * Can the top-down effort be done and then publishing the information instead of bottom-up. “Mega-phone” for the maintainers?
+    * Stakeholders.
+    * Game-theory: tragedy of the commons. Should this be a social / governance especially for smaller projects.
+    * From a large corporation it’s hard to do that analysis and prove that you affect change.
+    * Crises are much more visible.Reacting to crises.
+    * OSPOs started as a charity. Now it’s evolved to be risk management.
+    * Balance sheet, chief open source controller. Short-term risk/credit, tools that you use to manage a financial portfolio.
+    * Will you pay the salary or the amount that you expect others to pay as well? Depending on corporations working together and coordinating.
+    * CISOs being fired for zero-days, can we create pressure to manage your open source risk?
+    * Cyber Resilience Act (CRA) if the way its implemented, security of their dependencies. Something will happen, either every company will support its dependencies or it will create an intermediate market.
+* How do you give people that are domain-specific to give the tools they need to develop their projects securely?
+    * “Security is somebody else’s problem”
+    * People don’t care about security, they care about usability. Limited arsenal.
+    * Better defaults for security.
+    * People want to ship! “Have to conform to the ecosystem”, balance between openness and security.
+    * CI is a big expense to provide to a community. Doesn’t seem readily possible to fund/credit this.
+    * How much time is spent to be more efficient? Lots of work is done.
+    * OSS-Fuzz, essentially donated CI for fuzzing
+    * Homebrew: everything is CI.
+    * Have to communicate “return on investment” on providing CI minutes.
+    * Would love to write a case study about “how the UN digital infrastructure would be supported by funding”
+    * What metrics do we use? Do ourselves or our customers use the project, tough sell otherwise. You need to quantify the failure, how much does it cost if we have a failure.
+    * Repeated funding is the issue.
+    * The credit programs are increasing, not decreasing.
+* “Imagine what it’s like for the smaller projects?”
+    * Won’t be able to advocate for themselves, even harder than smaller projects.
+* Digital Public Infrastructure, problem solved through taxation. Treat as public infrastructure.
+    * Small libraries don’t know their options.
+    * What is our goal? Only remaining security problems for the projects being the ones we don’t know how to solve. Secure defaults.
+* OSS-Fuzz: lays bare the lie that the work is done.
+    * Contributor that is interested in OSS-Fuzz
+* Success story for a small project that is well-supported: cryptography
+    * Sqlite. Cryptography doesn’t take money, but they work with others to contribute.
+    * “There’s not a lot that you have to do”.
+    * Not a huge checklist: 8-10 things to have “good enough security”.
+    * We wish these things were default on!
+    * Keep your dependencies up to date. Don’t worry about Dependabot.
+    * Upgrading incurs risk, too. Most people don’t have incredibly large test suites.
+    * Renovate auto-merge.
+    * “Hold-back feature for Dependabot” waiting for low-quality/backdoors to be shaken out.
+* Corporate donated security work time if “maintainers are not contributors”
+    * Private fork of the project that can be pulled in if needed.
+    * How can I trust that the contributor is good to have this information?
+    * Surprises me that it doesn’t happen more seeing corporate donation of time for security work.
+    * OpenSSF meeting aligning corporate contributors to align bug fixes.
+    * Pre-vetted set of engineers doing security work.
+    * How would maintainers know to engage that process?
+    * Security engineers would have to show up on the project and be proactive. Drive-by.
+    * “I’ll help you with security” can be sketchy, how to legitimize.
+    * Batphone for maintainers. Log4j had infra, xz-utils didn’t.
+    * Not supposed to be solving the issues, would be mentoring the maintainers rather than solving the problems.
+    * Narrowing the scope of what we offer.
+* Percentage of maintainers that know about dependeabot/static analysis: there isn’t any knowledge, even for basics. Foundational education, what are these security features.
+* How do you vet an open source contributor or maintainer?
+    * Xz-utils taught us that you can’t trust just the content of the commits.
+    * Homebrew institutes a real-name policy, with photo ID check that gets thrown away. Not aiming for nation-state coverage. 
+    * Whole lot of vibes, blogs, socials, etc. Do the stuff that no one else wants to do.
+    * LLMs are good at “creating vibes”? Do I care if the content of the commits.
+    * Maintainer is on the hook for the contributions.
+    * Conferences as security “vetting”. Whether that’s explicit or not based on travel availability.
+    * Filtering out based on the geography, ability to pay, 
+    * Foundations could sponsor travel grants.
+    * How many communities write down what it takes to be a maintainer/release manager.
+    * Drupal: try to have maintainers on each continent (timing, local knowledge, languages).
+    * Not common to have documentation on how to become a release manager.
+    * Release manager checklist for vetting new dependencies: can we release with them in a nice way.
+    * Maintainers are allowed to opt-in to the security and having a badge.
+    * cargo-vet
+    * There is probably closure within PyPI. “Island analysis”
+* Better defaults
+    * Repository level defaults, branch protection, token
+    * Project scaffolding w/ good defaults per language.
+    * Package installers/publishers.
+    * Whack-a-mole bad defaults.
+        * Updating existing project templates is hard! ([cruft](https://cruft.github.io/cruft/)/cookiecutter - maybe look at [projen](https://projen.io/)?)
+    * Make project management into pull requests.
+        * Check the box for other people. Lightweight.
+    * Creating a template and “making it easy”.
+        * It’s a hobby, I don’t want to read best practices guides.
+        * Make it explicit in their README.
+        * Want the benefits of a project being used, but don’t want the responsibility.
+    * Template that documents your intentions.
+    * When we add a dependency, make an inference on a dependency. Moves responsibility to product developers.
+        * Measuring activity levels.
+        * Activity level is tricky.
+        * Sqlite exhibits many of the characteristics of a project 
+        * They take reports, but not code.
+    * Choosing not to use a library versus using it.
+    * Encouraging maintainers to state their intentions more clearly.
+    * Be conservative about your technology choices. Transitive dependencies kinda hurts this, you are not the only decider.
+* We haven’t solved xz-utils!
+    * Damage limitations.
+
+### What I wish existed
+
+* Balance sheets for open source risk
+* We’ve talked about the people maintaining open source software. Dependabot found a security vulnerability, how much of that library do I actually use. False-positives. Notification fatigue. Show off API usage per project. SBOM (SPDX) allows showing the exposure of a library.
+* Batphone for maintainers, questions
+* Best practice recommendations on how to vet new maintainers/security contributors.
+* Deleting old insecure templates for projects.
+
+### Summary for larger group
+
+* Sustainability, we found ourselves talking about sustainability as a response. Don’t want to engage with security, want to have assets available to them.
+* Sec defaults Existing tools and projects don’t use templates. Templates tend to get outdated over time. More secure defaults on the tools, project management tools and platforms are important to solve this issue.
+* Vetting the trustworthiness of a maintainer or contributor is difficult. May be already happening implicitly, but many projects dont document this process.
+* Identified a “bat phone” for maintainers as being useful, the problem would be projects not knowing. Solutions need to be proactive to reach small or disengaged projects.

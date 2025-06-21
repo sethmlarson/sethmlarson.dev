@@ -65,7 +65,6 @@ favorite_posts = {
 }
 hide_posts = {
     "hi-chew",
-    "un-open-source-week-2025-security-for-the-long-haul",
 }
 
 
