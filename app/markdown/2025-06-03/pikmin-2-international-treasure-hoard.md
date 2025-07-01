@@ -23,7 +23,7 @@ to the Nintendo Switch (labeled as the "SW" region on this page), using the US r
 I'd like to
 try collecting all **273 unique treasure models** across all regional treasure hoards.
 You can see my current progress below highlighted in green for which treasures I've collected
-in at least one treasure hoard. So far I have **161/273 treasures collected (58%)**. This table is [automatically generated](#generating-the-table)
+in at least one treasure hoard. So far I have **162/273 treasures collected (59%)**. This table is [automatically generated](#generating-the-table)
 as I collect more treasure (when playing on real GameCube hardware). Nintendo
 Switch treasures are tracked manually.
 
@@ -153,23 +153,23 @@ to see all the columns.
 <tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/1/1d/Ultimate_Spinner_icon.png"/></td><td>Ultimate Spinner</td><td style="background-color: #ffffff"></td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff"></td><td>Snagret Hole</td></tr>
 <tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/b/b6/Coiny_The_Refined_icon.png"/></td><td>Coiny The Refined</td><td style="background-color: #ffffff"></td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff"></td><td>Snagret Hole</td></tr>
 <tr style="background-color: #ffffff"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/a/a1/Salivatrix_P2S_icon.png"/></td><td>Salivatrix</td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff">SW</td><td>Snagret Hole</td></tr>
-<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/e/e6/Mystical_Disc_icon.png"/></td><td>Mystical Disc</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ffffff">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
-<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/2/25/Vacuum_Processor_icon.png"/></td><td>Vacuum Processor</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ffffff">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
+<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/e/e6/Mystical_Disc_icon.png"/></td><td>Mystical Disc</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
+<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/2/25/Vacuum_Processor_icon.png"/></td><td>Vacuum Processor</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
 <tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/e/e8/Network_Mainbrain_icon.png"/></td><td>Network Mainbrain</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
-<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/9/91/Space_Wave_Receiver_icon.png"/></td><td>Space Wave Receiver</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ffffff">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
+<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/9/91/Space_Wave_Receiver_icon.png"/></td><td>Space Wave Receiver</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
 <tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/f/f3/Nouveau_Table_icon.png"/></td><td>Nouveau Table</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
 <tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/d/d8/Omega_Flywheel_icon.png"/></td><td>Omega Flywheel</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
 <tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/2/26/Spirit_Flogger_icon.png"/></td><td>Spirit Flogger</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
 <tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/a/af/Superstrong_Stabilizer_icon.png"/></td><td>Superstrong Stabilizer</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
-<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/f/fa/Repair_Juggernaut_icon.png"/></td><td>Repair Juggernaut</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ffffff">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
-<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/0/0f/Adamantine_Girdle_icon.png"/></td><td>Adamantine Girdle</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ffffff">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
+<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/f/fa/Repair_Juggernaut_icon.png"/></td><td>Repair Juggernaut</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
+<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/0/0f/Adamantine_Girdle_icon.png"/></td><td>Adamantine Girdle</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
 <tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/1/19/Exhausted_Superstick_icon.png"/></td><td>Exhausted Superstick</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
-<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/d/d1/Furious_Adhesive_icon.png"/></td><td>Furious Adhesive</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ffffff">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
+<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/d/d1/Furious_Adhesive_icon.png"/></td><td>Furious Adhesive</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
 <tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/3/37/Coiled_Launcher_icon.png"/></td><td>Coiled Launcher</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
-<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/0/02/Stellar_Orb_icon.png"/></td><td>Stellar Orb</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ffffff">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
-<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/1/1b/Indomitable_CPU_icon.png"/></td><td>Indomitable CPU</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ffffff">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff"></td><td>Subterranean Complex</td></tr>
+<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/0/02/Stellar_Orb_icon.png"/></td><td>Stellar Orb</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
+<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/1/1b/Indomitable_CPU_icon.png"/></td><td>Indomitable CPU</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff"></td><td>Subterranean Complex</td></tr>
 <tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/c/c9/Thirst_Activator_icon.png"/></td><td>Thirst Activator</td><td style="background-color: #ddffdd">US</td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff"></td><td>Subterranean Complex</td></tr>
-<tr style="background-color: #ffffff"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/2/25/Alternative_Reactor_icon.png"/></td><td>Alternative Reactor</td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff">JP</td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff"></td><td>Subterranean Complex</td></tr>
+<tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/2/25/Alternative_Reactor_icon.png"/></td><td>Alternative Reactor</td><td style="background-color: #ffffff"></td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff"></td><td>Subterranean Complex</td></tr>
 <tr style="background-color: #ffffff"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/0/0f/Indomitable_CPU_P2S_icon.png"/></td><td>Indomitable CPU</td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
 <tr style="background-color: #ffffff"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/5/5b/Thirst_Activator_P2S_icon.png"/></td><td>Thirst Activator</td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff"></td><td style="background-color: #ffffff">SW</td><td>Subterranean Complex</td></tr>
 <tr style="background-color: #ddffdd"><td><img width="32" height="32" src="https://pikmin.wiki.gallery/images/8/8a/Joy_Receptacle_icon.png"/></td><td>Joy Receptacle</td><td style="background-color: #ffffff">US</td><td style="background-color: #ddffdd">JP</td><td style="background-color: #ffffff">PAL</td><td style="background-color: #ffffff">SW</td><td>Frontier Cavern</td></tr>
@@ -324,6 +324,20 @@ is [available on GitHub](https://gist.github.com/sethmlarson/6e83d8d0e4d6412ec8f
 
 ## Updates
 
+(**2025-06-29**) Started the Subterranean Complex in the JP region
+for not only a single JP-exclusive treasure ("Alternative Reactor"),
+but also to see the JP-exclusive name for the "Spirit Flogger". In the JP
+region the name "社員の手本" roughly translates to "Model Employee" which may have been
+a bit too on-the-nose for the US region.
+
+(**2025-06-28**) After traveling for 2 weeks straight I've finally returned home
+and had time to complete the Perplexing Pool in the JP region. I am particularly
+interested in the "Massive Receptacle" series of treasures so seeing the
+"Open Archive" JP-variant was quite fun to end the Submerged Castle!
+
+(**2025-06-13**) I've imported the [list of unique treasures](https://www.pikminwiki.com/Category:Pikmin_2_(Nintendo_Switch)_Treasure_Hoard_icons) from the <nobr>Nintendo Switch
+port of Pikmin 2</nobr>, adding a total of 27 unique treasure models.
+
 (**2025-06-11**) The list of treasures on Pikmin wikis doesn't have the 
 complete information about uniqueness of models embedded into the tables.
 For example, the "Master's Instrument", "Decorative Goo", and "Flame of Tomorrow" treasures
@@ -333,17 +347,3 @@ have unique models for the Japan region but don't have their own row.
 but "Flame of Tomorrow" does. I confirmed this by looking at [Models Resource](https://www.models-resource.com/gamecube/pikmin2/)
 and [Spriter's Resource](https://www.spriters-resource.com/gamecube/pikmin2/sheet/53416/)
 and will be on the look-out for more region-specific variants missing from the table.
-
-(**2025-06-13**) I've imported the [list of unique treasures](https://www.pikminwiki.com/Category:Pikmin_2_(Nintendo_Switch)_Treasure_Hoard_icons) from the <nobr>Nintendo Switch
-port of Pikmin 2</nobr>, adding a total of 27 unique treasure models.
-
-(**2025-06-28**) After traveling for 2 weeks straight I've finally returned home
-and had time to complete the Perplexing Pool in the JP region. I am particularly
-interested in the "Massive Receptacle" series of treasures so seeing the
-"Open Archive" JP-variant was quite fun to end the Submerged Castle!
-
-(**2025-06-29**) Started the Subterranean Complex in the JP region
-for not only a single JP-exclusive treasure ("Alternative Reactor"),
-but also to see the JP-exclusive name for the "Spirit Flogger". In the JP
-region the name 社員の手本 roughly translates to "Model Employee" which may have been
-a bit too on-the-nose for the US region.
