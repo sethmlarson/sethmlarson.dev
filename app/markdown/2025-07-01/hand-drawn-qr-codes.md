@@ -15,6 +15,20 @@ data quality setting. Unfortunately `https://sethmlarson.dev` is 23 bytes
 long, so I'll have to improvise. I went with `sethmlarson.dev` instead, as this
 will prompt many QR code scanners to "search" for the term resulting in my website.
 
+> Note that a lovely reader [informed me](https://mastodon.social/@joshix@fosspri.de/114778118868222197) shortly after publication that indeed
+> I can include my full domain name in a version 1 QR code by using all capital
+> letters instead of lowercase. TIL that the "alphanumeric" character set for QR
+> codes actually contains symbols for URLs like `:` and `/`.
+>
+> Expect an updated QR code published after lunch today. :)
+
+I created my reference using the [`qrcode` package](https://pypi.org/project/qrcode/) on the Python Package Index. Don't forget
+the `-n` option with `echo` to not include a trailing newline.
+
+```
+$ echo -n "HTTPS://SETHMLARSON.DEV" | qr --error-correction=L
+```
+
 I drew the corner squares (known as "position patterns") and then started trying
 to scan the QR code as a gradually filled in other pixels. Once I had drawn the
 "timing lines" between the top left and bottom left position I could
