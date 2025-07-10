@@ -1,7 +1,7 @@
 # Open Source Security work isn't “Special”
 
 > I gave this [keynote](https://openssfcdna2025.sched.com/event/1zolR/keynote-security-work-isnt-special-seth-larson-security-developer-in-residence-python-software-foundation) at OpenSSF Community Day NA 2025 in Denver, Colorado.
-> There will be a YouTube video recording available at a later date.
+> There is a recording published on [YouTube](https://www.youtube.com/watch?v=V9n2jmkeRf0).
 > This talk was given as the [Security-Developer-in-Residence](https://www.python.org/psf/developersinresidence/) at the Python Software Foundation,
 > a role which is sponsored by [Alpha-Omega](https://alpha-omega.dev). Thanks to Alpha-Omega for supporting security in the Python ecosystem.
 

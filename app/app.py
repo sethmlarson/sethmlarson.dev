@@ -62,6 +62,7 @@ favorite_posts = {
     "i-fear-for-the-unauthenticated-web",
     "animal-crossci",
     "pikmin-2-international-treasure-hoard",
+    "setting-discord-status-from-physical-gamecube-console",
 }
 hide_posts = {
     "hi-chew",
