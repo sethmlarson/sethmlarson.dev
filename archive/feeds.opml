@@ -72,6 +72,8 @@
     <outline text="Erin Kissane" type="rss" xmlUrl="https://erinkissane.com/feed.rss" htmlUrl="https://erinkissane.com"/>
     <outline text="Ethan Marcotte" type="rss" xmlUrl="https://ethanmarcotte.com/wrote/feed.xml" htmlUrl="https://ethanmarcotte.com"/>
     <outline text="Fabien Sanglard" type="rss" xmlUrl="https://fabiensanglard.net/rss.xml" htmlUrl="https://fabiensanglard.net"/>
+    <outline text="Favorite Vegetable" type="rss" xmlUrl="https://www.favoritevegetable.com/products.xml" htmlUrl="https://www.favoritevegetable.com"/>
+    <outline text="Fiefdom of Files" type="rss" xmlUrl="https://fi-le.net/feed.xml" htmlUrl="https://fi-le.net"/>
     <outline text="Filippo Valsorda" type="rss" xmlUrl="https://words.filippo.io/rss" htmlUrl="https://words.filippo.io"/>
     <outline text="Fix The News" type="rss" xmlUrl="https://fixthenews.com/rss" htmlUrl="https://fixthenews.com"/>
     <outline text="Foxes in Love" type="rss" xmlUrl="https://foxes-in-love.tumblr.com/rss" htmlUrl="https://foxes-in-love.tumblr.com"/>
@@ -162,7 +164,9 @@
     <outline text="Open Whisper Systems Blog" type="rss" xmlUrl="https://signal.org/blog/rss.xml" htmlUrl="http://www.whispersystems.org/blog"/>
     <outline text="Patrick Lauke" type="rss" xmlUrl="https://www.splintered.co.uk/feeds/news.xml" htmlUrl="https://www.splintered.co.uk/news"/>
     <outline text="Paul Sonnentag" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNpEZQwCn37vky4Q9N-kHmA" htmlUrl="https://www.youtube.com/channel/UCNpEZQwCn37vky4Q9N-kHmA"/>
+    <outline text="PieroV" type="rss" xmlUrl="https://www.pierov.org/feed/rss2" htmlUrl="https://www.pierov.org/feed/rss2"/>
     <outline text="PikHacker" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9ZW-9A3F1eXamtfVMRxdBg" htmlUrl="https://www.youtube.com/channel/UC9ZW-9A3F1eXamtfVMRxdBg"/>
+    <outline text="Pikmin Informer" type="rss" xmlUrl="https://www.pikmininformer.com/blog-feed.xml" htmlUrl="https://www.pikmininformer.com"/>
     <outline text="Playdate Podcast" type="rss" xmlUrl="https://podcast.play.date/index.xml" htmlUrl="https://podcast.play.date"/>
     <outline text="Practical Betterments" type="rss" xmlUrl="https://practicalbetterments.com/feed.xml" htmlUrl="https://practicalbetterments.com"/>
     <outline text="Push the Red Button" type="rss" xmlUrl="https://feeds.feedburner.com/PushTheRedButton" htmlUrl="https://moyix.blogspot.com"/>
@@ -187,12 +191,14 @@
     <outline text="Ryan Castellucci" type="rss" xmlUrl="https://rya.nc/feeds/all.xml" htmlUrl="https://rya.nc"/>
     <outline text="SLSA" type="rss" xmlUrl="https://slsa.dev/feed.xml" htmlUrl="https://slsa.dev"/>
     <outline text="Samuel Giddins" type="rss" xmlUrl="https://blog.segiddins.me/rss" htmlUrl="https://blog.segiddins.me"/>
+    <outline text="Savannah Bailey" type="rss" xmlUrl="https://savannah.dev/index.xml" htmlUrl="https://savannah.dev"/>
     <outline text="Scruffy" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDoKh1xoqKDfUr3YxQBs_1w" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDoKh1xoqKDfUr3YxQBs_1w"/>
     <outline text="Semantically Secure" type="rss" xmlUrl="https://scottarc.blog/feed" htmlUrl="https://scottarc.blog"/>
     <outline text="Seth Larson" type="rss" xmlUrl="https://sethmlarson.dev/feed" htmlUrl="http://sethmlarson.dev"/>
     <outline text="Shank Mods" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUCo_G9HneFK4Luncw6v-Bw" htmlUrl="https://www.youtube.com/channel/UCUCo_G9HneFK4Luncw6v-Bw"/>
     <outline text="Shesez" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHTnEwQKNwm49CQeCVZogMw" htmlUrl="http://www.youtube.com/channel/UCHTnEwQKNwm49CQeCVZogMw"/>
     <outline text="Simone" type="rss" xmlUrl="https://simone.org/rss" htmlUrl="https://simone.org"/>
+    <outline text="Sloppy Discs" type="rss" xmlUrl="https://www.sloppydiscs.com/rss" htmlUrl="https://www.sloppydiscs.com"/>
     <outline text="Smolka" type="rss" xmlUrl="https://www.smolka.dev/index.xml" htmlUrl="https://smolka.dev"/>
     <outline text="Squishy Computer" type="rss" xmlUrl="https://newsletter.squishy.computer/feed" htmlUrl="https://newsletter.squishy.computer"/>
     <outline text="Stargirl Flowers" type="rss" xmlUrl="https://blog.thea.codes/feed.xml" htmlUrl="https://blog.thea.codes"/>

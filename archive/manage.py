@@ -16,10 +16,17 @@ app_key = app_secrets["app_key"]
 app_state = "state"
 mastodon_access_token = app_secrets["mastodon_access_token"]
 mastodon = Mastodon(
-    api_base_url="https://fosstodon.org",
-    access_token=mastodon_access_token
+    api_base_url="https://mastodon.social", access_token=mastodon_access_token
 )
 mastodon_field_url_re = re.compile(r"\"(https?://[^\"]+)\"")
+tag_to_emoji = {
+    "Life": "🏞️",
+    "Retro Gaming": "🎮",
+    "Social Media": "📱",
+    "Software and OSS": "🖥️",
+    "Security": "🔒",
+    "Toys and Art": "🖼️",
+}
 
 
 def headers():
@@ -276,19 +283,18 @@ def update_links():
         if "#sentinel" in line:
             new_lines.append(line)  # Add our sentinel line first.
             sentinel_found = True
-            # Add all the generated content!
-            for tag in sorted(tags):
-                new_lines.extend((f"<h2>{tag}</h2>", "<ul>"))
-                for outline in articles_opml.outlines:
-                    if outline.categories[0] != tag:
-                        continue
-                    title, author = re.match(
-                        r"^“([^”]+)”(?: by (.*))?$", outline.text
-                    ).groups()
-                    new_lines.append(
-                        f"<li>“<a href=\"{outline.url}\">{title}</a>”{' by <strong>' + author + '</strong>' if author else ''}</li>"
-                    )
-                new_lines.append("</ul>")
+            new_lines.append('<table style="table-layout: fixed">')
+            for outline in articles_opml.outlines:
+                assert len(outline.categories) == 1
+                tag = outline.categories[0]
+                tag_emoji = tag_to_emoji[tag]
+                title, author = re.match(
+                    r"^“([^”]+)”(?: by (.*))?$", outline.text
+                ).groups()
+                new_lines.append(
+                    f"<tr><td title=\"{tag}\">{tag_emoji}</td><td>“<a href=\"{outline.url}\">{title}</a>”{' by ' + author if author else ''}</td></tr>"
+                )
+            new_lines.append("</table>")
             continue
 
         new_lines.append(line)
@@ -324,17 +330,17 @@ def mastodon_follow_graph():
     me = mastodon.me()
     write_opml_for_accounts(
         mastodon_followers_path,
-        yield_accounts(mastodon.account_followers(id=me, limit=1000))
+        yield_accounts(mastodon.account_followers(id=me, limit=1000)),
     )
     write_opml_for_accounts(
         mastodon_following_path,
-        yield_accounts(mastodon.account_following(id=me, limit=1000))
+        yield_accounts(mastodon.account_following(id=me, limit=1000)),
     )
 
 
 if __name__ == "__main__":
     feeds_opml_from_inoreader()
     articles_opml_from_inoreader()
-    # articles_opml_from_links()
+    articles_opml_from_links()
     update_links()
     mastodon_follow_graph()
