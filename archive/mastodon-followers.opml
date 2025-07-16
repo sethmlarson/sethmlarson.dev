@@ -83,6 +83,7 @@
     <outline text="Joewood@fosstodon.org" type="link" url="https://fosstodon.org/@Joewood"/>
     <outline text="Jonathan@hachyderm.io" type="link" url="https://hachyderm.io/@Jonathan"/>
     <outline text="Juan_Kinda_Guy@astrodon.social" type="link" url="https://astrodon.social/@Juan_Kinda_Guy"/>
+    <outline text="JulianSchmid@mastodon.online" type="link" url="https://mastodon.online/@JulianSchmid"/>
     <outline text="JulianWasTaken" type="link" url="https://mastodon.social/@JulianWasTaken"/>
     <outline text="JustAnotherGeek@mstdn.games" type="link" url="https://mstdn.games/@JustAnotherGeek"/>
     <outline text="JustinG@fosstodon.org" type="link" url="https://fosstodon.org/@JustinG"/>
@@ -425,6 +426,7 @@
     <outline text="chimera@fosstodon.org" type="link" url="https://fosstodon.org/@chimera"/>
     <outline text="chksome@hachyderm.io" type="link" url="https://hachyderm.io/@chksome"/>
     <outline text="chrisbirch@tech.lgbt" type="link" url="https://tech.lgbt/@chrisbirch"/>
+    <outline text="chrisdenton@hachyderm.io" type="link" url="https://hachyderm.io/@chrisdenton"/>
     <outline text="chrisnekarda@econtwitter.net" type="link" url="https://econtwitter.net/@chrisnekarda"/>
     <outline text="christianmlong@wandering.shop" type="link" url="https://wandering.shop/@christianmlong"/>
     <outline text="christoph@mastodon.heer.xyz" type="link" url="https://mastodon.heer.xyz/@christoph"/>
@@ -869,7 +871,6 @@
     <outline text="jmalonzo@hidupmanis.studio" type="link" url="https://mastodon.hidupmanis.studio/@jmalonzo"/>
     <outline text="jmatthew" type="link" url="https://mastodon.social/@jmatthew"/>
     <outline text="jmaupetit@mamot.fr" type="link" url="https://mamot.fr/@jmaupetit"/>
-    <outline text="jmswag@blu.social" type="link" url="https://blu.social/@jmswag"/>
     <outline text="jnovinger" type="link" url="https://mastodon.social/@jnovinger"/>
     <outline text="jnovinger@fosstodon.org" type="link" url="https://fosstodon.org/@jnovinger"/>
     <outline text="jobin@fediscience.org" type="link" url="https://fediscience.org/@jobin"/>
@@ -1582,7 +1583,6 @@
     <outline text="tramos@tech.lgbt" type="link" url="https://tech.lgbt/@tramos"/>
     <outline text="travis@nodespace.social" type="link" url="https://nodespace.social/@travis"/>
     <outline text="trevor@az.social" type="link" url="https://az.social/@trevor"/>
-    <outline text="trey@indieweb.social" type="link" url="https://indieweb.social/@trey"/>
     <outline text="treyhunner" type="link" url="https://mastodon.social/@treyhunner"/>
     <outline text="trialsbiker" type="link" url="https://mastodon.social/@trialsbiker"/>
     <outline text="tricaud@infosec.exchange" type="link" url="https://infosec.exchange/@tricaud"/>

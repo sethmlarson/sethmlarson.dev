@@ -341,6 +341,6 @@ def mastodon_follow_graph():
 if __name__ == "__main__":
     feeds_opml_from_inoreader()
     articles_opml_from_inoreader()
-    articles_opml_from_links()
+    # articles_opml_from_links()
     update_links()
     mastodon_follow_graph()
