@@ -20,7 +20,6 @@
     <outline text="Andrew Ayer" type="rss" xmlUrl="https://www.agwa.name/blog/feed" htmlUrl="https://www.agwa.name/blog"/>
     <outline text="Andrew Godwin" type="rss" xmlUrl="https://www.aeracode.org/feed/rss2" htmlUrl="https://localhost"/>
     <outline text="Andrew Nesbitt" type="rss" xmlUrl="https://nesbitt.io/feed.xml" htmlUrl="http://nesbitt.io"/>
-    <outline text="Angela Collier" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCtscFf8VayggrDYjOwDke_Q" htmlUrl="https://www.youtube.com/channel/UCtscFf8VayggrDYjOwDke_Q"/>
     <outline text="Anil Dash" type="rss" xmlUrl="https://www.anildash.com/feed.xml" htmlUrl="https://anildash.com"/>
     <outline text="Annie" type="rss" xmlUrl="https://anniemueller.com/posts_feed" htmlUrl="https://anniemueller.com"/>
     <outline text="Antonio Cuni" type="rss" xmlUrl="http://antocuni.eu/feed_rss_created.xml" htmlUrl="https://antocuni.eu"/>
@@ -194,7 +193,6 @@
     <outline text="Semantically Secure" type="rss" xmlUrl="https://scottarc.blog/feed" htmlUrl="https://scottarc.blog"/>
     <outline text="Seth Larson" type="rss" xmlUrl="https://sethmlarson.dev/feed" htmlUrl="http://sethmlarson.dev"/>
     <outline text="Shank Mods" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUCo_G9HneFK4Luncw6v-Bw" htmlUrl="https://www.youtube.com/channel/UCUCo_G9HneFK4Luncw6v-Bw"/>
-    <outline text="Shesez" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHTnEwQKNwm49CQeCVZogMw" htmlUrl="http://www.youtube.com/channel/UCHTnEwQKNwm49CQeCVZogMw"/>
     <outline text="Simone" type="rss" xmlUrl="https://simone.org/rss" htmlUrl="https://simone.org"/>
     <outline text="Sloppy Discs" type="rss" xmlUrl="https://www.sloppydiscs.com/rss" htmlUrl="https://www.sloppydiscs.com"/>
     <outline text="Smolka" type="rss" xmlUrl="https://www.smolka.dev/index.xml" htmlUrl="https://smolka.dev"/>
@@ -248,5 +246,6 @@
     <outline text="wreckage/salvage" type="rss" xmlUrl="https://www.wrecka.ge/rss" htmlUrl="https://www.wrecka.ge"/>
     <outline text="Łukasz Langa" type="rss" xmlUrl="https://lukasz.langa.pl/programming/atom.xml" htmlUrl="https://lukasz.langa.pl/programming"/>
     <outline text="⌘I" type="rss" xmlUrl="https://blog.gingerbeardman.com/feed.xml" htmlUrl="https://blog.gingerbeardman.com"/>
+    <outline text="マリウス" type="rss" xmlUrl="https://xn--gckvb8fzb.com/index.xml" htmlUrl="https://xn--gckvb8fzb.com"/>
   </body>
 </opml>
