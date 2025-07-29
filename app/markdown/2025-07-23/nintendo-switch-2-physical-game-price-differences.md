@@ -16,10 +16,12 @@ Pushing games to be digital means that **you, the user, are paying the storage c
 So how much of that $10 USD savings for buying digitally is *diminished* by having to pay for storage instead of Nintendo or other games publishers?
 Remember that the Nintendo Switch 2 requires the use of microSD Express (or "EX") cards, so let's look at "prices per GB" for that storage medium on the market today:
 
-* SanDisk 128GB ($60 USD, 0.47 USD/GB)
-* SanDisk 256GB ($72 USD, 0.28 USD/GB)
-* SanDisk 512GB ($120 USD, 0.23 USD/GB)
-* Lexar 1TB ($200 USD, 0.19 USD/GB)
+|Brand|Size|Cost (USD)|Cost per GB|
+|-|-|-|-|
+|SanDisk|128GB|$60|$0.47|
+|SanDisk|256GB|$72|$0.28|
+|SanDisk|512GB|$120|$0.23|
+|Lexar|1TB|$200|$0.19|
 
 So if we assume that microSD Express prices don't suddenly drop, around 23 cents per GB is a decent price. Many users will be paying more to avoid paying another $100 USD on top of the Nintendo Switch 2 price. If Mario Kart World uses 23 GB, that's **$5.29 USD worth of microSD Express storage** (23 × $0.23 = $5.29).
 So when storage costs are considered, the **difference between physical and digital games is less than $5 USD**.
