@@ -4,6 +4,8 @@ Last week I was able to purchase a Nintendo Switch 2. The console was due to arr
 This is the first time I can remember that Nintendo had a different price for an identical game, just based on the medium.
 At first glance this seems like a $10 USD difference, but there's a detail that gets obscured by comparing sticker price alone: **who is paying storage costs.**
 
+## Why are physical Switch 2 games more expensive than digital?
+
 Mario Kart World requires 23GB of storage. That's not a trivial amount of storage space!
 I suspect Nintendo's rollout of "Game-Key Cards" isn't simply because companies wanted users to have a better experience than opening an empty jewel case.
 The new hardware capabilities of the Switch 2 mean games will require more storage for HD textures, sounds, video, and models.
