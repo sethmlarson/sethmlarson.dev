@@ -313,7 +313,7 @@ the game more often and keeping that nostalgic connection alive.</p>
 
 <p>If you're looking for more ways to find legal ROMs of games, WULFF DEN <a href="https://www.youtube.com/watch?v=IQNXmOidh1g">published
 a video</a> recently linking to a
-<a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa2FzNXhYSkxseHFXb1JlQTVDSThhdHpxeUpPUXxBQ3Jtc0trTEkwRDRxZkg2cjRMd2l6VUctZlVxMVZ6YlRsUFVfY1VqMmF0Sks5XzJ0dEFpRGpwZ0ZJa21wWkRhdzVQU3JudW1nSlNvektoc0hUSnJGbXNHY04tRWE1ZlhpUnByQ3Y0YmNSRjNEcERlV3lyMXdwQQ&amp;q=http%3A%2F%2Fgithub.com%2Ffarmerbb%2FRED-Project%2Fwiki%23game-compilations&amp;v=IQNXmOidh1g">list of other "ROM extraction" methods</a> like this one.</p>
+<a href="https://github.com/farmerbb/RED-Project/wiki#game-compilations">list of other "ROM extraction" methods</a> like this one.</p>
 </div>
 <div class="col-6">
 <center>
