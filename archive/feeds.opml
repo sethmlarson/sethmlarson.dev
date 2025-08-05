@@ -100,7 +100,6 @@
     <outline text="Hynek Schlawack" type="rss" xmlUrl="https://hynek.me/index.xml" htmlUrl="https://hynek.me"/>
     <outline text="Hypertalking" type="rss" xmlUrl="https://www.hypertalking.com/feed" htmlUrl="https://www.hypertalking.com"/>
     <outline text="Ian Stapleton Cordasco" type="rss" xmlUrl="https://blog.ian.stapletoncordas.co/feeds/all.rss.xml" htmlUrl="https://blog.ian.stapletoncordas.co"/>
-    <outline text="If you can keep it" type="rss" xmlUrl="https://www.ifyoucankeepit.org/feed" htmlUrl="https://www.ifyoucankeepit.org"/>
     <outline text="Information Architects" type="rss" xmlUrl="https://ia.net/feed" htmlUrl="https://ia.net"/>
     <outline text="Infrequently Noted" type="rss" xmlUrl="https://infrequently.org/feed" htmlUrl="https://infrequently.org"/>
     <outline text="Ink &amp; Switch" type="rss" xmlUrl="https://www.inkandswitch.com/index.xml" htmlUrl="https://www.inkandswitch.com"/>
@@ -114,6 +113,7 @@
     <outline text="Japhy Riddle" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCKeTCCYBg0CFrFHm2nxx_rQ" htmlUrl="https://www.youtube.com/channel/UCKeTCCYBg0CFrFHm2nxx_rQ"/>
     <outline text="Jay Miller" type="rss" xmlUrl="https://kjaymiller.com/blog.rss" htmlUrl="https://example.com"/>
     <outline text="JessicaIn3D" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJIx6QNSYoUNH3GTLxPN3qw" htmlUrl="https://www.youtube.com/channel/UCJIx6QNSYoUNH3GTLxPN3qw"/>
+    <outline text="Jim Nielsen" type="rss" xmlUrl="https://blog.jim-nielsen.com/feed.xml" htmlUrl="https://blog.jim-nielsen.com"/>
     <outline text="Joel Spolsky" type="rss" xmlUrl="https://www.joelonsoftware.com/feed" htmlUrl="https://www.joelonsoftware.com"/>
     <outline text="Jonathan Traynor" type="rss" xmlUrl="https://www.jofamo.com/blog?format=rss" htmlUrl="https://www.jofamo.com/blog"/>
     <outline text="Julia Evans" type="rss" xmlUrl="http://jvns.ca/atom.xml" htmlUrl="http://jvns.ca"/>
@@ -191,6 +191,7 @@
     <outline text="Savannah Bailey" type="rss" xmlUrl="https://savannah.dev/index.xml" htmlUrl="https://savannah.dev"/>
     <outline text="Scruffy" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDoKh1xoqKDfUr3YxQBs_1w" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDoKh1xoqKDfUr3YxQBs_1w"/>
     <outline text="Semantically Secure" type="rss" xmlUrl="https://scottarc.blog/feed" htmlUrl="https://scottarc.blog"/>
+    <outline text="Set Side B" type="rss" xmlUrl="https://setsideb.com/feed" htmlUrl="https://setsideb.com"/>
     <outline text="Seth Larson" type="rss" xmlUrl="https://sethmlarson.dev/feed" htmlUrl="http://sethmlarson.dev"/>
     <outline text="Shank Mods" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUCo_G9HneFK4Luncw6v-Bw" htmlUrl="https://www.youtube.com/channel/UCUCo_G9HneFK4Luncw6v-Bw"/>
     <outline text="Simone" type="rss" xmlUrl="https://simone.org/rss" htmlUrl="https://simone.org"/>

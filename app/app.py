@@ -63,6 +63,7 @@ favorite_posts = {
     "animal-crossci",
     "pikmin-2-international-treasure-hoard",
     "setting-discord-status-from-physical-gamecube-console",
+    "extracting-nes-and-famicom-roms-from-animal-crossing",
 }
 hide_posts = {
     "hi-chew",
