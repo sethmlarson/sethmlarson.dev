@@ -176,10 +176,10 @@ compression scheme:
 <details>
 <summary>Click to show <code>animal-crossing-nes-roms.py</code> source code</summary>
 <div class="codehilite">
-<pre><span></span><code><span class="kn">import</span> <span class="nn">hashlib</span>
+<pre><span></span><code><span class="kn">import</span> <span class="nn">sys</span>
 <span class="kn">import</span> <span class="nn">mmap</span>
+<span class="kn">import</span> <span class="nn">hashlib</span>
 <span class="kn">import</span> <span class="nn">struct</span>
-<span class="kn">import</span> <span class="nn">sys</span>
 
 <span class="c1"># MD5 hashes from https://datomatic.no-intro.org</span>
 <span class="c1"># Headerless, as header is changed from non-AC releases.</span>
@@ -205,6 +205,22 @@ compression scheme:
     <span class="s2">"cbb2c477a37b28517e330d1c562049f8"</span><span class="p">:</span> <span class="s2">"Tennis (Japan, USA) (En) (Animal Crossing).nes"</span><span class="p">,</span>
     <span class="s2">"d67ee6a0a7af959c417ce894470a49cb"</span><span class="p">:</span> <span class="s2">"Mario Bros. (World) (Animal Crossing).nes"</span><span class="p">,</span>
     <span class="s2">"f0d94f25db202c935cd8f1cdde10a0aa"</span><span class="p">:</span> <span class="s2">"Golf (USA, Asia) (En).nes"</span><span class="p">,</span>
+    <span class="c1"># Multiboot ROMs</span>
+    <span class="s2">"594b8e60e9406a570c9990e9bbc4340f"</span><span class="p">:</span> <span class="s2">"Clu Clu Land (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
+    <span class="s2">"aa6bdfc4fce58b19d1a8a9f2f11042d9"</span><span class="p">:</span> <span class="s2">"Donkey Kong (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
+    <span class="s2">"ee8a23328607687b50a6706c7fdfc2e1"</span><span class="p">:</span> <span class="s2">"Donkey Kong Jr. (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
+    <span class="s2">"d3d227a1ca88b0629ef333d544686c41"</span><span class="p">:</span> <span class="s2">"Excitebike (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
+    <span class="s2">"684e46cb0c672e06664ae742825ae89c"</span><span class="p">:</span> <span class="s2">"Mario Bros. (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
+    <span class="s2">"c1c6eb0d42591c46f2e4dc68145e4c81"</span><span class="p">:</span> <span class="s2">"Pinball (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
+    <span class="s2">"34217e69f45e52d1550a8b241ce27404"</span><span class="p">:</span> <span class="s2">"Super Mario Bros. (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
+    <span class="s2">"a81a5d9b9268da64ea8426bdc6a987ba"</span><span class="p">:</span> <span class="s2">"Soccer (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
+    <span class="s2">"146bdf7f70335a2ad67b59ef9e07bfaf"</span><span class="p">:</span> <span class="s2">"Tennis (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
+    <span class="s2">"62c26ddf7579b5179b2a67073bc7e4a4"</span><span class="p">:</span> <span class="s2">"Balloon Fight (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
+    <span class="s2">"b0c8f4dfe47c3649760748ad5c96a649"</span><span class="p">:</span> <span class="s2">"Baseball (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
+    <span class="s2">"a7b95f64a01e7cc18968b1c501741414"</span><span class="p">:</span> <span class="s2">"Donkey Kong 3 (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
+    <span class="s2">"f92aeb4bc274cb08c2eabe9dd3aadcb4"</span><span class="p">:</span> <span class="s2">"Golf (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
+    <span class="s2">"f7adee0901bb73b6f1c1fbeb36b4ab4c"</span><span class="p">:</span> <span class="s2">"Ice Climber (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
+    <span class="s2">"1c8dcf20e4ce979cb9962c835c39a5c9"</span><span class="p">:</span> <span class="s2">"Donkey Kong Jr. Math (USA, Europe) (Animal Crossing).mb"</span><span class="p">,</span>
 <span class="p">}</span>
 
 
@@ -225,6 +241,9 @@ compression scheme:
                 <span class="n">rom_md5</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">md5</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="mi">16</span><span class="p">:])</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
             <span class="c1"># Famicom Disk System ROM</span>
             <span class="k">elif</span> <span class="n">data</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="sa">b</span><span class="s2">"</span><span class="se">\x01</span><span class="s2">*NINTENDO-HVC*</span><span class="se">\x01</span><span class="s2">"</span><span class="p">):</span>
+                <span class="n">rom_md5</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">md5</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+            <span class="c1"># GBA Joyboot ROM</span>
+            <span class="k">elif</span> <span class="n">data</span><span class="p">[</span><span class="mh">0xAC</span><span class="p">:</span><span class="mh">0xB3</span><span class="p">]</span> <span class="o">==</span> <span class="sa">b</span><span class="s2">"AGBJ01</span><span class="se">\x96</span><span class="s2">"</span><span class="p">:</span>
                 <span class="n">rom_md5</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">md5</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
             <span class="k">else</span><span class="p">:</span>
                 <span class="k">continue</span>
@@ -322,6 +341,20 @@ a video</a> recently linking to a
 <br><small><i>Playing Wario's Woods on the Delta emulator</i></small></center></p>
 </div>
 </div>
+
+## What if I only have a Game Boy Advance?
+
+You're in luck! Animal Crossing also had a feature called
+"[Advance Play](https://nookipedia.com/wiki/Game_Boy_Advance#Advance_Play)"
+which meant most NES games could be saved to your GBA via a mode called
+"Multiboot" or "Joyboot". Animal Crossing used separate
+ROMs that were compiled for the GBA CPU instead of the NES CPU.
+
+These ROMs are detected by looking for the string `AGBJ01\x96` at offset `0xAC`, corresponding
+to the Game Boy Advance ROM header that was chosen for these ROMs.
+To run these on a GBA emulator or with a GBA flash cartridge you need to
+convert the `.mb` files into `.gba` files. [This script](https://gist.github.com/mid-kid/149e7415e5da89cca5e2dd36459eeac5) worked for
+converting the files to `.gba`.
 
 > **(1):** Note that you will need to convert the QD file (`.qd`) for "Clu Clu Land: Welcome to New Clu Clu Land" into an FDS file (`.fds`)
 to play the ROM with an emulator. Here's a [simple Python script](https://gist.github.com/infval/18d65dd034290fb908f589dcc10c6d25) that I found on GitHub
