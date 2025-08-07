@@ -148,6 +148,15 @@ here abbreviated as "NSO".</p>
 </div>
 </div>
 
+> **NOTE (1):** You will need to convert the QD file (`.qd`) for "Clu Clu Land: Welcome to New Clu Clu Land" into an FDS file (`.fds`)
+to play the ROM with an emulator. Here's a [simple Python script](https://gist.github.com/infval/18d65dd034290fb908f589dcc10c6d25) that I found on GitHub
+that worked perfectly.
+
+> **NOTE (2):** If you happen to also own Animal Forest+ (but not Animal Forest e+) you can also obtain
+"[Mahjong](https://www.pricecharting.com/game/famicom/mahjong)" and
+"[Renju Gomoku Narabe](https://www.pricecharting.com/game/famicom/renju-gomoku-narabe)"
+(ごもくならべ) Famicom games.
+
 ## Extracting the ROMs
 
 So if we've archived the Animal Crossing ROM from the physical disk using
@@ -352,15 +361,7 @@ ROMs that were compiled for the GBA CPU instead of the NES CPU.
 
 These ROMs are detected by looking for the string `AGBJ01\x96` at offset `0xAC`, corresponding
 to the Game Boy Advance ROM header that was chosen for these ROMs.
-To run these on a GBA emulator or with a GBA flash cartridge you need to
+
+> **NOTE:** To run these on a GBA emulator or with a GBA flash cartridge you need to
 convert the `.mb` files into `.gba` files. [This script](https://gist.github.com/mid-kid/149e7415e5da89cca5e2dd36459eeac5) worked for
 converting the files to `.gba`.
-
-> **(1):** Note that you will need to convert the QD file (`.qd`) for "Clu Clu Land: Welcome to New Clu Clu Land" into an FDS file (`.fds`)
-to play the ROM with an emulator. Here's a [simple Python script](https://gist.github.com/infval/18d65dd034290fb908f589dcc10c6d25) that I found on GitHub
-that worked perfectly.
-
-> **(2):** If you happen to also own Animal Forest+ (but not Animal Forest e+) you can also obtain
-"[Mahjong](https://www.pricecharting.com/game/famicom/mahjong)" and
-"[Renju Gomoku Narabe](https://www.pricecharting.com/game/famicom/renju-gomoku-narabe)"
-(ごもくならべ) Famicom games.
