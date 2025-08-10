@@ -91,7 +91,7 @@ class BlogPost:
     date: str = attr.ib()
     month: str = attr.ib()
     markdown_path: pathlib.Path = attr.ib()
-    more: str | None = attr.ib()
+    more: typing.Union[str, None] = attr.ib()
 
     def render_html(self) -> str:
         with self.markdown_path.open(mode="r") as f:
