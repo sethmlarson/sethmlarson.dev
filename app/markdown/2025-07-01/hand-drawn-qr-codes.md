@@ -1,8 +1,12 @@
 # Hand-drawn QR codes
 
+<!-- more -->
+
 I really like QR codes. Recently I purchased a new sticky-note-like
 pad from a [new local stationery store in Minneapolis](https://www.moonamoono.com/).
 The sheets have a 10x10 grid and 2x10 grid.
+
+<!-- more -->
 
 <center><img style="border: 2px black solid; max-width:75%" src="https://storage.googleapis.com/sethmlarson-dev-static-assets/IMG_2362.jpg"></center>
 

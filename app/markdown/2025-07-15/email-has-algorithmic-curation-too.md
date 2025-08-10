@@ -4,6 +4,8 @@ Communication technologies should optimally be reliable, especially when both pa
 
 I associate "algorithmic curation" with social media platforms like TikTok, YouTube, Twitter, or Instagram. I don't typically think about email as a communication technology that contains algorithmic curation. Maybe that thinking should change?
 
+<!-- more -->
+
 Email for most people has algorithmic curation applied by their email provider. Email providers like Gmail automatically filter the email and decide which "category" the email ends up in, regardless of how much you trust the sender or if you have opted-in to their emails.
 Some of these categories are harmless, like "Social", where social media updates will be filtered into its own category but not hidden in any meaningful way.
 

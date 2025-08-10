@@ -2,6 +2,7 @@
 
 <div class="row">
 <div class="col-6">
+<!-- more -->
 <p>Pikmin 2 is a game about collecting "treasure" from Earth in the form of mostly human-made products and items.
 One of the distinguishing features of the game
 is that the treasures sometimes model real-life brands like <a href="https://www.pikminwiki.com/Courage_Reactor">Duracell</a>
@@ -9,6 +10,7 @@ and <a href="https://www.pikminwiki.com/Drought_Ender">Dr. Pepper</a>.</p>
 <p>Pikmin 2 has <a href="https://www.pikminwiki.com/List_of_Pikmin_2_treasures">three distinct regional treasure hoards</a>, each with
 unique treasures: US, JP, and PAL. 19 years later Pikmin 2 was ported
 to the Nintendo Switch (labeled as the "SW" region on this page), using the US regional treasure hoard as a base, but adding 27 more unique models.</p>
+<!-- more -->
 
 </div>
 <div class="col-6">

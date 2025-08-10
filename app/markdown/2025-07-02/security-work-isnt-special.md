@@ -5,9 +5,13 @@
 > This talk was given as the [Security-Developer-in-Residence](https://www.python.org/psf/developersinresidence/) at the Python Software Foundation,
 > a role which is sponsored by [Alpha-Omega](https://alpha-omega.dev). Thanks to Alpha-Omega for supporting security in the Python ecosystem.
 
+<!-- more -->
+
 To understand why security is special, we have to take a look at why open source is an amazing thing.
 For many components of open source, users that have the time, desire, and expertise are able to contribute meaningfully to projects.
 As a maintainer of an open source project, *this is awesome!*
+
+<!-- more -->
 
 <center><img style="max-width: 70%; border: 2px black solid;" src="https://storage.googleapis.com/sethmlarson-dev-static-assets/Screenshot%20from%202025-07-02%2015-17-21.png"/></center>
 

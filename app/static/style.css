@@ -53,7 +53,7 @@ a {
   text-decoration: underline;
   text-decoration-line: underline;
   text-decoration-thickness: 2px;
-  text-underline-offset: 2px;
+  text-underline-offset: 4px;
 }
 a > code {
   text-decoration: none;
@@ -112,8 +112,10 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
   margin: 0;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  border-bottom: solid;
+  border-width: 2px;
 }
 h2, h3, h4, h5, h6 {
   font-size: 1.5rem;
@@ -177,11 +179,15 @@ pre {
 :not(pre) > code {
   font-family: Menlo, 'Fira Mono', monospace;
   background-color: #e9e9e9;
-  padding: 2px 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 2px 4px;
+  border: 2px black solid;
+  box-sizing: border-box;
   white-space: nowrap;
 }
 .codehilite, :not(.codehilite) > pre {
-  font-family: "Roboto Mono", monospace;
+  font-family: Menlo, 'Fira Mono', monospace;
   font-size: 1.3rem;
   background-color: #e9e9e9;
   border-style: solid;
@@ -214,7 +220,8 @@ blockquote {
   color: #ffffff;
   margin: 0;
   padding: 0;
-  padding-top: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   margin-bottom: 1.5em;
 }
 .header a {

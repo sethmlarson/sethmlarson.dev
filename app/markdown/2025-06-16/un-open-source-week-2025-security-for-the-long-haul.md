@@ -1,9 +1,13 @@
 # UN Open Source Week 2025: Security for the Long-Haul
 
+<!-- more -->
+
 This page was used during the [United Nations Open Source Week](https://www.un.org/digital-emerging-technologies/content/open-source-week-2025) "Maintain-a-thon"
 hosted by the [Sovereign Tech Agency](https://sovereign.tech) and [Alpha Omega](https://alpha-omega.dev). Thanks to both the Sovereign Tech Agency
 and Alpha Omega for supporting my attendance at this event and Alpha Omega for
 supporting security in the Python ecosystem.
+
+<!-- more -->
 
 This page contains the content from the break-out session
 I led during the "Maintain-a-thon" titled "Security for the Long-Haul".

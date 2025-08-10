@@ -1,21 +1,19 @@
 {% extends "base.html" %}
-{% block title %}Blog archive{% endblock %}
-{% block header %}
-<h1>Blog archive</h1>
-{% endblock %}
+{% block title %}Blog{% endblock %}
+{% block header %}{% endblock %}
 {% block content %}
-<p>
-    <table style="max-width: 100%;">
         {% for month in blog_posts %}
         {% for bp in blog_posts[month] %}
         {% if bp.slug not in hide_posts %}
-            <tr>
-                <td style="text-align: center;">{% if bp.slug in favorite_posts %}<span title="This means this article is one of my favorites, nice choice!">★</span> {% endif %}</td>
-                <td><a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}">{{ bp.title }}</a></td>
-            </tr>
+        {% if bp.more %}
+        <blockquote>
+            <a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}" style="color: #000;"><strong style="text-decoration: underline; text-decoration-thickness: 2px;">{{ bp.title }}</strong></a><br>
+            {{ bp.more | safe }}<p>➤ <a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}">Continue reading</a>...</p>
+        </blockquote>
+        {% else %}
+            <li><a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}">{{ bp.title }}</a></li>
+        {% endif %}
         {% endif %}
         {% endfor %}
         {% endfor %}
-    </table>
-</p>
 {% endblock %}

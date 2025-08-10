@@ -2,6 +2,8 @@
 
 <img style="border: 2px black solid; max-width: 100%" src="https://storage.googleapis.com/sethmlarson-dev-static-assets/GC-to-Discord.jpeg"/>
 
+<!-- more -->
+
 Have you ever seen one of your friends playing
 a game or listening to music in their Discord “status”? That feature is
 called “[Rich Presence](https://discord.com/developers/docs/rich-presence/overview)”.
@@ -9,6 +11,8 @@ called “[Rich Presence](https://discord.com/developers/docs/rich-presence/over
 What if you want to show your Discord friends that *you're playing
 your GameCube?* and I don't mean an emulator like [Dolphin](https://dolphin-emu.org/), I'm talking
 about a physical console from 2001.
+
+<!-- more -->
 
 We can do just that with a simple Python script and a [Memcard Pro GC](https://www.8bitmods.wiki/memcard-pro-gc).
 The Memcard Pro GC is an internet-connected GameCube Memory Card virtualizer. The Memcard Pro GC automatically switches

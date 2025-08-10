@@ -16,54 +16,30 @@
     <meta name="twitter:image" content="https://github.com/sethmlarson.png"/>
 {% endblock %}
 {% block header %}
-<h1>{{ blog_title }}</h1>
-<p><nobr>Published {{ blog_published_date }}</nobr> <nobr>by Seth Larson</nobr><br>
-{% if blog_is_favorite %}<span title="This means this article is one of my favorites, nice choice!">★</span> {% endif %}{% if reading_time > 0 %} Reading time: {{ reading_time }} minute{{ 's' if reading_time != 1 else '' }} <a href="https://webmention.io/api/mentions.html?target=https://sethmlarson.dev/{{ blog_slug }}"><span id="webmentions"></span></a>{% endif %}</p>
+<div style="margin-bottom: 1.5em;">
+<h1 style="margin-top: 1em; padding-bottom: 1em; margin-bottom: 0;">{{ blog_title }}</h1>
+    <small style="overflow: hidden;"><nobr>Seth Larson, {{ blog_published_date }}, <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0</a></nobr></small>
+</div>
 {% endblock %}
 {% block content %}
 {{ blog_content | safe }}
 <blockquote>
     <p>
-        <strong>Have thoughts or questions?</strong> Send them my way:
-    </p>
-    <p style="overflow: clip;">
-        <a href="https://signal.me/#eu/gpQLD3Q+O1Azvo7cD5nggei42PazYNXHnL1XYLaumYjv/ZCr09NK0Z7uJKTlnFJw" target="_blank"><code>sethmlarson.99</code></a> (Signal)<br>
-        <a href="mailto:sethmichaellarson@gmail.com" target="_blank"><code>sethmichaellarson@gmail.com</code></a><br>
-        <a href="https://mastodon.social/@sethmlarson" target="_blank"><code>@sethmlarson@mastodon.social</code></a>
-    </p>
-    <p>
-        <strong>Want more articles like this one?</strong>
-        <nobr>Get notified of new posts</nobr> by subscribing to the <a href="{{ url_for('rss_blog_posts') }}">RSS feed</a> or the <a href="https://buttondown.email/sethmlarson">email newsletter</a>.
-        I won't share your email or send spam, only whatever <em>this</em> is!
+        <strong><nobr>Wow, you made it to the end!</nobr></strong>
+        Let me know what you thought on <a href="https://mastodon.social/@sethmlarson" target="_blank">Mastodon</a> or <a href="https://bsky.app/@sethmlarson.dev" target="_blank">Bluesky</a>. <nobr>Get notified of new posts</nobr> by subscribing to the <a href="{{ url_for('rss_blog_posts') }}">RSS feed</a> or <a href="https://buttondown.email/sethmlarson">email newsletter</a>.
     <form
       action="https://buttondown.email/api/emails/embed-subscribe/sethmlarson"
       method="post"
       target="popupwindow"
       onsubmit="window.open('https://buttondown.email/sethmlarson', 'popupwindow')"
     >
-        <input type="email" name="email" id="bd-email" placeholder="Email address here" style="max-width: 100%; width: 16em; margin-bottom: 0.5em;" required/>
+        <input type="email" name="email" id="bd-email" placeholder="Email address here" style="max-width: 100%; width: 16em; margin-bottom: 0.5em; margin-right: 1em;" required/>
         <input type="submit" value="Subscribe" style="max-width: 100%; width: 8em;"/>
     </form>
     </p>
     <p>
         <strong>Want more content now?</strong> This <a href="/blog">blog's archive</a> has {{ total_blog_count }} ready-to-read articles. I also curate
-        a <a href="/links">list of cool URLs</a> I find on the internet.
-    </p>
-    <p>
-        <strong>Find a typo?</strong> <a href="https://github.com/sethmlarson/sethmlarson.dev">This blog is open source</a>, pull requests are appreciated.
-    </p>
-    <p>
-        <strong>Thanks for reading!</strong> ♡ This work is licensed under <nobr><a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0</a> <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></nobr>
+        a <a href="/links">list of link</a> I find on the internet.
     </p>
 </blockquote>
-<script>
-    fetch("https://webmention.io/api/count?target=https://sethmlarson.dev/{{ blog_slug }}")
-    .then(response => response.json()).then(responseJson => {
-        if (responseJson.count) {
-          var webmentionsElement = document.getElementById("webmentions");
-          webmentionsElement.classList.add("webmentions-fade-in");
-          webmentionsElement.innerHTML = "❤&#xFE0E × " + String(responseJson.count);
-        };
-    });
-</script>
 {% endblock %}

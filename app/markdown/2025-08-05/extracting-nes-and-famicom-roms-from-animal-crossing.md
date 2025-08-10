@@ -5,12 +5,14 @@ time and one of my personal favorites growing up. One of the
 most beloved features was the addition of playable [NES games](https://nookipedia.com/wiki/NES_game)
 as rare collectible furniture items.
 
-This feature was implemented by including NES and FDS emulators
+This feature was implemented by including NES and Famicom Disk System emulators
 and the actual game ROMs on the Animal Crossing disk.
 The NES emulator included
 with Animal Crossing is frequently referenced as being one of the
 most accurate NES emulators available, but comes with the requirement
 of playing or emulating a GameCube to access the feature.
+
+<!-- more -->
 
 What if
 you wanted to play these ROMs on a different emulator without having

@@ -91,6 +91,7 @@ class BlogPost:
     date: str = attr.ib()
     month: str = attr.ib()
     markdown_path: pathlib.Path = attr.ib()
+    more: str | None = attr.ib()
 
     def render_html(self) -> str:
         with self.markdown_path.open(mode="r") as f:
@@ -144,12 +145,21 @@ def load_blog_posts() -> typing.Dict[str, typing.List[BlogPost]]:
         markdown_path = list(date.iterdir())[0]
         with markdown_path.open(mode="r") as f:
             title = f.readline().strip("\n# ")
+            data = f.read()
+            more = None
+            end_more_index = data.rfind("<!-- more -->")
+            if end_more_index != -1:
+                start_more_index = data.find("<!-- more -->")
+                if start_more_index == end_more_index:
+                    start_more_index = 0
+                more = md.convert(data[start_more_index:end_more_index])
         bp = BlogPost(
             slug=markdown_path.name.replace(".md", ""),
             title=title,
             date=date.name,
             month=date.name.rsplit("-", 1)[0],
             markdown_path=markdown_path,
+            more=more,
         )
         BLOG_POSTS_BY_DATE.setdefault(bp.date, []).append(bp)
         BLOG_POSTS_BY_SLUG.setdefault(bp.slug, bp)
@@ -196,6 +206,7 @@ Disallow: /""")
     return resp
 
 
+@app.route("/", methods=["GET"])
 @app.route("/blog", methods=["GET"])
 @cache_for(small_cache_time)
 def list_blog_posts():
@@ -268,13 +279,7 @@ def rss_blog_posts():
 @app.route("/about", methods=["GET"])
 @cache_for(small_cache_time)
 def about():
-    return redirect(url_for("index"))
-
-
-@app.route("/", methods=["GET"])
-@cache_for(small_cache_time)
-def index():
-    return render_template("index.html")
+    return render_template("about.html")
 
 
 @app.route("/api/wordle-stats", methods=["GET"])
