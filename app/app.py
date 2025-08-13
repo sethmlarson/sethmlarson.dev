@@ -112,6 +112,7 @@ class BlogPost:
             text = f.read()
             _, text = text.split("\n", 1)
         html = md.convert(text)
+        html += "<br><hr><p>Thanks for keeping RSS alive! ♥</p>"
         return html
 
     def url(self, utm_campaign=None) -> str:

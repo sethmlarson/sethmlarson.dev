@@ -18,7 +18,13 @@
 {% block header %}
 <div style="margin-bottom: 1.5em;">
 <h1 style="margin-top: 1em; padding-bottom: 1em; margin-bottom: 0;">{{ blog_title }}</h1>
-    <small style="overflow: hidden;"><nobr>Seth Larson, {{ blog_published_date }}, <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0</a></nobr></small>
+    <div id="subtitle" style="display: flex;flex-direction: row;align-items: center;">
+        <div style="width: 1em; height: 2px;background-color: #000;"></div>
+        <div style="padding-right: 0.5em; padding-left: 0.5em">
+            <nobr style="flex-grow: 0;">Seth Larson, {{ blog_published_date }}, <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0</a></nobr>
+        </div>
+        <div style="height: 2px;background-color: #000;flex-grow: 1;"></div>
+    </div>
 </div>
 {% endblock %}
 {% block content %}

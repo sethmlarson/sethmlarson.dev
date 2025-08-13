@@ -36,6 +36,8 @@
 }
 body {
   background-color: #fff;
+  background-size: 1em 1em;
+  background-image: linear-gradient(to right, #f9f9f9 2px, transparent 1px), linear-gradient(to bottom, #f9f9f9 2px, transparent 1px);
   color: #000;
   margin: 0;
   padding: 0;
@@ -114,8 +116,6 @@ h1 {
   margin: 0;
   margin-top: 1em;
   margin-bottom: 1.5em;
-  border-bottom: solid;
-  border-width: 2px;
 }
 h2, h3, h4, h5, h6 {
   font-size: 1.5rem;
@@ -229,7 +229,7 @@ blockquote {
 }
 
 .codehilite .hll { background-color: #ffffcc }
-.codehilite  { background: #f8f8f8; }
+.codehilite  { background: #e9e9e9; }
 .codehilite .c { color: #408080; font-style: italic } /* Comment */
 .codehilite .k { color: #008000; font-weight: bold } /* Keyword */
 .codehilite .o { color: #666666 } /* Operator */
