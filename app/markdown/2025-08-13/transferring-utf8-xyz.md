@@ -2,7 +2,7 @@
 
 <!-- more -->
 
-I'm transferring the [UTF8.XYZ domain](https://utf8.xyz) and [service](https://github.com/utf8.xyz) to
+I'm transferring the [UTF8.XYZ domain](https://utf8.xyz) and [service](https://github.com/sethmlarson/utf8.xyz) to
 [Trey Hunner](https://treyhunner.com/), a friend and beloved member of the Python community.
 Trey and I have talked about making this transfer many times
 at <nobr>PyCon US's</nobr> across the years, and now it's finally happening!
