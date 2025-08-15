@@ -78,7 +78,7 @@ play the game legally has to buy a physical copy. If that same game is also avai
 digitally, then the physical game doesn't have nearly as much demand.
 
 We saw this occur just last year with <nobr>“Paper Mario:</nobr> <nobr>The Thousand Year Door”</nobr>
-which saw a <nobr>**~50% price drop**</nobr> after the Switch remake was published, going from [$90 in April 2023 to $50 one year later](https://www.pricecharting.com/game/gamecube/paper-mario-thousand-year-door).
+which saw a <nobr>**~60% price drop**</nobr> after the Switch remake was published, going from [$90 in April 2023 to $35 today](https://www.pricecharting.com/game/gamecube/paper-mario-thousand-year-door).
 This is a boon for collectors and players that are interested in the physical media.
 
 I'll try to keep this table updated as more games are made available and announced.
