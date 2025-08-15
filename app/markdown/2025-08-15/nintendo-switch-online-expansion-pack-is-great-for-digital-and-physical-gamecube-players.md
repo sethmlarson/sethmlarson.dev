@@ -5,7 +5,7 @@
 Nintendo [just announced](https://www.youtube.com/watch?v=BjP6uQflzMU&pp=ygUTbmludGVuZG8gY2hpYmkgcm9ibw%3D%3D) that the GameCube game “Chibi Robo!” would be coming in exactly one week to [Nintendo
 Switch Online + Expansion Pack](https://www.nintendo.com/us/store/products/nintendo-gamecube-nintendo-classics-switch-2/) (NSO+).
 Chibi Robo is known for being a hidden gem in the GameCube library, and thus quite expensive
-to obtain a physical copy. This got me thinking about other games that Nintendo had pre-announced were coming to <nobr>NSO+ “GameCube Classics”</nobr>
+to obtain a physical copy. This made me think about what other games Nintendo had announced for <nobr>NSO+ “GameCube Classics”</nobr>,
 and I noticed an interesting trend...
 
 **5 of the 6 most expensive first-party GameCube titles**
