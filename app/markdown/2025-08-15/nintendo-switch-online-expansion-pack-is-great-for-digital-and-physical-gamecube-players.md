@@ -11,9 +11,9 @@ and I noticed an interesting trend...
 **5 of the 7 most expensive first-party GameCube titles**
 are either planned or already available on NSO+.
 <!-- more -->
-The only other titles that haven't been mentioned yet are <nobr>“Cubivore”</nobr> and <nobr>“Legend of Zelda: Twilight Princess”</nobr>.
-Take a look at the table of all 53 first-party GameCube titles below, <span style="background-color: #ddffdd; padding-left: 4px; padding-bottom: 2px; padding-top: 2px; padding-right: 4px; border-radius: 0.25em;">green (✅)</span> means the game is already
-available on NSO+ and <span style="background-color: #ddddff; padding-left: 4px; padding-bottom: 2px; padding-top: 2px; padding-right: 4px; border-radius: 0.25em;">blue (🔄)</span> means the game is announced but not yet available:
+The titles that haven't been mentioned yet are <nobr>“Legend of Zelda: Twilight Princess”</nobr> and <nobr>“Cubivore”</nobr>.
+Take a look at the table of all 53 first-party GameCube titles below, <nobr><span style="background-color: #ddffdd; padding: 4px">green (✅)</span></nobr> means the game is already
+available on NSO+ and <nobr><span style="background-color: #ddddff; padding: 4px">blue (🔄)</span></nobr> means the game is announced but not yet available:
 
 <table style="margin-left: auto; margin-right: auto;"><thead><th style="text-align: center">NSO+</th><th>Game</td><th>Price</th></thead>
 <tr style="background-color: #ffffff"><td style="text-align: center"></td><td>Cubivore</td><td style="font-variant-numeric: tabular-nums"><a href="https://www.pricecharting.com/game/gamecube/cubivore">$315</a></td></tr>
