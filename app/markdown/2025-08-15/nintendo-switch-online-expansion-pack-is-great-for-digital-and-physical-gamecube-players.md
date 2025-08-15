@@ -11,7 +11,7 @@ and I noticed an interesting trend...
 **5 of the 7 most expensive first-party GameCube titles**
 are either planned or already available on NSO+.
 <!-- more -->
-The only other title that hasn't been mentioned yet is <nobr>“Legend of Zelda: Twilight Princess”</nobr>.
+The only other titles that haven't been mentioned yet are <nobr>“Cubivore”</nobr> and <nobr>“Legend of Zelda: Twilight Princess”</nobr>.
 Take a look at the table of all 53 first-party GameCube titles below, <span style="background-color: #ddffdd; padding-left: 4px; padding-bottom: 2px; padding-top: 2px; padding-right: 4px; border-radius: 0.25em;">green (✅)</span> means the game is already
 available on NSO+ and <span style="background-color: #ddddff; padding-left: 4px; padding-bottom: 2px; padding-top: 2px; padding-right: 4px; border-radius: 0.25em;">blue (🔄)</span> means the game is announced but not yet available:
 
