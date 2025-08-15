@@ -9,6 +9,7 @@
   </head>
   <body>
     <outline text="3DSage" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCjdHbo8_vh3rxQ-875XGkvw" htmlUrl="https://www.youtube.com/channel/UCjdHbo8_vh3rxQ-875XGkvw"/>
+    <outline text="404 Media" type="rss" xmlUrl="https://www.404media.co/rss" htmlUrl="https://www.404media.co"/>
     <outline text="5Calls" type="rss" xmlUrl="5calls@ino.to" htmlUrl="https://www.inoreader.com"/>
     <outline text="@Westenberg" type="rss" xmlUrl="https://www.joanwestenberg.com/rss" htmlUrl="https://www.joanwestenberg.com"/>
     <outline text="A New Social" type="rss" xmlUrl="https://blog.anew.social/rss" htmlUrl="https://blog.anew.social"/>
@@ -28,6 +29,7 @@
     <outline text="Ariadne Conill" type="rss" xmlUrl="https://ariadne.space/index.xml" htmlUrl="https://ariadne.space"/>
     <outline text="Arie Bovenberg" type="rss" xmlUrl="https://dev.arie.bovenberg.net/feed.xml" htmlUrl="https://dev.arie.bovenberg.net"/>
     <outline text="Arlo" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-9QiiVaViuqMhLp1XEwdxA" htmlUrl="https://www.youtube.com/channel/UC-9QiiVaViuqMhLp1XEwdxA"/>
+    <outline text="Artificial truth" type="rss" xmlUrl="https://dustri.org/b/rss.xml" htmlUrl="http://dustri.org/b"/>
     <outline text="AsumSaus" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCk2KE7yg0BwsJfr8Dp9ivUQ" htmlUrl="http://www.youtube.com/channel/UCk2KE7yg0BwsJfr8Dp9ivUQ"/>
     <outline text="AsumSaus Archive" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYXyr-CtpKN7LE-x8B6axlQ" htmlUrl="https://www.youtube.com/channel/UCYXyr-CtpKN7LE-x8B6axlQ"/>
     <outline text="Audrey Eschright" type="rss" xmlUrl="https://lifeofaudrey.com/atom.xml" htmlUrl="https://lifeofaudrey.com"/>
@@ -55,7 +57,6 @@
     <outline text="Dan Sinker" type="rss" xmlUrl="https://dansinker.com/feed.xml" htmlUrl="https://dansinker.com"/>
     <outline text="Daniel Stenberg" type="rss" xmlUrl="http://daniel.haxx.se/blog/feed" htmlUrl="https://daniel.haxx.se/blog"/>
     <outline text="David Lord" type="rss" xmlUrl="https://davidism.com/feed" htmlUrl="https://davidism.com"/>
-    <outline text="Day9" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCaxar6TBM-94_ezoS00fLkA" htmlUrl="https://www.youtube.com/channel/UCaxar6TBM-94_ezoS00fLkA/videos"/>
     <outline text="Deciphering Glyph" type="rss" xmlUrl="https://blog.glyph.im/feeds/all.atom.xml" htmlUrl="https://blog.glyph.im"/>
     <outline text="Deciphering Glyph" type="rss" xmlUrl="http://glyph.twistedmatrix.com/feeds/posts/default" htmlUrl="https://blog.glyph.im"/>
     <outline text="Dhole Moments" type="rss" xmlUrl="https://soatok.blog/feed" htmlUrl="https://soatok.blog"/>
@@ -99,6 +100,7 @@
     <outline text="Huon Wilson" type="rss" xmlUrl="https://huonw.github.io/blog/rss.xml" htmlUrl="https://huonw.github.io/blog"/>
     <outline text="Hynek Schlawack" type="rss" xmlUrl="https://hynek.me/index.xml" htmlUrl="https://hynek.me"/>
     <outline text="Hypertalking" type="rss" xmlUrl="https://www.hypertalking.com/feed" htmlUrl="https://www.hypertalking.com"/>
+    <outline text="IGW Games" type="rss" xmlUrl="https://igwgames.com/feed" htmlUrl="https://igwgames.com"/>
     <outline text="Ian Stapleton Cordasco" type="rss" xmlUrl="https://blog.ian.stapletoncordas.co/feeds/all.rss.xml" htmlUrl="https://blog.ian.stapletoncordas.co"/>
     <outline text="Information Architects" type="rss" xmlUrl="https://ia.net/feed" htmlUrl="https://ia.net"/>
     <outline text="Infrequently Noted" type="rss" xmlUrl="https://infrequently.org/feed" htmlUrl="https://infrequently.org"/>
@@ -164,6 +166,7 @@
     <outline text="PieroV" type="rss" xmlUrl="https://www.pierov.org/feed/rss2" htmlUrl="https://www.pierov.org/feed/rss2"/>
     <outline text="PikHacker" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9ZW-9A3F1eXamtfVMRxdBg" htmlUrl="https://www.youtube.com/channel/UC9ZW-9A3F1eXamtfVMRxdBg"/>
     <outline text="Pikmin Informer" type="rss" xmlUrl="https://www.pikmininformer.com/blog-feed.xml" htmlUrl="https://www.pikmininformer.com"/>
+    <outline text="Playdate News" type="rss" xmlUrl="https://news.play.date/index.xml" htmlUrl="https://news.play.date"/>
     <outline text="Playdate Podcast" type="rss" xmlUrl="https://podcast.play.date/index.xml" htmlUrl="https://podcast.play.date"/>
     <outline text="Practical Betterments" type="rss" xmlUrl="https://practicalbetterments.com/feed.xml" htmlUrl="https://practicalbetterments.com"/>
     <outline text="Push the Red Button" type="rss" xmlUrl="https://feeds.feedburner.com/PushTheRedButton" htmlUrl="https://moyix.blogspot.com"/>
@@ -179,7 +182,6 @@
     <outline text="Read the Tea Leaves" type="rss" xmlUrl="https://nolanlawson.com/feed" htmlUrl="https://nolanlawson.com"/>
     <outline text="RedMonk Tech Events" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCaUtAK8xECTkETCYivJegeQ" htmlUrl="https://www.youtube.com/channel/UCaUtAK8xECTkETCYivJegeQ"/>
     <outline text="Retro Game Mechanics Explained" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwRqWnW5ZkVaP_lZF7caZ-g" htmlUrl="https://www.youtube.com/feeds"/>
-    <outline text="Rings of Saturn" type="rss" xmlUrl="https://32bits.substack.com/feed" htmlUrl="https://32bits.substack.com"/>
     <outline text="Robb Knight" type="rss" xmlUrl="https://rknight.me/subscribe/posts/atom.xml" htmlUrl="https://rknight.me"/>
     <outline text="Robert Heaton" type="rss" xmlUrl="https://robertheaton.com/feed.xml" htmlUrl="https://robertheaton.com"/>
     <outline text="Robin Berjon" type="rss" xmlUrl="https://berjon.com/feed.atom" htmlUrl="https://berjon.com"/>
@@ -207,11 +209,14 @@
     <outline text="System of Levers" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSH44z64-vxbVY3nXePm6xA" htmlUrl="https://www.youtube.com/channel/UCSH44z64-vxbVY3nXePm6xA"/>
     <outline text="Technology Connections" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q" htmlUrl="https://www.youtube.com/channel/UCy0tKL1T7wFoYcxCe0xjN6Q"/>
     <outline text="The Fediverse Report" type="rss" xmlUrl="https://fediversereport.com/feed" htmlUrl="https://fediversereport.com"/>
+    <outline text="The Future Is Like Pie" type="rss" xmlUrl="https://rss.beehiiv.com/feeds/UTUG4cosDb.xml" htmlUrl="https://thefutureislikepie.beehiiv.com"/>
     <outline text="The HTML Review" type="rss" xmlUrl="https://thehtml.review/rss.xml" htmlUrl="https://thehtml.review"/>
     <outline text="The Perry Bible Fellowship" type="rss" xmlUrl="https://pbfcomics.com/feed" htmlUrl="https://pbfcomics.com"/>
     <outline text="The Pudding" type="rss" xmlUrl="https://pudding.cool/rss.xml" htmlUrl="https://pudding.cool"/>
     <outline text="The Wulff Den" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCr613nJgA50o8DUUT00qHvw" htmlUrl="http://www.youtube.com/channel/UCr613nJgA50o8DUUT00qHvw"/>
     <outline text="Thomas Depierre" type="rss" xmlUrl="https://softwaremaxims.com/feed.xml" htmlUrl="https://softwaremaxims.com"/>
+    <outline text="Time Extension (Nintendo)" type="rss" xmlUrl="https://www.timeextension.com/feeds/latest/tags/nintendo" htmlUrl="https://www.timeextension.com/feeds/latest"/>
+    <outline text="Time Extension (Sega)" type="rss" xmlUrl="https://www.timeextension.com/feeds/latest/tags/sega" htmlUrl="https://www.timeextension.com/feeds/latest"/>
     <outline text="Tito Perez" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9QC7o2eLuYYWpvkAd_NBXg" htmlUrl="https://www.youtube.com/channel/UC9QC7o2eLuYYWpvkAd_NBXg"/>
     <outline text="Todd Turner" type="rss" xmlUrl="https://www.toddtee.sh/posts/index.xml" htmlUrl="https://www.toddtee.sh/posts"/>
     <outline text="Tom Forbes" type="rss" xmlUrl="https://tomforb.es/index.xml" htmlUrl="https://tomforb.es"/>
@@ -231,13 +236,13 @@
     <outline text="abe's projects" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUxIu91gGsK9Q0tTcQM8iNw" htmlUrl="https://www.youtube.com/channel/UCUxIu91gGsK9Q0tTcQM8iNw"/>
     <outline text="core.py Podcast" type="rss" xmlUrl="https://anchor.fm/s/eb6edc3c/podcast/rss" htmlUrl="https://podcasters.spotify.com/pod/show/corepy"/>
     <outline text="eieio.games" type="rss" xmlUrl="https://eieio.games/feed.xml" htmlUrl="https://eieio.games"/>
+    <outline text="elliotisacoolguy" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCa_aLyHBN8zuisUpHDjmBbw" htmlUrl="https://www.youtube.com/channel/UCa_aLyHBN8zuisUpHDjmBbw"/>
     <outline text="grape lab" type="rss" xmlUrl="https://grapelab.co/en/feed" htmlUrl="https://grapelab.co/en"/>
     <outline text="iroh" type="rss" xmlUrl="https://www.iroh.computer/rss.xml" htmlUrl="https://iroh.computer"/>
     <outline text="mGBA" type="rss" xmlUrl="https://mgba.io/feed.xml" htmlUrl="https://mgba.io"/>
     <outline text="marginalia.nu" type="rss" xmlUrl="https://www.marginalia.nu/log/index.xml" htmlUrl="https://www.marginalia.nu/log"/>
     <outline text="p2panda" type="rss" xmlUrl="https://p2panda.org/feed.xml" htmlUrl="https://p2panda.org"/>
     <outline text="plasticbag.org by Tom Coates" type="rss" xmlUrl="http://plasticbag.org/feed" htmlUrl="http://plasticbag.org"/>
-    <outline text="so I bought a pinball machine" type="rss" xmlUrl="http://pinballnovice.blogspot.com/feeds/posts/default" htmlUrl="http://pinballnovice.blogspot.com"/>
     <outline text="sometimes.digital - personal website" type="rss" xmlUrl="https://sometimes.digital/feed.xml" htmlUrl="https://sometimes.digital/feed.xml"/>
     <outline text="suckerpinch" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC3azLjQuz9s5qk76KEXaTvA" htmlUrl="https://www.youtube.com/channel/UC3azLjQuz9s5qk76KEXaTvA/videos"/>
     <outline text="taylor.town" type="rss" xmlUrl="https://taylor.town/feed.xml" htmlUrl="https://taylor.town/feed.xml"/>

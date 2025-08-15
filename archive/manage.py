@@ -106,6 +106,11 @@ def feeds_opml_from_inoreader() -> None:
         headers=headers(),
     )
     for sub in sorted(resp.json()["subscriptions"], key=lambda x: x["title"]):
+        # Don't expose my private 404Media RSS feed.
+        if sub["title"] == "404 Media":
+            sub["url"] = "https://www.404media.co/rss/"
+            sub["htmlUrl"] = "https://www.404media.co"
+
         feeds_opml.add_rss(
             text=sub["title"],
             xml_url=normalize_url(sub["url"]),

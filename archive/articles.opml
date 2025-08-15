@@ -8,6 +8,15 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Artificial truth”" type="link" created="Fri, 08 Aug 2025 12:24:32 +0000" url="https://dustri.org/b/objects-should-shut-the-fuck-up.html" category="Life"/>
+    <outline text="“SEGA fast PRS compression”" type="link" created="Thu, 07 Aug 2025 03:53:03 +0000" url="https://zenhax.com/viewtopic.php@t=695.html" category="Retro Gaming"/>
+    <outline text="“Convert GBA Multiboot/Joyboot ROMs to cartridge format” by mid-kid" type="link" created="Wed, 06 Aug 2025 03:07:23 +0000" url="https://gist.github.com/mid-kid/149e7415e5da89cca5e2dd36459eeac5" category="Retro Gaming"/>
+    <outline text="“Pin Eight (NES, SNES, and GBA tools)”" type="link" created="Wed, 06 Aug 2025 03:07:07 +0000" url="https://pineight.com" category="Retro Gaming"/>
+    <outline text="“Making an E-Reader game with NES tools” by Sarah Lynne" type="link" created="Wed, 06 Aug 2025 03:02:39 +0000" url="https://igwgames.com/blog/2025/06/22/making-a-game-for-the-e-reader-using-nes-tools" category="Retro Gaming"/>
+    <outline text="“Renting compute is for suckers” by Andrew Kelley" type="link" created="Tue, 05 Aug 2025 21:45:55 +0000" url="https://andrewkelley.me/post/renting-is-for-suckers.html" category="Software and OSS"/>
+    <outline text="“zine.html” by elliotisacoolguy" type="link" created="Tue, 05 Aug 2025 16:57:58 +0000" url="https://hunterirving.github.io/zine.html/zine.html" category="Toys and Art"/>
+    <outline text="“Graphic design in Mario Kart World” by elliotisacoolguy" type="link" created="Tue, 05 Aug 2025 16:02:11 +0000" url="https://www.youtube.com/watch?v=yYRzPBJxEAs" category="Toys and Art"/>
+    <outline text="“Curate your own newspaper with RSS” by Molly White" type="link" created="Thu, 31 Jul 2025 17:36:40 +0000" url="https://www.citationneeded.news/curate-with-rss" category="Social Media"/>
     <outline text="“I saved a PNG to a bird”" type="link" created="Sun, 27 Jul 2025 15:29:34 +0000" url="https://www.youtube.com/watch?v=hCQCP-5g5bo" category="Toys and Art"/>
     <outline text="“Computational Tyranny”" type="link" created="Thu, 24 Jul 2025 02:51:24 +0000" url="https://happyfellow.bearblog.dev/computational-tyranny" category="Life"/>
     <outline text="“Disabling Google Search AI overview”" type="link" created="Wed, 23 Jul 2025 20:34:11 +0000" url="https://tenbluelinks.org" category="Life"/>
@@ -245,8 +254,8 @@
     <outline text="“Super Mario 64 in Sonic Adventure DX” by Sora" type="link" created="Mon, 11 Nov 2024 21:29:30 +0000" url="https://gamebanana.com/mods/544238" category="Retro Gaming"/>
     <outline text="“FlippyDrive for the GameCube” by Macho Nacho" type="link" created="Mon, 11 Nov 2024 21:29:29 +0000" url="https://www.youtube.com/watch?v=1-LWI2tGfhQ" category="Retro Gaming"/>
     <outline text="“Super Nintendo Video System” by Fabien Sanglard" type="link" created="Mon, 11 Nov 2024 21:29:28 +0000" url="https://fabiensanglard.net/snes_video/index.html" category="Retro Gaming"/>
-    <outline text="“Super Paper Mario's design” by Kirbyster" type="link" created="Mon, 11 Nov 2024 21:29:26 +0000" url="https://youtube.com/watch?si=BDytOgheHFncVBK9&amp;v=tfS9SYPT-jw" category="Retro Gaming"/>
     <outline text="“A video about Melee” by AsumSaus" type="link" created="Mon, 11 Nov 2024 21:29:26 +0000" url="https://youtu.be/nviIKTywuYU?si=mgFOhNBRMCTAIwOU" category="Retro Gaming"/>
+    <outline text="“Super Paper Mario's design” by Kirbyster" type="link" created="Mon, 11 Nov 2024 21:29:26 +0000" url="https://youtube.com/watch?si=BDytOgheHFncVBK9&amp;v=tfS9SYPT-jw" category="Retro Gaming"/>
     <outline text="“ORANGE FM, Game Boy cartridge for FM Radio” by Evan Barger" type="link" created="Mon, 11 Nov 2024 21:29:25 +0000" url="https://orangegb.com/orangefm" category="Retro Gaming"/>
     <outline text="“Gamecube ASCII keyboard controller and libogc” by Gered King" type="link" created="Mon, 11 Nov 2024 21:29:23 +0000" url="http://www.blarg.ca/2021/02/15/using-a-gamecube-ascii-keyboard-controller-with-libogc" category="Retro Gaming"/>
     <outline text="“GameCube, Wii, Wii U, and PC connected via Broadband Adapter” by Good Vibes Gaming" type="link" created="Mon, 11 Nov 2024 21:29:22 +0000" url="https://www.youtube.com/watch?v=699HVbOKNtc" category="Retro Gaming"/>

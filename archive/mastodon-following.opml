@@ -12,7 +12,6 @@
     <outline text="BajoranEngineer@mastodon.online" type="link" url="https://mastodon.online/@BajoranEngineer"/>
     <outline text="Codeberg@social.anoxinon.de" type="link" url="https://social.anoxinon.de/@Codeberg"/>
     <outline text="CodenameTim" type="link" url="https://mastodon.social/@CodenameTim"/>
-    <outline text="Daojoan" type="link" url="https://mastodon.social/@Daojoan"/>
     <outline text="DidYouKnowGaming@mstdn.social" type="link" url="https://mstdn.social/@DidYouKnowGaming"/>
     <outline text="EWDurbin" type="link" url="https://mastodon.social/@EWDurbin"/>
     <outline text="EvilDMP@mastodon.online" type="link" url="https://mastodon.online/@EvilDMP"/>
@@ -29,6 +28,7 @@
     <outline text="MissingClara@chaos.social" type="link" url="https://chaos.social/@MissingClara"/>
     <outline text="Monorepo@fosstodon.org" type="link" url="https://fosstodon.org/@Monorepo"/>
     <outline text="NGIZero@mastodon.xyz" type="link" url="https://mastodon.xyz/@NGIZero"/>
+    <outline text="PinoBatch@peoplemaking.games" type="link" url="https://peoplemaking.games/@PinoBatch"/>
     <outline text="Randy_v@hachyderm.io" type="link" url="https://hachyderm.io/@Randy_v"/>
     <outline text="Shonumi" type="link" url="https://mastodon.social/@Shonumi"/>
     <outline text="SwiftOnSecurity@infosec.exchange" type="link" url="https://infosec.exchange/@SwiftOnSecurity"/>
@@ -251,6 +251,7 @@
     <outline text="nathaniel@indieweb.social" type="link" url="https://indieweb.social/@nathaniel"/>
     <outline text="nedbat@hachyderm.io" type="link" url="https://hachyderm.io/@nedbat"/>
     <outline text="nessita@fosstodon.org" type="link" url="https://fosstodon.org/@nessita"/>
+    <outline text="nettles@mastodon.scot" type="link" url="https://mastodon.scot/@nettles"/>
     <outline text="nicoddemus" type="link" url="https://mastodon.social/@nicoddemus"/>
     <outline text="nicole@oldbytes.space" type="link" url="https://oldbytes.space/@nicole"/>
     <outline text="njs" type="link" url="https://mastodon.social/@njs"/>
