@@ -12,7 +12,7 @@ and I noticed an interesting trend...
 are either planned or already available on NSO+.
 <!-- more -->
 The only other title that hasn't been mentioned yet is <nobr>“Legend of Zelda: Twilight Princess”</nobr>.
-Take a look at the table of all 44 first-party GameCube titles below, <span style="background-color: #ddffdd; padding-left: 4px; padding-bottom: 2px; padding-top: 2px; padding-right: 4px; border-radius: 0.25em;">green (✅)</span> means the game is already
+Take a look at the table of all 53 first-party GameCube titles below, <span style="background-color: #ddffdd; padding-left: 4px; padding-bottom: 2px; padding-top: 2px; padding-right: 4px; border-radius: 0.25em;">green (✅)</span> means the game is already
 available on NSO+ and <span style="background-color: #ddddff; padding-left: 4px; padding-bottom: 2px; padding-top: 2px; padding-right: 4px; border-radius: 0.25em;">blue (🔄)</span> means the game is announced but not yet available:
 
 <table style="margin-left: auto; margin-right: auto;"><thead><th style="text-align: center">NSO+</th><th>Game</td><th>Price</th></thead>
