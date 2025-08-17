@@ -5,6 +5,7 @@ people are reading my blog using RSS compared to
 my newsletter. That's a good thing, privacy is important and I don't *need* to know who you are to enjoy my blog :)
 
 But what if I was interested in a rough number of subscribers to the RSS feed?
+<!-- more -->
 Turns out RSS feed scrapers sometimes include the number of subscribers in their `User-Agent` HTTP header. Like this:
 
 ```
