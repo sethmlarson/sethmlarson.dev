@@ -1,4 +1,4 @@
-# Nintendo Switch Online + Expansion Pack is great for digital and physical GameCube players
+# Nintendo Switch Online “GameCube Classics” is great for digital and physical GameCube players
 
 <!-- more -->
 

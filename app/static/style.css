@@ -172,6 +172,9 @@ button {
 li > p {
   margin: 0;
 }
+li + li {
+  margin-top: 0.25em;
+}
 pre {
   margin: 0;
   padding: 0;
