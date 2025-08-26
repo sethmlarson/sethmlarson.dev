@@ -114,6 +114,7 @@
     <outline text="James Chambers" type="rss" xmlUrl="https://jamchamb.net/feed.xml" htmlUrl="https://jamchamb.net"/>
     <outline text="Japhy Riddle" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCKeTCCYBg0CFrFHm2nxx_rQ" htmlUrl="https://www.youtube.com/channel/UCKeTCCYBg0CFrFHm2nxx_rQ"/>
     <outline text="Jay Miller" type="rss" xmlUrl="https://kjaymiller.com/blog.rss" htmlUrl="https://example.com"/>
+    <outline text="Jeff's Animal Crossing Blog" type="rss" xmlUrl="https://www.jvgs.net/acblog/feed" htmlUrl="https://www.jvgs.net/acblog"/>
     <outline text="JessicaIn3D" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJIx6QNSYoUNH3GTLxPN3qw" htmlUrl="https://www.youtube.com/channel/UCJIx6QNSYoUNH3GTLxPN3qw"/>
     <outline text="Jim Nielsen" type="rss" xmlUrl="https://blog.jim-nielsen.com/feed.xml" htmlUrl="https://blog.jim-nielsen.com"/>
     <outline text="Joel Spolsky" type="rss" xmlUrl="https://www.joelonsoftware.com/feed" htmlUrl="https://www.joelonsoftware.com"/>
@@ -239,6 +240,7 @@
     <outline text="elliotisacoolguy" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCa_aLyHBN8zuisUpHDjmBbw" htmlUrl="https://www.youtube.com/channel/UCa_aLyHBN8zuisUpHDjmBbw"/>
     <outline text="grape lab" type="rss" xmlUrl="https://grapelab.co/en/feed" htmlUrl="https://grapelab.co/en"/>
     <outline text="iroh" type="rss" xmlUrl="https://www.iroh.computer/rss.xml" htmlUrl="https://iroh.computer"/>
+    <outline text="localghost.dev" type="rss" xmlUrl="https://localghost.dev/feed.xml" htmlUrl="https://localghost.dev"/>
     <outline text="mGBA" type="rss" xmlUrl="https://mgba.io/feed.xml" htmlUrl="https://mgba.io"/>
     <outline text="marginalia.nu" type="rss" xmlUrl="https://www.marginalia.nu/log/index.xml" htmlUrl="https://www.marginalia.nu/log"/>
     <outline text="p2panda" type="rss" xmlUrl="https://p2panda.org/feed.xml" htmlUrl="https://p2panda.org"/>
