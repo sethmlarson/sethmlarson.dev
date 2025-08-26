@@ -26,4 +26,4 @@ Only the second URL will work on iPhones (and there's not much
 [public explanation](https://developer.apple.com/library/archive/featuredarticles/iPhoneURLScheme_Reference/SMSLinks/SMSLinks.html) as to [why that might be](https://developer.apple.com/library/archive/featuredarticles/iPhoneURLScheme_Reference/SMSLinks/SMSLinks.html)).
 
 * [`sms:+15551230001,+15551230002,...?body=Hello%20world!`](sms:+15551230001,+15551230002,+15551230003,+15551230004?body=Hello%20world!)
-* [`sms://open?addresses=+15551230001,+15551230002,...?body=Hello%20world!`](sms://open?addresses=+15551230001,+15551230002,+15551230003,+15551230004?body=Hello%20world!)
+* [`sms://open?addresses=+15551230001,+15551230002,...&body=Hello%20world!`](sms://open?addresses=+15551230001,+15551230002,+15551230003,+15551230004&body=Hello%20world!)
