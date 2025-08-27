@@ -400,3 +400,28 @@ hr {
   border: 0;
   border-top: 2px solid #000;
 }
+.wavy {
+  animation-name: wavy;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+@keyframes wavy {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -12px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wavy {
+    animation-name: none;
+  }
+}
