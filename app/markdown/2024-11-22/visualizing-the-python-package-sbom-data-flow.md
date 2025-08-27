@@ -74,4 +74,4 @@ type of contribution.
 
 If you're interested in having your use-case covered or you have concerns about the approach, [please open a GitHub issue on the project tracker](https://github.com/psf/sboms-for-python-packages).
 
-That's all for this post! 👋 If you're interested in more you can read [the last report](https://sethmlarson.dev/earlyhttps://sethmlarson.dev/early-promising-results-with-sboms-and-python-packages).
+That's all for this post! 👋 If you're interested in more you can read [the last report](https://sethmlarson.dev/early-promising-results-with-sboms-and-python-packages).
