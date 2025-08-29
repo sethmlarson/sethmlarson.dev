@@ -15,6 +15,9 @@ this browser window, and it'll generate a <nobr>QR code</nobr> which you can sca
 If you are sending to multiple recipients, use a comma (`,`) to delimit the different recipient
 phone numbers. I recommend using international codes (`+1` for the USA), but it appears to work at least on iOS without them.
 
+Don't know or don't want to type in your recipient phone number directly? Add a `1` as the recipient, scan the QR code,
+and then fill in the recipients on your phone to use auto-complete from your contacts list.
+
 All data stays within the browser: your data is not processed, saved, or sent to
 any other server. If this tool is useful: bookmark the page for later use and [let me know what you think](mailto:sethmichaellarson@gmail.com).
 
