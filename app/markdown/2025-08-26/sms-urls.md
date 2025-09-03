@@ -1,6 +1,6 @@
 # SMS URLs
 
-Did you know there are is a URL scheme for sending
+Did you know there is a URL scheme for sending
 an “SMS” or text message, similar to `mailto:`? SMS URLs
 are defined in [RFC 5724](https://www.rfc-editor.org/rfc/rfc5724.html) and are formatted like so:
 
@@ -27,3 +27,6 @@ Only the second URL will work on iPhones (and there's not much
 
 * [`sms:+15551230001,+15551230002,...?body=Hello%20world!`](sms:+15551230001,+15551230002,+15551230003,+15551230004?body=Hello%20world!)
 * [`sms://open?addresses=+15551230001,+15551230002,...&body=Hello%20world!`](sms://open?addresses=+15551230001,+15551230002,+15551230003,+15551230004&body=Hello%20world!)
+
+I used this discovery to create a [small client-side application](https://sethmlarson.dev/draft-sms-and-imessage-from-any-computer-keyboard) for drafting
+long SMS and iMessage messages on your computer to be loaded into your phone via QR code.

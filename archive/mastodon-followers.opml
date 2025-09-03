@@ -7,6 +7,7 @@
     <outline text="0o0o0@fosstodon.org" type="link" url="https://fosstodon.org/@0o0o0"/>
     <outline text="0x1B@vivaldi.net" type="link" url="https://social.vivaldi.net/@0x1B"/>
     <outline text="0xjmux@infosec.exchange" type="link" url="https://infosec.exchange/@0xjmux"/>
+    <outline text="127dot0dot1@infosec.exchange" type="link" url="https://infosec.exchange/@127dot0dot1"/>
     <outline text="130n" type="link" url="https://mastodon.social/@130n"/>
     <outline text="1HommeAzerty@mamot.fr" type="link" url="https://mamot.fr/@1HommeAzerty"/>
     <outline text="234579111316@mas.to" type="link" url="https://mas.to/@234579111316"/>
@@ -55,6 +56,8 @@
     <outline text="Devop66_Trial" type="link" url="https://mastodon.social/@Devop66_Trial"/>
     <outline text="Di4na@hachyderm.io" type="link" url="https://hachyderm.io/@Di4na"/>
     <outline text="Driveswiftly@newsie.social" type="link" url="https://newsie.social/@Driveswiftly"/>
+    <outline text="ELS@sfba.social" type="link" url="https://sfba.social/@ELS"/>
+    <outline text="Edent" type="link" url="https://mastodon.social/@Edent"/>
     <outline text="ElliotG@az.social" type="link" url="https://az.social/@ElliotG"/>
     <outline text="EmilStenstrom" type="link" url="https://mastodon.social/@EmilStenstrom"/>
     <outline text="EricCarroll@mastodon.acm.org" type="link" url="https://mastodon.acm.org/@EricCarroll"/>
@@ -277,6 +280,7 @@
     <outline text="arfs6@hachyderm.io" type="link" url="https://hachyderm.io/@arfs6"/>
     <outline text="arichtman@eigenmagic.net" type="link" url="https://eigenmagic.net/@arichtman"/>
     <outline text="arichtman@mastodon.online" type="link" url="https://mastodon.online/@arichtman"/>
+    <outline text="arrakeen_urbanite@universeodon.com" type="link" url="https://universeodon.com/@arrakeen_urbanite"/>
     <outline text="arrowtype@typo.social" type="link" url="https://typo.social/@arrowtype"/>
     <outline text="arthur_st" type="link" url="https://mastodon.social/@arthur_st"/>
     <outline text="artless@hachyderm.io" type="link" url="https://hachyderm.io/@artless"/>
@@ -463,6 +467,7 @@
     <outline text="collinbanko@hachyderm.io" type="link" url="https://hachyderm.io/@collinbanko"/>
     <outline text="command_tab@hachyderm.io" type="link" url="https://hachyderm.io/@command_tab"/>
     <outline text="coni2k" type="link" url="https://mastodon.social/@coni2k"/>
+    <outline text="coreman27" type="link" url="https://mastodon.social/@coreman27"/>
     <outline text="corenominal@indieweb.social" type="link" url="https://indieweb.social/@corenominal"/>
     <outline text="corneliusroemer@mas.to" type="link" url="https://mas.to/@corneliusroemer"/>
     <outline text="corneliusroemer@mstdn.science" type="link" url="https://mstdn.science/@corneliusroemer"/>
@@ -473,6 +478,7 @@
     <outline text="courtneysindependent" type="link" url="https://mastodon.social/@courtneysindependent"/>
     <outline text="covracer" type="link" url="https://mastodon.social/@covracer"/>
     <outline text="cpansec@fosstodon.org" type="link" url="https://fosstodon.org/@cpansec"/>
+    <outline text="cpontvieux@piaille.fr" type="link" url="https://piaille.fr/@cpontvieux"/>
     <outline text="cpu@hachyderm.io" type="link" url="https://hachyderm.io/@cpu"/>
     <outline text="craig@mastodon.boston" type="link" url="https://mastodon.boston/@craig"/>
     <outline text="craigcorbin@fosstodon.org" type="link" url="https://fosstodon.org/@craigcorbin"/>
@@ -556,6 +562,7 @@
     <outline text="digiglean@fosstodon.org" type="link" url="https://fosstodon.org/@digiglean"/>
     <outline text="digitalbrandon@masto.ai" type="link" url="https://masto.ai/@digitalbrandon"/>
     <outline text="dima@3dots.lv" type="link" url="https://social.3dots.lv/@dima"/>
+    <outline text="dionrhys@toot.wales" type="link" url="https://toot.wales/@dionrhys"/>
     <outline text="discretestates" type="link" url="https://mastodon.social/@discretestates"/>
     <outline text="djh@chaos.social" type="link" url="https://chaos.social/@djh"/>
     <outline text="djlinkeloetje" type="link" url="https://mastodon.social/@djlinkeloetje"/>
@@ -900,6 +907,7 @@
     <outline text="joknopp@chaos.social" type="link" url="https://chaos.social/@joknopp"/>
     <outline text="jokull" type="link" url="https://mastodon.social/@jokull"/>
     <outline text="jon@cyberdeck.social" type="link" url="https://cyberdeck.social/@jon"/>
+    <outline text="jona@freiburg.social" type="link" url="https://freiburg.social/@jona"/>
     <outline text="jonafato" type="link" url="https://mastodon.social/@jonafato"/>
     <outline text="jonasks@fosstodon.org" type="link" url="https://fosstodon.org/@jonasks"/>
     <outline text="jonasps@hachyderm.io" type="link" url="https://hachyderm.io/@jonasps"/>
@@ -947,6 +955,7 @@
     <outline text="kaylea@social.coop" type="link" url="https://social.coop/@kaylea"/>
     <outline text="kazaii@noc.social" type="link" url="https://noc.social/@kazaii"/>
     <outline text="kbakk@fosstodon.org" type="link" url="https://fosstodon.org/@kbakk"/>
+    <outline text="kedara_eu@kedara.social" type="link" url="https://kedara.social/@kedara_eu"/>
     <outline text="keefer@infosec.exchange" type="link" url="https://infosec.exchange/@keefer"/>
     <outline text="kevin@km6g.us" type="link" url="https://mastodon.km6g.us/@kevin"/>
     <outline text="kevinbowen@fosstodon.org" type="link" url="https://fosstodon.org/@kevinbowen"/>
@@ -1118,6 +1127,7 @@
     <outline text="mgreco@hachyderm.io" type="link" url="https://hachyderm.io/@mgreco"/>
     <outline text="mhxion@me.dm" type="link" url="https://me.dm/@mhxion"/>
     <outline text="micahellison@fosstodon.org" type="link" url="https://fosstodon.org/@micahellison"/>
+    <outline text="michelaquino@infosec.exchange" type="link" url="https://infosec.exchange/@michelaquino"/>
     <outline text="michla@fosstodon.org" type="link" url="https://fosstodon.org/@michla"/>
     <outline text="micktwomey@mastodon.ie" type="link" url="https://mastodon.ie/@micktwomey"/>
     <outline text="miess" type="link" url="https://mastodon.social/@miess"/>
@@ -1138,6 +1148,7 @@
     <outline text="morph@morphnet.de" type="link" url="https://morphnet.de/@morph"/>
     <outline text="mortenengen@fosstodon.org" type="link" url="https://fosstodon.org/@mortenengen"/>
     <outline text="moshe@infosec.exchange" type="link" url="https://infosec.exchange/@moshe"/>
+    <outline text="mot@chaos.social" type="link" url="https://chaos.social/@mot"/>
     <outline text="mpace965@hachyderm.io" type="link" url="https://hachyderm.io/@mpace965"/>
     <outline text="mpbontenbal" type="link" url="https://mastodon.social/@mpbontenbal"/>
     <outline text="mpbontenbal@social.edu.nl" type="link" url="https://social.edu.nl/@mpbontenbal"/>
@@ -1320,6 +1331,7 @@
     <outline text="pudgypenguin@infosec.exchange" type="link" url="https://infosec.exchange/@pudgypenguin"/>
     <outline text="puerco@hachyderm.io" type="link" url="https://hachyderm.io/@puerco"/>
     <outline text="puida" type="link" url="https://mastodon.social/@puida"/>
+    <outline text="pulganw@rebel.ar" type="link" url="https://rebel.ar/@pulganw"/>
     <outline text="pvaneynd@hachyderm.io" type="link" url="https://hachyderm.io/@pvaneynd"/>
     <outline text="pvergain@babka.social" type="link" url="https://babka.social/@pvergain"/>
     <outline text="pvergain@framapiaf.org" type="link" url="https://framapiaf.org/@pvergain"/>
@@ -1505,6 +1517,7 @@
     <outline text="squeaky_pl@ohai.social" type="link" url="https://ohai.social/@squeaky_pl"/>
     <outline text="srlt@fosstodon.org" type="link" url="https://fosstodon.org/@srlt"/>
     <outline text="sroedger" type="link" url="https://mastodon.social/@sroedger"/>
+    <outline text="ssteve@fosstodon.org" type="link" url="https://fosstodon.org/@ssteve"/>
     <outline text="sstranger@techhub.social" type="link" url="https://techhub.social/@sstranger"/>
     <outline text="sswam@sigmoid.social" type="link" url="https://sigmoid.social/@sswam"/>
     <outline text="ssweeny@fosstodon.org" type="link" url="https://fosstodon.org/@ssweeny"/>

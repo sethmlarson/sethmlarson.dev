@@ -54,6 +54,7 @@
     <outline text="Computer Graphics &amp; Programming with Pekka Väänänen - 30fps.net" type="rss" xmlUrl="https://30fps.net/atom.xml" htmlUrl="https://30fps.net"/>
     <outline text="Cory Doctorow" type="rss" xmlUrl="https://pluralistic.net/feed" htmlUrl="https://pluralistic.net"/>
     <outline text="Cuyler's blog" type="rss" xmlUrl="https://cuyler36.github.io///feed.xml" htmlUrl="https://cuyler36.github.io"/>
+    <outline text="DYNOMIGHT" type="rss" xmlUrl="https://dynomight.net/feed.xml" htmlUrl="https://dynomight.net"/>
     <outline text="Dan Sinker" type="rss" xmlUrl="https://dansinker.com/feed.xml" htmlUrl="https://dansinker.com"/>
     <outline text="Daniel Stenberg" type="rss" xmlUrl="http://daniel.haxx.se/blog/feed" htmlUrl="https://daniel.haxx.se/blog"/>
     <outline text="David Lord" type="rss" xmlUrl="https://davidism.com/feed" htmlUrl="https://davidism.com"/>
@@ -193,6 +194,7 @@
     <outline text="Samuel Giddins" type="rss" xmlUrl="https://blog.segiddins.me/rss" htmlUrl="https://blog.segiddins.me"/>
     <outline text="Savannah Bailey" type="rss" xmlUrl="https://savannah.dev/index.xml" htmlUrl="https://savannah.dev"/>
     <outline text="Scruffy" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDoKh1xoqKDfUr3YxQBs_1w" htmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDoKh1xoqKDfUr3YxQBs_1w"/>
+    <outline text="Search Engine" type="rss" xmlUrl="https://feeds.megaphone.fm/search-engine" htmlUrl="http://www.pjvogt.com"/>
     <outline text="Semantically Secure" type="rss" xmlUrl="https://scottarc.blog/feed" htmlUrl="https://scottarc.blog"/>
     <outline text="Set Side B" type="rss" xmlUrl="https://setsideb.com/feed" htmlUrl="https://setsideb.com"/>
     <outline text="Seth Larson" type="rss" xmlUrl="https://sethmlarson.dev/feed" htmlUrl="http://sethmlarson.dev"/>
@@ -243,6 +245,7 @@
     <outline text="localghost.dev" type="rss" xmlUrl="https://localghost.dev/feed.xml" htmlUrl="https://localghost.dev"/>
     <outline text="mGBA" type="rss" xmlUrl="https://mgba.io/feed.xml" htmlUrl="https://mgba.io"/>
     <outline text="marginalia.nu" type="rss" xmlUrl="https://www.marginalia.nu/log/index.xml" htmlUrl="https://www.marginalia.nu/log"/>
+    <outline text="np bikes jp" type="rss" xmlUrl="https://mastodon.social/@npbikesjp.rss" htmlUrl="https://mastodon.social/@npbikesjp"/>
     <outline text="p2panda" type="rss" xmlUrl="https://p2panda.org/feed.xml" htmlUrl="https://p2panda.org"/>
     <outline text="plasticbag.org by Tom Coates" type="rss" xmlUrl="http://plasticbag.org/feed" htmlUrl="http://plasticbag.org"/>
     <outline text="sometimes.digital - personal website" type="rss" xmlUrl="https://sometimes.digital/feed.xml" htmlUrl="https://sometimes.digital/feed.xml"/>
