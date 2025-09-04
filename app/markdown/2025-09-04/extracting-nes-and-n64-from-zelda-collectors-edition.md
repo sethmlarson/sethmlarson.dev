@@ -14,7 +14,7 @@ the Nintendo “TGC” archive format, but it turns out that even the popular
 tools handling TGC can't parse the NES ROMs out of the archives included
 in the Zelda Collector's Edition game properly. ¯\\\_(ツ)\_/¯
 
-So instead I [created a script](https://gist.github.com/sethmlarson/1352edca04fbcfb62656249d7603745b) which looks for NES and N64 ROM header magic strings (`NES\x7F` and `\x80\x37\x12\x40`)
+So instead I [created a script](https://gist.github.com/sethmlarson/1352edca04fbcfb62656249d7603745b) which looks for NES and N64 ROM header magic strings (`NES\x1A` and `\x80\x37\x12\x40`)
 and used [known lengths](https://datomatic.no-intro.org/) for these ROMs instead of the TGC format for framing information.
 *So much easier!*
 
