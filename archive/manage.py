@@ -2,6 +2,8 @@ import datetime
 import re
 import json
 import pathlib
+import sys
+
 import opml
 import urllib3
 from mastodon import Mastodon
@@ -344,8 +346,10 @@ def mastodon_follow_graph():
 
 
 if __name__ == "__main__":
-    feeds_opml_from_inoreader()
-    articles_opml_from_inoreader()
+    offline = "--offline" in sys.argv
+    if not offline:
+        feeds_opml_from_inoreader()
+        articles_opml_from_inoreader()
+        mastodon_follow_graph()
     # articles_opml_from_links()
     update_links()
-    mastodon_follow_graph()

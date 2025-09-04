@@ -8,6 +8,8 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Petnames: What if domain names were like phone contacts?”" type="link" created="Wed, 03 Sep 2025 23:03:13 +0000" url="https://files.spritely.institute/papers/petnames.html" category="Software and OSS"/>
+    <outline text="“Truchet QR code”" type="link" created="Wed, 03 Sep 2025 21:45:45 +0000" url="https://mathstodon.xyz/@divbyzero/115137414728152361" category="Toys and Art"/>
     <outline text="“Dubai chocolate theory of the internet” by Search Engine" type="link" created="Wed, 03 Sep 2025 12:58:16 +0000" url="https://www.searchengine.show/a-dubai-chocolate-theory-of-the-internet" category="Social Media"/>
     <outline text="“Apple's assault on internet standards” by Alex Russell" type="link" created="Tue, 02 Sep 2025 13:57:30 +0000" url="https://infrequently.org/2025/09/apples-crimes-against-the-internet-community" category="Software and OSS"/>
     <outline text="“Sideloading and user safety” by Terrence Eden" type="link" created="Sun, 31 Aug 2025 16:44:35 +0000" url="https://shkspr.mobi/blog/2025/08/is-it-possible-to-allow-sideloading-and-keep-users-safe" category="Security"/>
