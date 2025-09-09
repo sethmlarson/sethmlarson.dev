@@ -73,6 +73,7 @@
     <outline text="Erin Kissane" type="rss" xmlUrl="https://erinkissane.com/feed.rss" htmlUrl="https://erinkissane.com"/>
     <outline text="Ethan Marcotte" type="rss" xmlUrl="https://ethanmarcotte.com/wrote/feed.xml" htmlUrl="https://ethanmarcotte.com"/>
     <outline text="Fabien Sanglard" type="rss" xmlUrl="https://fabiensanglard.net/rss.xml" htmlUrl="https://fabiensanglard.net"/>
+    <outline text="Fershad Irani" type="rss" xmlUrl="https://fershad.com/feed-posts.xml" htmlUrl="https://fershad.com"/>
     <outline text="Fiefdom of Files" type="rss" xmlUrl="https://fi-le.net/feed.xml" htmlUrl="https://fi-le.net"/>
     <outline text="Filippo Valsorda" type="rss" xmlUrl="https://words.filippo.io/rss" htmlUrl="https://words.filippo.io"/>
     <outline text="Fix The News" type="rss" xmlUrl="https://fixthenews.com/rss" htmlUrl="https://fixthenews.com"/>
@@ -157,6 +158,7 @@
     <outline text="Natalie the Nerd" type="rss" xmlUrl="https://nataliethenerd.com/blogs/news.atom" htmlUrl="https://nataliethenerd.com/blogs/news"/>
     <outline text="Nathaniel J. Smith" type="rss" xmlUrl="https://vorpus.org/blog/feeds/atom.xml" htmlUrl="https://vorpus.org/blog"/>
     <outline text="Ned Batchelder" type="rss" xmlUrl="https://nedbatchelder.com/blog/rss.xml" htmlUrl="https://nedbatchelder.com/blog"/>
+    <outline text="NeoGeoFanClub" type="rss" xmlUrl="https://neogeofanclub.com/feed" htmlUrl="https://neogeofanclub.com"/>
     <outline text="Nicole Express" type="rss" xmlUrl="https://nicole.express/feed.xml" htmlUrl="https://nicole.express"/>
     <outline text="Nintendo Collecting" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCkMlE43OUrn7S1HKnk2-HzA" htmlUrl="http://www.youtube.com/user/lithium017"/>
     <outline text="Nintendo Forecast" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCU9jRARYgFplM9_u8yTFkHA" htmlUrl="https://www.youtube.com/channel/UCU9jRARYgFplM9_u8yTFkHA"/>
@@ -229,6 +231,7 @@
     <outline text="Victor Stinner" type="rss" xmlUrl="https://vstinner.github.io/feeds/all.atom.xml" htmlUrl="https://vstinner.github.io"/>
     <outline text="Video Game History Foundation" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCicVsS0zrUPrA3RaOJO5oBg" htmlUrl="https://www.youtube.com/channel/UCicVsS0zrUPrA3RaOJO5oBg"/>
     <outline text="Vintage Computing and Gaming" type="rss" xmlUrl="https://www.vintagecomputing.com/index.php/feed" htmlUrl="https://www.vintagecomputing.com"/>
+    <outline text="Waxy" type="rss" xmlUrl="https://waxy.org/feed" htmlUrl="https://waxy.org"/>
     <outline text="Will McGugan" type="rss" xmlUrl="https://www.willmcgugan.com/blog/rootblog/feeds/posts" htmlUrl="https://www.willmcgugan.com/blog/rootblog"/>
     <outline text="William Woodruff" type="rss" xmlUrl="http://blog.yossarian.net/feed.xml" htmlUrl="https://blog.yossarian.net"/>
     <outline text="Willow Protocol" type="rss" xmlUrl="https://willowprotocol.org/rss_news.xml" htmlUrl="https://willowprotocol.org/more/changes/index.html#news_and_updates"/>

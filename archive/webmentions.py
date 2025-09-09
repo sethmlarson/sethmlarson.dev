@@ -1,16 +1,17 @@
-import re
+import sys
 import urllib3
 import bs4
 import pathlib
 import opml
 
+entries = int(sys.argv[1])
 http = urllib3.PoolManager()
 archive_dir = pathlib.Path(__file__).parent.absolute()
 articles_opml_path = archive_dir / "articles.opml"
 articles_opml = opml.OpmlDocument.loads(articles_opml_path.read_text())
 source_url = "https://sethmlarson.dev/links"
 
-for outline in articles_opml.outlines:
+for outline in articles_opml.outlines[-entries:]:
     url = outline.url
     try:
         resp = http.request("GET", url, redirect=True, timeout=2)
