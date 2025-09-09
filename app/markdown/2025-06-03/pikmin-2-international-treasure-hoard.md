@@ -1,4 +1,4 @@
-# Pikmin 2 International Treasure Hoard
+https://www.youtube.com/watch?v=QPFWzSlg-78# Pikmin 2 International Treasure Hoard
 
 <div class="row">
 <div class="col-6">
@@ -302,7 +302,7 @@ is [available on GitHub](https://gist.github.com/sethmlarson/6e83d8d0e4d6412ec8f
 I've removed the "Switch" column for now, I'm focusing on playing more GameCube after all.
 I've started really playing through the PAL region, just unlocked the Perplexing Pool.
 My *special sauce* for the <nobr>PAL-playthrough</nobr> is trying to complete the game without the **Treasure Gauge**
-meaning I'll be able to really blast the music without hearing constant ding-ding-dings.
+meaning I'll be able to really [blast the music](https://www.youtube.com/watch?v=QPFWzSlg-78) without hearing constant ding-ding-dings.
 
 (**2025-07-22**) Added cave sublevels to the treasures which required a special
 "look-back" logic when loading data from the list of save files. Also swapped the JP
