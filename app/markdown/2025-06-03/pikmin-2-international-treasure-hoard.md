@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=QPFWzSlg-78# Pikmin 2 International Treasure Hoard
+# Pikmin 2 International Treasure Hoard
 
 <div class="row">
 <div class="col-6">
