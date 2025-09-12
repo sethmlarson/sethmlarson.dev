@@ -48,24 +48,34 @@ function calculateScore() {
   var sc = Number.parseFloat(document.querySelector("#sc").value);
   sc = Math.min(1, Math.max(0, sc));
   var impactBaseScore = 1 - ((1 - ci) * (1 - ii) * (1 - ai));
-  var impactSubScoreChanged = (7.52 * (impactBaseScore - 0.029)) - (3.25 * ((impactBaseScore - 0.02) ** 15));
-  var impactSubScoreUnchanged = 6.42 * impactBaseScore;
-  var impactSubScore = (impactSubScoreUnchanged * (1 - sc)) + (impactSubScoreChanged * sc);
-  var environmentSubScore = 8.22 * ac * av * pr * ui;
-  var totalScoreChanged = 1.08 * (impactSubScore + environmentSubScore);
-  var totalScoreUnchanged = impactSubScore + environmentSubScore;
-  var totalScore = (totalScoreUnchanged * (1 - sc)) + (totalScoreChanged * sc);
+  if (impactBaseScore <= 0.0) {
+    var totalScore = 0.0;
+  } else {
+    var impactSubScoreChanged = (7.52 * (impactBaseScore - 0.029)) - (3.25 * ((impactBaseScore - 0.02) ** 15));
+    var impactSubScoreUnchanged = 6.42 * impactBaseScore;
+    var impactSubScore = (impactSubScoreUnchanged * (1 - sc)) + (impactSubScoreChanged * sc);
+    var environmentSubScore = 8.22 * ac * av * pr * ui;
+    var totalScoreChanged = 1.08 * (impactSubScore + environmentSubScore);
+    var totalScoreUnchanged = impactSubScore + environmentSubScore;
+    var totalScore = (totalScoreUnchanged * (1 - sc)) + (totalScoreChanged * sc);
+  }
   var cvss = Math.min(10.0, Math.max(0, totalScore));
   document.querySelector("#cvss").value = cvss.toString();
 };
 
-document.getElementById("av").addEventListener("input", (event) => {calculateScore();});
-document.getElementById("ac").addEventListener("input", (event) => {calculateScore();});
-document.getElementById("pr").addEventListener("input", (event) => {calculateScore();});
-document.getElementById("ui").addEventListener("input", (event) => {calculateScore();});
-document.getElementById("sc").addEventListener("input", (event) => {calculateScore();});
-document.getElementById("ci").addEventListener("input", (event) => {calculateScore();});
-document.getElementById("ii").addEventListener("input", (event) => {calculateScore();});
-document.getElementById("ai").addEventListener("input", (event) => {calculateScore();});
+function initInputField(byId) {
+  var elem = document.getElementById(byId);
+  elem.value = elem.min;
+  elem.addEventListener("input", (event) => {calculateScore();});
+};
+
+initInputField("av")
+initInputField("ac")
+initInputField("pr")
+initInputField("ui")
+initInputField("sc")
+initInputField("ci")
+initInputField("ii")
+initInputField("ai")
 calculateScore();
 </script>
