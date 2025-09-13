@@ -69,13 +69,13 @@ function initInputField(byId) {
   elem.addEventListener("input", (event) => {calculateScore();});
 };
 
-initInputField("av")
-initInputField("ac")
-initInputField("pr")
-initInputField("ui")
-initInputField("sc")
-initInputField("ci")
-initInputField("ii")
-initInputField("ai")
+initInputField("av");
+initInputField("ac");
+initInputField("pr");
+initInputField("ui");
+initInputField("sc");
+initInputField("ci");
+initInputField("ii");
+initInputField("ai");
 calculateScore();
 </script>
