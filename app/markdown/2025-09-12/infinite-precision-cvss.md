@@ -1,4 +1,4 @@
-# Infinite* Precision CVSS Calculator
+# Infinite Precision CVSS Calculator
 
 [CVSS](https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System) is a scoring system for the severity of a software vulnerability.
 The scores range from 0 to 10, but that doesn't mean it's a “10-point system”.
@@ -7,7 +7,7 @@ A single value after a decimal (“8.7”) is allowed too, meaning there are 100
 
 <!-- more -->
 
-Look no further than the “Infinite Precision CVSS Calculator”:
+Look no further than the **NEW** “Infinite Precision CVSS Calculator”.
 
 <blockquote>
 <form>
