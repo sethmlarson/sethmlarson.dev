@@ -16,10 +16,10 @@ CIPHER = {
 "F":"Ằ","K":"Ấ","P":"Ä","U":"Ȁ","Z":"Ą",
 }
 CIPHER.update({map(str.lower, kv) for kv in CIPHER.items()})
-UNCIPHER = {v: k for k, v in UNCIPHER.items()}
+UNCIPHER = {v: k for k, v in CIPHER.items()}
 
 def SCREAM(text: str) -> str:
-    return "".join(SCREAM.get(ch, ch) for ch in text)
+    return "".join(CIPHER.get(ch, ch) for ch in text)
 
 def unscream(scream: str) -> str:
     return "".join(UNCIPHER.get(ch, ch) for ch in scream)
