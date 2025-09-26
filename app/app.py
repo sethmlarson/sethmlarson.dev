@@ -99,9 +99,11 @@ class BlogPost:
             _, text = text.split("\n", 1)
         html = md.convert(text)
         blog_content_text = re.sub(r"<[^>]+>", "", html)
+        # Don't wrap on hypens: uses NON-BREAKING HYPHEN.
+        blog_title = self.title.replace("-", "‑")
         return render_template(
             "blog.html",
-            blog_title=self.title,
+            blog_title=blog_title,
             blog_published_date=self.date,
             blog_content=html,
             blog_content_text=blog_content_text,
@@ -369,7 +371,7 @@ def get_blog_post(blog_post: str):
     with blog.markdown_path.open(mode="r") as f:
         text = f.read()
         title, rest = text.split("\n", 1)
-        title = title.lstrip("# ")
+        title = title.lstrip("# ").replace("-", "‑")  # Non-breaking hypen.
         html = md.convert(rest)
 
     # Calculate reading time and cache the value.
