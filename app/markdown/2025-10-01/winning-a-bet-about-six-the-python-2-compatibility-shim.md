@@ -14,6 +14,8 @@ Funnily enough, `six` was still exactly #14 back in 2023:
 > sounds like [Andrey] is winning”<br>
 > -- [Quentin Pradet](https://quentin.pradet.me) (2023-07-09)
 
+Completely unrelated to this bet, Hynek mentioned `six` still being in the top 20 downloaded packages [during his PyCon UK keynote](https://youtu.be/gDvwRpl9erE?si=0JwRMrEvnYbgU07W&t=413).
+
 `six` itself isn't a library that many use on its own,
 as [at least 96% of `six` downloads](https://pypistats.org/packages/six) come from Python 3 versions. Instead,
 this library is installed because other libraries depend on the library.
