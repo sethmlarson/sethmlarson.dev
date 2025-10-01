@@ -7,7 +7,7 @@ Andrey took the side against.
 
 Well, today I can say that I've won the bet. When the bet
 was placed, `six` was #2 in terms of daily downloads
-and [today `six` is #14](https://pypistats.org/top).
+and [today `six` is #14](https://pypistats.org/top). <!-- more -->
 Funnily enough, `six` was still exactly #14 back in 2023:
 
 > “six is top 14 after 3 years, 2 years left,
