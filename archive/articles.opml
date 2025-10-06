@@ -8,6 +8,26 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Working Lego Game Boy” by Natalie the Nerd" type="link" created="Thu, 02 Oct 2025 13:32:00 +0000" url="https://blog.nataliethenerd.com/i-turned-the-lego-game-boy-into-a-working-game-boy-part-1" category="Retro Gaming"/>
+    <outline text="“What can Progressive Web Apps do today?”" type="link" created="Wed, 01 Oct 2025 21:00:22 +0000" url="https://whatpwacando.today" category="Software and OSS"/>
+    <outline text="“AltStore”" type="link" created="Wed, 01 Oct 2025 18:41:19 +0000" url="https://altstore.io" category="Software and OSS"/>
+    <outline text="“Secrets of the Pocket Camera” by Jonathan Traynor" type="link" created="Tue, 21 Jan 2025 16:55:19 +0000" url="https://www.jofamo.com/blog/secrets-of-the-pocket-camera" category="Toys and Art"/>
+    <outline text="“consumed.today”" type="link" created="Wed, 24 Sep 2025 13:10:54 +0000" url="https://consumed.today" category="Toys and Art"/>
+    <outline text="“We can't keep doing this...”" type="link" created="Tue, 23 Sep 2025 02:18:55 +0000" url="https://www.youtube.com/watch?v=ZUX3z-7u7Ak" category="Retro Gaming"/>
+    <outline text="“FliiipBook”" type="link" created="Mon, 22 Sep 2025 17:50:44 +0000" url="https://fliiipbook.com" category="Toys and Art"/>
+    <outline text="“Filter bubbles, epistemic bubbles and echo chambers”" type="link" created="Mon, 22 Sep 2025 17:46:51 +0000" url="https://conversational-leadership.net/echo-chambers-filter-bubbles" category="Social Media"/>
+    <outline text="“@ctrl/tinycolor supply-chain attack post-mortem”" type="link" created="Mon, 22 Sep 2025 13:45:40 +0000" url="https://sigh.dev/posts/ctrl-tinycolor-post-mortem" category="Security"/>
+    <outline text="“Best YouTube downloaders”" type="link" created="Sun, 21 Sep 2025 15:21:22 +0000" url="https://windowsread.me/p/best-youtube-downloaders" category="Social Media"/>
+    <outline text="“You can't screenshot this”" type="link" created="Thu, 18 Sep 2025 09:28:48 +0000" url="https://unscreenshottable.vercel.app/?text=Hello" category="Toys and Art"/>
+    <outline text="“Animal Crossing letter scorer”" type="link" created="Thu, 18 Sep 2025 08:59:46 +0000" url="https://hunter-r.com/ac-letter-scorer" category="Retro Gaming"/>
+    <outline text="“By the way, what’s a AA game?”" type="link" created="Tue, 16 Sep 2025 08:47:16 +0000" url="https://hushcrasher.substack.com/p/taxonomy-of-games" category="Retro Gaming"/>
+    <outline text="“Epistemic collapse at the WSJ”" type="link" created="Fri, 12 Sep 2025 17:53:29 +0000" url="https://www.math.columbia.edu/~woit/wordpress/?p=15206" category="Life"/>
+    <outline text="“Preservation of all 54 clickwheel iPod games”" type="link" created="Thu, 11 Sep 2025 15:07:43 +0000" url="https://arstechnica.com/gaming/2025/09/all-54-lost-clickwheel-ipod-games-have-now-been-preserved-for-posterity" category="Retro Gaming"/>
+    <outline text="“Perceptually mapping to the PICO-8 palette”" type="link" created="Thu, 11 Sep 2025 15:04:35 +0000" url="https://30fps.net/pages/perceptual-pico8-pixel-mapping" category="Retro Gaming"/>
+    <outline text="“Nintendo e-Reader API”" type="link" created="Wed, 10 Sep 2025 19:33:12 +0000" url="https://nytpu.com/misc/nintendo-e-reader" category="Retro Gaming"/>
+    <outline text="“TikTok won, now everything is 60 seconds”" type="link" created="Wed, 10 Sep 2025 16:37:29 +0000" url="https://www.thenexus.media/tiktok-won-now-everything-is-60-seconds" category="Social Media"/>
+    <outline text="“Turn your Game Boy Advance into a Switch 2 controller”" type="link" created="Wed, 10 Sep 2025 16:07:14 +0000" url="https://www.youtube.com/watch?v=VN3hqk34sGg" category="Retro Gaming"/>
+    <outline text="“Supply chains and watering holes”" type="link" created="Tue, 09 Sep 2025 15:21:45 +0000" url="https://cryptography.dog/blog/back-to-watering-holes" category="Security"/>
     <outline text="“Website optimizing for renewable energy”" type="link" created="Mon, 08 Sep 2025 14:46:14 +0000" url="https://fershad.com/writing/making-this-website-grid-aware" category="Software and OSS"/>
     <outline text="“I'm the type of person who...” by Taylor" type="link" created="Mon, 08 Sep 2025 01:30:18 +0000" url="https://taylor.town/type-of-person" category="Life"/>
     <outline text="“Japanese holidays encoded in software”" type="link" created="Sun, 07 Sep 2025 02:40:37 +0000" url="https://addinbox.sakura.ne.jp/holiday_logic_English.htm" category="Software and OSS"/>
@@ -180,7 +200,6 @@
     <outline text="“The most Mario colors” by Louie Mantia" type="link" created="Thu, 23 Jan 2025 21:03:49 +0000" url="https://lmnt.me/blog/the-most-mario-colors.html" category="Retro Gaming"/>
     <outline text="“File systems: the original hypermedia” by Jon Secchis" type="link" created="Thu, 23 Jan 2025 04:07:54 +0000" url="https://jon.work/og" category="Software and OSS"/>
     <outline text="“Simple CPU design”" type="link" created="Wed, 22 Jan 2025 17:55:20 +0000" url="http://simplecpudesign.com" category="Software and OSS"/>
-    <outline text="“Secrets of the Pocket Camera” by Jonathan Traynor" type="link" created="Tue, 21 Jan 2025 16:55:19 +0000" url="https://www.jofamo.com/blog/secrets-of-the-pocket-camera" category="Retro Gaming"/>
     <outline text="“Sending data between two phones”" type="link" created="Tue, 21 Jan 2025 16:17:34 +0000" url="https://retro.social/@ifixcoinops/113838462085835742" category="Social Media"/>
     <outline text="“Loneliness epidemic” by Alvin Chang" type="link" created="Mon, 20 Jan 2025 02:14:18 +0000" url="https://pudding.cool/2023/09/invisible-epidemic" category="Social Media"/>
     <outline text="“Personal computing is dead” by Benj Edwards" type="link" created="Mon, 20 Jan 2025 00:36:57 +0000" url="https://www.vintagecomputing.com/index.php/archives/3292/the-pc-is-dead-its-time-to-make-computing-personal-again" category="Software and OSS"/>
