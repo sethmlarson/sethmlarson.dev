@@ -71,10 +71,9 @@ table {
   display: block;
   max-width: -moz-fit-content;
   max-width: fit-content;
-  margin: 0 auto;
   overflow-x: auto;
   white-space: nowrap;
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: 1.5em;
   background-color: #e9e9e9;
   font-variant-numeric: tabular-nums;
