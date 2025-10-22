@@ -3,14 +3,16 @@
 This is a funny short story about contributing to internet standards.
 The real heroes of the story are [Filippo Valsorda](https://filippo.io/) and [all the other contributors](https://github.com/cfrg/draft-irtf-cfrg-concrete-hybrid-kems/graphs/contributors) to post-quantum cryptography standards (PQC). Without their efforts internet communications would be less secure, so thank you :)
 
-As I understand the situation, the internet standard being discussed is "[Concrete Hybrid PQ/T Key Encapsulation Mechanisms](https://datatracker.ietf.org/doc/draft-irtf-cfrg-concrete-hybrid-kems/)" (KEMs) which combine PQ algorithms with traditional algorithms. The reasoning being that PQ algorithms are relatively new which is not *great* for cryptography which would prefer using algorithms that have survived many years of scrutiny and analysis, such as [EdDSA](https://en.wikipedia.org/wiki/EdDSA).
+<!-- more -->
 
-Therefore, it is desirable to have a "hybrid" KEM designed such that the hybrid "fails gracefully" by only losing the *quantum safety* property if the PQ algorithm is insecure, but doesn't compromise safety to traditional attack vectors that exist without sufficiently powerful quantum computers. My intuition is this will allow for more confident experimentation and deployment of PQ algorithms, as the stakes are much lower for actually rolling out the new algorithms with this construction.
+As I understand the situation, the internet standard being discussed is “[Concrete Hybrid PQ/T Key Encapsulation Mechanisms](https://datatracker.ietf.org/doc/draft-irtf-cfrg-concrete-hybrid-kems/)” (KEMs) which combine PQ algorithms with traditional algorithms. The reasoning being that PQ algorithms are relatively new which is not *great* for cryptography which would prefer using algorithms that have survived many years of scrutiny and analysis, such as [EdDSA](https://en.wikipedia.org/wiki/EdDSA).
+
+Therefore, it is desirable to have a “hybrid” KEM designed such that the hybrid “fails gracefully” by only losing the *quantum safety* property if the PQ algorithm is insecure, but doesn't compromise safety to traditional attack vectors that exist without sufficiently powerful quantum computers. My intuition is this will allow for more confident experimentation and deployment of PQ algorithms, as the stakes are much lower for actually rolling out the new algorithms with this construction.
 
 There are three concrete hybrid KEM instances that are defined within the standard, they are named but the names may change in the future:
 
 * `MLKEM768-P256`
-* `MLKEM768-X25519` (aka "X-Wing")
+* `MLKEM768-X25519` (aka “X-Wing”)
 * `MLKEM1024-P384`
 
 Note that the [X-Wing KEM was first published in January 2024](https://www.ietf.org/archive/id/draft-connolly-cfrg-xwing-kem-09.html), much earlier than the other KEMs in this draft.
@@ -18,13 +20,13 @@ You may have already guessed that the name of the "X-Wing" KEM is relevant to th
 
 These hybrid KEMs are made up of 5 components:
 
-* Traditional component that is either a "nominal group" or a traditional KEM
+* Traditional component that is either a “nominal group” or a traditional KEM
 * A post-quantum KEM
 * A pseudo-random number generator (PRG)
 * A key-derivation function (KDF)
 * And finally, a label which is a byte string that labels the specific combination of the above components.
 
-For the X-Wing KEM the label is the byte string `0x5C2E2F2F5E5C`, which if printed out as ASCII looks like an [X-Wing from Star Wars](https://en.wikipedia.org/wiki/X-wing_fighter):
+For the X-Wing KEM the label is the byte string “`0x5C2E2F2F5E5C`”, which if printed out as ASCII looks like an [X-Wing from Star Wars](https://en.wikipedia.org/wiki/X-wing_fighter):
 
 <pre style="max-width: fit-content; margin-left: auto; margin-right: auto;"><code>\./
 /^\
