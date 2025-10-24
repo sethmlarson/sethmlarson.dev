@@ -26,7 +26,7 @@ Co-authored-by: Seth Michael Larson <18519037+sethmlarson@users.noreply.github.c
 ```
 
 And this can be used auto-magically with multi line git commits,
-so if I'm trying to credit [Quentin Pradet](https://github.com/pquentin) as a coauthor I'd do this:
+so if I'm trying to credit <nobr>[Quentin Pradet](https://github.com/pquentin)</nobr> as a co-author I'd do this:
 
 ```terminaloutput
 $ git commit -m "Fixing bugs as usual
