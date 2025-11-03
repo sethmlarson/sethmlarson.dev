@@ -29,9 +29,8 @@ And this can be used auto-magically with multi line git commits,
 so if I'm trying to credit <nobr>[Quentin Pradet](https://github.com/pquentin)</nobr> as a co-author I'd do this:
 
 ```terminaloutput
-$ git commit -m "Fixing bugs as usual
->
-> $(coauthoredby pquentin)"
+$ git commit -m 'Fixing bugs as usual' \
+    --trailer '$(coauthoredby pquentin)'
 ```
 
 Resulting in this git commit message:
