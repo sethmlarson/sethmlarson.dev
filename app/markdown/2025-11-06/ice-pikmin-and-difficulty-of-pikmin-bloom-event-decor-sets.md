@@ -29,17 +29,17 @@ many event Pikmin you'd need to receive before completing the set depending
 on if there are 7 or 8 total Pikmin types.
 
 Running this [Python simulation script](https://gist.github.com/sethmlarson/e0ec72671b2362d9da4090121750179e) creates the below table which shows the difference in [cumulative
-probability](https://en.wikipedia.org/wiki/Cumulative_distribution_function) for completing a decor set after receiving N Pikmin seedlings. For example,
-if you have grown N=10 seedlings you'd have a **10.5% chance** of completing the decor set
+probability](https://en.wikipedia.org/wiki/Cumulative_distribution_function) for completing a decor set after receiving a number of Pikmin seedlings. For example,
+if you have grown 10 seedlings you'd have a **10.5% chance** of completing the decor set
 **before Ice Pikmin** and only a **2.8% chance** of completing the decor set **after Ice Pikmin**.
 
 <table>
 <thead>
 <tr>
-  <th>N seedlings</th>
-  <th>Before Ice Pikmin</th>
-  <th>After Ice Pikmin</th>
-  <th>Difference</th>
+  <th># Seedlings</th>
+  <th>Before</th>
+  <th>After</th>
+  <th>Diff</th>
 </tr>
 </thead>
 <tbody><tr><td>7</td><td style="background-color: #fdfefd">0.6%</td><td style="background-color: #fdfefd">0.0%</td><td style="background-color: #fff9f9">-0.6%</td></tr>
