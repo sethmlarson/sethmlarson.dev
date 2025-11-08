@@ -8,6 +8,19 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“My Truck Desk” by Bud Smith" type="link" created="Tue, 04 Nov 2025 20:18:07 +0000" url="https://www.theparisreview.org/blog/2025/10/29/truck-desk" category="Life"/>
+    <outline text="“Dithering”" type="link" created="Wed, 29 Oct 2025 22:27:22 +0000" url="https://visualrambling.space/dithering-part-1" category="Toys and Art"/>
+    <outline text="“What I need you to understand about Chicago” by Dan Sinker" type="link" created="Fri, 24 Oct 2025 20:05:23 +0000" url="https://dansinker.com/posts/2025-10-24-understand" category="Life"/>
+    <outline text="“AI browsers are an obvious disaster”" type="link" created="Thu, 23 Oct 2025 17:35:02 +0000" url="https://macwright.com/2025/05/29/putting-an-untrusted-chat-layer-is-a-disaster" category="Life"/>
+    <outline text="“e-Reader+ Music”" type="link" created="Mon, 20 Oct 2025 15:30:38 +0000" url="https://www.101soundboards.com/boards/651534-e-reader-card-e-reader-kadoerida-video-game-music" category="Retro Gaming"/>
+    <outline text="“Pica Numbers” by David Jones" type="link" created="Thu, 16 Oct 2025 15:36:39 +0000" url="https://home.octetfont.com/blog/pica-number.html" category="Toys and Art"/>
+    <outline text="“Railroad Diagram Generator”" type="link" created="Wed, 15 Oct 2025 13:32:07 +0000" url="https://tabatkins.github.io/railroad-diagrams/generator.html#Diagram" category="Toys and Art"/>
+    <outline text="“Passwords to Passkeys” by Sedat Kapanoglu" type="link" created="Tue, 14 Oct 2025 18:37:54 +0000" url="https://ssg.dev/from-passwords-to-passkeys" category="Security"/>
+    <outline text="“Progressive Web App features by browser”" type="link" created="Wed, 08 Oct 2025 23:47:49 +0000" url="https://pwascore.com" category="Software and OSS"/>
+    <outline text="“AltStore is joining the Fediverse”" type="link" created="Tue, 07 Oct 2025 16:37:47 +0000" url="http://rileytestut.com/blog/2025/10/07/evolving-altstore-pal" category="Software and OSS"/>
+    <outline text="“The web is going to die” by Hank Green" type="link" created="Mon, 06 Oct 2025 19:53:15 +0000" url="https://www.youtube.com/watch?v=oOyQpwPrf2Q" category="Social Media"/>
+    <outline text="“Social Cooling”" type="link" created="Mon, 06 Oct 2025 02:25:57 +0000" url="https://www.socialcooling.com" category="Social Media"/>
+    <outline text="“Device choice and power relationships” by Zak El Fassi" type="link" created="Sun, 05 Oct 2025 15:12:18 +0000" url="https://zakelfassi.com/command-interface-device-power" category="Life"/>
     <outline text="“Working Lego Game Boy” by Natalie the Nerd" type="link" created="Thu, 02 Oct 2025 13:32:00 +0000" url="https://blog.nataliethenerd.com/i-turned-the-lego-game-boy-into-a-working-game-boy-part-1" category="Retro Gaming"/>
     <outline text="“What can Progressive Web Apps do today?”" type="link" created="Wed, 01 Oct 2025 21:00:22 +0000" url="https://whatpwacando.today" category="Software and OSS"/>
     <outline text="“AltStore”" type="link" created="Wed, 01 Oct 2025 18:41:19 +0000" url="https://altstore.io" category="Software and OSS"/>

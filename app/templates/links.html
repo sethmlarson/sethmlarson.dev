@@ -1,22 +1,36 @@
 {% extends "base.html" %}
-{% block title %}Blogroll — Seth Larson{% endblock %}
+{% block title %}Reblogs — Seth Larson{% endblock %}
 {% block header %}
-<h1><a href="https://www.w3.org/Provider/Style/URI">Cool URLs</a> that I hope won't change</h1>
+<h1>Reblogs (aka: cool stuff on the internet)</h1>
 {% endblock %}
 {% block content %}
 <p>
+    Reblogs are <a href="https://sethmlarson.dev/reblog-tweet-toot-skoot-skeet">what we had before retweets and boosts</a>.
     This is a list of links to stuff on the internet that I enjoyed and want to share with others.
-    There's not really a way to <em>subscribe</em> to this list, so you'll have to check back later for more!
+    You can <a href="{{ url_for('reblogs_feed') }}">subscribe via RSS</a> for regular updates.
 </p>
 <p>
-    I share all the
-    <a href="https://raw.githubusercontent.com/sethmlarson/sethmlarson.dev/refs/heads/master/archive/feeds.opml">RSS feeds</a>
+    Additionally, I share all the
+    <a href="https://raw.githubusercontent.com/sethmlarson/sethmlarson.dev/refs/heads/main/archive/feeds.opml">RSS feeds</a>
     I follow and <a href="https://raw.githubusercontent.com/sethmlarson/sethmlarson.dev/refs/heads/master/archive/articles.opml">article URLs</a>
     below using <a href="https://en.wikipedia.org/wiki/OPML">OPML</a>, an open standard for sharing groups of links with text and other metadata.
-    You can import the feeds directly into your reader app of choice (but beware, it's a firehose!)
+    You can import the feeds directly into your reader app of choice.
 </p>
 <p id="#sentinel">
 <table style="table-layout: fixed">
+<tr><td title="Life">🏞️</td><td>“<a href="https://www.theparisreview.org/blog/2025/10/29/truck-desk">My Truck Desk</a>” by Bud Smith</td></tr>
+<tr><td title="Toys and Art">🖼️</td><td>“<a href="https://visualrambling.space/dithering-part-1">Dithering</a>”</td></tr>
+<tr><td title="Life">🏞️</td><td>“<a href="https://dansinker.com/posts/2025-10-24-understand">What I need you to understand about Chicago</a>” by Dan Sinker</td></tr>
+<tr><td title="Life">🏞️</td><td>“<a href="https://macwright.com/2025/05/29/putting-an-untrusted-chat-layer-is-a-disaster">AI browsers are an obvious disaster</a>”</td></tr>
+<tr><td title="Retro Gaming">🎮</td><td>“<a href="https://www.101soundboards.com/boards/651534-e-reader-card-e-reader-kadoerida-video-game-music">e-Reader+ Music</a>”</td></tr>
+<tr><td title="Toys and Art">🖼️</td><td>“<a href="https://home.octetfont.com/blog/pica-number.html">Pica Numbers</a>” by David Jones</td></tr>
+<tr><td title="Toys and Art">🖼️</td><td>“<a href="https://tabatkins.github.io/railroad-diagrams/generator.html#Diagram">Railroad Diagram Generator</a>”</td></tr>
+<tr><td title="Security">🔒</td><td>“<a href="https://ssg.dev/from-passwords-to-passkeys">Passwords to Passkeys</a>” by Sedat Kapanoglu</td></tr>
+<tr><td title="Software and OSS">🖥️</td><td>“<a href="https://pwascore.com">Progressive Web App features by browser</a>”</td></tr>
+<tr><td title="Software and OSS">🖥️</td><td>“<a href="http://rileytestut.com/blog/2025/10/07/evolving-altstore-pal">AltStore is joining the Fediverse</a>”</td></tr>
+<tr><td title="Social Media">📱</td><td>“<a href="https://www.youtube.com/watch?v=oOyQpwPrf2Q">The web is going to die</a>” by Hank Green</td></tr>
+<tr><td title="Social Media">📱</td><td>“<a href="https://www.socialcooling.com">Social Cooling</a>”</td></tr>
+<tr><td title="Life">🏞️</td><td>“<a href="https://zakelfassi.com/command-interface-device-power">Device choice and power relationships</a>” by Zak El Fassi</td></tr>
 <tr><td title="Retro Gaming">🎮</td><td>“<a href="https://blog.nataliethenerd.com/i-turned-the-lego-game-boy-into-a-working-game-boy-part-1">Working Lego Game Boy</a>” by Natalie the Nerd</td></tr>
 <tr><td title="Software and OSS">🖥️</td><td>“<a href="https://whatpwacando.today">What can Progressive Web Apps do today?</a>”</td></tr>
 <tr><td title="Software and OSS">🖥️</td><td>“<a href="https://altstore.io">AltStore</a>”</td></tr>

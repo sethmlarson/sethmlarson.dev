@@ -31,13 +31,13 @@
 {{ blog_content | safe }}
 <blockquote>
     <p>
-        <strong><em><nobr id="wow-you-made-it">Wow, you made it to the end!</nobr></em></strong> <nobr>...and you're thinking, what now?</nobr>
+        <strong><em><nobr id="wow-you-made-it">Wow, you made it to the end!</nobr></em></strong>
         <br>
         <ul style="margin-left: -20px;">
-    <li>Share your thoughts on <a href="https://mastodon.social/@sethmlarson" target="_blank">Mastodon</a>, <a href="mailto:sethmichaellarson@gmail.com">email</a>, or <a href="https://bsky.app/profile/sethmlarson.dev" target="_blank">Bluesky</a>.</li>
+    <li>Share your thoughts with me on <a href="https://mastodon.social/@sethmlarson" target="_blank">Mastodon</a>, <a href="mailto:sethmichaellarson@gmail.com">email</a>, or <a href="https://bsky.app/profile/sethmlarson.dev" target="_blank">Bluesky</a>.</li>
+    <li>Browse this <a href="{{ url_for('list_blog_posts') }}">blog’s archive</a> of {{ total_blog_count }} entries.</li>
+    <li>Check out this <a href="{{ url_for('links') }}">list of cool stuff</a> I found on the internet.</li>
     <li>Follow this blog on <a href="{{ url_for('rss_blog_posts') }}">RSS</a> or the <a href="https://buttondown.email/sethmlarson">email newsletter</a>.</li>
-    <li>Browse this <a href="/blog">blog’s archive</a> of {{ total_blog_count }} entries.</li>
-    <li>Check out this <a href="/links">list of cool stuff</a> I found on the internet.</li>
     <li>Go outside (best option)</li>
 </ul>
     </p>
