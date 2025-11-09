@@ -209,14 +209,16 @@ Disallow: /""")
     return resp
 
 
-@app.route("/", methods=["GET"])
 @app.route("/blog", methods=["GET"])
+@app.route("/", methods=["GET"])
 @cache_for(small_cache_time)
 def list_blog_posts():
     return render_template("blog-posts.html", blog_posts=BLOG_POSTS_BY_DATE, favorite_posts=favorite_posts, hide_posts=hide_posts)
 
 
 @app.route("/links", methods=["GET"])
+@app.route("/reblogs", methods=["GET"])
+@app.route("/blogroll", methods=["GET"])
 @cache_for(small_cache_time)
 def links():
     return render_template("links.html")
