@@ -8,7 +8,7 @@
         {% if bp.more %}
         <blockquote style="overflow: hidden">
             <a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}" style="color: #000;"><strong style="text-decoration: underline; text-decoration-thickness: 2px;">{{ bp.title }}</strong></a><br>
-            {{ bp.more | safe }}<p><a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}">Continue reading</a> →</p>
+            <br>{{ bp.more | safe }}
         </blockquote>
         {% else %}
             <li><a href="{{ url_for('get_blog_post', blog_post=bp.slug) }}">{{ bp.title }}</a></li>

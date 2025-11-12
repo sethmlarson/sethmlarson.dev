@@ -7,10 +7,12 @@ import sys
 import opml
 import urllib3
 from mastodon import Mastodon
+from textwrap import dedent
 
 
 http_client = urllib3.PoolManager()
 archive_dir = pathlib.Path(__file__).parent.absolute()
+app_template_dir = archive_dir.parent / "app/templates"
 access_token = None
 app_secrets = json.loads((archive_dir / "app-secrets.json").read_text())
 app_id = app_secrets["app_id"]
@@ -272,7 +274,7 @@ def update_links():
         except IndexError:
             raise RuntimeError(f"Article {outline.text!r} has no tags")
 
-    links_path = archive_dir.parent / "app/templates/links.html"
+    links_path = app_template_dir / "links.html"
     lines = links_path.read_text().splitlines()
     new_lines = []
     sentinel_found = False
@@ -307,6 +309,43 @@ def update_links():
         new_lines.append(line)
 
     links_path.write_text("\n".join(new_lines))
+
+
+def update_reblogs_feed():
+    articles_opml_path = archive_dir / "articles.opml"
+    articles_opml = opml.OpmlDocument.loads(articles_opml_path.read_text())
+    reblogs_xml = app_template_dir / "reblogs.xml"
+    lines = [
+        f"""<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Seth Larson (Reblogs)</title>
+  <id>https://sethmlarson.dev/reblogs/feed</id>
+  <updated>{datetime.datetime.now(tz=datetime.UTC).strftime('%Y-%m-%dT%H:%M:%SZ')}</updated>
+  <link href="https://sethmlarson.dev/reblogs" />
+  <link href="https://sethmlarson.dev/reblogs/feed" rel="self" />
+  <author>
+    <name>Seth Larson</name>
+    <uri>https://sethmlarson.dev</uri>
+    <email>sethmichaellarson@gmail.com</email>
+  </author>
+  <icon>https://github.com/sethmlarson.png</icon>
+  <logo>https://github.com/sethmlarson.png</logo>"""]
+
+    for outline in articles_opml.outlines[:10]:
+        lines.append(f'<entry xml:base="https://sethmlarson.dev/reblogs/feed">')
+        title, author = re.match(
+            r"^“([^”]+)”(?: by (.*))?$", outline.text
+        ).groups()
+        lines.append(dedent(f"""<title type="text">{title}</title>
+<id>{outline.url}</id>
+<published>{outline.created.strftime('%Y-%m-%dT%H:%M:%SZ')}</published>
+<link href="{outline.url}" />"""))
+        if author:
+            lines.append(f"<author><name>{author}</name></author>")
+        lines.append('</entry>')
+
+    lines.append("</feed>")
+    reblogs_xml.write_text("\n".join(lines))
 
 
 def mastodon_follow_graph():
@@ -350,6 +389,7 @@ if __name__ == "__main__":
     if not offline:
         feeds_opml_from_inoreader()
         articles_opml_from_inoreader()
-        mastodon_follow_graph()
+        #mastodon_follow_graph()
     # articles_opml_from_links()
     update_links()
+    update_reblogs_feed()
