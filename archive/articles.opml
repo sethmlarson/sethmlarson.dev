@@ -8,6 +8,19 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Whistle up!” by Dan Sinker" type="link" created="Sat, 22 Nov 2025 00:15:15 +0000" url="https://dansinker.com/posts/2025-11-21-whistle-up" category="Life"/>
+    <outline text="“Dependency cooldowns” by William Woodruff" type="link" created="Fri, 21 Nov 2025 15:48:51 +0000" url="https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns" category="Security"/>
+    <outline text="“Interplanetary QUIC” by Adolfo Ochagavía" type="link" created="Thu, 20 Nov 2025 15:45:19 +0000" url="https://ochagavia.nl/blog/towards-interplanetary-quic-traffic" category="Software and OSS"/>
+    <outline text="“Needy programs” by Nikita Prokopov" type="link" created="Thu, 20 Nov 2025 14:44:33 +0000" url="https://tonsky.me/blog/needy-programs" category="Software and OSS"/>
+    <outline text="“Where do the children play?” by Eli Stark-Elster" type="link" created="Mon, 17 Nov 2025 22:28:12 +0000" url="https://unpublishablepapers.substack.com/p/where-do-the-children-play" category="Social Media"/>
+    <outline text="“Drawing celtic knots with Python” by Tom Ruddell" type="link" created="Mon, 17 Nov 2025 15:14:10 +0000" url="https://2earth.github.io/website/20250202.html" category="Toys and Art"/>
+    <outline text="“Uncertainty calculator” by Filip Hráček" type="link" created="Sun, 16 Nov 2025 22:17:28 +0000" url="https://filiph.github.io/unsure" category="Life"/>
+    <outline text="“The fate of small open source” by Nolan Lawson" type="link" created="Sun, 16 Nov 2025 20:55:19 +0000" url="https://nolanlawson.com/2025/11/16/the-fate-of-small-open-source" category="Software and OSS"/>
+    <outline text="“Package manager timeline” by Andrew Nesbitt" type="link" created="Sat, 15 Nov 2025 18:43:42 +0000" url="https://nesbitt.io/2025/11/15/package-manager-timeline.html" category="Software and OSS"/>
+    <outline text="“Open source power” by Erlend Sogge Heggen" type="link" created="Sat, 15 Nov 2025 07:06:39 +0000" url="https://blog.muni.town/open-source-power" category="Software and OSS"/>
+    <outline text="“GPG and me” by Moxie Marlinspike" type="link" created="Fri, 14 Nov 2025 20:27:09 +0000" url="https://moxie.org/2015/02/24/gpg-and-me.html" category="Security"/>
+    <outline text="“SlopStop” by Kagi" type="link" created="Thu, 13 Nov 2025 19:13:07 +0000" url="https://blog.kagi.com/slopstop" category="Life"/>
+    <outline text="“More people targeted with government spyware” by Lorenzo Franceschi-Bicchierai" type="link" created="Wed, 12 Nov 2025 23:24:20 +0000" url="https://techcrunch.com/2025/11/10/why-a-lot-of-people-are-getting-hacked-with-government-spyware" category="Security"/>
     <outline text="“Stickers on laptops”" type="link" created="Wed, 12 Nov 2025 02:15:48 +0000" url="https://stickertop.art/main" category="Toys and Art"/>
     <outline text="“Sued by Nintendo”" type="link" created="Mon, 10 Nov 2025 00:52:20 +0000" url="https://suedbynintendo.com" category="Life"/>
     <outline text="“Era of neutrality is over for technologists”" type="link" created="Sun, 09 Nov 2025 18:31:09 +0000" url="https://the-decenter.ghost.io/calling-all-technologists-the-era-of-neutrality-is-over" category="Software and OSS"/>

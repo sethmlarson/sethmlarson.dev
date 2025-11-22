@@ -298,7 +298,7 @@ def update_links():
                 tag = outline.categories[0]
                 tag_emoji = tag_to_emoji[tag]
                 title, author = re.match(
-                    r"^“([^”]+)”(?: by (.*))?$", outline.text
+                    r"^“(.+)”(?: by (.+))?$", outline.text,
                 ).groups()
                 new_lines.append(
                     f"<tr><td title=\"{tag}\">{tag_emoji}</td><td>“<a href=\"{outline.url}\">{title}</a>”{' by ' + author if author else ''}</td></tr>"
@@ -334,7 +334,7 @@ def update_reblogs_feed():
     for outline in articles_opml.outlines[:10]:
         lines.append(f'<entry xml:base="https://sethmlarson.dev/reblogs/feed">')
         title, author = re.match(
-            r"^“([^”]+)”(?: by (.*))?$", outline.text
+            r"^“(.+)”(?: by (.+))?$", outline.text,
         ).groups()
         lines.append(dedent(f"""<title type="text">{title}</title>
 <id>{outline.url}</id>
