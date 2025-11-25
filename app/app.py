@@ -421,6 +421,8 @@ def get_blog_post(blog_post: str):
   }
 </style>
         """
+    elif blog_post == "mobile-browsers-and-telephone-numbers":
+        html_head = "<style>a[href^=tel] {background-color: #00ccff !important;}</style>"
 
     if blog_post == "significant-whitespace":
         reading_time = 0

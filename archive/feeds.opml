@@ -14,6 +14,7 @@
     <outline text="5Calls" type="rss" xmlUrl="5calls@ino.to" htmlUrl="https://www.inoreader.com"/>
     <outline text="@Westenberg" type="rss" xmlUrl="https://www.joanwestenberg.com/rss" htmlUrl="https://www.joanwestenberg.com"/>
     <outline text="A New Social" type="rss" xmlUrl="https://blog.anew.social/rss" htmlUrl="https://blog.anew.social"/>
+    <outline text="Adrian Howard" type="rss" xmlUrl="https://adrianhoward.com/feed.xml" htmlUrl="https://adrianhoward.com"/>
     <outline text="Aeva Black" type="rss" xmlUrl="https://aeva.online/rss.xml" htmlUrl="https://aeva.online"/>
     <outline text="Alex Gaynor" type="rss" xmlUrl="https://alexgaynor.net/feed.xml" htmlUrl="https://alexgaynor.net"/>
     <outline text="Alexander Obenauer" type="rss" xmlUrl="https://alexanderobenauer.com/assets/feed/rss.xml" htmlUrl="https://alexanderobenauer.com"/>
@@ -157,6 +158,7 @@
     <outline text="Max Frequency" type="rss" xmlUrl="https://maxfrequency.net/rss.xml" htmlUrl="https://maxfrequency.net"/>
     <outline text="Melon" type="rss" xmlUrl="https://thoughts.melonking.net/atom/?section=thoughts" htmlUrl="https://thoughts.melonking.net"/>
     <outline text="Michael Ashworth" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC5bN6XKHDCFt_wYAJmsP_Mg" htmlUrl="http://www.youtube.com/user/DaysAreRare"/>
+    <outline text="Michael Green" type="rss" xmlUrl="https://www.yesigiveafig.com/feed" htmlUrl="https://www.yesigiveafig.com"/>
     <outline text="Michele Sollecito" type="rss" xmlUrl="https://sollecitom.github.io/software-product-development-blog/index.xml" htmlUrl="https://sollecitom.github.io/software-product-development-blog"/>
     <outline text="Mike Fiedler" type="rss" xmlUrl="https://www.miketheman.net/feed" htmlUrl="https://www.miketheman.net"/>
     <outline text="Minnesota Freedom Fund" type="rss" xmlUrl="https://mnfreedomfund.org/feed" htmlUrl="https://mnfreedomfund.org"/>
