@@ -7,6 +7,8 @@ a clickable `<a href="tel:...">` value that when selected will call the
 number denoted. This can be helpful sometimes, but frustrating other
 times as random numbers in your HTML suddenly become useless hyperlinks.
 
+<!-- more -->
+
 Below I've included numbers that *may* be turned into phone numbers
 so you can see for yourself why this may be
 a problem and how many cases there are. Numbers that are detected as a phone number by
