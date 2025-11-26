@@ -421,8 +421,11 @@ def get_blog_post(blog_post: str):
   }
 </style>
         """
-    elif blog_post == "mobile-browsers-and-telephone-numbers":
+
+    if blog_post == "mobile-browsers-and-telephone-numbers":
         html_head = "<style>a[href^=tel], .pn-on {background-color: #00ccff !important;}</style>"
+    else:
+        html_head += "<meta name=\"format-detection\" content=\"telephone=no\"/>"
 
     if blog_post == "significant-whitespace":
         reading_time = 0
