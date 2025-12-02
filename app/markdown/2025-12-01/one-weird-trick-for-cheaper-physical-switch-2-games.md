@@ -1,4 +1,4 @@
-# One weird trick for cheap physical Switch 2 games?
+# One weird trick for cheaper physical Switch 2 games?
 
 **Maybe sell your boxes?** I happened to be browsing PriceCharting
 and saw that *only the box* for Kirby Air Riders was
