@@ -49,12 +49,14 @@
     <outline text="Button of the Month" type="rss" xmlUrl="https://www.theverge.com/rss/stream/17969611" htmlUrl="https://www.theverge.com/circuitbreaker/2019/1/31/18205570/button-of-the-month-column-hardware-physical-input-circuit-breaker"/>
     <outline text="Cabel Sasser" type="rss" xmlUrl="https://cabel.com/feed" htmlUrl="https://cabel.com"/>
     <outline text="Cal Paterson" type="rss" xmlUrl="https://calpaterson.com/calpaterson.rss" htmlUrl="http://calpaterson.com/calpaterson.rss"/>
+    <outline text="Caleb Jay Rogers" type="rss" xmlUrl="https://blog.calebjay.com/index.xml" htmlUrl="https://blog.calebjay.com/index.xml"/>
     <outline text="Canned Fish Files by Matthew Carlson" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCOh0i2J19hEJXA4r6aIU2gw" htmlUrl="https://www.youtube.com/channel/UCOh0i2J19hEJXA4r6aIU2gw"/>
     <outline text="Cassidy Williams" type="rss" xmlUrl="https://blog.cassidoo.co/rss.xml" htmlUrl="https://blog.cassidoo.co"/>
     <outline text="Cat and Girl" type="rss" xmlUrl="https://catandgirl.com/?feed=rss2" htmlUrl="https://catandgirl.com"/>
     <outline text="Change, Technically" type="rss" xmlUrl="https://feeds.buzzsprout.com/2396236.rss" htmlUrl="https://www.changetechnically.fyi"/>
     <outline text="Changeset" type="rss" xmlUrl="https://buttondown.email/Changeset/rss" htmlUrl="https://buttondown.email/Changeset"/>
     <outline text="Chris Siebenmann" type="rss" xmlUrl="https://utcc.utoronto.ca/~cks/space/blog/?atom" htmlUrl="https://utcc.utoronto.ca/~cks/space/blog"/>
+    <outline text="Christine Lemmer-Webber" type="rss" xmlUrl="https://dustycloud.org/blog/index.xml" htmlUrl="https://dustycloud.org"/>
     <outline text="Colin Devroe" type="rss" xmlUrl="https://cdevroe.com/feed" htmlUrl="https://cdevroe.com/blog"/>
     <outline text="Computer Graphics &amp; Programming with Pekka Väänänen - 30fps.net" type="rss" xmlUrl="https://30fps.net/atom.xml" htmlUrl="https://30fps.net"/>
     <outline text="Cory Doctorow" type="rss" xmlUrl="https://pluralistic.net/feed" htmlUrl="https://pluralistic.net"/>
@@ -67,6 +69,7 @@
     <outline text="Darius Kazemi" type="rss" xmlUrl="https://tinysubversions.com/feed.xml" htmlUrl="https://tinysubversions.com"/>
     <outline text="David Jones" type="rss" xmlUrl="webfeed://https%3A%2F%2Fhome.octetfont.com%2Fblog%2F--63516a8a" htmlUrl="https://home.octetfont.com/blog"/>
     <outline text="David Lord" type="rss" xmlUrl="https://davidism.com/feed" htmlUrl="https://davidism.com"/>
+    <outline text="Dealgorithmed" type="rss" xmlUrl="https://buttondown.com/dealgorithmed/rss" htmlUrl="https://buttondown.com/dealgorithmed"/>
     <outline text="Deciphering Glyph" type="rss" xmlUrl="https://blog.glyph.im/feeds/all.atom.xml" htmlUrl="https://blog.glyph.im"/>
     <outline text="Deciphering Glyph" type="rss" xmlUrl="http://glyph.twistedmatrix.com/feeds/posts/default" htmlUrl="https://blog.glyph.im"/>
     <outline text="Dhole Moments" type="rss" xmlUrl="https://soatok.blog/feed" htmlUrl="https://soatok.blog"/>
