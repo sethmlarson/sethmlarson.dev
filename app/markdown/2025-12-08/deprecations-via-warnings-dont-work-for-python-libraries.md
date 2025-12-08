@@ -27,6 +27,7 @@ resp.headers
 This API was emitting warnings for over 3 years in a top-3 Python package by downloads urging libraries
 and users to stop using the API and **that was not enough**. We still received feedback
 from users that this removal was unexpected and was breaking dependent libraries.
+We ended up [adding the APIs back](https://github.com/urllib3/urllib3/pull/3732) and creating a hurried release to fix the issue.
 
 It's not clear to me that
 waiting longer would have helped, either. The libraries that were impacted
