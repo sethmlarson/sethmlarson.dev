@@ -95,6 +95,7 @@
     <outline text="Foxes in Love" type="rss" xmlUrl="https://foxes-in-love.tumblr.com/rss" htmlUrl="https://foxes-in-love.tumblr.com"/>
     <outline text="Frederik Braun" type="rss" xmlUrl="https://frederikbraun.de/feeds/all.atom.xml" htmlUrl="https://frederikbraun.de"/>
     <outline text="Game Garage" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCohhR4cYWHl4wJdkyelbJHg" htmlUrl="https://www.youtube.com/channel/UCohhR4cYWHl4wJdkyelbJHg"/>
+    <outline text="Garrett Bucks" type="rss" xmlUrl="https://thewhitepages.net/feed" htmlUrl="https://thewhitepages.net"/>
     <outline text="Georgi Ker" type="rss" xmlUrl="https://georgiker.com/blog/index.xml" htmlUrl="https://georgiker.com/blog"/>
     <outline text="Gered King" type="rss" xmlUrl="http://www.blarg.ca/rss" htmlUrl="https://blarg.ca"/>
     <outline text="Ghidra Ninja" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC3S8vxwRfqLBdIhgRlDRVzw" htmlUrl="https://www.youtube.com/channel/UC3S8vxwRfqLBdIhgRlDRVzw"/>
@@ -145,11 +146,11 @@
     <outline text="Kushal Das" type="rss" xmlUrl="https://kushaldas.in/rss.xml" htmlUrl="https://kushaldas.in"/>
     <outline text="LOW←TECH MAGAZINE" type="rss" xmlUrl="https://solar.lowtechmagazine.com/posts/index.xml" htmlUrl="https://solar.lowtechmagazine.com/posts"/>
     <outline text="Lapper" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4Jo-LsA04_rms601MTE1lQ" htmlUrl="https://www.youtube.com/channel/UC4Jo-LsA04_rms601MTE1lQ"/>
+    <outline text="Legends of Localization" type="rss" xmlUrl="https://legendsoflocalization.com/feed" htmlUrl="https://legendsoflocalization.com"/>
     <outline text="Local-First FM" type="rss" xmlUrl="https://www.localfirst.fm/feed" htmlUrl="https://www.localfirst.fm"/>
     <outline text="Louie Mantia" type="rss" xmlUrl="https://lmnt.me/feed.xml" htmlUrl="https://lmnt.me"/>
     <outline text="Ludicity by Nikhil Suresh" type="rss" xmlUrl="https://ludic.mataroa.blog/rss" htmlUrl="https://ludic.mataroa.blog"/>
     <outline text="Luna" type="rss" xmlUrl="https://moonbase.lgbt/blog/atom.xml" htmlUrl="https://moonbase.lgbt/blog"/>
-    <outline text="MIRAC" type="rss" xmlUrl="mirac@ino.to" htmlUrl="https://www.inoreader.com"/>
     <outline text="Macho Nacho Productions" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4CsqctrGOn4NTz09sAhXwQ" htmlUrl="https://www.youtube.com/channel/UC4CsqctrGOn4NTz09sAhXwQ"/>
     <outline text="Mackie Kannard-Smith" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCY7h3n3kFX6w9cyWeA7QyOw" htmlUrl="https://www.youtube.com/channel/UCY7h3n3kFX6w9cyWeA7QyOw"/>
     <outline text="Maggie Appleton" type="rss" xmlUrl="https://maggieappleton.com/rss.xml" htmlUrl="https://maggieappleton.com"/>
@@ -237,6 +238,7 @@
     <outline text="Supper Mario Broth" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCOYp9uozJ-qpqmhZrPmUahw" htmlUrl="https://www.youtube.com/channel/UCOYp9uozJ-qpqmhZrPmUahw"/>
     <outline text="Sustain" type="rss" xmlUrl="https://feeds.fireside.fm/sustain/rss" htmlUrl="https://podcast.sustainoss.org"/>
     <outline text="System of Levers" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSH44z64-vxbVY3nXePm6xA" htmlUrl="https://www.youtube.com/channel/UCSH44z64-vxbVY3nXePm6xA"/>
+    <outline text="Taylor Dahlin" type="rss" xmlUrl="https://taylordahlin.com/f.atom" htmlUrl="https://taylordahlin.com"/>
     <outline text="Technology Connections" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q" htmlUrl="https://www.youtube.com/channel/UCy0tKL1T7wFoYcxCe0xjN6Q"/>
     <outline text="The Fediverse Report" type="rss" xmlUrl="https://fediversereport.com/feed" htmlUrl="https://fediversereport.com"/>
     <outline text="The Future Is Like Pie" type="rss" xmlUrl="https://rss.beehiiv.com/feeds/UTUG4cosDb.xml" htmlUrl="https://thefutureislikepie.beehiiv.com"/>
