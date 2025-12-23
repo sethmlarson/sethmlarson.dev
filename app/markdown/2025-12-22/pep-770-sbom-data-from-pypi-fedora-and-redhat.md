@@ -2,8 +2,8 @@
 
 This year I authored [PEP 770](https://peps.python.org/pep-0770/) which proposed a new standardized location
 for Software Bill-of-Materials (SBOM) data within Python wheel archives.
-SBOM data can now be stored in `(package)-(version).dist-info/sboms/`.
-You can see the [canonical specification](https://packaging.python.org/en/latest/specifications/binary-distribution-format/#the-dist-info-sboms-directory) on `packaging.python.org`.
+SBOM data can now be stored in `.dist-info/sboms/`.
+You can see the [canonical specification](https://packaging.python.org/en/latest/specifications/binary-distribution-format/#the-dist-info-sboms-directory) on [packaging.python.org](https://packaging.python.org).
 
 <!-- more -->
 
