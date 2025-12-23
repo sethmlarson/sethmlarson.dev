@@ -7,7 +7,7 @@ You can see the [canonical specification](https://packaging.python.org/en/latest
 
 <!-- more -->
 
-While writing this document we also reserved all `.dist-info/` subdirectory names
+While writing this document we also reserved all subdirectory names under `.dist-info/`
 within a registry for future use in other standards. Reviewers agreed that this
 method of defining file-based metadata (such as SBOMs, but also licenses)
 is a great mechanism as it doesn't require creating a new metadata field
@@ -32,9 +32,9 @@ Back in 2022 there was a [public issue](https://github.com/pypa/auditwheel/issue
 to generate an SBOM during the `auditwheel repair` command. Now in
 [Auditwheel v6.5.0](https://github.com/pypa/auditwheel/releases/tag/6.5.0) which was released in early November, Auditwheel
 will [now automatically generate SBOM data](https://github.com/pypa/auditwheel/pull/577) and include the SBOM in
-the PEP 770 specified location (`.dist-info/sboms/auditwheel.cdx.json`).
+the wheel following PEP 770.
 
-The manylinux images [adopted the new auditwheel version](https://github.com/pypa/manylinux/commit/e72d93b28c29e08d5a1fb5425b33f08b150dc591) soon after publication.
+The manylinux container images [adopted the new auditwheel version](https://github.com/pypa/manylinux/commit/e72d93b28c29e08d5a1fb5425b33f08b150dc591) soon after publication.
 These images are used by common Python wheel building platforms like [cibuildwheel](https://github.com/pypa/cibuildwheel) and [multibuild](https://github.com/multi-build/multibuild).
 Because this functionality was enabled by default we can look at Python wheel data
 and determine how many packages already supply PEP 770 SBOM data:
@@ -72,7 +72,7 @@ so I'll continue watching the numbers grow over time!
 Back in July of this year, Miro Hrončok [asked if there was a mechanism for specifying the
 "origin" of a package](https://discuss.python.org/t/encoding-origin-in-wheel-and-dist-info-metadata-for-downstream-security-backports/97436), as many tools incorrectly assume that any package that's
 installed to an environment originated from the Python Package Index (and
-therefore would use a Package URLs like `pkg:pypi/`). Their use-case was
+therefore would use a Package URLs like `pkg:pypi/...`). Their use-case was
 Python packages provided by the system package manager, such as `rpm` on Fedora and RedHat Linux.
 Vulnerability scanners were incorrectly assuming packages like `pip` were vulnerable
 as older versions of `pip` are packaged, but with vulnerability patches backported
@@ -82,7 +82,7 @@ and applied to older versions.
 to reduce false-positives in vulnerability scans by defining the actual correct
 Package URL for the installed package in the SBOM:
 
-```json5
+```json
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
