@@ -26,6 +26,12 @@ This script is licensed MIT.
 
 ```python
 #!/usr/bin/env python
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#   "qrcode"
+# ]
+# ///
 # License: MIT
 # Copyright 2025, Seth Larson
 
@@ -36,6 +42,8 @@ import sys
 import urllib.parse
 
 from qrcode.console_scripts import main as qrcode_main
+
+__version__ = "2025.12.26"
 
 
 def sms_url(recipients: list[str], message: str, mobile_os: str | None = None) -> str:
@@ -59,7 +67,7 @@ def parse_contacts(contacts_data: str) -> dict[str, str]:
     has a full name and telephone number.
     """
     vcard_fn_re = re.compile(r"^FN:(.+)$", re.MULTILINE)
-    vcard_tel_re = re.compile(r"^(?:item[0-9]\.)?TEL[^:]*:([+0-9\-]+)$", re.MULTILINE)
+    vcard_tel_re = re.compile(r"^(?:item[0-9]\.)?TEL[^:]*:([ \.\(\)+0-9\-]+)$", re.MULTILINE)
     names_to_tel = {}
     for vcard in contacts_data.split("BEGIN:VCARD"):
         if not (
@@ -226,3 +234,9 @@ and "You, Alex, Charlie, and Dave".
 <center>
 🎄 *Merry Christmas and happy organizing!* 🎄
 </center>
+
+## Changelog
+
+* `2025.12.26`: Better handling for many different telephone number formats
+  such as `(555) 555-555`. Added inline script metadata to header.
+* `2025.12.25`: Initial release.
