@@ -74,12 +74,14 @@ def parse_contacts(contacts_data: str) -> dict[str, str]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Blind Carbon Copy (BCC) for SMS")
+    parser = argparse.ArgumentParser(
+        description="Blind Carbon Copy (BCC) for SMS"
+    )
     parser.add_argument(
         "--contacts",
         type=str,
         required=True,
-        help="Path to contacts file, either CSV or VCard",
+        help="Path to contacts file in the vCard format",
     )
     parser.add_argument(
         "--recipients",
@@ -93,13 +95,13 @@ def main() -> int:
         type=str,
         nargs="+",
         required=False,
-        help="List of recipients to include in every recipient group.",
+        help="List of recipients to include in every recipient group",
     )
     parser.add_argument(
         "--message",
         type=str,
         required=True,
-        help="Message to send. Templating uses curly braces (e.g: '{first_name}')",
+        help="Message to send",
     )
     parser.add_argument(
         "--mobile-os",
