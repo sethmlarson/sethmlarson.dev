@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">Seth Larson (Reblogs)</title>
   <id>https://sethmlarson.dev/reblogs/feed</id>
-  <updated>2025-12-10T13:38:45Z</updated>
+  <updated>2025-12-26T03:15:11Z</updated>
   <link href="https://sethmlarson.dev/reblogs" />
   <link href="https://sethmlarson.dev/reblogs/feed" rel="self" />
   <author>
@@ -13,72 +13,70 @@
   <icon>https://github.com/sethmlarson.png</icon>
   <logo>https://github.com/sethmlarson.png</logo>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Fascintern media</title>
-<id>https://berjon.com/fascintern-media</id>
-<published>2025-12-10T00:01:13Z</published>
-<link href="https://berjon.com/fascintern-media" />
-<author><name>Robin Berjon</name></author>
+<title type="text">Ignore AI-upscaled YouTube videos with yt-dlp</title>
+<id>https://alexwlchan.net/til/2025/ignore-ai-scaled-videos</id>
+<published>2025-12-24T20:12:45Z</published>
+<link href="https://alexwlchan.net/til/2025/ignore-ai-scaled-videos" />
+<author><name>Alex Chan</name></author>
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Social media: we can change the defaults</title>
-<id>https://spui25.nl/programma/we-can-change-the-defaults-building-networks-of-consent-and-spaces-of-joy-in-the-ruins-of-social-media</id>
-<published>2025-12-01T18:36:33Z</published>
-<link href="https://spui25.nl/programma/we-can-change-the-defaults-building-networks-of-consent-and-spaces-of-joy-in-the-ruins-of-social-media" />
-<author><name>Christine Lemmer-Webber</name></author>
+<title type="text">Landslide; a ghost story</title>
+<id>https://www.wrecka.ge/landslide-a-ghost-story</id>
+<published>2025-12-23T23:22:44Z</published>
+<link href="https://www.wrecka.ge/landslide-a-ghost-story" />
+<author><name>Erin Kissane</name></author>
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Don't download apps</title>
-<id>https://blog.calebjay.com/posts/dont-download-apps</id>
-<published>2025-11-26T22:23:28Z</published>
-<link href="https://blog.calebjay.com/posts/dont-download-apps" />
-<author><name>Caleb Jay</name></author>
+<title type="text">And now for something completely different</title>
+<id>https://hugovk.dev/blog/2025/and-now</id>
+<published>2025-12-23T14:53:39Z</published>
+<link href="https://hugovk.dev/blog/2025/and-now" />
+<author><name>Hugo van Kemenade</name></author>
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Bad people do the thing you love</title>
-<id>https://adrianhoward.com/posts/bad-people-do-the-thing-you-love</id>
-<published>2025-11-24T21:50:45Z</published>
-<link href="https://adrianhoward.com/posts/bad-people-do-the-thing-you-love" />
-<author><name>Adrian Howard</name></author>
+<title type="text">What I learned about passkeys</title>
+<id>https://enzom.dev/b/passkeys</id>
+<published>2025-12-22T23:41:47Z</published>
+<link href="https://enzom.dev/b/passkeys" />
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Magnetic ink character recognition</title>
-<id>https://en.wikipedia.org/wiki/Magnetic_ink_character_recognition</id>
-<published>2025-11-24T20:37:49Z</published>
-<link href="https://en.wikipedia.org/wiki/Magnetic_ink_character_recognition" />
+<title type="text">Deliberate internet shutdowns</title>
+<id>https://www.schneier.com/blog/archives/2025/12/deliberate-internet-shutdowns.html</id>
+<published>2025-12-22T01:49:03Z</published>
+<link href="https://www.schneier.com/blog/archives/2025/12/deliberate-internet-shutdowns.html" />
+<author><name>Bruce Schneier</name></author>
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Whistle up!</title>
-<id>https://dansinker.com/posts/2025-11-21-whistle-up</id>
-<published>2025-11-22T00:15:15Z</published>
-<link href="https://dansinker.com/posts/2025-11-21-whistle-up" />
-<author><name>Dan Sinker</name></author>
+<title type="text">A(i) Modest Proposal</title>
+<id>https://pythonbynight.com/talks/ai-modest-proposal</id>
+<published>2025-12-22T01:32:34Z</published>
+<link href="https://pythonbynight.com/talks/ai-modest-proposal" />
+<author><name>Mario Munoz</name></author>
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Dependency cooldowns</title>
-<id>https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns</id>
-<published>2025-11-21T15:48:51Z</published>
-<link href="https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns" />
-<author><name>William Woodruff</name></author>
+<title type="text">DOGSPINNER</title>
+<id>https://www.pigenpalace.com/dogspinner</id>
+<published>2025-12-21T18:54:08Z</published>
+<link href="https://www.pigenpalace.com/dogspinner" />
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Interplanetary QUIC</title>
-<id>https://ochagavia.nl/blog/towards-interplanetary-quic-traffic</id>
-<published>2025-11-20T15:45:19Z</published>
-<link href="https://ochagavia.nl/blog/towards-interplanetary-quic-traffic" />
-<author><name>Adolfo Ochagavía</name></author>
+<title type="text">Truchet tiles in SVG</title>
+<id>https://alexwlchan.net/2025/truchet-tiles</id>
+<published>2025-12-21T18:47:40Z</published>
+<link href="https://alexwlchan.net/2025/truchet-tiles" />
+<author><name>Alex Chan</name></author>
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Needy programs</title>
-<id>https://tonsky.me/blog/needy-programs</id>
-<published>2025-11-20T14:44:33Z</published>
-<link href="https://tonsky.me/blog/needy-programs" />
-<author><name>Nikita Prokopov</name></author>
+<title type="text">Japanese milk packaging (漂流乳業)</title>
+<id>https://www.citymilk.net</id>
+<published>2025-12-16T15:11:17Z</published>
+<link href="https://www.citymilk.net" />
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Where do the children play?</title>
-<id>https://unpublishablepapers.substack.com/p/where-do-the-children-play</id>
-<published>2025-11-17T22:28:12Z</published>
-<link href="https://unpublishablepapers.substack.com/p/where-do-the-children-play" />
-<author><name>Eli Stark-Elster</name></author>
+<title type="text">This is not the future</title>
+<id>https://blog.mathieui.net/this-is-not-the-future.html</id>
+<published>2025-12-16T14:19:52Z</published>
+<link href="https://blog.mathieui.net/this-is-not-the-future.html" />
+<author><name>mathieui</name></author>
 </entry>
 </feed>

@@ -8,6 +8,14 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Ignore AI-upscaled YouTube videos with yt-dlp” by Alex Chan" type="link" created="Wed, 24 Dec 2025 20:12:45 +0000" url="https://alexwlchan.net/til/2025/ignore-ai-scaled-videos" category="Software and OSS"/>
+    <outline text="“Landslide; a ghost story” by Erin Kissane" type="link" created="Tue, 23 Dec 2025 23:22:44 +0000" url="https://www.wrecka.ge/landslide-a-ghost-story" category="Social Media"/>
+    <outline text="“And now for something completely different” by Hugo van Kemenade" type="link" created="Tue, 23 Dec 2025 14:53:39 +0000" url="https://hugovk.dev/blog/2025/and-now" category="Toys and Art"/>
+    <outline text="“What I learned about passkeys”" type="link" created="Mon, 22 Dec 2025 23:41:47 +0000" url="https://enzom.dev/b/passkeys" category="Security"/>
+    <outline text="“Deliberate internet shutdowns” by Bruce Schneier" type="link" created="Mon, 22 Dec 2025 01:49:03 +0000" url="https://www.schneier.com/blog/archives/2025/12/deliberate-internet-shutdowns.html" category="Life"/>
+    <outline text="“A(i) Modest Proposal” by Mario Munoz" type="link" created="Mon, 22 Dec 2025 01:32:34 +0000" url="https://pythonbynight.com/talks/ai-modest-proposal" category="Software and OSS"/>
+    <outline text="“DOGSPINNER”" type="link" created="Sun, 21 Dec 2025 18:54:08 +0000" url="https://www.pigenpalace.com/dogspinner" category="Toys and Art"/>
+    <outline text="“Truchet tiles in SVG” by Alex Chan" type="link" created="Sun, 21 Dec 2025 18:47:40 +0000" url="https://alexwlchan.net/2025/truchet-tiles" category="Toys and Art"/>
     <outline text="“Japanese milk packaging (漂流乳業)”" type="link" created="Tue, 16 Dec 2025 15:11:17 +0000" url="https://www.citymilk.net" category="Toys and Art"/>
     <outline text="“This is not the future” by mathieui" type="link" created="Tue, 16 Dec 2025 14:19:52 +0000" url="https://blog.mathieui.net/this-is-not-the-future.html" category="Life"/>
     <outline text="“HDMI-CEC tool”" type="link" created="Mon, 15 Dec 2025 23:25:05 +0000" url="https://www.cec-o-matic.com" category="Software and OSS"/>
@@ -337,8 +345,8 @@
     <outline text="“Super Mario 64 in Sonic Adventure DX” by Sora" type="link" created="Mon, 11 Nov 2024 21:29:30 +0000" url="https://gamebanana.com/mods/544238" category="Retro Gaming"/>
     <outline text="“FlippyDrive for the GameCube” by Macho Nacho" type="link" created="Mon, 11 Nov 2024 21:29:29 +0000" url="https://www.youtube.com/watch?v=1-LWI2tGfhQ" category="Retro Gaming"/>
     <outline text="“Super Nintendo Video System” by Fabien Sanglard" type="link" created="Mon, 11 Nov 2024 21:29:28 +0000" url="https://fabiensanglard.net/snes_video/index.html" category="Retro Gaming"/>
-    <outline text="“Super Paper Mario's design” by Kirbyster" type="link" created="Mon, 11 Nov 2024 21:29:26 +0000" url="https://youtube.com/watch?si=BDytOgheHFncVBK9&amp;v=tfS9SYPT-jw" category="Retro Gaming"/>
     <outline text="“A video about Melee” by AsumSaus" type="link" created="Mon, 11 Nov 2024 21:29:26 +0000" url="https://youtu.be/nviIKTywuYU?si=mgFOhNBRMCTAIwOU" category="Retro Gaming"/>
+    <outline text="“Super Paper Mario's design” by Kirbyster" type="link" created="Mon, 11 Nov 2024 21:29:26 +0000" url="https://youtube.com/watch?si=BDytOgheHFncVBK9&amp;v=tfS9SYPT-jw" category="Retro Gaming"/>
     <outline text="“ORANGE FM, Game Boy cartridge for FM Radio” by Evan Barger" type="link" created="Mon, 11 Nov 2024 21:29:25 +0000" url="https://orangegb.com/orangefm" category="Retro Gaming"/>
     <outline text="“Gamecube ASCII keyboard controller and libogc” by Gered King" type="link" created="Mon, 11 Nov 2024 21:29:23 +0000" url="http://www.blarg.ca/2021/02/15/using-a-gamecube-ascii-keyboard-controller-with-libogc" category="Retro Gaming"/>
     <outline text="“GameCube, Wii, Wii U, and PC connected via Broadband Adapter” by Good Vibes Gaming" type="link" created="Mon, 11 Nov 2024 21:29:22 +0000" url="https://www.youtube.com/watch?v=699HVbOKNtc" category="Retro Gaming"/>

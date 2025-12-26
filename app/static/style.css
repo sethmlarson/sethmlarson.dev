@@ -133,12 +133,13 @@ h1:hover .anchor, h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5 .anch
 }
 p {
   margin: 0 0 1.5em 0;
+  text-align: justify;
 }
 blockquote > :first-child {
   margin-top: 0;
 }
-blockquote > :last-child {
-    margin-bottom: 0;
+blockquote > :last-child, blockquote > details > :last-child {
+    margin-bottom: 0 !important;
 }
 input[type=submit], input[type=email] {
   font-weight: 400;
