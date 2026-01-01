@@ -6,14 +6,14 @@
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="{{ blog_title }}"/>
     <meta property="og:description" content="{{ blog_content_text | truncate(200, true, '...')}}"/>
-    <meta property="og:image" content="https://github.com/sethmlarson.png"/>
+    <meta property="og:image" content="{{ opengraph_image }}"/>
     <meta property="og:locale" content="en_US"/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="sethmlarson.dev"/>
     <meta name="twitter:creator" content="@sethmlarson"/>
     <meta name="twitter:title" content="{{ blog_title }}"/>
     <meta name="twitter:description" content="{{ blog_content_text | truncate(200, true, '...')}}"/>
-    <meta name="twitter:image" content="https://github.com/sethmlarson.png"/>
+    <meta name="twitter:image" content="{{ opengraph_image }}"/>
 {% endblock %}
 {% block header %}
 <div style="margin-bottom: 1.5em;">

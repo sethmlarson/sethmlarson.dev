@@ -404,6 +404,10 @@ def get_blog_post(blog_post: str):
 
     # Inject custom HTML into the HTML <head> tags.
     html_head = ""
+    opengraph_image = "https://github.com/sethmlarson.png"
+    if blog_post == "food-jpegs-in-super-smash-bros-and-kirby-air-riders":
+        opengraph_image = "https://storage.googleapis.com/sethmlarson-dev-static-assets/food-jpegs-opengraph.png"
+
     if blog_post == "unicode-variation-selectors":
         html_head = """
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -441,4 +445,5 @@ def get_blog_post(blog_post: str):
         blog_is_favorite=blog_post in favorite_posts,
         total_blog_count=len(BLOG_POSTS_BY_SLUG),
         html_head=html_head,
+        opengraph_image=opengraph_image,
     ).replace("<p></div></p>", "</div>")

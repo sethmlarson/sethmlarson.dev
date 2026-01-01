@@ -183,6 +183,7 @@
     <outline text="Nintendo Classics" type="rss" xmlUrl="https://raw.githubusercontent.com/sethmlarson/nintendo-classics/refs/heads/main/nintendo-classics.xml" htmlUrl="https://github.com/sethmlarson/nintendo-classics"/>
     <outline text="Nintendo Collecting" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCkMlE43OUrn7S1HKnk2-HzA" htmlUrl="http://www.youtube.com/user/lithium017"/>
     <outline text="Nintendo Forecast" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCU9jRARYgFplM9_u8yTFkHA" htmlUrl="https://www.youtube.com/channel/UCU9jRARYgFplM9_u8yTFkHA"/>
+    <outline text="Non-Zero Sum Games Blog" type="rss" xmlUrl="https://nonzerosum.games/rss.xml" htmlUrl="https://nonzerosum.games"/>
     <outline text="Open Source Security" type="rss" xmlUrl="https://opensourcesecurity.io/feed" htmlUrl="https://opensourcesecurity.io"/>
     <outline text="Open Whisper Systems Blog" type="rss" xmlUrl="https://signal.org/blog/rss.xml" htmlUrl="http://www.whispersystems.org/blog"/>
     <outline text="Own Your Web" type="rss" xmlUrl="https://newsletter.ownyourweb.site/rss.xml" htmlUrl="https://newsletter.ownyourweb.site"/>
