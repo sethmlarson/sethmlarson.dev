@@ -8,6 +8,8 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“The next thing will not be big” by Glyph" type="link" created="Fri, 02 Jan 2026 03:31:17 +0000" url="https://blog.glyph.im/2026/01/the-next-thing-will-not-be-big.html" category="Software and OSS"/>
+    <outline text="“A website to end all websites” by Henry Desroches" type="link" created="Thu, 01 Jan 2026 20:14:04 +0000" url="https://henry.codes/writing/a-website-to-destroy-all-websites" category="Social Media"/>
     <outline text="“Demystifying DVDs with Shadow the Hedgehog”" type="link" created="Thu, 01 Jan 2026 01:18:17 +0000" url="https://hiddenpalace.org/News/One_Bad_Ass_Hedgehog_-_Shadow_the_Hedgehog#Demystifying_DVDs" category="Retro Gaming"/>
     <outline text="“DOOM in Django LiveView” by Andros Fenollosa" type="link" created="Wed, 31 Dec 2025 16:38:06 +0000" url="https://en.andros.dev/blog/7b1b607b/doom-in-django-testing-the-limits-of-liveview-at-600000-divssegundo" category="Software and OSS"/>
     <outline text="“LLVM AI policy: start small, no slop”" type="link" created="Tue, 30 Dec 2025 22:28:17 +0000" url="https://discourse.llvm.org/t/rfc-llvm-ai-tool-policy-start-small-no-slop/88476" category="Software and OSS"/>
