@@ -32,5 +32,5 @@ that I missed out on from this era? Let me know.
 Their website also features a teaser for *another* upcoming
 Operator! The Wulff brothers guessed that this would likely
 be an N64 Operator, especially given the N64's prominence
-with the new [Analogue 3D](https://www.analogue.co/3d) console. An N64 operator similarly wouldn't be super useful for me,
+with the new [Analogue 3D](https://www.analogue.co/3d) console. An N64 Operator similarly wouldn't be super useful for me,
 I am holding out hope for a SEGA Genesis/Mega Drive Operator in the future.
