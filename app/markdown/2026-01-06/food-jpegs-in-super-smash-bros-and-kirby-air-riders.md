@@ -4,7 +4,7 @@
 <div class="col-6">
 <!-- more -->
 <p>Have you ever noticed that the food graphics in Super Smash Bros.
-and Kirby Air Riders is flat “<a href="https://en.wikipedia.org/wiki/2.5D#Billboarding">billboarded</a>” stock images of food?
+and Kirby Air Riders are flat “<a href="https://en.wikipedia.org/wiki/2.5D#Billboarding">billboarded</a>” stock images of food?
 </p>
 <p>This artistic decision from director <a href="https://en.wikipedia.org/wiki/Masahiro_Sakurai">Masahiro Sakurai</a> has persisted through 8 games over  nearly 25 years.
 I've seen a few folks online remarking about the “JPEG” or “PNG”-like quality of the images in the most recent release: <nobr>Kirby Air Riders</nobr>.</p>
