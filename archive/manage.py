@@ -389,7 +389,7 @@ if __name__ == "__main__":
     if not offline:
         feeds_opml_from_inoreader()
         articles_opml_from_inoreader()
-        #mastodon_follow_graph()
+        mastodon_follow_graph()
     # articles_opml_from_links()
     update_links()
     update_reblogs_feed()

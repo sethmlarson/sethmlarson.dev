@@ -84,6 +84,7 @@
     <outline text="Eric Migicovsky (rePebble)" type="rss" xmlUrl="https://ericmigi.com/rss.xml" htmlUrl="http://github.com/dylang/node-rss"/>
     <outline text="Erin Kissane" type="rss" xmlUrl="https://erinkissane.com/feed.rss" htmlUrl="https://erinkissane.com"/>
     <outline text="Ethan Marcotte" type="rss" xmlUrl="https://ethanmarcotte.com/wrote/feed.xml" htmlUrl="https://ethanmarcotte.com"/>
+    <outline text="Evan Hahn" type="rss" xmlUrl="https://evanhahn.com/blog/index.xml" htmlUrl="https://evanhahn.com/blog"/>
     <outline text="Fabien Sanglard" type="rss" xmlUrl="https://fabiensanglard.net/rss.xml" htmlUrl="https://fabiensanglard.net"/>
     <outline text="Fershad Irani" type="rss" xmlUrl="https://fershad.com/feed-posts.xml" htmlUrl="https://fershad.com"/>
     <outline text="Fiefdom of Files" type="rss" xmlUrl="https://fi-le.net/feed.xml" htmlUrl="https://fi-le.net"/>
@@ -105,7 +106,6 @@
     <outline text="Guido van Rossum" type="rss" xmlUrl="https://neopythonic.blogspot.com/feeds/posts/default" htmlUrl="https://neopythonic.blogspot.com"/>
     <outline text="HTMHell" type="rss" xmlUrl="https://www.htmhell.dev/feed.xml" htmlUrl="http://htmhell.dev"/>
     <outline text="Hanafuda Report" type="rss" xmlUrl="https://hanafuda.report/feed" htmlUrl="https://hanafuda.report"/>
-    <outline text="Hank Green" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCOT2iLov0V7Re7ku_3UBtcQ" htmlUrl="https://www.youtube.com/channel/UCOT2iLov0V7Re7ku_3UBtcQ/videos"/>
     <outline text="Hannah Aubry" type="rss" xmlUrl="https://hannahaubry.online/feed" htmlUrl="https://hannahaubry.online"/>
     <outline text="Haterade" type="rss" xmlUrl="https://haterade.substack.com/feed" htmlUrl="https://haterade.substack.com"/>
     <outline text="Henry Desroches" type="rss" xmlUrl="https://henry.codes/rss/writing.xml" htmlUrl="https://henry.codes"/>
@@ -189,6 +189,7 @@
     <outline text="Own Your Web" type="rss" xmlUrl="https://newsletter.ownyourweb.site/rss.xml" htmlUrl="https://newsletter.ownyourweb.site"/>
     <outline text="Patrick Lauke" type="rss" xmlUrl="https://www.splintered.co.uk/feeds/news.xml" htmlUrl="https://www.splintered.co.uk/news"/>
     <outline text="Paul Sonnentag" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNpEZQwCn37vky4Q9N-kHmA" htmlUrl="https://www.youtube.com/channel/UCNpEZQwCn37vky4Q9N-kHmA"/>
+    <outline text="Picando Código" type="rss" xmlUrl="https://picandocodigo.net/feed" htmlUrl="https://picandocodigo.net"/>
     <outline text="PieroV" type="rss" xmlUrl="https://www.pierov.org/feed/rss2" htmlUrl="https://www.pierov.org/feed/rss2"/>
     <outline text="PikHacker" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9ZW-9A3F1eXamtfVMRxdBg" htmlUrl="https://www.youtube.com/channel/UC9ZW-9A3F1eXamtfVMRxdBg"/>
     <outline text="Pikmin Informer" type="rss" xmlUrl="https://www.pikmininformer.com/blog-feed.xml" htmlUrl="https://www.pikmininformer.com"/>
@@ -205,10 +206,12 @@
     <outline text="Queer Space Collective" type="rss" xmlUrl="queerspacecollective@ino.to" htmlUrl="https://www.inoreader.com"/>
     <outline text="Quentin Pradet" type="rss" xmlUrl="https://quentin.pradet.me/blog/feeds/all.atom.xml" htmlUrl="https://quentin.pradet.me/blog"/>
     <outline text="Racket MN" type="rss" xmlUrl="racketmn@ino.to" htmlUrl="https://www.inoreader.com"/>
+    <outline text="Raúl Negrón-Otero's Blog" type="rss" xmlUrl="https://raulnegron.me/index.xml" htmlUrl="https://raulnegron.me"/>
     <outline text="Read the Tea Leaves" type="rss" xmlUrl="https://nolanlawson.com/feed" htmlUrl="https://nolanlawson.com"/>
     <outline text="RedMonk Tech Events" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCaUtAK8xECTkETCYivJegeQ" htmlUrl="https://www.youtube.com/channel/UCaUtAK8xECTkETCYivJegeQ"/>
     <outline text="Retro Game Mechanics Explained" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwRqWnW5ZkVaP_lZF7caZ-g" htmlUrl="https://www.youtube.com/feeds"/>
     <outline text="Riley Testut" type="rss" xmlUrl="https://rileytestut.com/feed.xml" htmlUrl="https://rileytestut.com"/>
+    <outline text="Riley Walz" type="rss" xmlUrl="webfeed://https%3A%2F%2Fwalzr.com%2F--064b4a85" htmlUrl="https://walzr.com"/>
     <outline text="Robb Knight" type="rss" xmlUrl="https://rknight.me/subscribe/posts/atom.xml" htmlUrl="https://rknight.me"/>
     <outline text="Robert Heaton" type="rss" xmlUrl="https://robertheaton.com/feed.xml" htmlUrl="https://robertheaton.com"/>
     <outline text="Robin Berjon" type="rss" xmlUrl="https://berjon.com/feed.atom" htmlUrl="https://berjon.com"/>
@@ -247,7 +250,6 @@
     <outline text="The Wulff Den" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCr613nJgA50o8DUUT00qHvw" htmlUrl="http://www.youtube.com/channel/UCr613nJgA50o8DUUT00qHvw"/>
     <outline text="Thomas Depierre" type="rss" xmlUrl="https://softwaremaxims.com/feed.xml" htmlUrl="https://softwaremaxims.com"/>
     <outline text="Time Extension (Nintendo)" type="rss" xmlUrl="https://www.timeextension.com/feeds/latest/tags/nintendo" htmlUrl="https://www.timeextension.com/feeds/latest"/>
-    <outline text="Time Extension (Sega)" type="rss" xmlUrl="https://www.timeextension.com/feeds/latest/tags/sega" htmlUrl="https://www.timeextension.com/feeds/latest"/>
     <outline text="Tito Perez" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9QC7o2eLuYYWpvkAd_NBXg" htmlUrl="https://www.youtube.com/channel/UC9QC7o2eLuYYWpvkAd_NBXg"/>
     <outline text="Todd Turner" type="rss" xmlUrl="https://www.toddtee.sh/posts/index.xml" htmlUrl="https://www.toddtee.sh/posts"/>
     <outline text="Tom Forbes" type="rss" xmlUrl="https://tomforb.es/index.xml" htmlUrl="https://tomforb.es"/>

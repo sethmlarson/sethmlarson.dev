@@ -8,6 +8,26 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Random Monster generator” by Robb Knight" type="link" created="Sun, 18 Jan 2026 17:46:13 +0000" url="https://monster.rknight.me" category="Toys and Art"/>
+    <outline text="“Light mode inFFFFFFlation” by Will Richardson" type="link" created="Sat, 17 Jan 2026 23:04:39 +0000" url="https://willhbr.net/2025/10/20/light-mode-infffffflation" category="Software and OSS"/>
+    <outline text="“Zelda Four Swords+ English patch”" type="link" created="Sat, 17 Jan 2026 16:33:57 +0000" url="https://www.patreon.com/posts/zelda-four-beta-60032999" category="Retro Gaming"/>
+    <outline text="“Modding Wii News Channel to serve Puerto Rican news” by Raúl Negrón" type="link" created="Fri, 16 Jan 2026 23:38:16 +0000" url="https://raulnegron.me/2025/wii-news-pr" category="Retro Gaming"/>
+    <outline text="“Iranian game developer without internet” by Arash Hackimi" type="link" created="Fri, 16 Jan 2026 21:13:31 +0000" url="https://insertcredit.com/feature/a-game-developer-without-internet" category="Life"/>
+    <outline text="“Emojis in Electronic Health Records”" type="link" created="Fri, 16 Jan 2026 20:47:53 +0000" url="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2843883" category="Software and OSS"/>
+    <outline text="“STFU” by Tim Darcet" type="link" created="Fri, 16 Jan 2026 19:38:46 +0000" url="https://tim.darcet.fr/shutthefuckup" category="Toys and Art"/>
+    <outline text="“State of OpenSSL for pyca/cryptography”" type="link" created="Thu, 15 Jan 2026 19:14:35 +0000" url="https://cryptography.io/en/latest/statements/state-of-openssl" category="Security"/>
+    <outline text="“Good Lookin’ Print Company in Minneapolis”" type="link" created="Thu, 15 Jan 2026 17:39:07 +0000" url="https://www.goodlookinprint.co" category="Toys and Art"/>
+    <outline text="“ELITE: the Palantir app ICE uses to raid neighborhoods”" type="link" created="Thu, 15 Jan 2026 17:12:35 +0000" url="https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid" category="Life"/>
+    <outline text="“Convert PKPASS to PNG” by Fabio" type="link" created="Thu, 08 Jan 2026 21:40:29 +0000" url="https://gist.manganiello.tech/fabio/pkpass2png" category="Software and OSS"/>
+    <outline text="“Trans flag emoji 🏳️‍⚧️” by Hecate" type="link" created="Wed, 07 Jan 2026 03:42:41 +0000" url="https://hecate.pink/blog/2026/trans-flag-emoji" category="Toys and Art"/>
+    <outline text="“Spherical snake” by Kevin Albertson" type="link" created="Tue, 06 Jan 2026 21:31:44 +0000" url="https://kevinalbs.com/spherical_snake" category="Toys and Art"/>
+    <outline text="“Vietnam bans unskippable ads”" type="link" created="Tue, 06 Jan 2026 18:30:47 +0000" url="https://www.phunuonline.com.vn/tu-15-2-quang-cao-video-khong-duoc-ep-nguoi-dung-xem-qua-5-giay-a1571286.html" category="Social Media"/>
+    <outline text="“Post-American internet” by Cory Doctorow" type="link" created="Tue, 06 Jan 2026 15:00:55 +0000" url="https://pluralistic.net/2026/01/01/39c3" category="Security"/>
+    <outline text="“Prolog explained with Pokémon” by Alexander Petros" type="link" created="Mon, 05 Jan 2026 23:05:53 +0000" url="https://unplannedobsolescence.com/blog/prolog-basics-pokemon" category="Software and OSS"/>
+    <outline text="“Grumpy website”" type="link" created="Mon, 05 Jan 2026 19:45:49 +0000" url="https://grumpy.website" category="Toys and Art"/>
+    <outline text="“All AI videos are harmful” by Ibrahim Diallo" type="link" created="Mon, 05 Jan 2026 17:40:59 +0000" url="https://idiallo.com/blog/all-ai-videos-are-harmful" category="Social Media"/>
+    <outline text="“When people tell you art is not important, that is always the prelude to fascism” by Guillermo del Toro" type="link" created="Mon, 05 Jan 2026 02:38:28 +0000" url="https://bsky.app/profile/gbbranstetter.bsky.social/post/3mbnenfepzk2q" category="Life"/>
+    <outline text="“SN Operator”" type="link" created="Fri, 02 Jan 2026 16:30:35 +0000" url="https://www.epilogue.co/product/sn-operator" category="Retro Gaming"/>
     <outline text="“The next thing will not be big” by Glyph" type="link" created="Fri, 02 Jan 2026 03:31:17 +0000" url="https://blog.glyph.im/2026/01/the-next-thing-will-not-be-big.html" category="Software and OSS"/>
     <outline text="“A website to end all websites” by Henry Desroches" type="link" created="Thu, 01 Jan 2026 20:14:04 +0000" url="https://henry.codes/writing/a-website-to-destroy-all-websites" category="Social Media"/>
     <outline text="“Demystifying DVDs with Shadow the Hedgehog”" type="link" created="Thu, 01 Jan 2026 01:18:17 +0000" url="https://hiddenpalace.org/News/One_Bad_Ass_Hedgehog_-_Shadow_the_Hedgehog#Demystifying_DVDs" category="Retro Gaming"/>
@@ -470,5 +490,8 @@
     <outline text="“E-Reader Info and Downloads” by Kiczek" type="link" created="Thu, 07 Nov 2024 18:42:12 +0000" url="http://ereader.kiczek.com" category="Retro Gaming"/>
     <outline text="“Link to web content in URL fragments”" type="link" created="Thu, 07 Nov 2024 17:29:49 +0000" url="https://alfy.blog/2024/10/19/linking-directly-to-web-page-content.html" category="Software and OSS"/>
     <outline text="“Mii Library”" type="link" created="Wed, 06 Nov 2024 20:47:32 +0000" url="https://www.miilibrary.com" category="Retro Gaming"/>
+    <outline text="“the chronically online will become a new underclass”" type="link" created="Thu, 08 Jan 2026 16:43:57 +0000" url="https://youtube.com/watch?v=Bm2Q9HkbLsQ&amp;si=Bf5nkdsTGzVenxkj" category="Social Media"/>
+    <outline text="“ICE officer fatally shoots driver in Minneapolis”" type="link" created="Wed, 07 Jan 2026 19:42:48 +0000" url="https://www.youtube.com/watch?v=K9CJY5p0xz4" category="Life"/>
+    <outline text="“Video Game Websites in the early 00s”" type="link" created="Tue, 06 Jan 2026 18:57:50 +0000" url="https://www.webdesignmuseum.org/exhibitions/video-game-websites-in-the-early-00s" category="Retro Gaming"/>
   </body>
 </opml>
