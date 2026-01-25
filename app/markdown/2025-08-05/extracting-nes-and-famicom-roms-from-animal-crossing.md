@@ -335,7 +335,7 @@ Currently I've only tested using the North American copy of Animal Crossing.</p>
 
 <p>These ROMs can now be used just like any other ROM with NES emulators. If you're
 playing on desktop and want to try your ROMs out you can use <a href="https://koute.github.io/pinky-web/">Pinky</a>, a WASM-based
-NES emulator. If you want to play on mobile I recommend using the <a href="https://delta-emu.com/">Delta emulator</a>.</p>
+NES emulator. If you want to play on mobile I recommend using the <a href="https://faq.deltaemulator.com">Delta emulator</a>.</p>
 
 <p>It feels quite magical to be playing NES games from a childhood copy of Animal Crossing
 on a modern iPhone. Wario's Woods was always my favorite, so I look forward to playing
