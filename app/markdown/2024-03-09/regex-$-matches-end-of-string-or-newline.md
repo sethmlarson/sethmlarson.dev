@@ -27,23 +27,25 @@ Multi-line mode is enabled with [`re.MULTILINE`](https://docs.python.org/3/libra
 Let's see how these features work together across multiple platforms:
 
 | Pattern matches `"cat\n"`? | `"cat$"` multiline | `"cat$"` no multiline | `"cat\z"` | `"cat\Z"`   |
-|----------------------------|---|---|---|-----------|
-| PHP                        | ✅ | ✅ | ❌ | ✅         |
-| ECMAScript                 | ✅ | ❌ | ⚠️ | ⚠️        |
-| Python                     | ✅ | ✅ | ⚠️ | ❌         |
-| Golang                     | ✅ | ❌ | ❌ | ⚠️        |
-| Java 8                     | ✅ | ✅ | ❌ | ✅         |
-| .NET 7.0                   | ✅ | ✅ | ❌ | ✅         |
-| Rust                       | ✅ | ❌ | ❌ | ⚠️        |
+|----------------------------|---|---|-----------|-----------|
+| PHP                        | ✅ | ✅ | ❌         | ✅         |
+| ECMAScript                 | ✅ | ❌ | ⚠️        | ⚠️        |
+| Python                     | ✅ | ✅ | ❌ (1)     | ❌         |
+| Golang                     | ✅ | ❌ | ❌         | ⚠️        |
+| Java 8                     | ✅ | ✅ | ❌         | ✅         |
+| .NET 7.0                   | ✅ | ✅ | ❌         | ✅         |
+| Rust                       | ✅ | ❌ | ❌         | ⚠️        |
 
 * ✅: Pattern matches the string `"cat\n"`
 * ❌: Pattern does not match the string `"cat\n"`
 * ⚠️: Pattern is invalid or character not supported.
 
+(1): [New in Python 3.14](https://docs.python.org/3/whatsnew/3.14.html#re), previously was unsupported (⚠️).
+
 Summarizing the above table, if matching a trailing newline is acceptable then `$` with multiline mode works consistently across all platforms,
 but if we wanted to *not match* a trailing newline then things get more complicated.
 
-To not match a trailing newline, use `\z` on all platforms except Python and
+To not match a trailing newline, use `\z` on all platforms except Python ([prior to Python 3.14](https://docs.python.org/3/whatsnew/3.14.html#re)) and
 ECMAScript where you'll need to use `\Z` or `$` without multiline mode respectively.
 Hope you learned something about regular expressions today!
 
