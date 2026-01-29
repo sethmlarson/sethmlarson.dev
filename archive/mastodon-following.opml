@@ -159,6 +159,7 @@
     <outline text="gbadev@fedi.gbdev.io" type="link" url="https://fedi.gbdev.io/@gbadev"/>
     <outline text="geoffreylitt" type="link" url="https://mastodon.social/@geoffreylitt"/>
     <outline text="georgically" type="link" url="https://mastodon.social/@georgically"/>
+    <outline text="gered@social.blarg.ca" type="link" url="https://social.blarg.ca/@gered"/>
     <outline text="gforsyth@hachyderm.io" type="link" url="https://hachyderm.io/@gforsyth"/>
     <outline text="ghoulpus@xoxo.zone" type="link" url="https://xoxo.zone/@ghoulpus"/>
     <outline text="gingerjess@jorts.horse" type="link" url="https://jorts.horse/@gingerjess"/>
@@ -240,6 +241,7 @@
     <outline text="lorenipsum@fosstodon.org" type="link" url="https://fosstodon.org/@lorenipsum"/>
     <outline text="loriemerson@post.lurk.org" type="link" url="https://post.lurk.org/@loriemerson"/>
     <outline text="louie@pdx.social" type="link" url="https://pdx.social/@louie"/>
+    <outline text="luigiblood@tech.lgbt" type="link" url="https://tech.lgbt/@luigiblood"/>
     <outline text="luis_in_brief@social.coop" type="link" url="https://social.coop/@luis_in_brief"/>
     <outline text="lukasa@hachyderm.io" type="link" url="https://hachyderm.io/@lukasa"/>
     <outline text="madwebwork@infosec.exchange" type="link" url="https://infosec.exchange/@madwebwork"/>
@@ -360,6 +362,7 @@
     <outline text="taladrane@fosstodon.org" type="link" url="https://fosstodon.org/@taladrane"/>
     <outline text="technige@fosstodon.org" type="link" url="https://fosstodon.org/@technige"/>
     <outline text="terezaif@vis.social" type="link" url="https://vis.social/@terezaif"/>
+    <outline text="tg@indieweb.social" type="link" url="https://indieweb.social/@tg"/>
     <outline text="tiangolo@fosstodon.org" type="link" url="https://fosstodon.org/@tiangolo"/>
     <outline text="timbl@w3c.social" type="link" url="https://w3c.social/@timbl"/>
     <outline text="timbray@cosocial.ca" type="link" url="https://cosocial.ca/@timbray"/>
@@ -382,6 +385,7 @@
     <outline text="veldakiara" type="link" url="https://mastodon.social/@veldakiara"/>
     <outline text="venthur" type="link" url="https://mastodon.social/@venthur"/>
     <outline text="vicki@jawns.club" type="link" url="https://jawns.club/@vicki"/>
+    <outline text="vladh@merveilles.town" type="link" url="https://merveilles.town/@vladh"/>
     <outline text="vmbrasseur@social.vmbrasseur.com" type="link" url="https://social.vmbrasseur.com/@vmbrasseur"/>
     <outline text="vontheodore@mastodon.gamedev.place" type="link" url="https://mastodon.gamedev.place/@vontheodore"/>
     <outline text="vstinner@mamot.fr" type="link" url="https://mamot.fr/@vstinner"/>

@@ -389,8 +389,7 @@ if __name__ == "__main__":
     if not offline:
         feeds_opml_from_inoreader()
         articles_opml_from_inoreader()
-        no_mastodon = "--no-mastodon" in sys.argv
-        if not no_mastodon:
+        if "--mastodon" in sys.argv:
             mastodon_follow_graph()
     # articles_opml_from_links()
     update_links()
