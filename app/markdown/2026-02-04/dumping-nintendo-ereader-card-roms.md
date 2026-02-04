@@ -3,7 +3,7 @@
 <div class="row">
 <div class="col-12-sm col-9">
 <!-- more -->
-<p>The <a href="https://en.wikipedia.org/wiki/Nintendo_e‑Reader">Nintendo e‑Reader</a>
+<p>The <a href="https://en.wikipedia.org/wiki/Nintendo_e-Reader">Nintendo e‑Reader</a>
 was a peripheral released for the Game Boy Advance in 2001. The Nintendo e‑Reader
 allowed scanning <nobr>“dotcode strips”</nobr> to access extra content within games
 or to <a href="https://ereader.no-intro.org/">play mini-games</a>.
