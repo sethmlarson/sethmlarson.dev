@@ -6,7 +6,7 @@
 <p>The <a href="https://en.wikipedia.org/wiki/Nintendo_e‑Reader">Nintendo e‑Reader</a>
 was a peripheral released for the Game Boy Advance in 2001. The Nintendo e‑Reader
 allowed scanning <nobr>“dotcode strips”</nobr> to access extra content within games
-or to <a href="https://niwanetwork.org/wiki/List_of_e‑Reader_applications">play mini-games</a>.
+or to <a href="https://ereader.no-intro.org/">play mini-games</a>.
 Today I'll show you how to use the <a href="https://www.epilogue.co/product/gb-operator">GB Operator</a>, a Game Boy ROM dumping tool,
 in order to access the ROM encoded onto e‑Reader card dotcodes.</p>
 
@@ -158,8 +158,8 @@ VPK0 magic bytes <code>vpk0</code>:</p>
 </code></pre>
 </div>
 
-<p>We know that the VPK0-compressed blob length encoded to the two bytes
-before the magic header in little-endian. Let's grab that value
+<p>We know that the VPK0-compressed blob length is encoded in the two bytes
+before the magic header, little-endian. Let's grab that value
 and write the VPK0-compressed blob to a new file:</p>
 
 <div class="codehilite">
