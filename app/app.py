@@ -113,6 +113,9 @@ class BlogPost:
         with self.markdown_path.open(mode="r") as f:
             text = f.read()
             _, text = text.split("\n", 1)
+        if "<!-- rss -->" in text:
+            text, _ = text.split("<!-- rss -->")
+            text += f"<br><p>Continue reading on <a href=\"{self.url(utm_campaign='rss')}\">sethmlarson.dev</a> ...</p>"
         html = md.convert(text)
         html += "<br><hr><p>Thanks for keeping RSS alive! ♥</p>"
         return html
@@ -244,10 +247,11 @@ def load_rss_response():
         feed_url=url_for("rss_blog_posts", _external=True),
         url=request.url_root,
     )
+    max_posts_in_response = 5
     total = 0
     for _, blog_posts in BLOG_POSTS_BY_DATE.items():
         for blog_post in blog_posts:
-            if total == 5:
+            if total == max_posts_in_response:
                 break
             if blog_post.slug in hide_posts:
                 continue
@@ -264,7 +268,7 @@ def load_rss_response():
                 updated=blog_utc,
             )
 
-        if total == 5:
+        if total == max_posts_in_response:
             break
 
     RSS_RESPONSE = feed.get_response()

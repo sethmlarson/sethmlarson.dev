@@ -32,6 +32,8 @@ Credit to Nintendo, HAL Laboratories, SORA Ltd.,
 and Bandai Namco Studios as developers and publishers of these games.
 Artwork was sourced from the [Spriters Resource](https://www.spriters-resource.com/).
 
+<!-- rss -->
+
 ## Super Smash Bros. Melee (2001)
 
 <div class="row">
