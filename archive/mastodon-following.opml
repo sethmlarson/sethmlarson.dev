@@ -247,6 +247,7 @@
     <outline text="madwebwork@infosec.exchange" type="link" url="https://infosec.exchange/@madwebwork"/>
     <outline text="mallory@techpolicy.social" type="link" url="https://techpolicy.social/@mallory"/>
     <outline text="malwaretech@infosec.exchange" type="link" url="https://infosec.exchange/@malwaretech"/>
+    <outline text="marbu" type="link" url="https://mastodon.social/@marbu"/>
     <outline text="marcelotryle@fosstodon.org" type="link" url="https://fosstodon.org/@marcelotryle"/>
     <outline text="mariatta@fosstodon.org" type="link" url="https://fosstodon.org/@mariatta"/>
     <outline text="matdevdug@c.im" type="link" url="https://c.im/@matdevdug"/>
@@ -355,11 +356,12 @@
     <outline text="stargirl@hachyderm.io" type="link" url="https://hachyderm.io/@stargirl"/>
     <outline text="steiza@a2mi.social" type="link" url="https://a2mi.social/@steiza"/>
     <outline text="stevejgordon@fosstodon.org" type="link" url="https://fosstodon.org/@stevejgordon"/>
-    <outline text="streetsmn@urbanists.social" type="link" url="https://urbanists.social/@streetsmn"/>
+    <outline text="streetsmn@mstdn.social" type="link" url="https://mstdn.social/@streetsmn"/>
     <outline text="svgeesus@mastodon.scot" type="link" url="https://mastodon.scot/@svgeesus"/>
     <outline text="swallez@mastodon.tetaneutral.net" type="link" url="https://mastodon.tetaneutral.net/@swallez"/>
     <outline text="systemoflevers@mas.to" type="link" url="https://mas.to/@systemoflevers"/>
     <outline text="taladrane@fosstodon.org" type="link" url="https://fosstodon.org/@taladrane"/>
+    <outline text="tante@tldr.nettime.org" type="link" url="https://tldr.nettime.org/@tante"/>
     <outline text="technige@fosstodon.org" type="link" url="https://fosstodon.org/@technige"/>
     <outline text="terezaif@vis.social" type="link" url="https://vis.social/@terezaif"/>
     <outline text="tg@indieweb.social" type="link" url="https://indieweb.social/@tg"/>
