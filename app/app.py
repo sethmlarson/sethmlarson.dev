@@ -127,9 +127,7 @@ class BlogPost:
             _external=True,
             **({"utm_campaign": utm_campaign} if utm_campaign else {})
         )
-        if "sethmlarson.dev" in url:
-            url = url.replace("http://", "https://")
-        return url
+        return external_url(url)
 
     def utc(self) -> datetime.datetime:
         return datetime.datetime.fromisoformat(f"{self.date}T00:00:00")
@@ -244,8 +242,8 @@ def load_rss_response():
         },
         icon=avatar_url,
         logo=avatar_url,
-        feed_url=url_for("rss_blog_posts", _external=True),
-        url=request.url_root,
+        feed_url=external_url(url_for("rss_blog_posts", _external=True)),
+        url=external_url(request.url_root),
     )
     max_posts_in_response = 5
     total = 0
@@ -451,3 +449,9 @@ def get_blog_post(blog_post: str):
         html_head=html_head,
         opengraph_image=opengraph_image,
     ).replace("<p></div></p>", "</div>")
+
+
+def external_url(url: str) -> str:
+    if url.startswith("http://sethmlarson.dev"):
+        url = url.replace("http://", "https://", 1)
+    return url
