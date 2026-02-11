@@ -208,6 +208,7 @@
     <outline text="Read the Tea Leaves" type="rss" xmlUrl="https://nolanlawson.com/feed" htmlUrl="https://nolanlawson.com"/>
     <outline text="RedMonk Tech Events" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCaUtAK8xECTkETCYivJegeQ" htmlUrl="https://www.youtube.com/channel/UCaUtAK8xECTkETCYivJegeQ"/>
     <outline text="Retro Game Mechanics Explained" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwRqWnW5ZkVaP_lZF7caZ-g" htmlUrl="https://www.youtube.com/feeds"/>
+    <outline text="RetroRGB" type="rss" xmlUrl="https://retrorgb.com/feed" htmlUrl="https://retrorgb.com"/>
     <outline text="Riley Testut" type="rss" xmlUrl="https://rileytestut.com/feed.xml" htmlUrl="https://rileytestut.com"/>
     <outline text="Riley Walz" type="rss" xmlUrl="webfeed://https%3A%2F%2Fwalzr.com%2F--064b4a85" htmlUrl="https://walzr.com"/>
     <outline text="Robb Knight" type="rss" xmlUrl="https://rknight.me/subscribe/posts/atom.xml" htmlUrl="https://rknight.me"/>

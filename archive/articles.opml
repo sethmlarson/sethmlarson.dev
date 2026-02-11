@@ -8,6 +8,8 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Living wage calculator”" type="link" created="Mon, 09 Feb 2026 21:04:32 +0000" url="https://livingwage.mit.edu" category="Life"/>
+    <outline text="“Pandoc for the people”" type="link" created="Thu, 05 Feb 2026 22:16:22 +0000" url="https://pandoc.org/app" category="Software and OSS"/>
     <outline text="“GBKiss”" type="link" created="Tue, 03 Feb 2026 21:25:51 +0000" url="https://gbkiss.org" category="Retro Gaming"/>
     <outline text="“ClassiCube”" type="link" created="Mon, 02 Feb 2026 18:37:28 +0000" url="https://www.classicube.net/download/gamecube" category="Retro Gaming"/>
     <outline text="“Blacksky Cash” by Marisa Rando" type="link" created="Fri, 30 Jan 2026 20:24:21 +0000" url="https://blackskyweb.xyz/money-for-mutual-resilience-introducing-blacksky-cash" category="Social Media"/>
