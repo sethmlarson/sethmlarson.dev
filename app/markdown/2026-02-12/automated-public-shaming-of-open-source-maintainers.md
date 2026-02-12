@@ -15,8 +15,8 @@ intended to publicly shame an
 open source maintainer for closing a GitHub pull request per
 the project's own policy on generative AI use. In this particular
 case, the issue was a “Good First Issue”, which are intentionally
-left unimplemented by maintainers as a way to give new contributors
-an easy-win for the project.
+left unimplemented by maintainers as a potential on-ramp for
+new contributors to the project.
 
 <!-- more -->
 
