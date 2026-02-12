@@ -12,7 +12,7 @@ and a pull request was opened by an OpenClaw agent.
 If the website the agent's GitHub comment links to is any indication,
 within 4 days of deployment this agent generated a “take-down blog post”
 intended to publicly shame an
-open source maintainer for closing a GitHub pull request per
+open source maintainer ([who has published their own thoughts on the incident](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)) for closing a GitHub pull request per
 the project's own policy on generative AI use. In this particular
 case, the issue was a “Good First Issue”, which are intentionally
 left unimplemented by maintainers as a potential on-ramp for
