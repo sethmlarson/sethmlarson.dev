@@ -12,7 +12,7 @@ Whether a report is a genuine vulnerability or not, it now
 requires more time from maintainers to make a determination
 than is necessary. I've heard from multiple maintainers how specifically
 *report length* weighs negatively on maintainer time, whether these are
-“slop vulnerability reports” or just overly-thorough reporters.
+“[slop vulnerability reports](https://sethmlarson.dev/slop-security-reports)” or just overly-thorough reporters.
 
 <!-- more -->
 
