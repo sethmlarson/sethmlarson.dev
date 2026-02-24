@@ -71,7 +71,7 @@ If teams reporting vulnerabilities to open source projects
 want to be the most effective, they should meet the pace and style
 that best suites the project they are reporting to.
 
-I also wanted to highlight that there are *many* vulnerability reporters are
+Please note that *many* vulnerability reporters are
 acting in good faith and aren't trying to burden maintainers. If you believe
 your peer is acting in good faith, maybe give them a pass if the report doesn't
 *strictly* meet the requirements and save the canned response for the bigger offenders.
