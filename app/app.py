@@ -270,6 +270,9 @@ def load_rss_response():
             break
 
     RSS_RESPONSE = feed.get_response()
+    # CORS is safe for public RSS fields.
+    # https://www.blogsareback.com/guides/enable-cors
+    RSS_RESPONSE.headers["Access-Control-Allow-Origin"] = "*"
     return RSS_RESPONSE
 
 
