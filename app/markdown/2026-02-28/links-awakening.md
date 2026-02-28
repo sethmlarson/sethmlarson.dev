@@ -81,6 +81,7 @@ and three days later was playing again.</p>
 </div>
 </div>
 
+<!-- more -->
 I don't play a lot of Legend of Zelda games.
 Before Link’s Awakening, I've only completed
 Wind Waker, Four Swords Adventures, and Phantom Hourglass. My hesitation to many Zelda
@@ -88,6 +89,7 @@ games is that they are large and expansive,
 which would require perhaps too much diligence to complete given my schedule. According to “[How Long to Beat](https://howlongtobeat.com/game/38019)”, the main
 story for Breath of the Wild is ~50 hours. Given my current “pace of play”
 I would be playing *just one game for the entire year*.
+<!-- more -->
 
 Link’s Awakening is set in the compact pocket
 world of [Koholint Island](https://www.zeldadungeon.net/wiki/Koholint_Island). The entire world map
@@ -97,6 +99,7 @@ through the story. There is no space left unused, every
 square of the island feels deliberate. The entire world
 map fits into 16x16 screens of 10x8 tiles per screen
 for a [total of *2560x2048 pixels*](https://revned77.github.io/maps/The%20Legend%20of%20Zelda%20-%20Link%27s%20Awakening%20DX/Koholint%20Island.png).
+This is fewer total pixels than my laptop screen (3456x2160).
 
 I played 3 sessions on Nintendo Classics and 17 sessions on the Nintendo Switch
 remake, averaging around 45 minutes per play session. I really appreciated how
@@ -128,7 +131,7 @@ the dungeon was available so soon in the main story.
 There were
 little things here and there that I accomplished differently, too.
 Like defeating the enemies within the [Dream Shrine](https://www.zeldadungeon.net/wiki/Dream_Shrine)
-using sword spin attack instead of the Pegasus Boots. Apparently these enemies are called [Arm-Mimics](https://www.zeldadungeon.net/wiki/Arm-Mimic), they look like gourds to me.
+using a sword spin attack instead of the Pegasus Boots. Apparently these enemies are called [Arm-Mimics](https://www.zeldadungeon.net/wiki/Arm-Mimic), they look like gourds to me.
 
 ## What did I miss?
 
@@ -160,7 +163,7 @@ Link’s Awakening in terms of popularity and time to beat?
 I used the ranking from the publication [Zelda Dungeon](https://www.zeldadungeon.net/),
 which I learned from following the personal blog of one of their writers: [Evan Hahn](https://evanhahn.com/).
 Approximate time to beat was taken from [How Long to Beat](https://howlongtobeat.com/).
-Games that are 15 hours or lower are highlighted in green.
+Games that take 15 hours or fewer to complete are highlighted in green.
 
 <table>
 <thead>
