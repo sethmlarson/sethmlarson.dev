@@ -1,4 +1,4 @@
-# Legend of Zelda: Link’s Awakening
+# “The Legend of Zelda: Link’s Awakening” respects your time
 
 <div class="row">
 <div class="col-6">
