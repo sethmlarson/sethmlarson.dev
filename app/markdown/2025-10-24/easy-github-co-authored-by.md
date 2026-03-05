@@ -1,5 +1,9 @@
 # Easily create co-authored commits with GitHub handles
 
+> It's come to my attention that [Hynek Schlawack](https://hynek.me/) has
+> [written about the same topic](https://hynek.me/til/easier-crediting-contributors-github/) back in 2022
+> and came to a similar solution!
+
 You can [add co-authors to a GitHub commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors) using the `Co-authored-by`
 field in the git commit message. But what if your co-author doesn't have a
 public email address listed on GitHub?

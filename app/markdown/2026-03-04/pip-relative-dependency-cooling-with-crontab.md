@@ -1,14 +1,14 @@
-# Relative “Dependency Cooling” in pip v26.0 with crontab
+# Relative “Dependency Cooldowns” in pip v26.0 with crontab
 
 > **WARNING:** Most of this blog post is
   a hack, everyone should probably just
-  wait for relative dependency cooling to come
+  wait for relative dependency cooldowns to come
   to a future version of pip.
 
 <!-- more -->
 
 pip v26.0 [added support for the `--uploaded-prior-to` option](https://ichard26.github.io/blog/2026/01/whats-new-in-pip-26.0/#excluding-distributions-by-upload-time) in version 26.0.
-This new option enables implementing “[dependency cooling](https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns)”, a technique
+This new option enables implementing “[dependency cooldowns](https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns)”, a technique
 described by [William Woodruff](https://yossarian.net), that provides simple but effective
 protections for the [relatively short attack-window time](https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns#fn:filippo:~:text=Approx%2E%20Window%20of%20Opportunity)
 of malware published to public software repositories. This brings the
@@ -30,13 +30,13 @@ But this is only an absolute date, and we have to remember
 to set the option on each call to `pip install`? That seems like
 a lot of work!
 
-Dependency cooling works best when the policy can be set in a
+Dependency cooldowns work best when the policy can be set in a
 [global configuration file to a relative value](https://nesbitt.io/2026/03/04/package-managers-need-to-cool-down.html)
 like “7 days”.  The “window” of acceptable packages is then automatically updating over time
 without needing to set a new absolute value constantly. “Set-and-forget”-style.
 
 uv allows [setting a relative value](https://docs.astral.sh/uv/guides/scripts/#improving-reproducibility) via `--exclude-newer`,
-but pip doesn't support relative ranges. I mostly use pip and still wanted to test this feature today, so I
+but pip [doesn't support relative ranges yet](https://github.com/pypa/pip/issues/13674). I mostly use pip and still wanted to test this feature today, so I
 created a little hack to update my user `pip.conf` configuration file
 on a regular basis instead. Here's what my `pip.conf` file looks like:
 
