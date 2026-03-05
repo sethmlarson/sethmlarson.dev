@@ -7,7 +7,7 @@
 
 <!-- more -->
 
-pip v26.0 [added support for the `--uploaded-prior-to` option](https://ichard26.github.io/blog/2026/01/whats-new-in-pip-26.0/#excluding-distributions-by-upload-time) in version 26.0.
+pip v26.0 [added support for the `--uploaded-prior-to` option](https://ichard26.github.io/blog/2026/01/whats-new-in-pip-26.0/#excluding-distributions-by-upload-time).
 This new option enables implementing “[dependency cooldowns](https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns)”, a technique
 described by [William Woodruff](https://yossarian.net), that provides simple but effective
 protections for the [relatively short attack-window time](https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns#fn:filippo:~:text=Approx%2E%20Window%20of%20Opportunity)
