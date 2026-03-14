@@ -2,6 +2,7 @@ import datetime
 import functools
 import pathlib
 import re
+import os
 import time
 import typing
 from urllib.parse import parse_qsl
@@ -15,7 +16,7 @@ from flask import (
     redirect,
     render_template,
     request,
-    url_for,
+    url_for, send_file,
 )
 from werkzeug.contrib.atom import AtomFeed
 from whitenoise import WhiteNoise
@@ -290,6 +291,14 @@ def rss_blog_posts():
 @cache_for(small_cache_time)
 def about():
     return render_template("about.html")
+
+
+@app.route("/human.json", methods=["GET"])
+@app.route("/.well-known/human.json", methods=["GET"])
+def human_json():
+    return send_file(
+        static_dir / "human.json",
+        mimetype="application/json", conditional=True, add_etags=True)
 
 
 @app.route("/api/wordle-stats", methods=["GET"])
