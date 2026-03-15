@@ -1,5 +1,3 @@
-from app.app import human_json
-
 # I’ve added human.json to my website
 
 [Evan Hahn](https://evanhahn.com) [recently blogged](https://evanhahn.com/human-dot-json/) about adding
