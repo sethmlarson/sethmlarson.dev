@@ -75,7 +75,7 @@ for outline in doc.outlines:
                 if human_json_url in vouched_urls:
                     continue
                 vouched_urls.add(human_json_url)
-                human_json["vouches"].append({"url": human_json_url, "date": today})
+                human_json["vouches"].append({"url": human_json_url, "vouched_at": today})
                 continue
 
 human_json_path.write_text(json.dumps(human_json, indent=2))

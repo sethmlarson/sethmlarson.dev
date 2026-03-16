@@ -4,11 +4,11 @@
   "vouches": [
     {
       "url": "https://foosel.net",
-      "date": "2026-03-14"
+      "vouched_at": "2026-03-14"
     },
     {
       "url": "https://evanhahn.com/",
-      "date": "2026-03-15"
+      "vouched_at": "2026-03-15"
     }
   ]
 }

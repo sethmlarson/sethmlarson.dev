@@ -296,9 +296,12 @@ def about():
 @app.route("/human.json", methods=["GET"])
 @app.route("/.well-known/human.json", methods=["GET"])
 def human_json():
-    return send_file(
+    resp = send_file(
         static_dir / "human.json",
-        mimetype="application/json", conditional=True, add_etags=True)
+        mimetype="application/json", conditional=True, add_etags=True
+    )
+    resp.headers["Access-Control-Allow-Origin"] = "*"
+    return resp
 
 
 @app.route("/api/wordle-stats", methods=["GET"])
