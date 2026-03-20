@@ -36,7 +36,7 @@ Here's how you can install the [development branch](https://github.com/psf/reque
 These instructions are [available in the pull request](https://github.com/psf/requests/issues/7271#how-to-test:~:text=How%20to%20test,-Install), too:
 
 * `python -m pip install git+https://github.com/psf/requests.git@inline_types_rfc`
-* `uv install git+https://github.com/psf/requests.git@inline_types_rfc`
+* `uv pip install git+https://github.com/psf/requests.git@inline_types_rfc`
 
 After installation:
 
