@@ -30,7 +30,7 @@
   src: url("https://rsms.me/inter/font-files/Inter-BoldItalic.woff2?v=4.0") format("woff2");
 }
 
-:root, input, textarea, button {
+:root, input, textarea, button, select {
   font-family: Inter, sans-serif;
   font-size: 100%;
 }
