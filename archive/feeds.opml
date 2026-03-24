@@ -138,9 +138,10 @@
     <outline text="Joel Spolsky" type="rss" xmlUrl="https://www.joelonsoftware.com/feed" htmlUrl="https://www.joelonsoftware.com"/>
     <outline text="Jonathan Traynor" type="rss" xmlUrl="https://www.jofamo.com/blog?format=rss" htmlUrl="https://www.jofamo.com/blog"/>
     <outline text="Julia Evans" type="rss" xmlUrl="http://jvns.ca/atom.xml" htmlUrl="http://jvns.ca"/>
-    <outline text="Julia Ferraioli" type="rss" xmlUrl="https://juliaferraioli.com/index.xml" htmlUrl="http://blog.juliaferraioli.com"/>
+    <outline text="Julia Ferraioli" type="rss" xmlUrl="https://www.juliaferraioli.com/index.xml" htmlUrl="https://juliaferraioli.com"/>
     <outline text="Jürgen Geuter" type="rss" xmlUrl="https://tante.cc/category/writing/english/feed" htmlUrl="https://tante.cc"/>
     <outline text="KRAZAM" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCgBVkKoOAr3ajSdFFLp13_A" htmlUrl="https://www.youtube.com/channel/UCgBVkKoOAr3ajSdFFLp13_A"/>
+    <outline text="Ken Jin" type="rss" xmlUrl="https://fidget-spinner.github.io/feed.xml" htmlUrl="https://fidget-spinner.github.io"/>
     <outline text="Kunal Mehta" type="rss" xmlUrl="https://blog.legoktm.com/feeds/all.atom.xml" htmlUrl="https://blog.legoktm.com"/>
     <outline text="Kushal Das" type="rss" xmlUrl="https://kushaldas.in/rss.xml" htmlUrl="https://kushaldas.in"/>
     <outline text="LOW←TECH MAGAZINE" type="rss" xmlUrl="https://solar.lowtechmagazine.com/posts/index.xml" htmlUrl="https://solar.lowtechmagazine.com/posts"/>
@@ -270,6 +271,7 @@
     <outline text="Will McGugan" type="rss" xmlUrl="https://www.willmcgugan.com/blog/rootblog/feeds/posts" htmlUrl="https://www.willmcgugan.com/blog/rootblog"/>
     <outline text="William Woodruff" type="rss" xmlUrl="http://blog.yossarian.net/feed.xml" htmlUrl="https://blog.yossarian.net"/>
     <outline text="Willow Protocol" type="rss" xmlUrl="https://willowprotocol.org/rss_news.xml" htmlUrl="https://willowprotocol.org/more/changes/index.html#news_and_updates"/>
+    <outline text="Yakumono" type="rss" xmlUrl="https://luigiblood.neocities.org/feed.blog.xml" htmlUrl="https://luigiblood.neocities.org/blog"/>
     <outline text="Your Cool Uncle Marisa" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCKhw19mznhm4Ar9NcO1vzBw" htmlUrl="https://www.youtube.com/channel/UCKhw19mznhm4Ar9NcO1vzBw"/>
     <outline text="Zebra Cat Zebra" type="rss" xmlUrl="https://zebracatzebra.com/feed" htmlUrl="https://zebracatzebra.com"/>
     <outline text="Zig" type="rss" xmlUrl="https://ziglang.org/news/index.xml" htmlUrl="https://ziglang.org/news"/>
