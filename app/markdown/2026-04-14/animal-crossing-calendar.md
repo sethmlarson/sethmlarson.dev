@@ -30,10 +30,10 @@ such as: “Animal Forest e+ + <nobr>NTSC-J</nobr> + Japanese”.
 </div>
 <div class="col-3">
 <label>Game</label><br>
-<input type="radio" name="game" value="AF" checked/>Animal Forest<br>
-<input type="radio" name="game" value="AF+"/>Animal Forest+<br>
-<input type="radio" name="game" value="AC"/>Animal Crossing<br>
-<input type="radio" name="game" value="AFe+"/>Animal Forest e+<br>
+<input type="radio" id="game-af" name="game" value="AF" checked/><label for="game-af">Animal Forest</label><br>
+<input type="radio" id="game-af+" name="game" value="AF+"/><label for="game-af+">Animal Forest+</label><br>
+<input type="radio" id="game-ac" name="game" value="AC"/><label for="game-ac">Animal Crossing</label><br>
+<input type="radio" id="game-afe+" name="game" value="AFe+"/><label for="game-afe+">Animal Forest e+</label><br>
 </div>
 <div class="col-3">
 <label>Region</label><br>
