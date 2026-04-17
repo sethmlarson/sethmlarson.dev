@@ -42,6 +42,7 @@
     <outline text="Boxy Pixel" type="rss" xmlUrl="boxypixel@ino.to" htmlUrl="https://www.inoreader.com"/>
     <outline text="Brett Cannon" type="rss" xmlUrl="https://snarky.ca/rss" htmlUrl="https://snarky.ca"/>
     <outline text="BrianMp16" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCP91xcTI49UgTLZuPzPocbQ" htmlUrl="https://www.youtube.com/channel/UCP91xcTI49UgTLZuPzPocbQ"/>
+    <outline text="Burger Digest" type="rss" xmlUrl="https://burgerdigest.com/feed.xml" htmlUrl="https://burgerdigest.com"/>
     <outline text="Button of the Month" type="rss" xmlUrl="https://www.theverge.com/rss/stream/17969611" htmlUrl="https://www.theverge.com/circuitbreaker/2019/1/31/18205570/button-of-the-month-column-hardware-physical-input-circuit-breaker"/>
     <outline text="Cabel Sasser" type="rss" xmlUrl="https://cabel.com/feed" htmlUrl="https://cabel.com"/>
     <outline text="Cal Paterson" type="rss" xmlUrl="https://calpaterson.com/calpaterson.rss" htmlUrl="http://calpaterson.com/calpaterson.rss"/>
@@ -55,9 +56,11 @@
     <outline text="Christine Lemmer-Webber" type="rss" xmlUrl="https://dustycloud.org/blog/index.xml" htmlUrl="https://dustycloud.org"/>
     <outline text="Colin Devroe" type="rss" xmlUrl="https://cdevroe.com/feed" htmlUrl="https://cdevroe.com/blog"/>
     <outline text="Computer Graphics &amp; Programming with Pekka Väänänen - 30fps.net" type="rss" xmlUrl="https://30fps.net/atom.xml" htmlUrl="https://30fps.net"/>
+    <outline text="Core Dispatch" type="rss" xmlUrl="https://coredispatch.xyz/api/feed/rss" htmlUrl="https://coredispatch.xyz/api/feed/rss"/>
     <outline text="Cory Doctorow" type="rss" xmlUrl="https://pluralistic.net/feed" htmlUrl="https://pluralistic.net"/>
     <outline text="Cuyler's blog" type="rss" xmlUrl="https://cuyler36.github.io///feed.xml" htmlUrl="https://cuyler36.github.io"/>
     <outline text="Cyber Celibate" type="rss" xmlUrl="https://www.cybercelibate.com/feed" htmlUrl="https://www.cybercelibate.com"/>
+    <outline text="Dan Lew Codes" type="rss" xmlUrl="https://blog.danlew.net/rss" htmlUrl="https://blog.danlew.net"/>
     <outline text="Dan Sinker" type="rss" xmlUrl="https://dansinker.com/feed.xml" htmlUrl="https://dansinker.com"/>
     <outline text="Daniel Appelquist" type="rss" xmlUrl="https://www.torgo.com/blog/feed" htmlUrl="https://www.torgo.com/blog"/>
     <outline text="Daniel Stenberg" type="rss" xmlUrl="http://daniel.haxx.se/blog/feed" htmlUrl="https://daniel.haxx.se/blog"/>
@@ -112,7 +115,6 @@
     <outline text="Henry Desroches Blogroll" type="rss" xmlUrl="https://henry.codes/rss/reading-list.xml" htmlUrl="https://henry.codes"/>
     <outline text="Hugo van Kemenade" type="rss" xmlUrl="https://hugovk.dev/index.xml" htmlUrl="https://hugovk.dev"/>
     <outline text="Hundred Rabbits" type="rss" xmlUrl="https://100r.co/links/rss.xml" htmlUrl="https://100r.co/blog"/>
-    <outline text="HungryHuy.com" type="rss" xmlUrl="https://www.hungryhuy.com/feed" htmlUrl="https://www.hungryhuy.com"/>
     <outline text="Hunter R." type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCroqqI7XwD828o0rAvAF8iw" htmlUrl="https://www.youtube.com/channel/UCroqqI7XwD828o0rAvAF8iw"/>
     <outline text="Huon Wilson" type="rss" xmlUrl="https://huonw.github.io/blog/rss.xml" htmlUrl="https://huonw.github.io/blog"/>
     <outline text="Hynek Schlawack" type="rss" xmlUrl="https://hynek.me/index.xml" htmlUrl="https://hynek.me"/>

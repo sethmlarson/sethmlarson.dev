@@ -8,6 +8,53 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“WebHaptics”" type="link" created="Fri, 17 Apr 2026 14:31:04 +0000" url="https://haptics.lochie.me" category="Software and OSS"/>
+    <outline text="“No one can force me to have a secure website!!!” by tom7" type="link" created="Tue, 14 Apr 2026 22:03:03 +0000" url="https://www.youtube.com/watch?v=M1si1y5lvkk" category="Security"/>
+    <outline text="“Jellyfin client for the Nintendo Wii”" type="link" created="Tue, 14 Apr 2026 14:36:40 +0000" url="https://wiifin.zipna.me" category="Retro Gaming"/>
+    <outline text="“The peril of laziness lost”" type="link" created="Mon, 13 Apr 2026 17:05:29 +0000" url="https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost" category="Software and OSS"/>
+    <outline text="“Brocards for vulnerability triage” by William Woodruff" type="link" created="Sun, 12 Apr 2026 20:33:01 +0000" url="https://blog.yossarian.net/2026/04/11/Brocards-for-vulnerability-triage" category="Security"/>
+    <outline text="“DIY soft drinks”" type="link" created="Sun, 12 Apr 2026 19:31:31 +0000" url="https://blinry.org/diy-soft-drinks" category="Life"/>
+    <outline text="“Custom Mario Kart Live karts”" type="link" created="Wed, 08 Apr 2026 16:42:26 +0000" url="https://itsthejoker.github.io/posts/mario-kart-live" category="Retro Gaming"/>
+    <outline text="“Porting Mac OSX to the Nintendo Wii”" type="link" created="Wed, 08 Apr 2026 16:34:54 +0000" url="https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html" category="Retro Gaming"/>
+    <outline text="“Charcutrie (Unicode)”" type="link" created="Wed, 08 Apr 2026 14:48:09 +0000" url="https://charcuterie.elastiq.ch" category="Toys and Art"/>
+    <outline text="“Post-Quantum Cryptography timelines”" type="link" created="Mon, 06 Apr 2026 18:01:48 +0000" url="https://words.filippo.io/crqc-timeline" category="Security"/>
+    <outline text="“The open web isn't dying: We're killing it”" type="link" created="Fri, 03 Apr 2026 14:46:29 +0000" url="https://ouvre-boite.com/the-open-web-isnt-dying-were-killing-it/?ref=werd.io" category="Social Media"/>
+    <outline text="“Build A Boy (LEGO Gameboy)”" type="link" created="Fri, 27 Mar 2026 04:43:05 +0000" url="https://buildaboy.co" category="Retro Gaming"/>
+    <outline text="“Gambling and prediction sites”" type="link" created="Thu, 26 Mar 2026 21:45:18 +0000" url="https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what" category="Life"/>
+    <outline text="“Why pylock.toml includes digital attestations” by Brett Cannon" type="link" created="Thu, 26 Mar 2026 13:04:09 +0000" url="https://snarky.ca/why-pylock-toml-includes-digital-attestations" category="Security"/>
+    <outline text="“Marc Robledo (ROM patcher, memory cards)”" type="link" created="Tue, 24 Mar 2026 21:22:25 +0000" url="https://www.marcrobledo.com" category="Retro Gaming"/>
+    <outline text="“People are not friction”" type="link" created="Fri, 20 Mar 2026 21:19:43 +0000" url="https://daverupert.com/2026/03/people-are-not-friction" category="Life"/>
+    <outline text="“IPS patch format”" type="link" created="Wed, 18 Mar 2026 20:45:09 +0000" url="https://zerosoft.zophar.net/ips.php" category="Retro Gaming"/>
+    <outline text="“Pokémon Picross”" type="link" created="Wed, 18 Mar 2026 14:57:49 +0000" url="https://www.gbrew.fr/decouvertes/decouverte-pokemon-picross-le-tresor-retrouve" category="Retro Gaming"/>
+    <outline text="“Give Django your time and money, not your tokens”" type="link" created="Tue, 17 Mar 2026 04:14:09 +0000" url="https://www.better-simple.com/django/2026/03/16/give-django-your-time-and-money" category="Software and OSS"/>
+    <outline text="“Slash pages”" type="link" created="Mon, 16 Mar 2026 12:51:06 +0000" url="https://slashpages.net" category="Social Media"/>
+    <outline text="“What local AI models can your hardware support?”" type="link" created="Fri, 13 Mar 2026 18:21:54 +0000" url="https://canirun.ai" category="Software and OSS"/>
+    <outline text="“The No-AI list”" type="link" created="Fri, 13 Mar 2026 18:16:22 +0000" url="https://noai.starlightnet.work/list.html" category="Software and OSS"/>
+    <outline text="“Load-bearing walls”" type="link" created="Wed, 11 Mar 2026 19:58:42 +0000" url="https://brianschrader.com/archive/load-bearing-walls" category="Life"/>
+    <outline text="“What's my JND?”" type="link" created="Tue, 10 Mar 2026 18:31:23 +0000" url="https://www.keithcirkel.co.uk/whats-my-jnd" category="Toys and Art"/>
+    <outline text="“私を構成する9つのゲーム”" type="link" created="Fri, 06 Mar 2026 18:15:29 +0000" url="https://my9games.com/s/b4873049a1c24c1c" category="Retro Gaming"/>
+    <outline text="“Early emoji support in iOS” by Unsung" type="link" created="Fri, 06 Mar 2026 18:02:33 +0000" url="https://unsung.aresluna.org/im-obviously-taking-a-risk-here-by-advertising-emoji-directly" category="Software and OSS"/>
+    <outline text="“Terrible software”" type="link" created="Wed, 04 Mar 2026 16:30:30 +0000" url="https://terriblesoftware.org" category="Software and OSS"/>
+    <outline text="“Guide to Koholint” by Ryan Veeder and Zach" type="link" created="Sun, 01 Mar 2026 19:23:31 +0000" url="https://rcveeder.net/koholint" category="Retro Gaming"/>
+    <outline text="“Enable CORS for your blog and RSS”" type="link" created="Fri, 27 Feb 2026 19:57:38 +0000" url="https://www.blogsareback.com/guides/enable-cors" category="Social Media"/>
+    <outline text="“Dark breakfast” by Ryan Moulton" type="link" created="Fri, 27 Feb 2026 19:47:30 +0000" url="https://moultano.wordpress.com/2026/02/22/the-hunt-for-dark-breakfast" category="Toys and Art"/>
+    <outline text="“Using git while trans” by Brooke Hart" type="link" created="Fri, 27 Feb 2026 04:05:35 +0000" url="https://code.curly.kiwi/2026/02/27/using-git-while-trans" category="Software and OSS"/>
+    <outline text="“What does your AI choose by default?”" type="link" created="Thu, 26 Feb 2026 22:54:01 +0000" url="https://amplifying.ai" category="Software and OSS"/>
+    <outline text="“Security issues and volunteers (2016)” by Benjamin Peterson" type="link" created="Thu, 26 Feb 2026 21:53:47 +0000" url="https://www.locrian.net/writing/open-source-security" category="Security"/>
+    <outline text="“Simulating XKCD 2347”" type="link" created="Tue, 24 Feb 2026 23:20:10 +0000" url="https://nesbitt.io/xkcd-2347" category="Toys and Art"/>
+    <outline text="“When URLs go IRL”" type="link" created="Mon, 23 Feb 2026 03:28:50 +0000" url="https://guydupont.leaflet.pub/3mfimqfm3a22x" category="Life"/>
+    <outline text="“Political effects of X’s feed algorithm”" type="link" created="Mon, 23 Feb 2026 02:45:45 +0000" url="https://www.nature.com/articles/s41586-026-10098-2" category="Social Media"/>
+    <outline text="“Whale fall” by Andrew Nesbitt" type="link" created="Sun, 22 Feb 2026 19:01:50 +0000" url="https://nesbitt.io/2026/02/21/whale-fall.html" category="Software and OSS"/>
+    <outline text="“Revive dead multiplayer games”" type="link" created="Sun, 22 Feb 2026 16:22:15 +0000" url="https://www.gamedate.org" category="Retro Gaming"/>
+    <outline text="“Why it took 4 years to get a lock files specification” by Brett Cannon" type="link" created="Sun, 22 Feb 2026 00:15:17 +0000" url="https://snarky.ca/why-it-took-4-years-to-get-a-lock-files-specification" category="Security"/>
+    <outline text="“Dizzy Sheep Disaster EX”" type="link" created="Sun, 22 Feb 2026 00:14:46 +0000" url="https://dizzy-sheep.nes.science" category="Retro Gaming"/>
+    <outline text="“Turn Dependabot off”" type="link" created="Sat, 21 Feb 2026 04:43:38 +0000" url="https://words.filippo.io/dependabot" category="Security"/>
+    <outline text="“A Pokémon of a different color”" type="link" created="Thu, 19 Feb 2026 08:25:22 +0000" url="https://matthew.verive.me/blog/color" category="Toys and Art"/>
+    <outline text="“Mono Sketch”" type="link" created="Fri, 13 Feb 2026 17:29:47 +0000" url="https://app.monosketch.io" category="Toys and Art"/>
+    <outline text="“ICE in Minneapolis”" type="link" created="Thu, 12 Feb 2026 21:46:25 +0000" url="https://chaddavis.photography/sets/ice-in-minneapolis" category="Life"/>
+    <outline text="“Open source software is going just great”" type="link" created="Thu, 12 Feb 2026 18:20:19 +0000" url="https://nesbitt.io/oss-is-going-just-great" category="Software and OSS"/>
+    <outline text="“ai;dr”" type="link" created="Thu, 12 Feb 2026 17:46:07 +0000" url="https://www.0xsid.com/blog/aidr" category="Life"/>
+    <outline text="“Text classification using the compression.zstd module” by Max Halford" type="link" created="Thu, 12 Feb 2026 14:10:13 +0000" url="https://maxhalford.github.io/blog/text-classification-zstd" category="Software and OSS"/>
     <outline text="“Living wage calculator”" type="link" created="Mon, 09 Feb 2026 21:04:32 +0000" url="https://livingwage.mit.edu" category="Life"/>
     <outline text="“Pandoc for the people”" type="link" created="Thu, 05 Feb 2026 22:16:22 +0000" url="https://pandoc.org/app" category="Software and OSS"/>
     <outline text="“GBKiss”" type="link" created="Tue, 03 Feb 2026 21:25:51 +0000" url="https://gbkiss.org" category="Retro Gaming"/>
