@@ -34,7 +34,7 @@ all games hung on for as long as it did.
 The table below
 which includes both the price of the game and incremental price
 of storage (depending on which storage device you purchase)
-to compare the price between physical and digital. Notice how
+to compare the price between physical and digital.
 
 |Edition|Storage|Total Price|Game Price|Storage Price|Game Size|
 |-------|-------|----------:|---------:|------------:|--------:|
