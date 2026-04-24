@@ -21,6 +21,8 @@ affecting Switch 2 game prices:
 
 <!-- more -->
 
+Nintendo Patent Watch [published some analysis](https://ninpatentswatch.wordpress.com/2026/04/22/game-card-memory-costs-and-suppliers/) about the new G4 Game Cards. Quoting the analysis: “Based on the pricing of several indie physicals for Switch 2, it suggests that the cost (to the publishers) of a 64GB card is around $15, and 16GB about $10”.
+
 I [created a small Python script](https://gist.github.com/sethmlarson/6daf49f34ec11dbbbecfdef3fd1fcf08) which produces tables of data comparing physical and digital
 prices comparing different microSD Express cards and their price-per-GB ratios across different Nintendo Switch 2 games.
 
