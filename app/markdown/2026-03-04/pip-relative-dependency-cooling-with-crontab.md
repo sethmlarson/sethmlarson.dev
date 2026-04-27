@@ -1,9 +1,8 @@
 # Relative “Dependency Cooldowns” in pip v26.0 with crontab
 
-> **WARNING:** Most of this blog post is
-  a hack, everyone should probably just
-  wait for relative dependency cooldowns to come
-  to a future version of pip.
+> **WARNING** This blog post is now outdated. Use [pip v26.1](/pip-relative-dependency-cooldowns)
+> which [supports relative dependency cooldowns](/pip-relative-dependency-cooldowns) out-of-the-box,
+> no hacks with crontab required.
 
 <!-- more -->
 
