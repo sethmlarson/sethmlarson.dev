@@ -38,14 +38,14 @@ malware and supply chain attacks published are detected and removed within
 hours of being uploaded to the index. [Using relative dependency cooldowns](https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/#protecting-yourself-as-a-developer) means indexes have time to respond
 to malicious software and keep you safe.
 
-Reminder that dependency cooldowns should be paired with a vulnerability
-upgrade strategy that prioritizes dependency releases with associated
-vulnerabilities. You don't want to be waiting for days for a dependency
-cooldown to clear if your service is vulnerable. Managing, reviewing,
-upgrading, and deploying vulnerability patches should be a deliberate
-task, not one that happens "on-accident" due to an upgrade-by-default
+Reminder that dependency cooldowns should be paired with a dependency
+management strategy that **prioritizes dependency releases that fix
+vulnerabilities**. You don't want to be waiting for days for a dependency
+cooldown to clear while your service is vulnerable. Managing, reviewing,
+upgrading, and deploying vulnerability patches should be a **deliberate
+task**, not one that happens "on-accident" due to an upgrade-by-default
 installation strategy.
 
-Andrew Nesbitt has published a [comprehensive review of dependency cooldowns](https://nesbitt.io/2026/03/04/package-managers-need-to-cool-down.html)
+[Andrew Nesbitt](https://nesbitt.io) has published a [comprehensive review of dependency cooldowns](https://nesbitt.io/2026/03/04/package-managers-need-to-cool-down.html)
 across many different package managers. Thanks to William Woodruff who
 [originally published this approach](https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns).
