@@ -50,7 +50,7 @@ outside of Japan and despite multiple re-releases
 to the 3DS eShop and now <a href="https://github.com/sethmlarson/nintendo-classics/blob/main/nintendo-classics.csv#L232:~:text=Kaeru%20no%20Tame%20ni%20Kane%20wa%20Naru">Nintendo Classics</a>,
 there is no official English translation.</p>
 <p>I can’t read
-Japanese, but to experience the dialogue. Luckily for me, there is a fan-created <a href="https://www.romhacking.net/translations/6517/">
+Japanese, but still wanted to experience all the game dialogue. Amazingly there is a fan-created <a href="https://www.romhacking.net/translations/6517/">
 English translation patch</a> from 2011. I would need the actual game ROM to apply the patch.</p>
 </div>
 <div class="col-3">
