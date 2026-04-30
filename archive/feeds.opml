@@ -34,6 +34,7 @@
     <outline text="Audrey Eschright" type="rss" xmlUrl="https://lifeofaudrey.com/atom.xml" htmlUrl="https://lifeofaudrey.com"/>
     <outline text="BIGMODE" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClC6zx21MsBuGRmiwIuZqaA" htmlUrl="https://www.youtube.com/channel/UClC6zx21MsBuGRmiwIuZqaA"/>
     <outline text="Baldur Bjarnason" type="rss" xmlUrl="https://www.baldurbjarnason.com/feed.xml" htmlUrl="http://www.baldurbjarnason.com"/>
+    <outline text="Barbara Shaurette" type="rss" xmlUrl="https://mechanicalgirl.com/rss" htmlUrl="https://www.mechanicalgirl.com"/>
     <outline text="Bastian Venthur" type="rss" xmlUrl="https://venthur.de/atom.xml" htmlUrl="https://venthur.de"/>
     <outline text="Ben Awad" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-8QAzbLcRglXeN_MY9blyw" htmlUrl="https://www.youtube.com/channel/UC-8QAzbLcRglXeN_MY9blyw"/>
     <outline text="Benjamin Hollon" type="rss" xmlUrl="https://benjaminhollon.com/musings/feed" htmlUrl="https://benjaminhollon.com/musings"/>
@@ -125,7 +126,6 @@
     <outline text="Information Architects" type="rss" xmlUrl="https://ia.net/feed" htmlUrl="https://ia.net"/>
     <outline text="Infrequently Noted" type="rss" xmlUrl="https://infrequently.org/feed" htmlUrl="https://infrequently.org"/>
     <outline text="Ink &amp; Switch" type="rss" xmlUrl="https://www.inkandswitch.com/index.xml" htmlUrl="https://www.inkandswitch.com"/>
-    <outline text="Interconnected" type="rss" xmlUrl="https://interconnected.org/home/feed" htmlUrl="https://interconnected.org/home"/>
     <outline text="Internet Security Research Group" type="rss" xmlUrl="https://www.abetterinternet.org/index.xml" htmlUrl="https://www.abetterinternet.org"/>
     <outline text="Iris Meredith" type="rss" xmlUrl="https://deadsimpletech.com/rss" htmlUrl="https://deadsimpletech.com"/>
     <outline text="Isosceles" type="rss" xmlUrl="https://blog.isosceles.com/rss" htmlUrl="https://blog.isosceles.com"/>
@@ -188,6 +188,7 @@
     <outline text="Nintendo Classics" type="rss" xmlUrl="https://raw.githubusercontent.com/sethmlarson/nintendo-classics/refs/heads/main/nintendo-classics.xml" htmlUrl="https://github.com/sethmlarson/nintendo-classics"/>
     <outline text="Nintendo Collecting" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCkMlE43OUrn7S1HKnk2-HzA" htmlUrl="http://www.youtube.com/user/lithium017"/>
     <outline text="Nintendo Forecast" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCU9jRARYgFplM9_u8yTFkHA" htmlUrl="https://www.youtube.com/channel/UCU9jRARYgFplM9_u8yTFkHA"/>
+    <outline text="Nintendo Patents Watch" type="rss" xmlUrl="https://ninpatentswatch.wordpress.com/feed" htmlUrl="https://ninpatentswatch.wordpress.com"/>
     <outline text="Non-Zero Sum Games Blog" type="rss" xmlUrl="https://nonzerosum.games/rss.xml" htmlUrl="https://nonzerosum.games"/>
     <outline text="Open Source Security" type="rss" xmlUrl="https://opensourcesecurity.io/feed" htmlUrl="https://opensourcesecurity.io"/>
     <outline text="Own Your Web" type="rss" xmlUrl="https://newsletter.ownyourweb.site/rss.xml" htmlUrl="https://newsletter.ownyourweb.site"/>

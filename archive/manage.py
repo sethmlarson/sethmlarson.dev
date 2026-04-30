@@ -11,7 +11,9 @@ from textwrap import dedent
 
 
 http_client = urllib3.PoolManager()
-archive_dir = pathlib.Path(__file__).parent.absolute()
+root_dir = pathlib.Path(__file__).parent.parent.absolute()
+archive_dir = root_dir / "archive"
+static_dir = root_dir / "app/static"
 app_template_dir = archive_dir.parent / "app/templates"
 access_token = None
 app_secrets = json.loads((archive_dir / "app-secrets.json").read_text())
