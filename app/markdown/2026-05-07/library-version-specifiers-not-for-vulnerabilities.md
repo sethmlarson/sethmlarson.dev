@@ -43,6 +43,23 @@ It's not the responsibility of library maintainers to *force*
 their users are using secure versions of dependencies that aren't directly
 managed by the library (such as by bundling). **That is the responsibility of users**.
 
+## Why not?
+
+If every library applied this strategy the result would be
+mass-toil both for users and maintainers.
+
+urllib3 is *directly depended on by over 10,000 other libraries* on the Python Package
+Index. So a single vulnerability under this strategy would amplify to
+a new release for 10,000 projects. Projects like numpy (80,000), requests (72,000),
+and pandas (55,000) would have even more disastrous amplifications.
+There are a decent number of vulnerabilities published every day for
+open source libraries, so this would mean mass-releases, every day, forever: not good.
+
+The much more efficient strategy is to allow users to manage their own
+application dependencies to ensure they are not affected by vulnerabilities.
+
+## Why... maybe?
+
 You can imagine scenarios where a security vulnerability might affect
 compatibility, such as if a feature is removed or changed in a backwards-incompatible
 way. In this case then a version range update may be warranted.
