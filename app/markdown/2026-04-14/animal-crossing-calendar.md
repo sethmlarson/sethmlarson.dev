@@ -1275,7 +1275,7 @@ Here are the complete list of events noted on the calendar:
 
 Because at a minimum Apple calendars does not
 support [the `RDATE` iCalendar feature](https://datatracker.ietf.org/doc/html/rfc5545#section-3.8.5.3).
-Theis feature make it space-efficient to repeat an
+This feature makes it space-efficient to repeat an
 event across multiple irregular dates. Unfortunately, it's not possible to
 represent a set of dates in a Lunisolar calendar
 within the Gregorian calendar using only `RRULE`, you
