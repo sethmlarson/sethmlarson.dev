@@ -1,4 +1,4 @@
-# Pikmin 2 International Treasure Hoard (DONE)
+# Pikmin 2 International Treasure Hoard
 
 <div class="row">
 <div class="col-6">
