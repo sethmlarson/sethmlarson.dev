@@ -18,7 +18,7 @@ from flask import (
     request,
     url_for, send_file,
 )
-from werkzeug.contrib.atom import AtomFeed
+from .werkzeug_contrib_atom import AtomFeed
 from whitenoise import WhiteNoise
 from bs4 import BeautifulSoup
 
@@ -118,7 +118,8 @@ class BlogPost:
             text, _ = text.split("<!-- rss -->")
             text += f"<br><p>Continue reading on <a href=\"{self.url(utm_campaign='rss')}\">sethmlarson.dev</a> ...</p>"
         html = md.convert(text)
-        html += "<br><hr><p>Thanks for keeping RSS alive! ♥</p>"
+        html += ("<br><hr><p>Thanks for keeping RSS alive! ♥ What to do next? Share your thoughts with me on <a href='https://mastodon.social/@sethmlarson'>Mastodon</a>, <a href='https://bsky.app/profile/sethmlarson.dev'>Bluesky</a>, or <a href='mailto:sethmichaellarson@gmail.com'>email</a>. I try to reply to everyone!"
+                 "Browse the <a href='https://sethmlarson.dev/'>blog archive</a>. Check out my <a href='https://sethmlarson.dev/blogroll'>blogroll</a>. Or maybe go outside (best option)?</p><hr><br>")
         return html
 
     def url(self, utm_campaign=None) -> str:
@@ -298,7 +299,7 @@ def about():
 def human_json():
     resp = send_file(
         static_dir / "human.json",
-        mimetype="application/json", conditional=True, add_etags=True
+        mimetype="application/json", conditional=True, etag=True
     )
     resp.headers["Access-Control-Allow-Origin"] = "*"
     return resp

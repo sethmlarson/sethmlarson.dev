@@ -1,11 +1,12 @@
+pip-tools
 gunicorn
 flask
 markdown2
 pygments
 h11
-gevent
 attrs
-werkzeug<1
+werkzeug
 whitenoise
 beautifulsoup4
 opml
+lxml==7.0.0a1
