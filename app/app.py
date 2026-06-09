@@ -118,8 +118,14 @@ class BlogPost:
             text, _ = text.split("<!-- rss -->")
             text += f"<br><p>Continue reading on <a href=\"{self.url(utm_campaign='rss')}\">sethmlarson.dev</a> ...</p>"
         html = md.convert(text)
-        html += ("<br><hr><p>Thanks for keeping RSS alive! ♥ What to do next? Share your thoughts with me on <a href='https://mastodon.social/@sethmlarson'>Mastodon</a>, <a href='https://bsky.app/profile/sethmlarson.dev'>Bluesky</a>, or <a href='mailto:sethmichaellarson@gmail.com'>email</a>. I try to reply to everyone!"
-                 "Browse the <a href='https://sethmlarson.dev/'>blog archive</a>. Check out my <a href='https://sethmlarson.dev/blogroll'>blogroll</a>. Or maybe go outside (best option)?</p><hr><br>")
+        html += ("<br><hr><p>Thanks for reading ♥ "
+                 "I would love to hear your thoughts! "
+                 "Contact me via <a href='https://mastodon.social/@sethmlarson'>Mastodon</a>, "
+                 "<a href='https://bsky.app/profile/sethmlarson.dev'>Bluesky</a>, or "
+                 "<a href='mailto:sethmichaellarson@gmail.com'>email</a>. "
+                 "Browse the <a href='https://sethmlarson.dev/'>blog archive</a>. "
+                 "Check out my <a href='https://sethmlarson.dev/blogroll'>blogroll</a>."
+                 "</p><hr><br>")
         return html
 
     def url(self, utm_campaign=None) -> str:

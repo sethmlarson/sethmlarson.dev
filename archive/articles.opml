@@ -8,6 +8,11 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Have I been poobed?” by David Buchanan" type="link" created="Mon, 08 Jun 2026 17:09:23 +0000" url="https://bsky.app/profile/retr0.id/post/3midzmjukwk2s" category="Toys and Art"/>
+    <outline text="“Mister Donut museum”" type="link" created="Fri, 05 Jun 2026 21:01:08 +0000" url="https://www.misterdonut.jp/enjoy/zukan/donut/y1971.html" category="Life"/>
+    <outline text="“pyisotools” by Joshua" type="link" created="Wed, 03 Jun 2026 17:52:50 +0000" url="https://github.com/JoshuaMKW/pyisotools" category="Retro Gaming"/>
+    <outline text="“Encrypted LLM reasoning blobs” by Matthew Green" type="link" created="Tue, 02 Jun 2026 14:23:21 +0000" url="https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs" category="Security"/>
+    <outline text="“bijou64”" type="link" created="Fri, 29 May 2026 16:28:32 +0000" url="https://www.inkandswitch.com/tangents/bijou64" category="Software and OSS"/>
     <outline text="“Magnifica Humanitas” by Pope Leo XIV" type="link" created="Wed, 27 May 2026 17:19:28 +0000" url="http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" category="Life"/>
     <outline text="“Multi-stroke text effect in CSS” by Yuan Chuan" type="link" created="Tue, 26 May 2026 13:31:31 +0000" url="https://yuanchuan.dev/multi-stroke-text-effect-in-css" category="Toys and Art"/>
     <outline text="“Mario 101: For Super Players” by Drew Mackie" type="link" created="Thu, 21 May 2026 21:11:03 +0000" url="https://www.thrillingtalesofoldvideogames.com/blog/mario-101-history" category="Retro Gaming"/>
@@ -459,8 +464,8 @@
     <outline text="“Super Mario 64 in Sonic Adventure DX” by Sora" type="link" created="Mon, 11 Nov 2024 21:29:30 +0000" url="https://gamebanana.com/mods/544238" category="Retro Gaming"/>
     <outline text="“FlippyDrive for the GameCube” by Macho Nacho" type="link" created="Mon, 11 Nov 2024 21:29:29 +0000" url="https://www.youtube.com/watch?v=1-LWI2tGfhQ" category="Retro Gaming"/>
     <outline text="“Super Nintendo Video System” by Fabien Sanglard" type="link" created="Mon, 11 Nov 2024 21:29:28 +0000" url="https://fabiensanglard.net/snes_video/index.html" category="Retro Gaming"/>
-    <outline text="“A video about Melee” by AsumSaus" type="link" created="Mon, 11 Nov 2024 21:29:26 +0000" url="https://youtu.be/nviIKTywuYU?si=mgFOhNBRMCTAIwOU" category="Retro Gaming"/>
     <outline text="“Super Paper Mario's design” by Kirbyster" type="link" created="Mon, 11 Nov 2024 21:29:26 +0000" url="https://youtube.com/watch?si=BDytOgheHFncVBK9&amp;v=tfS9SYPT-jw" category="Retro Gaming"/>
+    <outline text="“A video about Melee” by AsumSaus" type="link" created="Mon, 11 Nov 2024 21:29:26 +0000" url="https://youtu.be/nviIKTywuYU?si=mgFOhNBRMCTAIwOU" category="Retro Gaming"/>
     <outline text="“ORANGE FM, Game Boy cartridge for FM Radio” by Evan Barger" type="link" created="Mon, 11 Nov 2024 21:29:25 +0000" url="https://orangegb.com/orangefm" category="Retro Gaming"/>
     <outline text="“Gamecube ASCII keyboard controller and libogc” by Gered King" type="link" created="Mon, 11 Nov 2024 21:29:23 +0000" url="http://www.blarg.ca/2021/02/15/using-a-gamecube-ascii-keyboard-controller-with-libogc" category="Retro Gaming"/>
     <outline text="“GameCube, Wii, Wii U, and PC connected via Broadband Adapter” by Good Vibes Gaming" type="link" created="Mon, 11 Nov 2024 21:29:22 +0000" url="https://www.youtube.com/watch?v=699HVbOKNtc" category="Retro Gaming"/>

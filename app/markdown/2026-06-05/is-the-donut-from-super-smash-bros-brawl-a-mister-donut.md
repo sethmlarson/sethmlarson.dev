@@ -10,6 +10,8 @@ staring at sprite-sheets](https://sethmlarson.dev/food-jpegs-in-super-smash-bros
 and Kirby Air Riders franchises. That donut looked just
 like the one from Super Smash Bros. Brawl.
 
+<!-- more -->
+
 “But Seth”, I hear you say, “chocolate ring donuts all look the same
 anyway!” Maybe... *and yet...*
 
@@ -19,6 +21,7 @@ anyway!” Maybe... *and yet...*
 </center></p>
 
 Funnily enough, the [Render96 wiki](https://github.com/Render96/Render96Wiki), which collects origins for
-artwork such as Super Smash Bros. Melee and Brawl, lists
-[the donut](https://github.com/Render96/Render96Wiki/wiki/Super-Smash-Bros.-Melee#currently-missing) as one of the few foods where the origin is not known.
-Could this donut *also* be a Mister Donut? We'll probably never know!
+artwork for many games like Super Smash Bros., lists
+[the donut from Super Smash Bros. Melee](https://github.com/Render96/Render96Wiki/wiki/Super-Smash-Bros.-Melee#currently-missing) as one of the few foods
+where the origin is not known. Could this donut *also* be a Mister Donut?
+We'll probably never know!
