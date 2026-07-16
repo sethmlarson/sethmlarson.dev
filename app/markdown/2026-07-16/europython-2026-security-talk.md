@@ -10,6 +10,12 @@ documentation, community, or code contributions.
 
 <!-- more -->
 
+> My work as the Security Developer-in-Residence at the [Python Software Foundation](https://www.python.org/psf-landing/) is sponsored
+by [Alpha-Omega](https://alpha-omega.dev/). Thanks to Alpha-Omega for supporting
+security in the Python ecosystem.
+
+## Links and Resources
+
 * [Slides](https://speakerdeck.com/sethmlarson/learning-from-the-not-so-secret-python-security-cabal-europython-2026)
 * [Python Software Foundation Blog](https://pyfound.blogspot.com)
 * [Python Insider Blog](https://blog.python.org)
