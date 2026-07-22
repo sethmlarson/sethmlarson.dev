@@ -8,7 +8,6 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
-    <outline text="404 Media" type="rss" xmlUrl="https://www.404media.co/rss" htmlUrl="https://www.404media.co"/>
     <outline text="5Calls" type="rss" xmlUrl="5calls@ino.to" htmlUrl="https://www.inoreader.com"/>
     <outline text="A New Social" type="rss" xmlUrl="https://blog.anew.social/rss" htmlUrl="https://blog.anew.social"/>
     <outline text="Adrian Howard" type="rss" xmlUrl="https://adrianhoward.com/feed.xml" htmlUrl="https://adrianhoward.com"/>
@@ -57,7 +56,6 @@
     <outline text="Colin Devroe" type="rss" xmlUrl="https://cdevroe.com/feed" htmlUrl="https://cdevroe.com/blog"/>
     <outline text="Computer Graphics &amp; Programming with Pekka Väänänen - 30fps.net" type="rss" xmlUrl="https://30fps.net/atom.xml" htmlUrl="https://30fps.net"/>
     <outline text="Core Dispatch" type="rss" xmlUrl="https://coredispatch.xyz/api/feed/rss" htmlUrl="https://coredispatch.xyz/api/feed/rss"/>
-    <outline text="Cory Doctorow" type="rss" xmlUrl="https://pluralistic.net/feed" htmlUrl="https://pluralistic.net"/>
     <outline text="Cuyler's blog" type="rss" xmlUrl="https://cuyler36.github.io///feed.xml" htmlUrl="https://cuyler36.github.io"/>
     <outline text="Cyber Celibate" type="rss" xmlUrl="https://www.cybercelibate.com/feed" htmlUrl="https://www.cybercelibate.com"/>
     <outline text="Dan Lew" type="rss" xmlUrl="https://blog.danlew.net/rss" htmlUrl="https://blog.danlew.net"/>
@@ -143,7 +141,9 @@
     <outline text="Julia Ferraioli" type="rss" xmlUrl="https://www.juliaferraioli.com/index.xml" htmlUrl="https://juliaferraioli.com"/>
     <outline text="Jürgen Geuter" type="rss" xmlUrl="https://tante.cc/category/writing/english/feed" htmlUrl="https://tante.cc"/>
     <outline text="KRAZAM" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCgBVkKoOAr3ajSdFFLp13_A" htmlUrl="https://www.youtube.com/channel/UCgBVkKoOAr3ajSdFFLp13_A"/>
+    <outline text="Karolina Surma" type="rss" xmlUrl="https://karolinasurma.eu/feeds/all.atom.xml" htmlUrl="https://karolinasurma.eu"/>
     <outline text="Ken Jin" type="rss" xmlUrl="https://fidget-spinner.github.io/feed.xml" htmlUrl="https://fidget-spinner.github.io"/>
+    <outline text="Kplx" type="rss" xmlUrl="https://www.kplx.art/blogs/feed.atom" htmlUrl="https://www.kplx.art/blogs/feed"/>
     <outline text="Kunal Mehta" type="rss" xmlUrl="https://blog.legoktm.com/feeds/all.atom.xml" htmlUrl="https://blog.legoktm.com"/>
     <outline text="Kushal Das" type="rss" xmlUrl="https://kushaldas.in/rss.xml" htmlUrl="https://kushaldas.in"/>
     <outline text="LOW←TECH MAGAZINE" type="rss" xmlUrl="https://solar.lowtechmagazine.com/posts/index.xml" htmlUrl="https://solar.lowtechmagazine.com/posts"/>
@@ -184,11 +184,11 @@
     <outline text="Ned Batchelder" type="rss" xmlUrl="https://nedbatchelder.com/blog/rss.xml" htmlUrl="https://nedbatchelder.com/blog"/>
     <outline text="NeoGeoFanClub" type="rss" xmlUrl="https://neogeofanclub.com/feed" htmlUrl="https://neogeofanclub.com"/>
     <outline text="Nicole Express" type="rss" xmlUrl="https://nicole.express/feed.xml" htmlUrl="https://nicole.express"/>
+    <outline text="Nikita Karamov" type="rss" xmlUrl="https://www.kytta.dev/blog/atom.xml" htmlUrl="https://www.kytta.dev/blog"/>
     <outline text="Nikita Prokopov" type="rss" xmlUrl="https://tonsky.me/atom.xml" htmlUrl="https://tonsky.me"/>
     <outline text="Nintendo Classics" type="rss" xmlUrl="https://raw.githubusercontent.com/sethmlarson/nintendo-classics/refs/heads/main/nintendo-classics.xml" htmlUrl="https://github.com/sethmlarson/nintendo-classics"/>
     <outline text="Nintendo Collecting" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCkMlE43OUrn7S1HKnk2-HzA" htmlUrl="http://www.youtube.com/user/lithium017"/>
     <outline text="Nintendo Forecast" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCU9jRARYgFplM9_u8yTFkHA" htmlUrl="https://www.youtube.com/channel/UCU9jRARYgFplM9_u8yTFkHA"/>
-    <outline text="Nintendo Patents Watch" type="rss" xmlUrl="https://ninpatentswatch.wordpress.com/feed" htmlUrl="https://ninpatentswatch.wordpress.com"/>
     <outline text="Non-Zero Sum Games Blog" type="rss" xmlUrl="https://nonzerosum.games/rss.xml" htmlUrl="https://nonzerosum.games"/>
     <outline text="Open Source Security" type="rss" xmlUrl="https://opensourcesecurity.io/feed" htmlUrl="https://opensourcesecurity.io"/>
     <outline text="Own Your Web" type="rss" xmlUrl="https://newsletter.ownyourweb.site/rss.xml" htmlUrl="https://newsletter.ownyourweb.site"/>
@@ -215,6 +215,7 @@
     <outline text="Read the Tea Leaves" type="rss" xmlUrl="https://nolanlawson.com/feed" htmlUrl="https://nolanlawson.com"/>
     <outline text="RedMonk Tech Events" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCaUtAK8xECTkETCYivJegeQ" htmlUrl="https://www.youtube.com/channel/UCaUtAK8xECTkETCYivJegeQ"/>
     <outline text="Retro Game Mechanics Explained" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwRqWnW5ZkVaP_lZF7caZ-g" htmlUrl="https://www.youtube.com/feeds"/>
+    <outline text="Retro Odyssey" type="rss" xmlUrl="https://gist.githubusercontent.com/sethmlarson/b5e2683ad1a6a9801472173b821f6e85/raw/04318ef9fc803c6ab9da74787e21a539c14ba496/retro-odyssey.xml" htmlUrl="https://gist.githubusercontent.com/sethmlarson/b5e2683ad1a6a9801472173b821f6e85/raw/04318ef9fc803c6ab9da74787e21a539c14ba496/retro-odyssey.xml"/>
     <outline text="RetroRGB" type="rss" xmlUrl="https://retrorgb.com/feed" htmlUrl="https://retrorgb.com"/>
     <outline text="Riley Testut" type="rss" xmlUrl="https://rileytestut.com/feed.xml" htmlUrl="https://rileytestut.com"/>
     <outline text="Riley Walz" type="rss" xmlUrl="webfeed://https%3A%2F%2Fwalzr.com%2F--064b4a85" htmlUrl="https://walzr.com"/>
