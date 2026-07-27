@@ -46,22 +46,14 @@ which is far worse for users and project maintainers.
 
 `DeprecationWarning` is called out in the [“ignored by default” list](https://docs.python.org/3/library/warnings.html#updating-code-for-new-versions-of-dependencies)
 for Python. I could ask for more Python developers to run with warnings enabled, but solutions in the form of “if only we could all just” are a folly.
-Maybe the answer is for each library to create its own
-“deprecation warning” equivalent just to not be in the “ignored by default” list:
+Instead, use `FutureWarning` which emits by default:
 
 ```python
 import warnings
 
-class Urllib3DeprecationWarning(UserWarning):
-    pass
-
 warnings.warn(
     "HTTPResponse.getheader() is deprecated",
-    category=Urllib3DeprecationWarning,
+    category=FutureWarning,
     stacklevel=2
 )
 ```
-
-Maybe the answer is to do away with advance notice and adopt SemVer with many major versions, similar to
-how Cryptography operates for API compatibility. Let me know if
-you have other ideas.
