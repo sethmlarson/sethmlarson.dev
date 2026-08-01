@@ -9,6 +9,8 @@ Ocarina of Time](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_T
 version of Ocarina of Time. Let’s extract those ROMs
 from the GameCube ROM so we can play on other emulators.
 
+<!-- more -->
+
 Going from a GameCube disc to an ISO ROM is the usual
 process, for me that means using the [FlippyDrive Disc Backup
 Utility](https://docs.flippydrive.com/backup.html) but CleanRip on a GameCube or Wii also works.
