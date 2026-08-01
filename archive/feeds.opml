@@ -80,7 +80,6 @@
     <outline text="Emily Gorcenski" type="rss" xmlUrl="https://emilygorcenski.com/tags/indieweb/index.xml" htmlUrl="https://emilygorcenski.com/tags/indieweb"/>
     <outline text="Emma Typing" type="rss" xmlUrl="https://emmatyping.dev/feeds/all.atom.xml" htmlUrl="https://emmatyping.dev"/>
     <outline text="Eric Migicovsky (rePebble)" type="rss" xmlUrl="https://ericmigi.com/rss.xml" htmlUrl="http://github.com/dylang/node-rss"/>
-    <outline text="Erin In The Morning" type="rss" xmlUrl="https://www.erininthemorning.com/feed" htmlUrl="https://www.erininthemorning.com"/>
     <outline text="Erin Kissane" type="rss" xmlUrl="https://erinkissane.com/feed.rss" htmlUrl="https://erinkissane.com"/>
     <outline text="Erlend Sogge Heggen" type="rss" xmlUrl="https://blog.muni.town/rss" htmlUrl="https://blog.muni.town"/>
     <outline text="Ethan Marcotte" type="rss" xmlUrl="https://ethanmarcotte.com/wrote/feed.xml" htmlUrl="https://ethanmarcotte.com"/>
@@ -188,7 +187,6 @@
     <outline text="Nikita Prokopov" type="rss" xmlUrl="https://tonsky.me/atom.xml" htmlUrl="https://tonsky.me"/>
     <outline text="Nintendo Classics" type="rss" xmlUrl="https://raw.githubusercontent.com/sethmlarson/nintendo-classics/refs/heads/main/nintendo-classics.xml" htmlUrl="https://github.com/sethmlarson/nintendo-classics"/>
     <outline text="Nintendo Collecting" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCkMlE43OUrn7S1HKnk2-HzA" htmlUrl="http://www.youtube.com/user/lithium017"/>
-    <outline text="Nintendo Forecast" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCU9jRARYgFplM9_u8yTFkHA" htmlUrl="https://www.youtube.com/channel/UCU9jRARYgFplM9_u8yTFkHA"/>
     <outline text="Non-Zero Sum Games Blog" type="rss" xmlUrl="https://nonzerosum.games/rss.xml" htmlUrl="https://nonzerosum.games"/>
     <outline text="Open Source Security" type="rss" xmlUrl="https://opensourcesecurity.io/feed" htmlUrl="https://opensourcesecurity.io"/>
     <outline text="Own Your Web" type="rss" xmlUrl="https://newsletter.ownyourweb.site/rss.xml" htmlUrl="https://newsletter.ownyourweb.site"/>
@@ -284,6 +282,7 @@
     <outline text="core.py Podcast" type="rss" xmlUrl="https://anchor.fm/s/eb6edc3c/podcast/rss" htmlUrl="https://podcasters.spotify.com/pod/show/corepy"/>
     <outline text="eieio.games" type="rss" xmlUrl="https://eieio.games/feed.xml" htmlUrl="https://eieio.games"/>
     <outline text="elliotisacoolguy" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCa_aLyHBN8zuisUpHDjmBbw" htmlUrl="https://www.youtube.com/channel/UCa_aLyHBN8zuisUpHDjmBbw"/>
+    <outline text="fiddery" type="rss" xmlUrl="https://blog.fiddery.com/feed" htmlUrl="https://blog.fiddery.com"/>
     <outline text="gem.coop" type="rss" xmlUrl="https://gem.coop/index.xml" htmlUrl="https://gem.coop"/>
     <outline text="grape lab" type="rss" xmlUrl="https://grapelab.co/en/feed" htmlUrl="https://grapelab.co/en"/>
     <outline text="iroh" type="rss" xmlUrl="https://www.iroh.computer/rss.xml" htmlUrl="https://iroh.computer"/>

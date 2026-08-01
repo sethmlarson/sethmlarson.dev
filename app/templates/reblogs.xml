@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">Seth Larson (Reblogs)</title>
   <id>https://sethmlarson.dev/reblogs/feed</id>
-  <updated>2025-12-26T03:15:11Z</updated>
+  <updated>2026-08-01T16:09:34Z</updated>
   <link href="https://sethmlarson.dev/reblogs" />
   <link href="https://sethmlarson.dev/reblogs/feed" rel="self" />
   <author>
@@ -13,70 +13,68 @@
   <icon>https://github.com/sethmlarson.png</icon>
   <logo>https://github.com/sethmlarson.png</logo>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Ignore AI-upscaled YouTube videos with yt-dlp</title>
-<id>https://alexwlchan.net/til/2025/ignore-ai-scaled-videos</id>
-<published>2025-12-24T20:12:45Z</published>
-<link href="https://alexwlchan.net/til/2025/ignore-ai-scaled-videos" />
-<author><name>Alex Chan</name></author>
+<title type="text">Pokémon card artwork collection</title>
+<id>https://www.artofpkm.com</id>
+<published>2026-07-29T02:42:30Z</published>
+<link href="https://www.artofpkm.com" />
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Landslide; a ghost story</title>
-<id>https://www.wrecka.ge/landslide-a-ghost-story</id>
-<published>2025-12-23T23:22:44Z</published>
-<link href="https://www.wrecka.ge/landslide-a-ghost-story" />
-<author><name>Erin Kissane</name></author>
+<title type="text">Game Boy Link Cable to internet adapter</title>
+<id>https://gblink.io</id>
+<published>2026-07-28T20:27:25Z</published>
+<link href="https://gblink.io" />
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">And now for something completely different</title>
-<id>https://hugovk.dev/blog/2025/and-now</id>
-<published>2025-12-23T14:53:39Z</published>
-<link href="https://hugovk.dev/blog/2025/and-now" />
-<author><name>Hugo van Kemenade</name></author>
+<title type="text">Pokémon set symbols</title>
+<id>https://pokesymbols.com/tcg/sets</id>
+<published>2026-07-28T18:59:19Z</published>
+<link href="https://pokesymbols.com/tcg/sets" />
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">What I learned about passkeys</title>
-<id>https://enzom.dev/b/passkeys</id>
-<published>2025-12-22T23:41:47Z</published>
-<link href="https://enzom.dev/b/passkeys" />
+<title type="text">htmx 4: the game</title>
+<id>https://swag.htmx.org/en-usd/products/htmx-4-the-game</id>
+<published>2026-07-27T17:44:15Z</published>
+<link href="https://swag.htmx.org/en-usd/products/htmx-4-the-game" />
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Deliberate internet shutdowns</title>
-<id>https://www.schneier.com/blog/archives/2025/12/deliberate-internet-shutdowns.html</id>
-<published>2025-12-22T01:49:03Z</published>
-<link href="https://www.schneier.com/blog/archives/2025/12/deliberate-internet-shutdowns.html" />
-<author><name>Bruce Schneier</name></author>
+<title type="text">The open universe</title>
+<id>https://aworkinglibrary.com/writing/open-universe</id>
+<published>2026-07-24T18:10:35Z</published>
+<link href="https://aworkinglibrary.com/writing/open-universe" />
+<author><name>Mandy Brown</name></author>
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">A(i) Modest Proposal</title>
-<id>https://pythonbynight.com/talks/ai-modest-proposal</id>
-<published>2025-12-22T01:32:34Z</published>
-<link href="https://pythonbynight.com/talks/ai-modest-proposal" />
-<author><name>Mario Munoz</name></author>
+<title type="text">It's not about physical versus digital, it's about ownership</title>
+<id>https://popcar.bearblog.dev/its-about-ownership</id>
+<published>2026-07-06T03:57:25Z</published>
+<link href="https://popcar.bearblog.dev/its-about-ownership" />
+<author><name>Popcar</name></author>
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">DOGSPINNER</title>
-<id>https://www.pigenpalace.com/dogspinner</id>
-<published>2025-12-21T18:54:08Z</published>
-<link href="https://www.pigenpalace.com/dogspinner" />
+<title type="text">sneakerweb</title>
+<id>https://sneakerweb.org</id>
+<published>2026-07-06T03:39:01Z</published>
+<link href="https://sneakerweb.org" />
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Truchet tiles in SVG</title>
-<id>https://alexwlchan.net/2025/truchet-tiles</id>
-<published>2025-12-21T18:47:40Z</published>
-<link href="https://alexwlchan.net/2025/truchet-tiles" />
-<author><name>Alex Chan</name></author>
+<title type="text">Omni-death of gaming</title>
+<id>https://goodnameforablog.com/posts/the-omnideath-of-gaming</id>
+<published>2026-07-01T23:54:38Z</published>
+<link href="https://goodnameforablog.com/posts/the-omnideath-of-gaming" />
+<author><name>Elissa Black</name></author>
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">Japanese milk packaging (漂流乳業)</title>
-<id>https://www.citymilk.net</id>
-<published>2025-12-16T15:11:17Z</published>
-<link href="https://www.citymilk.net" />
+<title type="text">Adversarial Communication</title>
+<id>https://blog.glyph.im/2026/06/adversarial-communication.html</id>
+<published>2026-06-30T23:06:24Z</published>
+<link href="https://blog.glyph.im/2026/06/adversarial-communication.html" />
+<author><name>Glyph Lefkowitz</name></author>
 </entry>
 <entry xml:base="https://sethmlarson.dev/reblogs/feed">
-<title type="text">This is not the future</title>
-<id>https://blog.mathieui.net/this-is-not-the-future.html</id>
-<published>2025-12-16T14:19:52Z</published>
-<link href="https://blog.mathieui.net/this-is-not-the-future.html" />
-<author><name>mathieui</name></author>
+<title type="text">Own Something and Be Happy</title>
+<id>https://hunterirving.com/blog/own_something_and_be_happy</id>
+<published>2026-06-29T12:54:09Z</published>
+<link href="https://hunterirving.com/blog/own_something_and_be_happy" />
+<author><name>Hunter Irving</name></author>
 </entry>
 </feed>

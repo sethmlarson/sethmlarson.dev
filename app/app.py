@@ -435,6 +435,8 @@ def get_blog_post(blog_post: str):
         opengraph_image = "https://storage.googleapis.com/sethmlarson-dev-static-assets/IMG_4682.jpg"
     elif blog_post == "animal-crossing-calendar":
         opengraph_image = "https://storage.googleapis.com/sethmlarson-dev-static-assets/IMG_4826_new.jpeg"
+    elif blog_post == "extracting-n64-roms-from-wind-waker-bonus-disk":
+        opengraph_image = "https://storage.googleapis.com/sethmlarson-dev-static-assets/loz-wind-waker-bonus-disk/loz-oot-master-quest.png"
 
     if blog_post == "unicode-variation-selectors":
         html_head = """
