@@ -28,16 +28,14 @@ the final level in each respective area. Here is the full list of cut levels in 
 
 This game is one of the least played titles in the Legend of Zelda series,
 selling fewer than 500,000 copies globally and hasn't yet been re-released on any platform.
-As far as I can tell from searching the web and YouTube there is no
-footage of these cut and restored levels being played. I plan to rectify
-this by playing all the levels on a modded GameCube and publishing
-the recordings to YouTube. Below is the first video of me playing "River Flow":
+(Edited August 24th, 2026) I was able to find a YouTube creator
+who has published all the cut levels being played. The video by Gdmc5 was published
+a few weeks before publishing this article. Below
+is the video of all levels being played:
 
 <p><center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h-g-uaKgQFM?si=rdRCHDLZuZkumd3v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="border: 2px solid black" width="560px" height="315px" src="https://www.youtube.com/embed/qLEruB2OU1c?si=wNkUlfo9a98Y1nzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center></p>
-
-I'll publish more videos as I play the rest of the levels.
 
 ## How to play
 
@@ -245,9 +243,47 @@ by pressing `Y` prior to launching the game through Swiss.
 <blockquote>
 <details>
 <summary>Swiss cheats config (US, <code>G4SE01.txt</code>)</summary>
-<pre><code>0450ECA8 FFFFFFFF
+<pre><code>G4SE01
+Legend of Zelda, The - Four Swords Adventures (USA)
+
+All Adventure Mode Levels Unlocked [Codejunkies]
+0450ECA8 FFFFFFFF
 0450ED70 FFFFFFFF
 0450EE38 FFFFFFFF
+
+Replace Level 3 with Cut Sub-Stages [The Cutting Room Floor]
+04466054 3031322E
+04466084 3032322E
+044660B4 3033322E
+044660E4 3034322E
+04466114 3035322E
+04466144 3036322E
+04466174 3037322E
+044661A4 3038322E
+044811EC 31322E63
+0448121C 32322E63
+0448124C 33322E63
+0448127C 34322E63
+044812AC 35322E63
+044812DC 36322E63
+0448130C 37322E63
+0448133C 38322E63
+04481524 31325F31
+04481554 32325F31
+04481584 33325F31
+044815B4 34325F31
+044815E4 35325F31
+04481614 36325F31
+04481644 37325F31
+04481674 38325F31
+04538A14 30313200
+04538A24 30323200
+04538A34 30333200
+04538A44 30343200
+04538A54 30353200
+04538A64 30363200
+04538A74 30373200
+04538A84 30383200
 </code></pre>
 </details>
 </blockquote>
@@ -255,9 +291,47 @@ by pressing `Y` prior to launching the game through Swiss.
 <blockquote>
 <details>
 <summary>Swiss cheats config (JP, <code>G4SJ01.txt</code>)</summary>
-<pre><code>0450ECA8 FFFFFFFF
+<pre><code>G4SJ01
+Legend of Zelda, The - Four Swords Adventures+ (Japan)
+
+All Adventure Mode Levels Unlocked [Codejunkies]
+0450ECA8 FFFFFFFF
 0450ED70 FFFFFFFF
 0450EE38 FFFFFFFF
+
+Replace Level 3 with Cut Sub-Stages [The Cutting Room Floor]
+04466054 3031322E
+04466084 3032322E
+044660B4 3033322E
+044660E4 3034322E
+04466114 3035322E
+04466144 3036322E
+04466174 3037322E
+044661A4 3038322E
+044811EC 31322E63
+0448121C 32322E63
+0448124C 33322E63
+0448127C 34322E63
+044812AC 35322E63
+044812DC 36322E63
+0448130C 37322E63
+0448133C 38322E63
+04481524 31325F31
+04481554 32325F31
+04481584 33325F31
+044815B4 34325F31
+044815E4 35325F31
+04481614 36325F31
+04481644 37325F31
+04481674 38325F31
+04538A14 30313200
+04538A24 30323200
+04538A34 30333200
+04538A44 30343200
+04538A54 30353200
+04538A64 30363200
+04538A74 30373200
+04538A84 30383200
 </code></pre>
 </details>
 </blockquote>
