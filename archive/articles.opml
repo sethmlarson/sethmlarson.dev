@@ -8,10 +8,28 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Katamari object library”" type="link" created="Fri, 28 Aug 2026 17:44:44 +0000" url="https://katamari.andrew-boylan.com" category="Toys and Art"/>
+    <outline text="“EverDrive GBA theme generator”" type="link" created="Wed, 26 Aug 2026 19:31:11 +0000" url="https://www.seglectic.com/evertheme/?s=AgAIbXktdGhlbWUEAQEcAQEAAwEDHA0BAAQBERwCAQD-_KUYCC3_e1d-zFH_ewNhFKdF8WY" category="Retro Gaming"/>
+    <outline text="“Building cathedrals” by Pablo Galindo Salgado" type="link" created="Wed, 26 Aug 2026 17:46:40 +0000" url="https://www.youtube.com/watch?v=e8uozuvRf7g" category="Life"/>
+    <outline text="“Can a blog post be handwritten?” by Saadia Carbis" type="link" created="Tue, 25 Aug 2026 16:53:35 +0000" url="https://diggingforfire.blog/posts/can-a-blog-post-be-handwritten" category="Toys and Art"/>
+    <outline text="“EVE Online migrating to Python 3”" type="link" created="Tue, 25 Aug 2026 13:33:52 +0000" url="https://www.eveonline.com/news/view/the-move-to-python-3-begins" category="Software and OSS"/>
+    <outline text="“I like 'em thick” by Adam Mastroianni" type="link" created="Thu, 20 Aug 2026 21:41:48 +0000" url="https://www.experimental-history.com/p/i-like-em-thick" category="Toys and Art"/>
+    <outline text="“We need more ephemerality in tech” by Eric Matthes" type="link" created="Thu, 20 Aug 2026 18:19:46 +0000" url="https://www.mostlypython.com/we-need-more-ephemerality-in-tech" category="Software and OSS"/>
+    <outline text="“And then the men with guns tell you to do it anyway” by Terence Eden" type="link" created="Wed, 19 Aug 2026 15:35:57 +0000" url="https://shkspr.mobi/blog/2026/08/and-then-the-men-with-guns-tell-you-to-do-it-anyway" category="Software and OSS"/>
+    <outline text="“Ordinary abundance”" type="link" created="Sun, 16 Aug 2026 15:58:21 +0000" url="https://ordinaryabundance.com" category="Life"/>
+    <outline text="“Ghost characters in Unicode”" type="link" created="Sat, 15 Aug 2026 18:15:27 +0000" url="https://www.dampfkraft.com/ghost-characters.html" category="Software and OSS"/>
+    <outline text="“Don't build mind-reading”" type="link" created="Mon, 10 Aug 2026 18:42:24 +0000" url="https://www.lesswrong.com/posts/CAdG5dzkWrrK2NQg8/don-t-build-mindreading" category="Software and OSS"/>
+    <outline text="“EmuReady”" type="link" created="Mon, 10 Aug 2026 16:56:19 +0000" url="https://emuready.com" category="Retro Gaming"/>
+    <outline text="“Felony Bench”" type="link" created="Mon, 10 Aug 2026 15:34:01 +0000" url="https://www.felonybench.com" category="Security"/>
+    <outline text="“Beijing forces mass breakup with AI lovers”" type="link" created="Mon, 10 Aug 2026 15:01:05 +0000" url="https://restofworld.org/2026/china-ai-boyfriend-ban-bytedance-doubao" category="Life"/>
+    <outline text="“Adapting a Nintendo design philosophy to our software”" type="link" created="Sat, 08 Aug 2026 21:35:36 +0000" url="https://youtube.com/watch?v=ZLpCIw19lE0&amp;is=30w489fYodDA82gV" category="Software and OSS"/>
+    <outline text="“Japanese GameCube game box protectors”" type="link" created="Fri, 07 Aug 2026 13:43:42 +0000" url="https://retroprotection.com/product/japanese-gamecube-standard-size-box-protector" category="Retro Gaming"/>
+    <outline text="“Incentives are for losers” by Adam Mastroianni" type="link" created="Thu, 06 Aug 2026 16:08:22 +0000" url="https://www.experimental-history.com/p/incentives-are-for-losers" category="Life"/>
+    <outline text="“LLMs won't break symmetric crypto”" type="link" created="Thu, 06 Aug 2026 04:01:43 +0000" url="https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto" category="Security"/>
     <outline text="“Pokémon card artwork collection”" type="link" created="Wed, 29 Jul 2026 02:42:30 +0000" url="https://www.artofpkm.com" category="Toys and Art"/>
     <outline text="“Game Boy Link Cable to internet adapter”" type="link" created="Tue, 28 Jul 2026 20:27:25 +0000" url="https://gblink.io" category="Retro Gaming"/>
     <outline text="“Pokémon set symbols”" type="link" created="Tue, 28 Jul 2026 18:59:19 +0000" url="https://pokesymbols.com/tcg/sets" category="Toys and Art"/>
-    <outline text="“htmx 4: the game”" type="link" created="Mon, 27 Jul 2026 17:44:15 +0000" url="https://swag.htmx.org/en-usd/products/htmx-4-the-game" category="Toys and Art"/>
+    <outline text="“htmx 4: the game”" type="link" created="Mon, 27 Jul 2026 17:44:15 +0000" url="https://swag.htmx.org/en-usd/products/htmx-4-the-game" category="Retro Gaming"/>
     <outline text="“The open universe” by Mandy Brown" type="link" created="Fri, 24 Jul 2026 18:10:35 +0000" url="https://aworkinglibrary.com/writing/open-universe" category="Life"/>
     <outline text="“It's not about physical versus digital, it's about ownership” by Popcar" type="link" created="Mon, 06 Jul 2026 03:57:25 +0000" url="https://popcar.bearblog.dev/its-about-ownership" category="Software and OSS"/>
     <outline text="“sneakerweb”" type="link" created="Mon, 06 Jul 2026 03:39:01 +0000" url="https://sneakerweb.org" category="Software and OSS"/>

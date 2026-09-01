@@ -22,6 +22,7 @@
     <outline text="Andrew Nesbitt" type="rss" xmlUrl="https://nesbitt.io/feed.xml" htmlUrl="http://nesbitt.io"/>
     <outline text="Anil Dash" type="rss" xmlUrl="https://www.anildash.com/feed.xml" htmlUrl="https://anildash.com"/>
     <outline text="Annie" type="rss" xmlUrl="https://anniemueller.com/posts_feed" htmlUrl="https://anniemueller.com"/>
+    <outline text="Antoine Mayerowitz" type="rss" xmlUrl="https://www.mayerowitz.io/feed" htmlUrl="https://www.mayerowitz.io"/>
     <outline text="Antonio Cuni" type="rss" xmlUrl="http://antocuni.eu/feed_rss_created.xml" htmlUrl="https://antocuni.eu"/>
     <outline text="Applied Social Media Lab" type="rss" xmlUrl="https://asml.cyber.harvard.edu/feed" htmlUrl="https://asml.cyber.harvard.edu"/>
     <outline text="April King" type="rss" xmlUrl="https://grayduck.mn/feeds/all.atom.xml" htmlUrl="https://grayduck.mn"/>
@@ -58,6 +59,7 @@
     <outline text="Core Dispatch" type="rss" xmlUrl="https://coredispatch.xyz/api/feed/rss" htmlUrl="https://coredispatch.xyz/api/feed/rss"/>
     <outline text="Cuyler's blog" type="rss" xmlUrl="https://cuyler36.github.io///feed.xml" htmlUrl="https://cuyler36.github.io"/>
     <outline text="Cyber Celibate" type="rss" xmlUrl="https://www.cybercelibate.com/feed" htmlUrl="https://www.cybercelibate.com"/>
+    <outline text="Dampfkraft" type="rss" xmlUrl="https://www.dampfkraft.com/index.rss" htmlUrl="https://dampfkraft.com"/>
     <outline text="Dan Lew" type="rss" xmlUrl="https://blog.danlew.net/rss" htmlUrl="https://blog.danlew.net"/>
     <outline text="Dan Sinker" type="rss" xmlUrl="https://dansinker.com/feed.xml" htmlUrl="https://dansinker.com"/>
     <outline text="Daniel Appelquist" type="rss" xmlUrl="https://www.torgo.com/blog/feed" htmlUrl="https://www.torgo.com/blog"/>
@@ -79,6 +81,7 @@
     <outline text="Elliot Crespel" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCefAbzsWZE4uXU-mqQMrr4Q" htmlUrl="https://www.youtube.com/channel/UCefAbzsWZE4uXU-mqQMrr4Q"/>
     <outline text="Emily Gorcenski" type="rss" xmlUrl="https://emilygorcenski.com/tags/indieweb/index.xml" htmlUrl="https://emilygorcenski.com/tags/indieweb"/>
     <outline text="Emma Typing" type="rss" xmlUrl="https://emmatyping.dev/feeds/all.atom.xml" htmlUrl="https://emmatyping.dev"/>
+    <outline text="Eric Matthes" type="rss" xmlUrl="https://www.mostlypython.com/rss" htmlUrl="https://www.mostlypython.com"/>
     <outline text="Eric Migicovsky (rePebble)" type="rss" xmlUrl="https://ericmigi.com/rss.xml" htmlUrl="http://github.com/dylang/node-rss"/>
     <outline text="Erin Kissane" type="rss" xmlUrl="https://erinkissane.com/feed.rss" htmlUrl="https://erinkissane.com"/>
     <outline text="Erlend Sogge Heggen" type="rss" xmlUrl="https://blog.muni.town/rss" htmlUrl="https://blog.muni.town"/>
@@ -162,6 +165,8 @@
     <outline text="Mat Duggan" type="rss" xmlUrl="https://matduggan.com/rss" htmlUrl="https://matduggan.com"/>
     <outline text="Matt Greer" type="rss" xmlUrl="https://mattgreer.dev/feed.xml" htmlUrl="https://mattgreer.dev"/>
     <outline text="Matt Greer" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCmyTzNnbK2oh_pV472qipAA" htmlUrl="https://www.youtube.com/channel/UCmyTzNnbK2oh_pV472qipAA"/>
+    <outline text="Matthew Haughey" type="rss" xmlUrl="https://a.wholelottanothing.org/rss" htmlUrl="https://a.wholelottanothing.org"/>
+    <outline text="Max Glenister" type="rss" xmlUrl="https://blog.omgmog.net/feed.xml" htmlUrl="https://blog.omgmog.net"/>
     <outline text="Melon" type="rss" xmlUrl="https://thoughts.melonking.net/atom/?section=thoughts" htmlUrl="https://thoughts.melonking.net"/>
     <outline text="Michael Ashworth" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC5bN6XKHDCFt_wYAJmsP_Mg" htmlUrl="http://www.youtube.com/user/DaysAreRare"/>
     <outline text="Michael Green" type="rss" xmlUrl="https://www.yesigiveafig.com/feed" htmlUrl="https://www.yesigiveafig.com"/>
@@ -224,6 +229,7 @@
     <outline text="Russ Cox" type="rss" xmlUrl="http://research.swtch.com/feed.atom" htmlUrl="http://research.swtch.com/feed.atom"/>
     <outline text="Ryan Castellucci" type="rss" xmlUrl="https://rya.nc/feeds/all.xml" htmlUrl="https://rya.nc"/>
     <outline text="SLSA" type="rss" xmlUrl="https://slsa.dev/feed.xml" htmlUrl="https://slsa.dev"/>
+    <outline text="Saadia Carbis" type="rss" xmlUrl="https://diggingforfire.blog/index.xml" htmlUrl="https://diggingforfire.blog"/>
     <outline text="Samuel Giddins" type="rss" xmlUrl="https://blog.segiddins.me/rss" htmlUrl="https://blog.segiddins.me"/>
     <outline text="Satellablog" type="rss" xmlUrl="https://superfamicom.org/blog/feed" htmlUrl="https://superfamicom.org/blog"/>
     <outline text="Savannah Bailey" type="rss" xmlUrl="https://savannah.dev/index.xml" htmlUrl="https://savannah.dev"/>
@@ -236,7 +242,6 @@
     <outline text="Shank Mods" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUCo_G9HneFK4Luncw6v-Bw" htmlUrl="https://www.youtube.com/channel/UCUCo_G9HneFK4Luncw6v-Bw"/>
     <outline text="Signal" type="rss" xmlUrl="https://signal.org/blog/rss.xml" htmlUrl="http://www.whispersystems.org/blog"/>
     <outline text="Simone" type="rss" xmlUrl="https://simone.org/rss" htmlUrl="https://simone.org"/>
-    <outline text="Sloppy Discs" type="rss" xmlUrl="https://www.sloppydiscs.com/rss" htmlUrl="https://www.sloppydiscs.com"/>
     <outline text="Smolka" type="rss" xmlUrl="https://www.smolka.dev/index.xml" htmlUrl="https://smolka.dev"/>
     <outline text="Squishy Computer" type="rss" xmlUrl="https://newsletter.squishy.computer/feed" htmlUrl="https://newsletter.squishy.computer"/>
     <outline text="Stargirl Flowers" type="rss" xmlUrl="https://blog.thea.codes/feed.xml" htmlUrl="https://blog.thea.codes"/>
