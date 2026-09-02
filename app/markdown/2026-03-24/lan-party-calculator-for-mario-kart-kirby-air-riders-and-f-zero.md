@@ -233,6 +233,10 @@ var GameData = [
   ['MK8D', 'LOCAL', '2', 170, 1, 1, 0, 0, 0, '#84fa80'],
   ['MK8D', 'LOCAL', '3', 206, 1, 1, 0, 0, 0, '#87f780'],
   ['MK8D', 'LOCAL', '4', 242, 1, 1, 0, 0, 0, '#89f580'],
+  ['MK8D', 'LOCAL', '5', 538, 1, 1, 0, 0, 0, '#9de180'],
+  ['MK8D', 'LOCAL', '6', 574, 1, 1, 0, 0, 0, '#9fdf80'],
+  ['MK8D', 'LOCAL', '7', 610, 1, 1, 0, 0, 0, '#a2dc80'],
+  ['MK8D', 'LOCAL', '8', 646, 1, 1, 0, 0, 0, '#a4da80'],
   ['MK8D', 'LAN', '2', 390, 2, 2, 2, 2, 0, '#93eb80'],
   ['MK8D', 'LAN', '3', 390, 2, 2, 2, 2, 0, '#93eb80'],
   ['MK8D', 'LAN', '4', 390, 2, 2, 2, 2, 0, '#93eb80'],
@@ -644,6 +648,12 @@ game won't be playable with multiplayer.
 In both Mario Kart 8 Deluxe and Mario Kart World the LAN play mode
 is hidden behind holding L+R and pressing the left joystick down
 on the "Wireless Play" option.
+
+> **Updated September 1st, 2026:** Mario Kart 8 Deluxe [added support
+> for local 8 player multiplayer](https://en-americas-support.nintendo.com/app/answers/detail/a_id/26098/~/how-to-update-mario-kart-8-deluxe)
+> when playing on the Switch 2.
+> When the number of players is set to 5-8 the LAN calculator
+> uses a Switch 2 instead of Switch 1 for the console.
 
 ### Kirby Air Riders
 
