@@ -8,6 +8,19 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="“Billy Hatcher and the Giant Egg website”" type="link" created="Wed, 23 Sep 2026 14:38:00 +0000" url="https://giantegg.sega.jp" category="Retro Gaming"/>
+    <outline text="“Loneliness as a defective control system” by Adam Mastroianni" type="link" created="Wed, 23 Sep 2026 14:13:25 +0000" url="https://www.experimental-history.com/p/there-is-no-epidemic-of-loneliness" category="Social Media"/>
+    <outline text="“Can gzip be a language model?” by Nathan Barry" type="link" created="Tue, 22 Sep 2026 15:42:01 +0000" url="https://nathan.rs/posts/gzip-lm" category="Software and OSS"/>
+    <outline text="“Dependabot cooldown adoption”" type="link" created="Wed, 16 Sep 2026 13:01:51 +0000" url="https://arxiv.org/abs/2609.16605" category="Security"/>
+    <outline text="“Decompilation progress reports”" type="link" created="Tue, 15 Sep 2026 14:52:49 +0000" url="https://decomp.dev/projects" category="Retro Gaming"/>
+    <outline text="“Will our eyes ever lock as we play again?” by Luis Aguasvivas" type="link" created="Mon, 14 Sep 2026 15:05:43 +0000" url="https://aguaspoints.com/2026/08/03/friendslop-friendlessslop-or-will-we-ever-lock-eyes-when-we-play-again" category="Retro Gaming"/>
+    <outline text="“Make your first edit to OpenStreetMap”" type="link" created="Sat, 12 Sep 2026 22:06:54 +0000" url="https://high5apps.github.io/josm-plugin-website-wizard" category="Software and OSS"/>
+    <outline text="“Making social media social” by Jürgen Geuter" type="link" created="Thu, 10 Sep 2026 22:09:25 +0000" url="https://tante.cc/2026/09/10/making-social-media-social" category="Social Media"/>
+    <outline text="“Soft-deprecating re.match()” by Hugo van Kemenade" type="link" created="Thu, 10 Sep 2026 13:03:28 +0000" url="https://hugovk.dev/blog/2026/soft-deprecating-re.match" category="Software and OSS"/>
+    <outline text="“The revolt of the reader” by Brian Cantrill" type="link" created="Sun, 06 Sep 2026 14:40:33 +0000" url="https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader" category="Social Media"/>
+    <outline text="“We have a year to fix security everywhere”" type="link" created="Sat, 05 Sep 2026 16:46:46 +0000" url="https://jyn.dev/a-year-to-fix-security" category="Security"/>
+    <outline text="“Vulnerability brocards” by William Woodruff" type="link" created="Tue, 01 Sep 2026 13:48:11 +0000" url="https://vulnbrocards.com" category="Security"/>
+    <outline text="“My experience has nuance, yours is a data point” by Jim Nielsen" type="link" created="Mon, 31 Aug 2026 16:09:21 +0000" url="https://blog.jim-nielsen.com/2026/nuance-for-me-none-for-you" category="Life"/>
     <outline text="“Katamari object library”" type="link" created="Fri, 28 Aug 2026 17:44:44 +0000" url="https://katamari.andrew-boylan.com" category="Toys and Art"/>
     <outline text="“EverDrive GBA theme generator”" type="link" created="Wed, 26 Aug 2026 19:31:11 +0000" url="https://www.seglectic.com/evertheme/?s=AgAIbXktdGhlbWUEAQEcAQEAAwEDHA0BAAQBERwCAQD-_KUYCC3_e1d-zFH_ewNhFKdF8WY" category="Retro Gaming"/>
     <outline text="“Building cathedrals” by Pablo Galindo Salgado" type="link" created="Wed, 26 Aug 2026 17:46:40 +0000" url="https://www.youtube.com/watch?v=e8uozuvRf7g" category="Life"/>
@@ -618,6 +631,7 @@
     <outline text="“E-Reader Info and Downloads” by Kiczek" type="link" created="Thu, 07 Nov 2024 18:42:12 +0000" url="http://ereader.kiczek.com" category="Retro Gaming"/>
     <outline text="“Link to web content in URL fragments”" type="link" created="Thu, 07 Nov 2024 17:29:49 +0000" url="https://alfy.blog/2024/10/19/linking-directly-to-web-page-content.html" category="Software and OSS"/>
     <outline text="“Mii Library”" type="link" created="Wed, 06 Nov 2024 20:47:32 +0000" url="https://www.miilibrary.com" category="Retro Gaming"/>
+    <outline text="“Creepy crawlies — Konstantin Ryabitsev”" type="link" created="Sun, 30 Aug 2026 21:42:22 +0000" url="https://people.kernel.org/monsieuricon/creepy-crawlies" category="Software and OSS"/>
     <outline text="“FamiCrank (Famicom/NES for Playdate)” by Giorgio Pomettini" type="link" created="Wed, 08 Jul 2026 00:41:58 +0000" url="https://pomettini.itch.io/famicrank-nes-for-playdate" category="Retro Gaming"/>
     <outline text="“Penka Jane // The Folks From Minnesota (&quot;warlike lads&quot;...revised)”" type="link" created="Fri, 30 Jan 2026 22:30:00 +0000" url="https://www.youtube.com/shorts/eXbY43ulPZM" category="Life"/>
     <outline text="“the chronically online will become a new underclass”" type="link" created="Thu, 08 Jan 2026 16:43:57 +0000" url="https://youtube.com/watch?v=Bm2Q9HkbLsQ&amp;si=Bf5nkdsTGzVenxkj" category="Social Media"/>

@@ -9,6 +9,7 @@
   </head>
   <body>
     <outline text="5Calls" type="rss" xmlUrl="5calls@ino.to" htmlUrl="https://www.inoreader.com"/>
+    <outline text="A Life Well Wasted" type="rss" xmlUrl="https://alifewellwasted.com/episodes/episodes.xml" htmlUrl="https://www.alifewellwasted.com"/>
     <outline text="A New Social" type="rss" xmlUrl="https://blog.anew.social/rss" htmlUrl="https://blog.anew.social"/>
     <outline text="Adrian Howard" type="rss" xmlUrl="https://adrianhoward.com/feed.xml" htmlUrl="https://adrianhoward.com"/>
     <outline text="Aeva Black" type="rss" xmlUrl="https://aeva.online/rss.xml" htmlUrl="https://aeva.online"/>
@@ -32,13 +33,11 @@
     <outline text="AsumSaus Archive" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYXyr-CtpKN7LE-x8B6axlQ" htmlUrl="https://www.youtube.com/channel/UCYXyr-CtpKN7LE-x8B6axlQ"/>
     <outline text="Audrey Eschright" type="rss" xmlUrl="https://lifeofaudrey.com/atom.xml" htmlUrl="https://lifeofaudrey.com"/>
     <outline text="BIGMODE" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClC6zx21MsBuGRmiwIuZqaA" htmlUrl="https://www.youtube.com/channel/UClC6zx21MsBuGRmiwIuZqaA"/>
-    <outline text="Baldur Bjarnason" type="rss" xmlUrl="https://www.baldurbjarnason.com/feed.xml" htmlUrl="http://www.baldurbjarnason.com"/>
     <outline text="Barbara Shaurette" type="rss" xmlUrl="https://mechanicalgirl.com/rss" htmlUrl="https://www.mechanicalgirl.com"/>
     <outline text="Bastian Venthur" type="rss" xmlUrl="https://venthur.de/atom.xml" htmlUrl="https://venthur.de"/>
     <outline text="Ben Awad" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-8QAzbLcRglXeN_MY9blyw" htmlUrl="https://www.youtube.com/channel/UC-8QAzbLcRglXeN_MY9blyw"/>
     <outline text="Benjamin Hollon" type="rss" xmlUrl="https://benjaminhollon.com/musings/feed" htmlUrl="https://benjaminhollon.com/musings"/>
     <outline text="Better Simple" type="rss" xmlUrl="https://www.better-simple.com/atom.xml" htmlUrl="https://www.better-simple.com"/>
-    <outline text="Bloom Buds" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCAGZ4dIVJ7fuzZ09y-pkpBQ" htmlUrl="https://www.youtube.com/channel/UCAGZ4dIVJ7fuzZ09y-pkpBQ"/>
     <outline text="Boxy Pixel" type="rss" xmlUrl="boxypixel@ino.to" htmlUrl="https://www.inoreader.com"/>
     <outline text="Brett Cannon" type="rss" xmlUrl="https://snarky.ca/rss" htmlUrl="https://snarky.ca"/>
     <outline text="BrianMp16" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCP91xcTI49UgTLZuPzPocbQ" htmlUrl="https://www.youtube.com/channel/UCP91xcTI49UgTLZuPzPocbQ"/>
@@ -67,7 +66,6 @@
     <outline text="Darius Kazemi" type="rss" xmlUrl="https://tinysubversions.com/feed.xml" htmlUrl="https://tinysubversions.com"/>
     <outline text="David Jones" type="rss" xmlUrl="webfeed://https%3A%2F%2Fhome.octetfont.com%2Fblog%2F--63516a8a" htmlUrl="https://home.octetfont.com/blog"/>
     <outline text="David Lord" type="rss" xmlUrl="https://davidism.com/feed" htmlUrl="https://davidism.com"/>
-    <outline text="Dealgorithmed" type="rss" xmlUrl="https://buttondown.com/dealgorithmed/rss" htmlUrl="https://buttondown.com/dealgorithmed"/>
     <outline text="Deciphering Glyph" type="rss" xmlUrl="https://blog.glyph.im/feeds/all.atom.xml" htmlUrl="https://blog.glyph.im"/>
     <outline text="Deciphering Glyph" type="rss" xmlUrl="http://glyph.twistedmatrix.com/feeds/posts/default" htmlUrl="https://blog.glyph.im"/>
     <outline text="Dhole Moments" type="rss" xmlUrl="https://soatok.blog/feed" htmlUrl="https://soatok.blog"/>
@@ -93,7 +91,6 @@
     <outline text="Fiefdom of Files" type="rss" xmlUrl="https://fi-le.net/feed.xml" htmlUrl="https://fi-le.net"/>
     <outline text="Filipa Mendonça-Vieira" type="rss" xmlUrl="https://okayfail.com/atom.xml" htmlUrl="http://okayfail.com"/>
     <outline text="Filippo Valsorda" type="rss" xmlUrl="https://words.filippo.io/rss" htmlUrl="https://words.filippo.io"/>
-    <outline text="Fix The News" type="rss" xmlUrl="https://fixthenews.com/rss" htmlUrl="https://fixthenews.com"/>
     <outline text="Foxes in Love" type="rss" xmlUrl="https://foxes-in-love.tumblr.com/rss" htmlUrl="https://foxes-in-love.tumblr.com"/>
     <outline text="Frederik Braun" type="rss" xmlUrl="https://frederikbraun.de/feeds/all.atom.xml" htmlUrl="https://frederikbraun.de"/>
     <outline text="Game Garage" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCohhR4cYWHl4wJdkyelbJHg" htmlUrl="https://www.youtube.com/channel/UCohhR4cYWHl4wJdkyelbJHg"/>
@@ -110,7 +107,6 @@
     <outline text="Guido van Rossum" type="rss" xmlUrl="https://neopythonic.blogspot.com/feeds/posts/default" htmlUrl="https://neopythonic.blogspot.com"/>
     <outline text="HTMHell" type="rss" xmlUrl="https://www.htmhell.dev/feed.xml" htmlUrl="http://htmhell.dev"/>
     <outline text="Hanafuda Report" type="rss" xmlUrl="https://hanafuda.report/feed" htmlUrl="https://hanafuda.report"/>
-    <outline text="Hannah Aubry" type="rss" xmlUrl="https://hannahaubry.online/feed" htmlUrl="https://hannahaubry.online"/>
     <outline text="Haterade" type="rss" xmlUrl="https://haterade.substack.com/feed" htmlUrl="https://haterade.substack.com"/>
     <outline text="Henry Desroches" type="rss" xmlUrl="https://henry.codes/rss/writing.xml" htmlUrl="https://henry.codes"/>
     <outline text="Henry Desroches Blogroll" type="rss" xmlUrl="https://henry.codes/rss/reading-list.xml" htmlUrl="https://henry.codes"/>
@@ -154,10 +150,10 @@
     <outline text="Local-First FM" type="rss" xmlUrl="https://www.localfirst.fm/feed" htmlUrl="https://www.localfirst.fm"/>
     <outline text="Louie Mantia" type="rss" xmlUrl="https://lmnt.me/feed.xml" htmlUrl="https://lmnt.me"/>
     <outline text="Ludicity by Nikhil Suresh" type="rss" xmlUrl="https://ludic.mataroa.blog/rss" htmlUrl="https://ludic.mataroa.blog"/>
+    <outline text="Luis Aguasvivas" type="rss" xmlUrl="https://aguaspoints.com/feed" htmlUrl="https://aguaspoints.com"/>
     <outline text="Luna" type="rss" xmlUrl="https://moonbase.lgbt/blog/atom.xml" htmlUrl="https://moonbase.lgbt/blog"/>
     <outline text="Macho Nacho Productions" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4CsqctrGOn4NTz09sAhXwQ" htmlUrl="https://www.youtube.com/channel/UC4CsqctrGOn4NTz09sAhXwQ"/>
     <outline text="Mackie Kannard-Smith" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCY7h3n3kFX6w9cyWeA7QyOw" htmlUrl="https://www.youtube.com/channel/UCY7h3n3kFX6w9cyWeA7QyOw"/>
-    <outline text="Maggie Appleton" type="rss" xmlUrl="https://maggieappleton.com/rss.xml" htmlUrl="https://maggieappleton.com"/>
     <outline text="Making Sense of It All" type="rss" xmlUrl="https://buttondown.com/liminalcreations/rss" htmlUrl="https://buttondown.com/liminalcreations"/>
     <outline text="Mar Bartolomé" type="rss" xmlUrl="https://mar.coconauts.net/blog/feed/feed.xml" htmlUrl="https://mar.coconauts.net/blog/blog"/>
     <outline text="Marcin Wichary" type="rss" xmlUrl="https://unsung.aresluna.org/feed.xml" htmlUrl="https://unsung.aresluna.org"/>
@@ -174,7 +170,6 @@
     <outline text="Mike Fiedler" type="rss" xmlUrl="https://www.miketheman.net/feed" htmlUrl="https://www.miketheman.net"/>
     <outline text="Minnesota Freedom Fund" type="rss" xmlUrl="https://mnfreedomfund.org/feed" htmlUrl="https://mnfreedomfund.org"/>
     <outline text="Mitchell Baker" type="rss" xmlUrl="https://mitchellbaker.net/?feed=rss2" htmlUrl="https://mitchellbaker.net"/>
-    <outline text="Modding Marius" type="rss" xmlUrl="https://moddingmarius.com/feed" htmlUrl="https://moddingmarius.com"/>
     <outline text="Molly White" type="rss" xmlUrl="https://www.citationneeded.news/rss" htmlUrl="https://www.citationneeded.news"/>
     <outline text="Mouse Bite Labs" type="rss" xmlUrl="https://mousebitelabs.com/feed" htmlUrl="https://mousebitelabs.com"/>
     <outline text="NGI0: Next Generation Internet" type="rss" xmlUrl="https://podcast.nlnet.nl/@NGIZero/feed.xml" htmlUrl="https://podcast.nlnet.nl/@NGIZero"/>
@@ -265,7 +260,6 @@
     <outline text="Tito Perez" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9QC7o2eLuYYWpvkAd_NBXg" htmlUrl="https://www.youtube.com/channel/UC9QC7o2eLuYYWpvkAd_NBXg"/>
     <outline text="Todd Turner" type="rss" xmlUrl="https://www.toddtee.sh/posts/index.xml" htmlUrl="https://www.toddtee.sh/posts"/>
     <outline text="Tom Forbes" type="rss" xmlUrl="https://tomforb.es/index.xml" htmlUrl="https://tomforb.es"/>
-    <outline text="Trail of Bits Ecosystem Security" type="rss" xmlUrl="https://blog.trailofbits.com/category/ecosystem-security/feed" htmlUrl="https://blog.trailofbits.com"/>
     <outline text="TwinFami Productions" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCjqj9E97pCYwYq95CvgguKg" htmlUrl="https://www.youtube.com/channel/UCjqj9E97pCYwYq95CvgguKg"/>
     <outline text="Unplanned Obsolescence" type="rss" xmlUrl="https://unplannedobsolescence.com/atom.xml" htmlUrl="https://unplannedobsolescence.com"/>
     <outline text="Victor Stinner" type="rss" xmlUrl="https://vstinner.github.io/feeds/all.atom.xml" htmlUrl="https://vstinner.github.io"/>
@@ -276,26 +270,23 @@
     <outline text="WULFF DEN Podcast" type="rss" xmlUrl="https://anchor.fm/s/3c6f99b0/podcast/rss" htmlUrl="https://anchor.fm"/>
     <outline text="Waxy" type="rss" xmlUrl="https://waxy.org/feed" htmlUrl="https://waxy.org"/>
     <outline text="Werd I/O" type="rss" xmlUrl="https://werd.io/rss" htmlUrl="https://werd.io"/>
-    <outline text="Will McGugan" type="rss" xmlUrl="https://www.willmcgugan.com/blog/rootblog/feeds/posts" htmlUrl="https://www.willmcgugan.com/blog/rootblog"/>
     <outline text="William Woodruff" type="rss" xmlUrl="http://blog.yossarian.net/feed.xml" htmlUrl="https://blog.yossarian.net"/>
     <outline text="Willow Protocol" type="rss" xmlUrl="https://willowprotocol.org/rss_news.xml" htmlUrl="https://willowprotocol.org/more/changes/index.html#news_and_updates"/>
     <outline text="Yakumono" type="rss" xmlUrl="https://luigiblood.neocities.org/feed.blog.xml" htmlUrl="https://luigiblood.neocities.org/blog"/>
     <outline text="Your Cool Uncle Marisa" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCKhw19mznhm4Ar9NcO1vzBw" htmlUrl="https://www.youtube.com/channel/UCKhw19mznhm4Ar9NcO1vzBw"/>
     <outline text="Zebra Cat Zebra" type="rss" xmlUrl="https://zebracatzebra.com/feed" htmlUrl="https://zebracatzebra.com"/>
+    <outline text="Zero Counts" type="rss" xmlUrl="https://zerocounts.net/rss.xml" htmlUrl="https://zerocounts.net"/>
     <outline text="Zig" type="rss" xmlUrl="https://ziglang.org/news/index.xml" htmlUrl="https://ziglang.org/news"/>
     <outline text="abe's projects" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUxIu91gGsK9Q0tTcQM8iNw" htmlUrl="https://www.youtube.com/channel/UCUxIu91gGsK9Q0tTcQM8iNw"/>
     <outline text="core.py Podcast" type="rss" xmlUrl="https://anchor.fm/s/eb6edc3c/podcast/rss" htmlUrl="https://podcasters.spotify.com/pod/show/corepy"/>
     <outline text="eieio.games" type="rss" xmlUrl="https://eieio.games/feed.xml" htmlUrl="https://eieio.games"/>
     <outline text="elliotisacoolguy" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCa_aLyHBN8zuisUpHDjmBbw" htmlUrl="https://www.youtube.com/channel/UCa_aLyHBN8zuisUpHDjmBbw"/>
-    <outline text="fiddery" type="rss" xmlUrl="https://blog.fiddery.com/feed" htmlUrl="https://blog.fiddery.com"/>
     <outline text="gem.coop" type="rss" xmlUrl="https://gem.coop/index.xml" htmlUrl="https://gem.coop"/>
     <outline text="grape lab" type="rss" xmlUrl="https://grapelab.co/en/feed" htmlUrl="https://grapelab.co/en"/>
-    <outline text="iroh" type="rss" xmlUrl="https://www.iroh.computer/rss.xml" htmlUrl="https://iroh.computer"/>
     <outline text="localghost.dev" type="rss" xmlUrl="https://localghost.dev/feed.xml" htmlUrl="https://localghost.dev"/>
     <outline text="mGBA" type="rss" xmlUrl="https://mgba.io/feed.xml" htmlUrl="https://mgba.io"/>
     <outline text="marginalia.nu" type="rss" xmlUrl="https://www.marginalia.nu/log/index.xml" htmlUrl="https://www.marginalia.nu/log"/>
     <outline text="nyptu" type="rss" xmlUrl="https://nytpu.com/gemlog/atom.xml" htmlUrl="https://nytpu.com/gemlog/index.gmi"/>
-    <outline text="p2panda" type="rss" xmlUrl="https://p2panda.org/feed.xml" htmlUrl="https://p2panda.org"/>
     <outline text="plasticbag.org by Tom Coates" type="rss" xmlUrl="http://plasticbag.org/feed" htmlUrl="http://plasticbag.org"/>
     <outline text="sometimes.digital - personal website" type="rss" xmlUrl="https://sometimes.digital/feed.xml" htmlUrl="https://sometimes.digital/feed.xml"/>
     <outline text="suckerpinch" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC3azLjQuz9s5qk76KEXaTvA" htmlUrl="https://www.youtube.com/channel/UC3azLjQuz9s5qk76KEXaTvA/videos"/>
