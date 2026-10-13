@@ -2,14 +2,14 @@
 
 [You don't need analytics on your blog](https://blog.yossarian.net/2023/12/24/You-dont-need-analytics-on-your-blog), but maybe you need analytics for your cooler?
 
+<!-- more -->
+
 <p>
 <center>
 <img style="border: 2px black solid; max-width: 100%;" src="https://storage.googleapis.com/sethmlarson-dev-static-assets/IMG_4302.PNG"/><br>
 <small><em>The last place you’d expect to find analytics.</em></small>
 </center>
 </p>
-
-<!-- more -->
 
 Last Sunday was the Superbowl in the USA, where *former Vikings quarterback*
 [Sam Darnold](https://en.wikipedia.org/wiki/Sam_Darnold#Minnesota_Vikings) and the Seahawks trounced the Patriots <nobr>29–13</nobr>.
