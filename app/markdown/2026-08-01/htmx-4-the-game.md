@@ -28,16 +28,11 @@ to avoid running afoul of Nintendo trademarks and licensing.
 </center>
 </p>
 
-I was unable to dump the ROM using my [Epilogue GB Operator](https://sethmlarson.dev/backup-game-boy-roms-and-saves-on-ubuntu), the cartridge
-didn't fit into the slot unless I angled it weirdly and even then the
-cartridge wouldn't give the GB Operator the consistent connection it
-needs to dump the ROM. This was unfortunate, I wanted to dig into the
-ROM itself more for this post, but that will have to be another day.
-I suspect the tolerances for the cartridge are *just outside*
-what the Epilogue will tolerate.
+I was able to dump the ROM using my [Epilogue GB Operator](https://sethmlarson.dev/backup-game-boy-roms-and-saves-on-ubuntu)
+where I initially had some difficulty, but figured out I had to
+upgrade my device firmware.
 I switched over to my [Game Boy Player](https://en.wikipedia.org/wiki/Game_Boy_Player) to capture footage
-of game play with my HDMI-modded GameCube. Here the cartridge
-fit and worked just fine.
+of game play with my HDMI-modded GameCube.
 
 The game is **tough** (especially The Slop Factory, yeesh)
 and took me over an hour to complete,

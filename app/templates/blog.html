@@ -10,7 +10,6 @@
     <meta property="og:locale" content="en_US"/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="sethmlarson.dev"/>
-    <meta name="twitter:creator" content="@sethmlarson"/>
     <meta name="twitter:title" content="{{ blog_title }}"/>
     <meta name="twitter:description" content="{{ blog_content_text | truncate(200, true, '...')}}"/>
     <meta name="twitter:image" content="{{ opengraph_image }}"/>
@@ -30,17 +29,21 @@
 {% block content %}
 {{ blog_content | safe }}
 <blockquote>
-    <p>
-        <strong><em><nobr id="wow-you-made-it">Wow, you made it to the end!</nobr></em></strong>
-        <br>
-        <ul style="margin-left: -20px;">
-    <li>Share your thoughts with me on <a href="https://mastodon.social/@sethmlarson" target="_blank">Mastodon</a>, <a href="mailto:sethmichaellarson@gmail.com">email</a>, or <a href="https://bsky.app/profile/sethmlarson.dev" target="_blank">Bluesky</a>.</li>
-    <li>Browse this <a href="{{ url_for('list_blog_posts') }}">blog’s archive</a> of {{ total_blog_count }} entries.</li>
-    <li>Check out this <a href="{{ url_for('links') }}">list of cool stuff</a> I found on the internet.</li>
-    <li>Follow this blog on <a href="{{ url_for('rss_blog_posts') }}">RSS</a> or the <a href="https://buttondown.email/sethmlarson">email newsletter</a>.</li>
-    <li>Go outside (best option)</li>
-</ul>
-    </p>
+<center><strong><em><nobr id="wow-you-made-it">Thanks for reading!</nobr></em></strong></center><p></p>
+<p>
+    <a href="mailto:sethmichaellarson@gmail.com?subject=Re: {{ blog_title }}">Send me an email</a> or <a href="https://mastodon.social/@sethmlarson">message on Mastodon</a> or <a href="https://bsky.app/profile/sethmlarson.dev">Bluesky</a>.
+    The best way to support my writing is sharing links with your friends or colleagues. If you’d like to be notified of future
+    publications either <a href="/feed">subscribe via RSS</a> or add your email to the newsletter:
+</p>
+    <p><form
+  action="https://buttondown.com/api/emails/embed-subscribe/sethmlarson"
+  method="post"
+  class="embeddable-buttondown-form"
+>
+  <center><input type="email" name="email" id="bd-email" />
+  <input type="submit" value="Subscribe" /></center>
+</form></p>
+
 </blockquote>
 <script>
 function wavifyText(elId, text){
@@ -60,7 +63,7 @@ function wavifyText(elId, text){
 };
 
 (function () {
-  wavifyText("wow-you-made-it", "Wow, you made it to the end!");
+  wavifyText("wow-you-made-it", "Thanks for reading!");
 })();
 </script>
 {% endblock %}

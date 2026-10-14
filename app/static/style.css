@@ -171,7 +171,8 @@ button {
   padding: 0.25em;
 }
 #bd-email {
-  max-width: 60%;
+  max-width: 80%;
+  margin-bottom: 4px;
 }
 li > p {
   margin: 0;
