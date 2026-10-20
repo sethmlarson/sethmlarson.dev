@@ -10,6 +10,8 @@ takes longer than a day of hurriedly patching everything
 and publishing advisories, so I'm leaving these
 as notes for future us.
 
+<!-- more -->
+
 I'm only writing from the perspective of the Python
 ecosystem, although I know at least some of these
 issues exist elsewhere. Here's some context:
