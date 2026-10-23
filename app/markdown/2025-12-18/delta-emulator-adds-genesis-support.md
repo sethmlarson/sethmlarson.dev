@@ -1,6 +1,10 @@
 # Delta emulator adds support for SEGA Genesis games
 
-
+> **Please note this article was written in 2025**, long before
+> the Delta emulator supported SEGA Genesis games in
+> the stable 2.0 release. Please read the latest 2.0
+> [documentation](https://faq.deltaemulator.com/getting-started/importing-games)
+> and [release notes](https://faq.deltaemulator.com/release-notes) for up-to-date information.
 
 <div class="row">
 <div class="col-6">
