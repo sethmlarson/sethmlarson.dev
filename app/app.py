@@ -443,6 +443,8 @@ def get_blog_post(blog_post: str):
         opengraph_image = "https://storage.googleapis.com/sethmlarson-dev-static-assets/digital-only-future/IMG_6576_small.jpeg"
     elif blog_post == "bowsers-fury":
         opengraph_image = "https://storage.googleapis.com/sethmlarson-dev-static-assets/bowsers-fury/bowsers-fury-notes-out.jpeg"
+    elif blog_post == "extracting-billy-hatcher-joycarry-game-roms-with-python":
+        opengraph_image = "https://storage.googleapis.com/sethmlarson-dev-static-assets/gba-joyboot-client/billy-hatcher-ja.png"
 
     if blog_post == "unicode-variation-selectors":
         html_head = """
